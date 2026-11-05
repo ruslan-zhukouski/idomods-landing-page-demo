@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="pl" class="--freeShipping --vat --gross " ><head><link rel="preload" as="image" fetchpriority="high" media="(max-width: 756.9px)" href="/data/include/img/links/1784632280_rwd_mobile.webp?t=1787834910"><link rel="preload" as="image" fetchpriority="high" media="(min-width: 757px) and (max-width: 978.9px)" href="/data/include/img/links/1784632280_rwd_tablet.webp?t=1787834910"><link rel="preload" as="image" fetchpriority="high" media="(min-width: 979px)" href="/data/include/img/links/1784632280_rwd_desktop.webp?t=1787834910"><meta name="viewport" content="initial-scale = 1.0, maximum-scale = 5.0, width=device-width, viewport-fit=cover"><meta name="format-detection" content="telephone=no"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Lampy, kinkiety, plafony, żyrandole, klasyczne, nowoczesne, polski producent – SOLLUX</title><meta name="description" content="Nasz sklep oferuje nowoczesne lampy w tym kinkiety i żyrandole. Oferujemy produkty zarówno w stylu klasycznym jak i nowoczesny. Polski producent Sollux zaprasza."><link rel="icon" href="/gfx/pol/favicon.png"><meta name="theme-color" content="#101011"><meta name="msapplication-navbutton-color" content="#101011"><meta name="apple-mobile-web-app-status-bar-style" content="#101011"><link rel="stylesheet" type="text/css" href="/gfx/pol/main_style.css.gzip?r=1793615063"><script>var app_shop={urls:{prefix:'data="/gfx/'.replace('data="', '')+'pol/',graphql:'/graphql/v1/'},vars:{meta:{viewportContent:'initial-scale = 1.0, maximum-scale = 5.0, width=device-width, viewport-fit=cover'},priceType:'gross',secondPriceType:'',priceTypeVat:true,productDeliveryTimeAndAvailabilityWithBasket:false,geoipCountryCode:'PL',fairShopLogo: { enabled: false, image: '/gfx/standards/safe_light.svg'},currency:{id:'PLN',symbol:'zł',country:'pl',format:'###,##0.00',beforeValue:false,space:true,decimalSeparator:',',groupingSeparator:' '},language:{id:'pol',symbol:'pl',name:'Polski'},omnibus:{enabled:true,rebateCodeActivate:false,hidePercentageDiscounts:false,},},txt:{priceTypeText:' brutto',secondPriceTypeText:'',},fn:{},fnrun:{},files:[],graphql:{}};const getCookieByName=(name)=>{const value=`; ${document.cookie}`;const parts = value.split(`; ${name}=`);if(parts.length === 2) return parts.pop().split(';').shift();return false;};if(getCookieByName('freeeshipping_clicked')){document.documentElement.classList.remove('--freeShipping');}if(getCookieByName('rabateCode_clicked')){document.documentElement.classList.remove('--rabateCode');}function hideClosedBars(){const closedBarsArray=JSON.parse(localStorage.getItem('closedBars'))||[];if(closedBarsArray.length){const styleElement=document.createElement('style');styleElement.textContent=`${closedBarsArray.map((el)=>`#${el}`).join(',')}{display:none !important;}`;document.head.appendChild(styleElement);}}hideClosedBars();</script><meta name="robots" content="index,follow"><meta name="rating" content="general"><meta name="Author" content="Sollux Lighting Sp. z o.o. na bazie IdoSell (www.idosell.com/shop)."><script >
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+</script><!-- Global site tag (gtag.js) -->
+<script  async src="https://www.googletagmanager.com/gtag/js?id=G-SBNSJ40342"></script>
+<script >
+    
+    gtag('config', 'G-SBNSJ40342');
+
+</script>
+<!-- Begin LoginOptions html -->
+
+<style>
+#client_new_social .service_item[data-name="service_Apple"]:before, 
+#cookie_login_social_more .service_item[data-name="service_Apple"]:before,
+.oscop_contact .oscop_login__service[data-service="Apple"]:before {
+    display: block;
+    height: 2.6rem;
+    content: url('/gfx/standards/apple.svg?r=1743165583');
+}
+.oscop_contact .oscop_login__service[data-service="Apple"]:before {
+    height: auto;
+    transform: scale(0.8);
+}
+#client_new_social .service_item[data-name="service_Apple"]:has(img.service_icon):before,
+#cookie_login_social_more .service_item[data-name="service_Apple"]:has(img.service_icon):before,
+.oscop_contact .oscop_login__service[data-service="Apple"]:has(img.service_icon):before {
+    display: none;
+}
+</style>
+
+<!-- End LoginOptions html -->
+
+<!-- Open Graph -->
+<meta property="og:type" content="website"><meta property="og:url" content="https://sollux.pl/"><meta property="og:title" content="Lampy, kinkiety, plafony, żyrandole, klasyczne, nowoczesne, polski producent – SOLLUX"><meta property="og:description" content="Nasz sklep oferuje nowoczesne lampy w tym kinkiety i żyrandole. Oferujemy produkty zarówno w stylu klasycznym jak i nowoczesny. Polski producent Sollux zaprasza."><meta property="og:site_name" content="Sollux Lighting Sp. z o.o."><meta property="og:locale" content="pl_PL"><meta property="og:image" content="https://sollux.pl/data/gfx/mask/pol/logo_1_big.svg"><meta property="og:image:width" content="5316"><meta property="og:image:height" content="725"><link rel="manifest" href="https://sollux.pl/data/include/pwa/1/manifest.json?t=3"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="sollux.pl"><link rel="apple-touch-icon" href="/data/include/pwa/1/icon-128.png"><link rel="apple-touch-startup-image" href="/data/include/pwa/1/logo-512.png" /><meta name="msapplication-TileImage" content="/data/include/pwa/1/icon-144.png"><meta name="msapplication-TileColor" content="#2F3BA2"><meta name="msapplication-starturl" content="/"><script type="application/javascript">var _adblock = true;</script><script async src="/data/include/advertising.js"></script><script type="application/javascript">var statusPWA = {
+                online: {
+                    txt: "Połączono z internetem",
+                    bg: "#5fa341"
+                },
+                offline: {
+                    txt: "Brak połączenia z internetem",
+                    bg: "#eb5467"
+                }
+            }</script><script async type="application/javascript" src="/ajax/js/pwa_online_bar.js?v=1&r=6"></script>
+<!-- End Open Graph -->
+
+<link rel="canonical" href="https://sollux.pl/" />
+
+            <!-- Google Tag Manager -->
+                    <script >(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-NRS7X2S');</script>
+            <!-- End Google Tag Manager -->
+<!-- Begin additional html or js -->
+
+
+<!--2|1|3| modified: 2021-11-29 14:44:38-->
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Budzyń",
+        "streetAddress": "Władysława Łokietka 35",
+        "postalCode": "64-840",
+        "addressRegion": "Wielkopolskie"
+    },
+    "name": "SOLLUX",
+    "email": "",
+    "telephone": "668806323",
+    "vatID": "6070020784",
+    "image": "https://sollux.pl/images/layout/logo.png"
+}
+</script>
+
+<meta name="google-site-verification" content="lFvgDfU18h4CduPG5wxLZuT8wHY_7vAltdEnLpxx5Ks" />
+<!--133|1|13-->
+<script>
+function hashSHA(input) {
+  if (!input) return '';
+
+  function toHex(b) {
+    var s = '', i;
+    for (i = 0; i < b.length; i++) {
+      s += (b[i] >>> 4).toString(16);
+      s += (b[i] & 0xF).toString(16);
+    }
+    return s;
+  }
+
+  function sha256(ascii) {
+    var i, j;
+    var words = [];
+    var asciiBitLength = ascii.length * 8;
+    var hash = [1779033703, 3144134277, 1013904242, 2773480762, 1359893119, 2600822924, 528734635, 1541459225];
+    var k = [
+      1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,
+      607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,
+      770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,
+      113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,
+      2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,
+      659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,
+      2428436474,2756734187,3204031479,3329325298
+    ];
+
+    // Preprocessing
+    var asciiArr = [];
+    for (i = 0; i < ascii.length; ++i) {
+      var code = ascii.charCodeAt(i);
+      if (code < 0x80) asciiArr.push(code);
+      else if (code < 0x800) {
+        asciiArr.push(0xc0 | (code >> 6));
+        asciiArr.push(0x80 | (code & 0x3f));
+      } else if (code < 0xd800 || code >= 0xe000) {
+        asciiArr.push(0xe0 | (code >> 12));
+        asciiArr.push(0x80 | ((code >> 6) & 0x3f));
+        asciiArr.push(0x80 | (code & 0x3f));
+      } else {
+        // surrogate pair
+        i++;
+        var codePoint = 0x10000 + (((code & 0x3ff) << 10) | (ascii.charCodeAt(i) & 0x3ff));
+        asciiArr.push(0xf0 | (codePoint >> 18));
+        asciiArr.push(0x80 | ((codePoint >> 12) & 0x3f));
+        asciiArr.push(0x80 | ((codePoint >> 6) & 0x3f));
+        asciiArr.push(0x80 | (codePoint & 0x3f));
+      }
+    }
+
+    asciiArr.push(0x80);
+    while ((asciiArr.length % 64) !== 56) asciiArr.push(0);
+
+    for (i = 7; i >= 0; --i) asciiArr.push((asciiBitLength >>> (i * 8)) & 0xFF);
+
+    for (i = 0; i < asciiArr.length; i += 64) {
+      var w = new Array(64), a, b, c, d, e, f, g, h;
+      for (j = 0; j < 16; ++j) {
+        w[j] = (asciiArr[i + (j * 4)] << 24) | (asciiArr[i + (j * 4) + 1] << 16) | (asciiArr[i + (j * 4) + 2] << 8) | (asciiArr[i + (j * 4) + 3]);
+      }
+      for (j = 16; j < 64; ++j) {
+        var s0 = rightRotate(w[j - 15], 7) ^ rightRotate(w[j - 15], 18) ^ (w[j - 15] >>> 3);
+        var s1 = rightRotate(w[j - 2], 17) ^ rightRotate(w[j - 2], 19) ^ (w[j - 2] >>> 10);
+        w[j] = add32(add32(add32(w[j - 16], s0), w[j - 7]), s1);
+      }
+      a = hash[0]; b = hash[1]; c = hash[2]; d = hash[3];
+      e = hash[4]; f = hash[5]; g = hash[6]; h = hash[7];
+      for (j = 0; j < 64; ++j) {
+        var S1 = rightRotate(e, 6) ^ rightRotate(e, 11) ^ rightRotate(e, 25);
+        var ch = (e & f) ^ (~e & g);
+        var temp1 = add32(add32(add32(add32(h, S1), ch), k[j]), w[j]);
+        var S0 = rightRotate(a, 2) ^ rightRotate(a, 13) ^ rightRotate(a, 22);
+        var maj = (a & b) ^ (a & c) ^ (b & c);
+        var temp2 = add32(S0, maj);
+        h = g; g = f; f = e; e = add32(d, temp1);
+        d = c; c = b; b = a; a = add32(temp1, temp2);
+      }
+      hash[0] = add32(hash[0], a); hash[1] = add32(hash[1], b);
+      hash[2] = add32(hash[2], c); hash[3] = add32(hash[3], d);
+      hash[4] = add32(hash[4], e); hash[5] = add32(hash[5], f);
+      hash[6] = add32(hash[6], g); hash[7] = add32(hash[7], h);
+    }
+
+    var out = [];
+    for (i = 0; i < hash.length; i++) {
+      out.push((hash[i] >>> 24) & 0xFF);
+      out.push((hash[i] >>> 16) & 0xFF);
+      out.push((hash[i] >>> 8) & 0xFF);
+      out.push(hash[i] & 0xFF);
+    }
+    return out;
+  }
+
+  function rightRotate(x, n) {
+    return (x >>> n) | (x << (32 - n));
+  }
+
+  function add32(x, y) {
+    return (x + y) & 0xFFFFFFFF;
+  }
+
+  try {
+    var bytes = sha256(String(input));
+    return toHex(bytes);
+  } catch (e) {
+    return '';
+  }
+}
+var user_phone = hashSHA('');
+var user_email = hashSHA('');
+</script>
+<!--106|1|19-->
+<style>
+div#multi_versions {
+    display: flex;
+    flex-direction: column;
+}
+
+/* TYP LAMPY */
+.projector_multiversions__item[data-id='256'] {
+    order: -4;
+}
+
+/* ŹRÓDŁA ŚWIATŁA */
+.projector_multiversions__item[data-id='42'] {
+    order: -3;
+}
+
+/* KOLOR */
+.projector_multiversions__item[data-id='21'] {
+    order: -2;
+}
+
+/* DŁUGOŚĆ */
+.projector_multiversions__item[data-id='6087'] {
+    order: -1;
+}
+</style>
+
+<!-- End additional html or js -->
+</head><body class="idm-template" >
+<!-- Begin additional html or js -->
+
+
+<!--137|1|58| modified: 2026-10-13 10:13:18-->
+<script>const mainPageHotspotSettings = [
+  {
+    id: "sg-banner-1", // UNIKALNE ID
+    imageDesktop: "/data/include/cms/Idomods_szablon/banner/ramki_sg/bestseller_desktop.webp", // ZDJECIE DESKTOP
+    imageMobile: "/data/include/cms/Idomods_szablon/banner/ramki_sg/bestseller_mobile.webp", // ZDJECIE MOBILE
+    text: "Bestsellery <br/> SOLLUX", // TEXT BANNERU
+    link: "/pl/menu/bestsellery-827", // LINK PRZYCISKU BANNERU
+    direction: "left", // MIEJSCE WYŚWIETLANIA BANNERU
+
+    hotspot: {
+        title: "Najlepsze z najlepszych", // TYTUŁ SEKCJI HOTSPOT,
+        source: {
+            // PRODUKTY
+            productsId: [5621, 6242, 4117, 5283, 5513, 7348, 7311, 3976, 5654, 4084, 5575, 5636, 5283, 3131, 5296, 5561, 5282, 5312, 4121, 4067, 5288, 3978, 5312, 4061, 281, 4007, 3045, 4004, 433, 3943, 4094, 535, 3943, 3131, 4053, 5290, ]
+        },
+        options: {
+            limit: 50, // MAKSYMALNA LICZBA WYSWIETLANYCH PRODUKTOW
+            getEverySingleProduct: false, // UPEWNIENIE SIE ŻE KAŻDY PRODUKT BEDZIE POBRANY NIEZALEZNIE OD STANOW MAGAZYNOWYCH
+            keepProductsIDOrder: true, // POKAZYWANIE PRODUKOW W KOLEJNOSCI PODANEJ W productsId
+        }
+    }
+  },
+  {
+    id: "sg-banner-2",
+    imageDesktop: "/data/include/cms/Idomods_szablon/banner/ramki_sg/new_desktop.webp",
+    imageMobile: "/data/include/cms/Idomods_szablon/banner/ramki_sg/new_mobile.webp",
+    text: "Nowości",
+    link: "/pl/menu/nowosci-188",
+    direction: "left",
+    hotspot: {
+        title: "Twoje wnętrze w nowym świetle", // TYTUŁ SEKCJI HOTSPOT,
+        source: {
+             // PRODUKTY
+            productsId: [9301, 9231, 9280, 9092, 8956, 9015, 9263, 7537, 7522, 7513, 7489, 7477, 7468, 7448, 7436, 6406, 6120, 6392, 6185, 6379, 6364, 6340, 6333, 6320, 6172, 6116, 6080, 6455, 6453, 5895, 5944, 5906, 5920, 5324,]
+        },
+        options: {
+            limit: 50, // MAKSYMALNA LICZBA WYSWIETLANYCH PRODUKTOW
+            getEverySingleProduct: false, // UPEWNIENIE SIE ŻE KAŻDY PRODUKT BEDZIE POBRANY NIEZALEZNIE OD STANOW MAGAZYNOWYCH
+            keepProductsIDOrder: true, // POKAZYWANIE PRODUKOW W KOLEJNOSCI PODANEJ W productsId
+        }
+    }
+  }
+];</script>
+<!--138|1|59| modified: 2026-09-28 12:25:31-->
+<style>
+  /* SMART */
+  .label.--custom[data-label-id="20870"]{
+    --color-label-custom: #fff;
+    --color-label-custom-background: #0E2A94;
+  }
+  
+  /* DESIGNER */
+.label.--custom[data-label-id="20871"]{
+     --color-label-custom: #fff;
+     --color-label-custom-background: #101011;
+}
+
+</style>
+
+<!-- End additional html or js -->
+<style>
+    :root {
+      --idm-apple-pay-buy-with-text: 'Kup z';
+    }
+  </style><div id="container" class="main_page container max-width-1200"><header class=" commercial_banner"><script class="ajaxLoad">app_shop.vars.vat_registered="true";app_shop.vars.currency_format="###,##0.00";app_shop.vars.currency_before_value=false;app_shop.vars.currency_space=true;app_shop.vars.symbol="zł";app_shop.vars.id="PLN";app_shop.vars.baseurl="http://sollux.pl/";app_shop.vars.sslurl="https://sollux.pl/";app_shop.vars.curr_url="%2F";var currency_decimal_separator=',';var currency_grouping_separator=' ';app_shop.vars.blacklist_extension=["exe","com","swf","js","php"];app_shop.vars.blacklist_mime=["application/javascript","application/octet-stream","message/http","text/javascript","application/x-deb","application/x-javascript","application/x-shockwave-flash","application/x-msdownload"];app_shop.urls.contact="/pl/contact";</script><div id="viewType" style="display:none"></div><div id="menu_skip" class="menu_skip"><a href="#layout" class="btn --outline --medium menu_skip__link --layout">Przejdź do zawartości strony</a><a href="#menu_categories" class="btn --outline --medium menu_skip__link --menu">Przejdź do kategorii</a></div><div id="logo" class="d-flex align-items-center" data-bg="/data/gfx/mask/pol/top_1_big.svg"><a href="/" target="_self" aria-label="Logo sklepu"><img src="/data/gfx/mask/pol/logo_1_big.svg" alt="Sollux" width="5316" height="725"></a></div><form action="https://sollux.pl/pl/search" method="get" id="menu_search" class="menu_search"><a href="#showSearchForm" class="menu_search__mobile" aria-label="Szukaj"></a><div class="menu_search__block"><div class="menu_search__mobile_topbar"><img src="/data/include/cms/Idomods_szablon/banner/SearchLights.png" loading="lazy" alt="Lampy"><button type="button" class="menu_search__mobile_close"></button></div><div class="menu_search__item --input"><input class="menu_search__input" type="text" name="text" autocomplete="off" placeholder="Czego szukasz" aria-label="Czego szukasz"><button class="menu_search__submit" type="submit" aria-label="Szukaj"></button></div><div class="menu_search__item --results search_result"></div></div></form><nav id="menu_categories" class="wide" aria-label="Kategorie główne"><button type="button" class="navbar-toggler" aria-label="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 20 12" fill="none" aria-hidden="true"><path d="M1 2H19C19.2652 2 19.5196 1.89464 19.7071 1.70711C19.8946 1.51957 20 1.26522 20 1C20 0.734784 19.8946 0.48043 19.7071 0.292893C19.5196 0.105357 19.2652 0 19 0H1C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1C0 1.26522 0.105357 1.51957 0.292893 1.70711C0.48043 1.89464 0.734784 2 1 2ZM19 10H1C0.734784 10 0.48043 10.1054 0.292893 10.2929C0.105357 10.4804 0 10.7348 0 11C0 11.2652 0.105357 11.5196 0.292893 11.7071C0.48043 11.8946 0.734784 12 1 12H19C19.2652 12 19.5196 11.8946 19.7071 11.7071C19.8946 11.5196 20 11.2652 20 11C20 10.7348 19.8946 10.4804 19.7071 10.2929C19.5196 10.1054 19.2652 10 19 10ZM19 5H1C0.734784 5 0.48043 5.10536 0.292893 5.29289C0.105357 5.48043 0 5.73478 0 6C0 6.26522 0.105357 6.51957 0.292893 6.70711C0.48043 6.89464 0.734784 7 1 7H19C19.2652 7 19.5196 6.89464 19.7071 6.70711C19.8946 6.51957 20 6.26522 20 6C20 5.73478 19.8946 5.48043 19.7071 5.29289C19.5196 5.10536 19.2652 5 19 5Z" fill="currentColor"></path></svg></button><div class="navbar-collapse" id="menu_navbar"><ul class="navbar-nav mx-md-n2"><li class="nav-item" data-menu-id="1727"><span class="nav-link-wrapper"><a  href="/pl/menu/lampy-1727" target="_self" title="Lampy" class="nav-link --l1" >Lampy</a><button class="nav-link-expand" type="button" aria-label="Lampy, Menu"></button></span><div class="
+							    navbar-subnav 
+							    --banner-nav"><ul class="navbar-subnav-container"><li class="nav-header"><a href="#backLink" class="nav-header__backLink" aria-label="Wróć"></a><span class="nav-heade__title">Lampy</span><a class="nav-link --l1" href="/pl/menu/lampy-1727">
+  									  Zobacz wszystko
+  									 </a></li><li class="nav-item empty" data-menu-id="158"><a  href="/pl/menu/lampy-wiszace-158" target="_self" title="Lampy wiszące" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Lampy wiszące" title="Lampy wiszące" src="/data/gfx/pol/navigation/1_1_i_158.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Lampy wiszące</span></a></li><li class="nav-item empty" data-menu-id="152"><a  href="/pl/menu/kinkiety-152" target="_self" title="Kinkiety" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Kinkiety" title="Kinkiety" src="/data/gfx/pol/navigation/1_1_i_152.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Kinkiety</span></a></li><li class="nav-item empty" data-menu-id="156"><a  href="/plafony" target="_self" title="Plafony" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Plafony" title="Plafony" src="/data/gfx/pol/navigation/1_1_i_156.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Plafony</span></a></li><li class="nav-item empty" data-menu-id="155"><a  href="/pl/menu/zyrandole-155" target="_self" title="Żyrandole" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Żyrandole" title="Żyrandole" src="/data/gfx/pol/navigation/1_1_i_155.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Żyrandole</span></a></li><li class="nav-item empty" data-menu-id="157"><a  href="/lampy-podlogowe" target="_self" title="Lampy podłogowe" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Lampy podłogowe" title="Lampy podłogowe" src="/data/gfx/pol/navigation/1_1_i_157.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Lampy podłogowe</span></a></li><li class="nav-item empty" data-menu-id="167"><a  href="/lampy-biurkowe" target="_self" title="Biurkowe" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Biurkowe" title="Biurkowe" src="/data/gfx/pol/navigation/1_1_i_167.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Biurkowe</span></a></li><li class="nav-item empty" data-menu-id="159"><a  href="/pl/menu/zarowki-159" target="_self" title="Żarówki" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Żarówki" title="Żarówki" src="/data/gfx/pol/navigation/1_1_i_159.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Żarówki</span></a></li><li class="nav-item empty" data-menu-id="1729"><a  href="https://sollux.pl/pl/menu/lampy-1727" target="_self" title="Wszystkie lampy" class="nav-link --l2" ><picture class="nav-picture --main --lvl2"><img class="nav-picture-placeholder" loading="lazy" alt="Wszystkie lampy" title="Wszystkie lampy" src="/data/include/cms/Idomods_szablon/ikony/SolluxZarowka.svg"></picture><span class="gfx_lvl_2">Wszystkie lampy</span></a></li><li class="nav-item empty" data-menu-id="1340"><a  href="/lampy-na-szynoprzewodach" target="_self" title="Lampy na szynoprzewodach" class="nav-link --l2" ><picture class="nav-picture --main --lvl2"><img class="nav-picture-placeholder" loading="lazy" alt="Lampy na szynoprzewodach" title="Lampy na szynoprzewodach" src="/data/include/cms/Idomods_szablon/ikony/SolluxZarowka.svg"></picture><span class="gfx_lvl_2">Lampy na szynoprzewodach</span></a></li></ul><a  href="/konfigurator"  class="navbar-subnav-banner" ><picture><source media="(min-width: 979px)" srcset="/data/gfx/pol/navigation/1_1_id_3283.webp"></source><source media="(min-width: 757px)" srcset="/data/gfx/pol/navigation/1_1_it_3283.webp"></source><img src="/data/gfx/pol/navigation/1_1_im_3283.webp" loading="lazy" alt="Banner Konfigurator"></picture></a></div></li><li class="nav-item" data-menu-id="160"><span class="nav-link-wrapper"><a  href="/pl/menu/pomieszczenia-160" target="_self" title="Pomieszczenia" class="nav-link --l1" >Pomieszczenia</a><button class="nav-link-expand" type="button" aria-label="Pomieszczenia, Menu"></button></span><div class="
+							    navbar-subnav 
+							    --banner-nav"><ul class="navbar-subnav-container"><li class="nav-header"><a href="#backLink" class="nav-header__backLink" aria-label="Wróć"></a><span class="nav-heade__title">Pomieszczenia</span><a class="nav-link --l1" href="/pl/menu/pomieszczenia-160">
+  									  Zobacz wszystko
+  									 </a></li><li class="nav-item empty" data-menu-id="161"><a  href="/pl/menu/lampy-do-salonu-161" target="_self" title="Lampy do salonu" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Lampy do salonu" title="Lampy do salonu" src="/data/gfx/pol/navigation/1_1_i_161.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Lampy do salonu</span></a></li><li class="nav-item empty" data-menu-id="162"><a  href="/pl/menu/lampy-do-jadalni-162" target="_self" title="Lampy do jadalni" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Lampy do jadalni" title="Lampy do jadalni" src="/data/gfx/pol/navigation/1_1_i_162.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Lampy do jadalni</span></a></li><li class="nav-item empty" data-menu-id="163"><a  href="/pl/menu/lampy-do-kuchni-163" target="_self" title="Lampy do kuchni" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Lampy do kuchni" title="Lampy do kuchni" src="/data/gfx/pol/navigation/1_1_i_163.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Lampy do kuchni</span></a></li><li class="nav-item empty" data-menu-id="164"><a  href="/pl/menu/lampy-do-sypialni-164" target="_self" title="Lampy do sypialni" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Lampy do sypialni" title="Lampy do sypialni" src="/data/gfx/pol/navigation/1_1_i_164.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Lampy do sypialni</span></a></li><li class="nav-item empty" data-menu-id="184"><a  href="/pl/menu/lampy-do-korytarza-184" target="_self" title="Lampy do korytarza" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Lampy do korytarza" title="Lampy do korytarza" src="/data/gfx/pol/navigation/1_1_i_184.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Lampy do korytarza</span></a></li><li class="nav-item empty" data-menu-id="185"><a  href="/pl/menu/lampy-do-lazienki-185" target="_self" title="Lampy do łazienki" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Lampy do łazienki" title="Lampy do łazienki" src="/data/gfx/pol/navigation/1_1_i_185.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Lampy do łazienki</span></a></li><li class="nav-item empty" data-menu-id="165"><a  href="/pl/menu/lampy-do-przedpokoju-165" target="_self" title="Lampy do przedpokoju" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Lampy do przedpokoju" title="Lampy do przedpokoju" src="/data/gfx/pol/navigation/1_1_i_165.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Lampy do przedpokoju</span></a></li><li class="nav-item empty" data-menu-id="166"><a  href="/pl/menu/lampy-do-pokoju-dzieciecego-166" target="_self" title="Lampy do pokoju dziecięcego" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Lampy do pokoju dziecięcego" title="Lampy do pokoju dziecięcego" src="/data/gfx/pol/navigation/1_1_i_166.webp" loading="lazy" width="240" height="240"></picture><span class="gfx_lvl_2">Lampy do pokoju dziecięcego</span></a></li></ul><a  href="https://sollux.pl/kolekcje/ovio"  class="navbar-subnav-banner" ><picture><source media="(min-width: 979px)" srcset="/data/gfx/pol/navigation/1_1_id_3286.jpg"></source><source media="(min-width: 757px)" srcset="/data/gfx/pol/navigation/1_1_it_3286.jpg"></source><img src="/data/gfx/pol/navigation/1_1_im_3286.jpg" loading="lazy" alt="Banner Pomieszczenie"></picture></a></div></li><li class="nav-item" data-menu-id="2492"><span class="nav-link-wrapper"><a  href="https://sollux.pl/pl/menu/lampy-1727?filter_traits[21]=11086,11076,24,14336,14325,25,14303,852,23,14316,14164,768,11333,1246" target="_self" title="Kolory" class="nav-link --l1" >Kolory</a><button class="nav-link-expand" type="button" aria-label="Kolory, Menu"></button></span><div class="
+							    navbar-subnav 
+							    --banner-nav --colors"><ul class="navbar-subnav-container"><li class="nav-header"><a href="#backLink" class="nav-header__backLink" aria-label="Wróć"></a><span class="nav-heade__title">Kolory</span><a class="nav-link --l1" href="https://sollux.pl/pl/menu/lampy-1727?filter_traits%5B21%5D=11086,11076,24,14336,14325,25,14303,852,23,14316,14164,768,11333,1246">
+  									  Zobacz wszystko
+  									 </a></li><li class="nav-item empty" data-menu-id="2493"><a  href="/pl/menu/bezowe-lampy-2493" target="_self" title="Beżowe lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Beżowe lampy" title="Beżowe lampy" src="/data/gfx/pol/navigation/1_1_i_2493.png" loading="lazy" width="28" height="28"></picture><span class="gfx_lvl_2">Beżowe lampy</span></a></li><li class="nav-item empty" data-menu-id="2494"><a  href="/pl/menu/zielona-oliwka-lampy-2494" target="_self" title="Zielona oliwka lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Zielona oliwka lampy" title="Zielona oliwka lampy" src="/data/gfx/pol/navigation/1_1_i_2494.png" loading="lazy" width="28" height="28"></picture><span class="gfx_lvl_2">Zielona oliwka lampy</span></a></li><li class="nav-item empty" data-menu-id="2500"><a  href="/pl/menu/taupe-lampy-2500" target="_self" title="Taupe lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Taupe lampy" title="Taupe lampy" src="/data/gfx/pol/navigation/1_1_i_2500.png" loading="lazy" width="28" height="28"></picture><span class="gfx_lvl_2">Taupe lampy</span></a></li><li class="nav-item empty" data-menu-id="2495"><a  href="/pl/menu/ultramaryna-lampy-2495" target="_self" title="Ultramaryna lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Ultramaryna lampy" title="Ultramaryna lampy" src="/data/gfx/pol/navigation/1_1_i_2495.png" loading="lazy" width="28" height="28"></picture><span class="gfx_lvl_2">Ultramaryna lampy</span></a></li><li class="nav-item empty" data-menu-id="2496"><a  href="/pl/menu/biale-lampy-2496" target="_self" title="Białe lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Białe lampy" title="Białe lampy" src="/data/gfx/pol/navigation/1_1_i_2496.png" loading="lazy" width="28" height="28"></picture><span class="gfx_lvl_2">Białe lampy</span></a></li><li class="nav-item empty" data-menu-id="2497"><a  href="/pl/menu/czarne-lampy-2497" target="_self" title="Czarne lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Czarne lampy" title="Czarne lampy" src="/data/gfx/pol/navigation/1_1_i_2497.png" loading="lazy" width="28" height="28"></picture><span class="gfx_lvl_2">Czarne lampy</span></a></li><li class="nav-item empty" data-menu-id="2498"><a  href="/pl/menu/burgundowe-lampy-2498" target="_self" title="Burgundowe lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Burgundowe lampy" title="Burgundowe lampy" src="/data/gfx/pol/navigation/1_1_i_2498.png" loading="lazy" width="28" height="28"></picture><span class="gfx_lvl_2">Burgundowe lampy</span></a></li><li class="nav-item empty" data-menu-id="2499"><a  href="/pl/menu/mocca-lampy-2499" target="_self" title="Mocca lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Mocca lampy" title="Mocca lampy" src="/data/gfx/pol/navigation/1_1_i_2499.png" loading="lazy" width="28" height="28"></picture><span class="gfx_lvl_2">Mocca lampy</span></a></li><li class="nav-item empty" data-menu-id="2501"><a  href="/pl/menu/zlote-lampy-2501" target="_self" title="Złote lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Złote lampy" title="Złote lampy" src="/data/gfx/pol/navigation/1_1_i_2501.png" loading="lazy" width="40" height="40"></picture><span class="gfx_lvl_2">Złote lampy</span></a></li><li class="nav-item empty" data-menu-id="2502"><a  href="/pl/menu/srebrne-lampy-2502" target="_self" title="Srebrne lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Srebrne lampy" title="Srebrne lampy" src="/data/gfx/pol/navigation/1_1_i_2502.png" loading="lazy" width="28" height="28"></picture><span class="gfx_lvl_2">Srebrne lampy</span></a></li><li class="nav-item empty" data-menu-id="2503"><a  href="/pl/menu/brzoskwiniowe-lampy-2503" target="_self" title="Brzoskwiniowe lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Brzoskwiniowe lampy" title="Brzoskwiniowe lampy" src="/data/gfx/pol/navigation/1_1_i_2503.png" loading="lazy" width="28" height="28"></picture><span class="gfx_lvl_2">Brzoskwiniowe lampy</span></a></li><li class="nav-item empty" data-menu-id="2504"><a  href="/pl/menu/szare-lampy-2504" target="_self" title="Szare lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Szare lampy" title="Szare lampy" src="/data/gfx/pol/navigation/1_1_i_2504.png" loading="lazy" width="28" height="28"></picture><span class="gfx_lvl_2">Szare lampy</span></a></li><li class="nav-item empty" data-menu-id="2505"><a  href="/pl/menu/ochra-czerwona-lampy-2505" target="_self" title="Ochra czerwona lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Ochra czerwona lampy" title="Ochra czerwona lampy" src="/data/gfx/pol/navigation/1_1_i_2505.png" loading="lazy" width="40" height="40"></picture><span class="gfx_lvl_2">Ochra czerwona lampy</span></a></li><li class="nav-item empty" data-menu-id="3026"><a  href="/pl/menu/czerwone-lampy-3026" target="_self" title="Czerwone lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Czerwone lampy" title="Czerwone lampy" src="/data/gfx/pol/navigation/1_1_i_3026.png" loading="lazy" width="40" height="40"></picture><span class="gfx_lvl_2">Czerwone lampy</span></a></li><li class="nav-item empty" data-menu-id="3027"><a  href="/pl/menu/blekitne-lampy-3027" target="_self" title="Błękitne lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Błękitne lampy" title="Błękitne lampy" src="/data/gfx/pol/navigation/1_1_i_3027.png" loading="lazy" width="40" height="40"></picture><span class="gfx_lvl_2">Błękitne lampy</span></a></li><li class="nav-item empty" data-menu-id="3028"><a  href="/pl/menu/zolte-lampy-3028" target="_self" title="Żółte lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Żółte lampy" title="Żółte lampy" src="/data/gfx/pol/navigation/1_1_i_3028.png" loading="lazy" width="40" height="40"></picture><span class="gfx_lvl_2">Żółte lampy</span></a></li><li class="nav-item empty" data-menu-id="3029"><a  href="/pl/menu/rozowe-lampy-3029" target="_self" title="Różowe lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Różowe lampy" title="Różowe lampy" src="/data/gfx/pol/navigation/1_1_i_3029.png" loading="lazy" width="40" height="40"></picture><span class="gfx_lvl_2">Różowe lampy</span></a></li><li class="nav-item empty" data-menu-id="3030"><a  href="/pl/menu/szalwia-lampy-3030" target="_self" title="Szałwia lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Szałwia lampy" title="Szałwia lampy" src="/data/gfx/pol/navigation/1_1_i_3030.png" loading="lazy" width="35" height="35"></picture><span class="gfx_lvl_2">Szałwia lampy</span></a></li><li class="nav-item empty" data-menu-id="3031"><a  href="/pl/menu/brazowe-lampy-3031" target="_self" title="Brązowe lampy" class="nav-link --l2 nav-gfx" ><picture class="nav-picture --main --lvl2"><img alt="Brązowe lampy" title="Brązowe lampy" src="/data/gfx/pol/navigation/1_1_i_3031.png" loading="lazy" width="35" height="35"></picture><span class="gfx_lvl_2">Brązowe lampy</span></a></li></ul><a  href="https://sollux.pl/kolekcje/ovio"  class="navbar-subnav-banner" ><picture><source media="(min-width: 979px)" srcset="/data/gfx/pol/navigation/1_1_id_3285.jpg"></source><source media="(min-width: 757px)" srcset="/data/gfx/pol/navigation/1_1_it_3285.jpg"></source><img src="/data/gfx/pol/navigation/1_1_im_3285.jpg" loading="lazy" alt="Banner Kolory"></picture></a></div></li><li class="nav-item" data-menu-id="827"><span class="nav-link-wrapper"><a  href="/pl/menu/bestsellery-827" target="_self" title="Bestsellery" class="nav-link --l1" >Bestsellery</a></span></li><li class="nav-item" data-menu-id="188"><span class="nav-link-wrapper"><a  href="/pl/menu/nowosci-188" target="_self" title="Nowości" class="nav-link --l1" >Nowości</a></span></li><li class="nav-item" data-menu-id="1923"><span class="nav-link-wrapper"><a  href="/pl/menu/black-sale-1923" target="_self" title="BLACK SALE" class="nav-link --l1 noevent" >BLACK SALE</a></span></li></ul></div></nav><div class="header__cover"></div><div id="menu_top" class="menu_top --menu-panels"><div class="sollux_config" id="sollux_config"><a class="sollux_config__link" href="https://sollux.pl/konfigurator"><div class="sollux_config__icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M17.0584 6.14167C17.0584 6.14167 17.0584 6.14167 17.0584 6.075L17.0084 5.95C16.991 5.92348 16.9715 5.89839 16.95 5.875C16.9277 5.83972 16.9027 5.80628 16.875 5.775L16.8 5.71667L16.6667 5.65L10.4167 1.79167C10.2843 1.70889 10.1312 1.665 9.97504 1.665C9.81886 1.665 9.66582 1.70889 9.53337 1.79167L3.33337 5.65L3.25837 5.71667L3.18337 5.775C3.15575 5.80628 3.13067 5.83972 3.10837 5.875C3.08695 5.89839 3.06744 5.92348 3.05004 5.95L3.00004 6.075C3.00004 6.075 3.00004 6.075 3.00004 6.14167C2.99185 6.21366 2.99185 6.28634 3.00004 6.35833V13.6417C2.99976 13.7833 3.03557 13.9226 3.1041 14.0466C3.17263 14.1705 3.27161 14.2749 3.39171 14.35L9.64171 18.2083C9.68017 18.2321 9.72247 18.249 9.76671 18.2583C9.76671 18.2583 9.80837 18.2583 9.83337 18.2583C9.97436 18.303 10.1257 18.303 10.2667 18.2583C10.2667 18.2583 10.3084 18.2583 10.3334 18.2583C10.3776 18.249 10.4199 18.2321 10.4584 18.2083L16.6667 14.35C16.7868 14.2749 16.8858 14.1705 16.9543 14.0466C17.0228 13.9226 17.0587 13.7833 17.0584 13.6417V6.35833C17.0666 6.28634 17.0666 6.21366 17.0584 6.14167ZM9.16671 16.0083L4.58337 13.175V7.85833L9.16671 10.6833V16.0083ZM10 9.24167L5.33337 6.35833L10 3.48333L14.6667 6.35833L10 9.24167ZM15.4167 13.175L10.8334 16.0083V10.6833L15.4167 7.85833V13.175Z" fill="currentColor"></path></svg></div><b class="sollux_config__text">Stwórz swoją lampę</b></a></div><div class="account_links"><svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><symbol width="20" height="21" viewBox="0 0 20 21" fill="none" id="idm-account-icon"><path d="M13.646 10.7155C14.6264 9.94415 15.342 8.88642 15.6933 7.68944C16.0445 6.49246 16.014 5.21576 15.6058 4.03696C15.1977 2.85817 14.4323 1.83589 13.4161 1.11235C12.3999 0.388815 11.1835 0 9.93603 0C8.68858 0 7.47215 0.388815 6.45596 1.11235C5.43978 1.83589 4.67438 2.85817 4.26624 4.03696C3.85811 5.21576 3.82754 6.49246 4.17879 7.68944C4.53004 8.88642 5.24564 9.94415 6.22603 10.7155C4.54611 11.3885 3.08032 12.5048 1.98492 13.9454C0.88953 15.386 0.205595 17.0968 0.00603184 18.8955C-0.00841357 19.0268 0.00314838 19.1597 0.0400573 19.2866C0.0769662 19.4134 0.138499 19.5317 0.221143 19.6348C0.388051 19.843 0.630815 19.9763 0.896032 20.0055C1.16125 20.0347 1.42719 19.9573 1.63536 19.7904C1.84352 19.6235 1.97686 19.3807 2.00603 19.1155C2.22562 17.1607 3.15772 15.3553 4.62425 14.0443C6.09078 12.7333 7.98893 12.0085 9.95603 12.0085C11.9231 12.0085 13.8213 12.7333 15.2878 14.0443C16.7543 15.3553 17.6864 17.1607 17.906 19.1155C17.9332 19.3612 18.0505 19.5882 18.2351 19.7525C18.4198 19.9169 18.6588 20.007 18.906 20.0055H19.016C19.2782 19.9753 19.5178 19.8428 19.6826 19.6367C19.8474 19.4307 19.9241 19.1679 19.896 18.9055C19.6955 17.1017 19.0079 15.3865 17.9069 13.9437C16.8059 12.5009 15.3329 11.385 13.646 10.7155ZM9.93603 10.0055C9.14491 10.0055 8.37155 9.7709 7.71375 9.33137C7.05595 8.89185 6.54326 8.26713 6.24051 7.53623C5.93776 6.80533 5.85855 6.00106 6.01289 5.22513C6.16723 4.44921 6.54819 3.73648 7.1076 3.17707C7.66701 2.61766 8.37975 2.2367 9.15567 2.08235C9.93159 1.92801 10.7359 2.00723 11.4668 2.30998C12.1977 2.61273 12.8224 3.12542 13.2619 3.78321C13.7014 4.44101 13.936 5.21437 13.936 6.0055C13.936 7.06636 13.5146 8.08378 12.7645 8.83392C12.0143 9.58407 10.9969 10.0055 9.93603 10.0055Z" fill="currentColor"></path></symbol></svg><a class="account_links__item btn --circle-noline" href="https://sollux.pl/pl/login.html" aria-label="Zaloguj się"><span class="account_links__text --logged-out">Zaloguj się</span><div class="account_links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none"><use href="#idm-account-icon"></use></svg></div></a></div><div id="menu_basket" class="top_basket hover__wrapper --mobile_hide"><a class="top_basket__sub btn --small --circle-noline" title="Przejdź do koszyka" href="/basketedit.php" aria-label="Wartość koszyka: 0,00 zł"><span class="top_basket__icon"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="19" viewBox="0 0 23 19" fill="none"><path d="M2.65149 0.000986008C3.10444 -0.00462399 3.56506 0.013724 3.78845 0.055544L3.78822 0.0557694C4.02043 0.0981231 4.24386 0.181206 4.44853 0.301673L4.53247 0.354024C4.941 0.622368 5.18233 0.993837 5.34343 1.40374C5.50123 1.80526 5.58525 2.25313 5.67348 2.67689C6.14219 2.69509 6.67017 2.68353 7.14316 2.68349L18.0059 2.68279H20.8431C21.0179 2.68278 21.2945 2.67757 21.5815 2.67666C21.8611 2.67577 22.1452 2.67889 22.307 2.69704L22.4162 2.70932V2.939L22.3953 2.9668C22.3964 2.96507 22.3955 2.96649 22.3926 2.97317C22.389 2.98121 22.3841 2.99319 22.378 3.00954C22.3658 3.04225 22.3501 3.08779 22.3315 3.14517C22.2946 3.25968 22.2471 3.41695 22.1924 3.60395C22.0831 3.97769 21.9459 4.46725 21.8083 4.96605C21.5339 5.96077 21.2559 6.99776 21.1967 7.21004L21.197 7.21028L20.0536 11.3157C19.8566 12.0237 19.6143 12.8226 19.4461 13.5243L19.4242 13.6157L19.3328 13.6199C18.3749 13.6649 17.1204 13.6293 16.1483 13.6295H10.0437L8.38884 13.6267C8.23248 13.6261 7.95133 13.6139 7.66566 13.6191C7.52475 13.6216 7.38844 13.6285 7.27399 13.6427C7.15462 13.6576 7.07597 13.6789 7.03837 13.7005C6.84022 13.8147 6.75884 14.0452 6.79779 14.2627C6.83606 14.4764 6.98772 14.661 7.24649 14.6885C7.46181 14.7114 7.67416 14.7032 7.91277 14.7032H9.2274L16.812 14.702C17.0117 14.7019 17.2645 14.695 17.5085 14.7001C17.7532 14.7052 18.0039 14.722 18.2087 14.7733L18.2095 14.7735C18.7375 14.9085 19.1921 15.2528 19.4741 15.7312L19.4746 15.7321C19.7579 16.2194 19.8414 16.8027 19.7065 17.3533L19.7063 17.3535C19.5692 17.9066 19.2233 18.3803 18.7451 18.6704L18.7454 18.6707C18.2784 18.9569 17.7193 19.0383 17.1932 18.8974C16.6539 18.7555 16.1919 18.3983 15.9101 17.9047C15.6065 17.3731 15.5864 16.851 15.7011 16.3C14.4856 16.3116 13.1263 16.3247 11.9158 16.3024C11.9902 16.6368 11.991 17.0178 11.9162 17.3388L11.916 17.3393C11.7853 17.8908 11.4445 18.365 10.9703 18.6559C10.4995 18.9518 9.93206 19.0385 9.39789 18.896C8.86321 18.7566 8.40396 18.4053 8.12077 17.9188L8.12055 17.9183C7.8134 17.3852 7.79047 16.8556 7.90601 16.3002C7.52213 16.3058 7.06271 16.3116 6.69278 16.1952L6.6921 16.1949C6.16805 16.0271 5.7296 15.6532 5.47234 15.1548L5.44856 15.106C5.21664 14.613 5.17579 14.0471 5.33555 13.5233C5.5169 12.9284 5.8737 12.5445 6.3713 12.2579L4.13381 2.89788C4.09838 2.75016 4.06529 2.56989 4.03116 2.41651C3.99522 2.255 3.95428 2.10368 3.89707 1.97534C3.83997 1.84728 3.77003 1.75011 3.68083 1.68821C3.59386 1.6279 3.47694 1.59299 3.30921 1.61002C3.10658 1.63061 2.897 1.61846 2.70221 1.60632C2.50326 1.59393 2.32122 1.58171 2.15694 1.59647C1.99432 1.6111 1.86213 1.65139 1.75873 1.73407C1.65684 1.8156 1.56882 1.94962 1.51568 2.17977L1.49608 2.26513L1.41146 2.27567C1.28114 2.29205 1.01376 2.29943 0.755203 2.29907C0.496819 2.2987 0.231126 2.29054 0.104248 2.27394L-0.00268555 2.26014V1.73639L0.0147799 1.70663C0.0551257 1.63729 0.0826 1.55913 0.112136 1.46814C0.140483 1.38081 0.171513 1.27838 0.218055 1.18171C0.470189 0.65802 0.934256 0.249427 1.49033 0.0986214L1.49157 0.0983959C1.72999 0.036247 2.19994 0.00657229 2.65149 0.000986008ZM17.9273 18.826C17.8651 18.8335 17.8026 18.8379 17.7398 18.8389C17.7712 18.8383 17.8026 18.837 17.8338 18.8348C17.8807 18.8316 17.9275 18.8266 17.974 18.8197C17.9585 18.822 17.9429 18.8241 17.9273 18.826ZM9.99983 18.8351C9.96807 18.8367 9.93624 18.8375 9.90439 18.8375C9.95219 18.8376 9.99991 18.8358 10.0475 18.8323L9.99983 18.8351ZM9.76084 18.8316C9.77578 18.8328 9.79073 18.8336 9.80569 18.8344C9.7748 18.8328 9.74391 18.8303 9.71306 18.8271L9.76084 18.8316ZM10.9468 18.5234C10.9335 18.5321 10.9202 18.5405 10.9067 18.5488C10.9202 18.5405 10.9335 18.532 10.9468 18.5234ZM17.4103 18.8157C17.4399 18.8204 17.4696 18.8243 17.4992 18.8277C17.4539 18.8226 17.4085 18.8159 17.3634 18.8075L17.4103 18.8157ZM9.24284 18.7158C9.30335 18.7383 9.36519 18.7578 9.42809 18.7742C9.50654 18.7952 9.58576 18.8108 9.66529 18.8214L9.61762 18.8144C9.55408 18.8043 9.49089 18.7909 9.42809 18.7742C9.36522 18.7577 9.30331 18.7383 9.24284 18.7158ZM17.1396 18.7514C17.1674 18.7601 17.1954 18.7684 17.2237 18.7757C17.2511 18.7831 17.2787 18.7896 17.3064 18.7956C17.2787 18.7896 17.251 18.7829 17.2236 18.7756C17.1953 18.7682 17.1674 18.7601 17.1396 18.7514ZM9.07213 18.6428C9.09881 18.6557 9.12576 18.6681 9.15304 18.6799L9.10887 18.6602C9.09656 18.6545 9.08431 18.6487 9.07213 18.6428ZM18.5994 18.6109C18.595 18.6131 18.5906 18.6155 18.5863 18.6177C18.6047 18.6079 18.6231 18.5978 18.6413 18.5872L18.5994 18.6109ZM18.6827 18.5626L18.722 18.5381C18.7223 18.538 18.7225 18.5378 18.7229 18.5376C18.7096 18.5461 18.6962 18.5544 18.6827 18.5626ZM15.83 16.283C15.8057 16.3924 15.787 16.4999 15.7749 16.6061C15.773 16.6237 15.7711 16.6414 15.7694 16.659C15.7313 17.0642 15.7923 17.4501 16.0156 17.841C15.7049 17.2971 15.7085 16.7632 15.8559 16.1728L15.83 16.283ZM19.3741 17.8528C19.3764 17.8489 19.3788 17.845 19.381 17.841C19.3787 17.845 19.3764 17.8489 19.3741 17.8528ZM11.7742 17.3968C11.7598 17.4475 11.7436 17.4974 11.7254 17.5464C11.7425 17.5002 11.7581 17.4535 11.7719 17.4059L11.7742 17.3968ZM10.0058 17.4868C10.0045 17.4871 10.0031 17.4871 10.0017 17.4873C10.023 17.484 10.0442 17.4796 10.0654 17.474L10.0058 17.4868ZM18.2421 17.1919C18.2197 17.2276 18.194 17.261 18.1652 17.2917C18.1581 17.2994 18.1507 17.307 18.1431 17.3144C18.0675 17.3879 17.9733 17.4435 17.8656 17.4728C17.8475 17.4777 17.8293 17.4816 17.8112 17.4848C17.8293 17.4816 17.8475 17.4778 17.8656 17.473C18.0381 17.4262 18.1756 17.3117 18.2583 17.1646L18.2421 17.1919ZM17.4344 17.4349C17.4391 17.4371 17.4441 17.4392 17.4489 17.4413C17.4435 17.4389 17.438 17.4365 17.4325 17.4341L17.4344 17.4349ZM10.4086 16.6949C10.3337 16.4087 10.0465 16.2397 9.76838 16.3181C9.4922 16.396 9.32901 16.6887 9.40341 16.973C9.47783 17.2573 9.76189 17.4263 10.0388 17.3513C10.3177 17.2757 10.4836 16.9812 10.4086 16.6949ZM18.2042 16.694C18.1288 16.4074 17.8405 16.2388 17.5622 16.3181C17.2866 16.3969 17.1245 16.6896 17.1992 16.9735C17.274 17.2575 17.5577 17.4261 17.8345 17.351C18.1136 17.2754 18.2796 16.9805 18.2042 16.694ZM11.846 16.959C11.8391 17.0803 11.8229 17.1989 11.797 17.3095C11.8281 17.1767 11.8454 17.0326 11.8491 16.8861L11.846 16.959ZM17.0812 17.0077C17.087 17.0291 17.0936 17.0501 17.1011 17.0704L17.1127 17.0991C17.1086 17.0897 17.1048 17.0801 17.1011 17.0704L17.0812 17.0077ZM9.28611 17.0086C9.29261 17.0329 9.30043 17.0565 9.30933 17.0794C9.30809 17.0762 9.3068 17.0731 9.30561 17.0698L9.28611 17.0086ZM18.3224 16.661C18.2291 16.307 17.8733 16.0987 17.5296 16.1968C17.5086 16.2028 17.488 16.2099 17.4681 16.2179L17.5295 16.1969C17.7873 16.1232 18.0519 16.222 18.2075 16.4254C18.2139 16.4339 18.2201 16.4425 18.2263 16.4514C18.2567 16.4955 18.2823 16.544 18.3018 16.5965C18.3097 16.6175 18.3165 16.639 18.3223 16.6611C18.3251 16.6721 18.3278 16.6832 18.3302 16.6942C18.3396 16.7386 18.3443 16.7828 18.3449 16.8267L18.3437 16.7937C18.3411 16.7497 18.334 16.7052 18.3224 16.661ZM8.0606 16.1726C8.05184 16.2076 8.04384 16.2423 8.03615 16.2769C8.04386 16.2423 8.05206 16.2076 8.06083 16.1726H8.0606ZM9.70449 16.2065C9.6786 16.2153 9.65363 16.2257 9.62956 16.2375C9.64393 16.2305 9.65859 16.2238 9.67362 16.2179L9.73605 16.1967L9.70449 16.2065ZM19.4043 15.8595C19.4165 15.8821 19.4282 15.9049 19.4394 15.9278L19.4171 15.8834C19.413 15.8755 19.4086 15.8675 19.4043 15.8595ZM19.2037 15.5571C19.256 15.6221 19.3045 15.6907 19.3488 15.7626C19.3387 15.7461 19.3284 15.7297 19.3178 15.7136C19.3089 15.6999 19.2998 15.6865 19.2906 15.6733C19.2629 15.6334 19.2339 15.5947 19.2037 15.5571ZM5.58051 15.0959C5.64105 15.2132 5.71222 15.3231 5.79269 15.4245C5.80272 15.4372 5.81291 15.4497 5.82322 15.4621C5.84392 15.4869 5.86519 15.5112 5.88701 15.535L5.85478 15.4989C5.74853 15.3776 5.65618 15.2425 5.58051 15.0959ZM19.042 15.3799C19.065 15.4021 19.0873 15.425 19.1092 15.4483L19.076 15.4136C19.0649 15.4024 19.0536 15.3911 19.042 15.3799ZM16.812 14.8278L10.1217 14.8289L15.2471 14.8288L16.812 14.8278ZM5.45228 13.5608L5.45014 13.5684C5.45089 13.5659 5.45152 13.5633 5.45228 13.5608ZM10.0438 13.5035L10.0439 13.5036H16.1483C16.3668 13.5036 16.5986 13.5053 16.8377 13.5075C16.5986 13.5053 16.3667 13.5035 16.1482 13.5035H10.0438ZM19.375 13.3001C19.3586 13.3656 19.3425 13.4302 19.3271 13.4941C19.2107 13.4996 19.09 13.5039 18.9659 13.5071C19.0265 13.5055 19.0862 13.5037 19.1451 13.5016L19.3273 13.4942C19.3426 13.4303 19.3585 13.3656 19.375 13.3001ZM5.9963 12.6814C6.0087 12.6701 6.02121 12.6588 6.03394 12.6476C6.00846 12.6699 5.98363 12.6927 5.95946 12.7161L5.9963 12.6814ZM6.51283 12.3221C6.41536 12.3745 6.32358 12.4302 6.23744 12.4898C6.32359 12.4302 6.41546 12.3746 6.51294 12.3222L6.51283 12.3221ZM7.64899 11.4225C7.70817 11.6684 7.76457 11.9119 7.81384 12.1457C7.926 12.1513 8.04118 12.1547 8.15784 12.157C8.0412 12.1547 7.92609 12.1512 7.81394 12.1456C7.76468 11.9118 7.7082 11.6684 7.64899 11.4225ZM20.4001 4.28094C19.2389 4.26757 18.0557 4.27986 16.8924 4.28025L7.37055 4.28118C7.05059 4.2815 6.44421 4.30007 6.06064 4.28337C6.17833 4.90522 6.42014 5.79774 6.56511 6.40077L7.46937 10.174C7.61069 10.7641 7.78284 11.4233 7.91277 12.0237C8.33218 12.0403 8.78638 12.0321 9.21061 12.0321L18.2393 12.0323C18.3971 11.4829 18.5523 10.9329 18.7041 10.3818V10.3813L19.8144 6.39706L20.1341 5.26035C20.2259 4.93284 20.3156 4.60538 20.4001 4.28094ZM6.34516 11.6202L4.68065 4.65552L4.30057 3.06814L6.34516 11.6202ZM21.0791 7.17552L19.9359 11.281L19.936 11.2811L21.0791 7.17564C21.0894 7.13866 21.1059 7.07686 21.1282 6.99495C21.1059 7.07681 21.0894 7.13855 21.0791 7.17552ZM22.2937 2.82225V2.89684C22.2488 2.95819 22.0513 3.63745 21.8272 4.43974C21.8833 4.23915 21.9375 4.0462 21.9883 3.86872C22.0491 3.65582 22.1048 3.46513 22.1519 3.30998C22.2224 3.07728 22.2736 2.9246 22.2938 2.89696V2.82213C22.2767 2.82021 22.258 2.81863 22.2381 2.81704C22.258 2.81863 22.2766 2.82033 22.2937 2.82225ZM10.2455 4.15482L8.48293 4.15516L16.8921 4.15436L10.2455 4.15482ZM5.95743 2.81067C6.08868 2.81278 6.22246 2.81319 6.35643 2.81298C6.15551 2.81329 5.95498 2.81207 5.76283 2.80626L5.95743 2.81067ZM21.96 2.80499C21.7172 2.79996 21.4187 2.80295 21.1715 2.80569L21.0066 2.8072C21.2752 2.80465 21.6601 2.7988 21.96 2.80499ZM1.78556 1.56786C1.73191 1.59631 1.68196 1.63197 1.63636 1.6764L1.65958 1.65484C1.66741 1.64793 1.67539 1.64126 1.68346 1.63481C1.69961 1.6219 1.71623 1.60993 1.73326 1.59879C1.75031 1.58764 1.76767 1.57735 1.78556 1.56786ZM0.298621 1.30367C0.289791 1.3256 0.281568 1.34775 0.273719 1.37004C0.282227 1.34589 0.291306 1.32195 0.300988 1.29822L0.298621 1.30367ZM0.896842 0.533319C0.88356 0.543555 0.870419 0.553992 0.857403 0.564595C0.883425 0.543401 0.909999 0.522941 0.937068 0.503206L0.896842 0.533319ZM4.38768 0.410895C4.40613 0.421771 4.42419 0.432944 4.44199 0.444247C4.42416 0.43292 4.40607 0.421688 4.38756 0.410777C4.38451 0.408986 4.38138 0.407337 4.37833 0.405558C4.38141 0.407361 4.38459 0.409081 4.38768 0.410895ZM1.10541 0.393745C1.08248 0.406934 1.05993 0.420811 1.03758 0.434984C1.05989 0.420835 1.08241 0.407029 1.1053 0.393864L1.10541 0.393745ZM2.30895 0.136041C1.98217 0.149621 1.68719 0.177102 1.52165 0.220238C1.39166 0.2555 1.26689 0.305954 1.14913 0.369419L1.19364 0.346256C1.29818 0.293643 1.40793 0.251194 1.52165 0.220357C1.68717 0.177209 1.98214 0.149657 2.30895 0.136041Z" fill="currentColor"></path></svg></span><span class="top_basket__literal d-none">Koszyk</span><span class="badge badge-info">0</span><strong class="top_basket__price">0,00 zł</strong></a><div class="top_basket__express_checkout_container"><express-checkout type="basket"></express-checkout></div><script>
+        app_shop.vars.cache_html = true;
+      </script><div class="top_basket__details hover__element --skeleton"><div class="top_basket__skeleton --name"></div><div class="top_basket__skeleton --product"></div><div class="top_basket__skeleton --product"></div><div class="top_basket__skeleton --product --last"></div><div class="top_basket__skeleton --sep"></div><div class="top_basket__skeleton --summary"></div></div></div><template id="top_basket_product"><div class="top_basket__product"><a class="top_basket__img" title=""><picture><source type="image/webp" srcset=""></source><img src="" alt=""></picture></a><div class="top_basket__info"><a class="top_basket__link" title=""></a><ul class="top_basket__params --hide"><li class="top_basket__param --size --hide"><span class="top_basket__param_label">Rozmiar</span>: <span class="top_basket__param_value"></span></li><li class="top_basket__param --version --hide"><span class="top_basket__param_label"></span>: <span class="top_basket__param_value"></span></li></ul></div><div class="top_basket__prices"><span class="top_basket__price"></span><span class="top_basket__unit"></span><span class="price_vat top_basket__vat"></span><span class="price --second top_basket__second_price --hide"></span></div></div></template><template id="top_basket_summary"><div class="top_basket__summary_shipping_free"><span class="top_basket__summary_label --freeshipping_limit">Do darmowej dostawy brakuje <span class="top_basket__summary_value"></span></span><span class="progress_bar"><span class="progress_bar__value"></span></span></div><div class="top_basket__summary_item --worth"><span class="top_basket__summary_label">Wartość zamówienia:</span><b class="top_basket__summary_value"></b></div><div class="top_basket__summary_item --shipping"><span class="top_basket__summary_label">Koszt przesyłki:</span><b class="top_basket__summary_value"></b></div><div class="top_basket__buttons"><a class="btn --solid --large" data-ec-class="btn --outline --large" title="Przejdź do koszyka" href="/basketedit.php">
+        Przejdź do koszyka
+      </a><div id="top_basket__express_checkout_placeholder"></div></div></template><template id="top_basket_details"><div class="top_basket__details hover__element"><div class="top_basket__details_sub"><div class="headline"><span class="headline__name">Twój koszyk (<span class="top_basket__count"></span>)</span></div><div class="top_basket__products"></div><div class="top_basket__summary"></div></div></div></template><template id="top_basket_details"><div class="top_basket__details hover__element"><div class="top_basket__details_sub"><div class="headline"><span class="headline__name">Twój koszyk (<span class="top_basket__count"></span>)</span></div><div class="top_basket__products"></div><div class="top_basket__summary"></div></div></div></template><template id="basket-aside-template"><form class="asidebasket" id="basketaside" action="/basketchange.php?type=multiproduct" method="post" enctype="multipart/form-data"><div class="asidebasket__content --skeleton" data-status="loading"></div></form></template><template id="basket-aside-empty"><div class="asidebasket__empty"><div class="asidebasket__empty-top">
+      Wygląda na to, że Twój koszyk jest jeszcze pusty. Wróć do zakupów i wybierz coś dla siebie.
+    </div></div></template></div></header><div id="layout" class="row clearfix"><aside class="col-3"><section class="shopping_list_menu"><div class="shopping_list_menu__block --lists slm_lists" data-empty="true"><a href="#showShoppingLists" class="slm_lists__label">Listy zakupowe</a><ul class="slm_lists__nav"><li class="slm_lists__nav_item" data-list_skeleton="true" data-list_id="true" data-shared="true"><a href="#" class="slm_lists__nav_link" data-list_href="true"><span class="slm_lists__nav_name" data-list_name="true"></span><span class="slm_lists__count" data-list_count="true">0</span></a></li><li class="slm_lists__nav_header"><a href="#hidehoppingLists" class="slm_lists__label"><span class="sr-only">Wróć</span>Listy zakupowe</a></li><li class="slm_lists__nav_item --empty"><a class="slm_lists__nav_link --empty" href="https://sollux.pl/pl/shoppinglist"><span class="slm_lists__nav_name" data-list_name="true">Lista zakupowa</span><span class="sr-only">ilość produktów: </span><span class="slm_lists__count" data-list_count="true">0</span></a></li></ul><a href="#manage" class="slm_lists__manage d-none align-items-center d-md-flex">Zarządzaj listami</a></div><div class="shopping_list_menu__block --bought slm_bought"><a class="slm_bought__link d-flex" href="https://sollux.pl/pl/products-bought.html">
+				Lista dotychczas zamówionych produktów
+			</a></div><div class="shopping_list_menu__block --info slm_info"><strong class="slm_info__label d-block mb-3">Jak działa lista zakupowa?</strong><ul class="slm_info__list"><li class="slm_info__list_item d-flex mb-3">
+					Po zalogowaniu możesz umieścić i przechowywać na liście zakupowej dowolną liczbę produktów nieskończenie długo.
+				</li><li class="slm_info__list_item d-flex mb-3">
+					Dodanie produktu do listy zakupowej nie oznacza automatycznie jego rezerwacji.
+				</li><li class="slm_info__list_item d-flex mb-3">
+					Dla niezalogowanych klientów lista zakupowa przechowywana jest do momentu wygaśnięcia sesji (około 24h).
+				</li></ul></div></section><div class="mobile_menu__header"><h2 class="mobile_menu__title">Menu</h2><button type="button" class="mobile_menu__close" onclick="app_shop.fn.showHideAsideMenu()"></button></div><div class="setMobileGrid" data-item="#menu_navbar"></div><div class="setMobileGrid" data-item="#menu_navbar3" data-ismenu1="true"></div><div class="setMobileGrid" data-item="#menu_blog"></div><div class="setMobileGrid" data-item="#sollux_config"></div><div class="login_menu_block d-lg-none" id="login_menu_block" data-logged="false"><a class="sign_in_link btn --secondary" href="https://sollux.pl/pl/signin.html"><span>Zaloguj się lub zarejestruj</span></a></div><div class="setMobileGrid" data-item="#menu_settings"></div></aside><main id="content" class="col-12"><div id="main_banner1" class="section skeleton" data-full-width="true" data-html-enable="true" data-thumbnails="false" data-thumbnails-count="auto" data-thumbnails-enable="false" data-slider-autoplay-enable="true" data-slider-autoplay-speed="5000" data-slider-fade-effect="false" data-slider-enable="true" data-slider-freemode="false"><div class="main_slider"><div class="main_slider__wrapper swiper"><div class="swiper-wrapper"><div class="main_slider__item swiper-slide  --has-html-elements" data-id="1784632280"><a class="main_slider__item_link" target="_self" title="Bestsellery" tabindex="-1" href="https://sollux.pl/pl/menu/bestsellery-827"><picture><source width="1920" height="1080" media="(min-width:979px)" srcset="/data/include/img/links/1784632280_rwd_desktop.webp?t=1787834910"></source><source width="1170" height="659" media="(min-width:757px)" srcset="/data/include/img/links/1784632280_rwd_tablet.webp?t=1787834910"></source><img src="/data/include/img/links/1784632280_rwd_mobile.webp?t=1787834910" width="737" height="1212" alt="Bestsellery" loading="eager"></picture><div class="main_slider__content container max-width-1200"><h2 class="main_slider__label">Bestsellery</h2><p class="main_slider__description"> Kolor i forma w nowym świetle </p><span class="main_slider__button btn --brand"> Sprawdź lampy</span></div></a></div><div class="main_slider__item swiper-slide slide-lazy --has-html-elements" data-id="1784548642"><a class="main_slider__item_link" target="_self" title="AURA " tabindex="-1" href="https://sollux.pl/pl/series/aura-24"><picture><source width="1920" height="1080" media="(min-width:979px)" srcset="/data/include/img/links/1784548642_rwd_desktop.webp?t=1790599013"></source><source width="1170" height="658" media="(min-width:757px)" srcset="/data/include/img/links/1784548642_rwd_tablet.webp?t=1790599013"></source><img src="/data/include/img/links/1784548642_rwd_mobile.webp?t=1790599013" width="480" height="987" alt="AURA " loading="lazy"></picture><div class="main_slider__content container max-width-1200"><h2 class="main_slider__label">AURA </h2><p class="main_slider__description"> Odkryj kolekcję w 16 kolorach </p><span class="main_slider__button btn --brand"> Sprawdź </span></div></a></div></div></div><div class="sliderNavigation variable-max-width"><div class="swiper-button-prev --rounded"><i class="icon-angle-left"></i></div><div class="swiper-button-next --rounded"><i class="icon-angle-right"></i></div></div><div class="sliderPagination"><div class="swiper-pagination"></div></div></div></div><section class="popular_categories section"><h2 class="headline__wrapper"><span class="headline">Odkryj nasze kategorie</span></h2><div class="popular_categories__list_wrapper swiper --cover-end"><ul class="popular_categories__list swiper-wrapper"><li class="popular_categories__item swiper-slide"><a href="https://sollux.pl/konfigurator" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_5_i_3327.webp" alt="Stwórz swoją lampe" loading="lazy"></div><h3 class="popular_categories__item_title">Stwórz swoją lampe</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/lampy-wiszace-158" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_158.webp" alt="Lampy wiszące" loading="lazy"></div><h3 class="popular_categories__item_title">Lampy wiszące</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/kinkiety-152" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_152.webp" alt="Kinkiety" loading="lazy"></div><h3 class="popular_categories__item_title">Kinkiety</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/plafony" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_156.webp" alt="Plafony" loading="lazy"></div><h3 class="popular_categories__item_title">Plafony</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/zyrandole-155" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_155.webp" alt="Żyrandole" loading="lazy"></div><h3 class="popular_categories__item_title">Żyrandole</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/lampy-podlogowe" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_157.webp" alt="Lampy podłogowe" loading="lazy"></div><h3 class="popular_categories__item_title">Lampy podłogowe</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/lampy-biurkowe" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_167.webp" alt="Biurkowe" loading="lazy"></div><h3 class="popular_categories__item_title">Biurkowe</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/zarowki-159" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_159.webp" alt="Żarówki" loading="lazy"></div><h3 class="popular_categories__item_title">Żarówki</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/lampy-do-salonu-161" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_161.webp" alt="Lampy do salonu" loading="lazy"></div><h3 class="popular_categories__item_title">Lampy do salonu</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/lampy-do-jadalni-162" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_162.webp" alt="Lampy do jadalni" loading="lazy"></div><h3 class="popular_categories__item_title">Lampy do jadalni</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/lampy-do-kuchni-163" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_163.webp" alt="Lampy do kuchni" loading="lazy"></div><h3 class="popular_categories__item_title">Lampy do kuchni</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/lampy-do-sypialni-164" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_164.webp" alt="Lampy do sypialni" loading="lazy"></div><h3 class="popular_categories__item_title">Lampy do sypialni</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/lampy-do-korytarza-184" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_184.webp" alt="Lampy do korytarza" loading="lazy"></div><h3 class="popular_categories__item_title">Lampy do korytarza</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/lampy-do-lazienki-185" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_185.webp" alt="Lampy do łazienki" loading="lazy"></div><h3 class="popular_categories__item_title">Lampy do łazienki</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/lampy-do-przedpokoju-165" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_165.webp" alt="Lampy do przedpokoju" loading="lazy"></div><h3 class="popular_categories__item_title">Lampy do przedpokoju</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/lampy-do-pokoju-dzieciecego-166" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_166.webp" alt="Lampy do pokoju dziecięcego" loading="lazy"></div><h3 class="popular_categories__item_title">Lampy do pokoju dziecięcego</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/bezowe-lampy-2493" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2493.png" alt="Beżowe lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Beżowe lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/zielona-oliwka-lampy-2494" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2494.png" alt="Zielona oliwka lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Zielona oliwka lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/taupe-lampy-2500" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2500.png" alt="Taupe lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Taupe lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/ultramaryna-lampy-2495" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2495.png" alt="Ultramaryna lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Ultramaryna lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/biale-lampy-2496" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2496.png" alt="Białe lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Białe lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/czarne-lampy-2497" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2497.png" alt="Czarne lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Czarne lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/burgundowe-lampy-2498" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2498.png" alt="Burgundowe lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Burgundowe lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/mocca-lampy-2499" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2499.png" alt="Mocca lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Mocca lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/zlote-lampy-2501" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2501.png" alt="Złote lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Złote lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/srebrne-lampy-2502" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2502.png" alt="Srebrne lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Srebrne lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/brzoskwiniowe-lampy-2503" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2503.png" alt="Brzoskwiniowe lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Brzoskwiniowe lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/szare-lampy-2504" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2504.png" alt="Szare lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Szare lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/ochra-czerwona-lampy-2505" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_2505.png" alt="Ochra czerwona lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Ochra czerwona lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/czerwone-lampy-3026" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_3026.png" alt="Czerwone lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Czerwone lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/blekitne-lampy-3027" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_3027.png" alt="Błękitne lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Błękitne lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/zolte-lampy-3028" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_3028.png" alt="Żółte lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Żółte lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/rozowe-lampy-3029" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_3029.png" alt="Różowe lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Różowe lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/szalwia-lampy-3030" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_3030.png" alt="Szałwia lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Szałwia lampy</h3></a></li><li class="popular_categories__item swiper-slide"><a href="/pl/menu/brazowe-lampy-3031" class="popular_categories__item_link"><div class="popular_categories__item_gfx_wrapper"><img class="popular_categories__item_gfx" src="/data/gfx/pol/navigation/1_1_i_3031.png" alt="Brązowe lampy" loading="lazy"></div><h3 class="popular_categories__item_title">Brązowe lampy</h3></a></li></ul><div class="swiper-button-prev --rounded"><i class="icon-angle-left"></i></div><div class="swiper-button-next --rounded"><i class="icon-angle-right"></i></div></div></section><div id="idm-main-hotspots"></div><div id="menu_banners3" class="section row mx-0"><div class="menu_button_wrapper"><div class="bennefits">
+  <ul class="benefits__list">
+    <li class="benefits__item">
+      <div class="benefits__item_icon_wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <path
+            d="M25.3334 8C24.9798 8 24.6407 8.14048 24.3906 8.39052C24.1406 8.64057 24.0001 8.97971 24.0001 9.33333V14.6667C24.0001 15.0203 23.8596 15.3594 23.6096 15.6095C23.3595 15.8595 23.0204 16 22.6668 16H9.88011L11.6134 14.28C11.8645 14.0289 12.0056 13.6884 12.0056 13.3333C12.0056 12.9783 11.8645 12.6377 11.6134 12.3867C11.3624 12.1356 11.0218 11.9945 10.6668 11.9945C10.3117 11.9945 9.97118 12.1356 9.72011 12.3867L5.72011 16.3867C5.59872 16.5135 5.50357 16.663 5.44011 16.8267C5.30675 17.1513 5.30675 17.5154 5.44011 17.84C5.50357 18.0037 5.59872 18.1532 5.72011 18.28L9.72011 22.28C9.84406 22.405 9.99152 22.5042 10.154 22.5719C10.3165 22.6395 10.4908 22.6744 10.6668 22.6744C10.8428 22.6744 11.0171 22.6395 11.1795 22.5719C11.342 22.5042 11.4895 22.405 11.6134 22.28C11.7384 22.156 11.8376 22.0086 11.9053 21.8461C11.973 21.6836 12.0078 21.5093 12.0078 21.3333C12.0078 21.1573 11.973 20.983 11.9053 20.8206C11.8376 20.6581 11.7384 20.5106 11.6134 20.3867L9.88011 18.6667H22.6668C23.7276 18.6667 24.7451 18.2452 25.4952 17.4951C26.2453 16.7449 26.6668 15.7275 26.6668 14.6667V9.33333C26.6668 8.97971 26.5263 8.64057 26.2762 8.39052C26.0262 8.14048 25.6871 8 25.3334 8Z"
+            fill="#101011"
+          />
+        </svg>
+      </div>
+
+      <div class="benefits__item_content">
+        <span class="benefits__item_title">Zwroty do 100 dni</span>
+        <p class="benefits__item_description">szybkie i proste</p>
+      </div>
+    </li>
+
+    <li class="benefits__item">
+      <div class="benefits__item_icon_wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <path
+            d="M24.0001 2.66675H8.00008C7.64646 2.66675 7.30732 2.80722 7.05727 3.05727C6.80722 3.30732 6.66675 3.64646 6.66675 4.00008V28.0001C6.66673 28.255 6.73977 28.5045 6.87722 28.7192C7.01467 28.9338 7.21076 29.1046 7.44227 29.2112C7.67378 29.3178 7.931 29.3559 8.18346 29.3208C8.43593 29.2858 8.67305 29.1791 8.86675 29.0134L16.0001 23.0267L23.0534 28.9467C23.178 29.0703 23.3258 29.1681 23.4882 29.2344C23.6507 29.3008 23.8246 29.3344 24.0001 29.3334C24.175 29.3379 24.3485 29.3014 24.5067 29.2267C24.7502 29.1267 24.9587 28.9569 25.1058 28.7386C25.2529 28.5203 25.3321 28.2633 25.3334 28.0001V4.00008C25.3334 3.64646 25.1929 3.30732 24.9429 3.05727C24.6928 2.80722 24.3537 2.66675 24.0001 2.66675ZM22.6667 25.1467L16.8534 20.2667C16.6138 20.0672 16.3119 19.9579 16.0001 19.9579C15.6883 19.9579 15.3863 20.0672 15.1467 20.2667L9.33341 25.1467V5.33341H22.6667V25.1467Z"
+            fill="#101011"
+          />
+        </svg>
+      </div>
+
+      <div class="benefits__item_content">
+        <span class="benefits__item_title">5 lat gwarancji</span>
+        <p class="benefits__item_description">na wszystkie produkty</p>
+      </div>
+    </li>
+
+    <li class="benefits__item">
+      <div class="benefits__item_icon_wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="26" viewBox="0 0 30 26" fill="none">
+          <path
+            d="M29.3333 13.3333V20C29.3333 20.3536 29.1928 20.6928 28.9427 20.9428C28.6927 21.1929 28.3535 21.3333 27.9999 21.3333H26.6666C26.6666 22.3942 26.2452 23.4116 25.495 24.1618C24.7449 24.9119 23.7275 25.3333 22.6666 25.3333C21.6057 25.3333 20.5883 24.9119 19.8382 24.1618C19.088 23.4116 18.6666 22.3942 18.6666 21.3333H10.6666C10.6666 22.3942 10.2452 23.4116 9.49501 24.1618C8.74487 24.9119 7.72745 25.3333 6.66658 25.3333C5.60572 25.3333 4.5883 24.9119 3.83816 24.1618C3.08801 23.4116 2.66658 22.3942 2.66658 21.3333H1.33325C0.979629 21.3333 0.64049 21.1929 0.390441 20.9428C0.140393 20.6928 -8.22544e-05 20.3536 -8.22544e-05 20V4C-8.22544e-05 2.93913 0.421345 1.92172 1.17149 1.17157C1.92164 0.421428 2.93905 0 3.99992 0H15.9999C17.0608 0 18.0782 0.421428 18.8283 1.17157C19.5785 1.92172 19.9999 2.93913 19.9999 4V6.66667H22.6666C23.2876 6.66667 23.9 6.81125 24.4554 7.08896C25.0109 7.36667 25.494 7.76988 25.8666 8.26667L29.0666 12.5333C29.1056 12.5913 29.137 12.654 29.1599 12.72L29.2399 12.8667C29.2988 13.0154 29.3304 13.1734 29.3333 13.3333V13.3333ZM7.99992 21.3333C7.99992 21.0696 7.92172 20.8118 7.77521 20.5926C7.6287 20.3733 7.42046 20.2024 7.17683 20.1015C6.93319 20.0006 6.6651 19.9742 6.40646 20.0256C6.14782 20.0771 5.91024 20.2041 5.72377 20.3905C5.5373 20.577 5.41032 20.8146 5.35887 21.0732C5.30742 21.3319 5.33383 21.5999 5.43475 21.8436C5.53566 22.0872 5.70656 22.2955 5.92582 22.442C6.14509 22.5885 6.40288 22.6667 6.66658 22.6667C7.02021 22.6667 7.35935 22.5262 7.60939 22.2761C7.85944 22.0261 7.99992 21.687 7.99992 21.3333ZM17.3333 4C17.3333 3.64638 17.1928 3.30724 16.9427 3.05719C16.6927 2.80714 16.3535 2.66667 15.9999 2.66667H3.99992C3.6463 2.66667 3.30716 2.80714 3.05711 3.05719C2.80706 3.30724 2.66658 3.64638 2.66658 4V18.6667H3.70659C4.08149 18.2542 4.53847 17.9246 5.04821 17.6991C5.55794 17.4736 6.10919 17.3571 6.66658 17.3571C7.22398 17.3571 7.77523 17.4736 8.28496 17.6991C8.7947 17.9246 9.25168 18.2542 9.62659 18.6667H17.3333V4ZM19.9999 12H25.3333L23.7333 9.86667C23.6091 9.70107 23.448 9.56667 23.2629 9.4741C23.0777 9.38153 22.8736 9.33333 22.6666 9.33333H19.9999V12ZM23.9999 21.3333C23.9999 21.0696 23.9217 20.8118 23.7752 20.5926C23.6287 20.3733 23.4205 20.2024 23.1768 20.1015C22.9332 20.0006 22.6651 19.9742 22.4065 20.0256C22.1478 20.0771 21.9102 20.2041 21.7238 20.3905C21.5373 20.577 21.4103 20.8146 21.3589 21.0732C21.3074 21.3319 21.3338 21.5999 21.4347 21.8436C21.5357 22.0872 21.7066 22.2955 21.9258 22.442C22.1451 22.5885 22.4029 22.6667 22.6666 22.6667C23.0202 22.6667 23.3593 22.5262 23.6094 22.2761C23.8594 22.0261 23.9999 21.687 23.9999 21.3333ZM26.6666 14.6667H19.9999V18.3733C20.7868 17.6701 21.8197 17.3063 22.8737 17.3612C23.9276 17.4162 24.9171 17.8854 25.6266 18.6667H26.6666V14.6667Z"
+            fill="#101011"
+          />
+        </svg>
+      </div>
+
+      <div class="benefits__item_content">
+        <span class="benefits__item_title">Darmowa dostawa</span>
+        <p class="benefits__item_description">już za 299 zł</p>
+      </div>
+    </li>
+
+    <li class="benefits__item">
+      <div class="benefits__item_icon_wrapper">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <mask id="mask0_368_3126" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="3" y="1" width="26" height="30">
+    <path d="M28.8332 1.33301H3.1665V30.6665H28.8332V1.33301Z" fill="white"/>
+  </mask>
+  <g mask="url(#mask0_368_3126)">
+    <path d="M16.7597 11.7958H14.3964V5.09352L5.52989 9.39827V22.081L20.0813 27.976L26.4698 22.9712V8.49823H19.3876V6.15007H28.8332V24.1095L20.4643 30.6668L3.1665 23.6591V7.93281L16.7597 1.33325V11.7958Z" fill="#101011"/>
+    <path d="M11.7144 15.314C11.7144 13.0471 13.5642 11.2095 15.8462 11.2095C18.1281 11.2095 19.978 13.0471 19.978 15.314V21.1775H11.7144V15.314Z" fill="#101011"/>
+  </g>
+</svg>
+      </div>
+
+      <div class="benefits__item_content">
+        <span class="benefits__item_title">Polskie produkty</span>
+        <p class="benefits__item_description">sprawdzona jakość</p>
+      </div>
+    </li>
+
+    <li class="benefits__item">
+      <div class="benefits__item_icon_wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <path
+            d="M28.0001 5.33341H24.0001V4.00008C24.0001 3.64646 23.8596 3.30732 23.6096 3.05727C23.3595 2.80722 23.0204 2.66675 22.6667 2.66675H9.33341C8.97979 2.66675 8.64065 2.80722 8.39061 3.05727C8.14056 3.30732 8.00008 3.64646 8.00008 4.00008V5.33341H4.00008C3.64646 5.33341 3.30732 5.47389 3.05727 5.72394C2.80722 5.97399 2.66675 6.31313 2.66675 6.66675V10.6667C2.66675 12.0812 3.22865 13.4378 4.22885 14.438C5.22904 15.4382 6.58559 16.0001 8.00008 16.0001H10.0534C11.2595 17.3456 12.8855 18.2432 14.6667 18.5467V21.3334H13.3334C12.2725 21.3334 11.2551 21.7548 10.505 22.505C9.75484 23.2551 9.33341 24.2725 9.33341 25.3334V28.0001C9.33341 28.3537 9.47389 28.6928 9.72394 28.9429C9.97399 29.1929 10.3131 29.3334 10.6667 29.3334H21.3334C21.687 29.3334 22.0262 29.1929 22.2762 28.9429C22.5263 28.6928 22.6667 28.3537 22.6667 28.0001V25.3334C22.6667 24.2725 22.2453 23.2551 21.4952 22.505C20.745 21.7548 19.7276 21.3334 18.6667 21.3334H17.3334V18.5467C19.1147 18.2432 20.7407 17.3456 21.9467 16.0001H24.0001C25.4146 16.0001 26.7711 15.4382 27.7713 14.438C28.7715 13.4378 29.3334 12.0812 29.3334 10.6667V6.66675C29.3334 6.31313 29.1929 5.97399 28.9429 5.72394C28.6928 5.47389 28.3537 5.33341 28.0001 5.33341ZM8.00008 13.3334C7.29284 13.3334 6.61456 13.0525 6.11446 12.5524C5.61437 12.0523 5.33341 11.374 5.33341 10.6667V8.00008H8.00008V10.6667C8.00302 11.5757 8.16083 12.4775 8.46675 13.3334H8.00008ZM18.6667 24.0001C19.0204 24.0001 19.3595 24.1406 19.6096 24.3906C19.8596 24.6407 20.0001 24.9798 20.0001 25.3334V26.6667H12.0001V25.3334C12.0001 24.9798 12.1406 24.6407 12.3906 24.3906C12.6407 24.1406 12.9798 24.0001 13.3334 24.0001H18.6667ZM21.3334 10.6667C21.3334 12.0812 20.7715 13.4378 19.7713 14.438C18.7711 15.4382 17.4146 16.0001 16.0001 16.0001C14.5856 16.0001 13.229 15.4382 12.2288 14.438C11.2287 13.4378 10.6667 12.0812 10.6667 10.6667V5.33341H21.3334V10.6667ZM26.6667 10.6667C26.6667 11.374 26.3858 12.0523 25.8857 12.5524C25.3856 13.0525 24.7073 13.3334 24.0001 13.3334H23.5334C23.8393 12.4775 23.9971 11.5757 24.0001 10.6667V8.00008H26.6667V10.6667Z"
+            fill="#101011"
+          />
+        </svg>
+      </div>
+
+      <div class="benefits__item_content">
+        <span class="benefits__item_title">Oficjalny sklep producenta</span>
+        <p class="benefits__item_description">gwarancja satysfakcji</p>
+      </div>
+    </li>
+  </ul>
+</div>
+</div></div><div id="menu_buttons2" class="section"><ul class="menu_buttons2__list">    <li class="menu_buttons2__item menu_buttons2__item--catalog menu_buttons2__item--dark_font">
+      <div class="menu_buttons2__item_gfx_wrapper">
+        <picture class="menu_buttons2__item_picture">
+          <source
+            media="(min-width: 979px)"
+            srcset="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/catalog-desktop.webp"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 757px)"
+            srcset="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/catalog-tablet.webp"
+            type="image/webp"
+          />
+          <img
+            src="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/catalog-mobile.webp"
+            alt=""
+            class="menu_buttons2__item_gfx"
+            loading="lazy"
+            aria-hidden="true"
+          />
+        </picture>
+      </div>
+
+      <div class="menu_buttons2__item_content">
+        <span class="menu_buttons2__item_title">Katalog</span>
+        <p class="menu_buttons2__item_description">Odkryj najnowszy katalog</p>
+        <a href="https://sollux-lighting.com/uploads/sollux_katalog.pdf" class="menu_buttons2__item_link btn --secondary">Sprawdź katalog</a>
+      </div>
+    </li>    <li class="menu_buttons2__item menu_buttons2__item--smart menu_buttons2__item--dark_font">
+      <div class="menu_buttons2__item_gfx_wrapper">
+        <picture class="menu_buttons2__item_picture">
+          <source
+            media="(min-width: 979px)"
+            srcset="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/smart-desktop.webp"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 757px)"
+            srcset="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/smart-tablet.webp"
+            type="image/webp"
+          />
+          <img
+            src="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/smart-mobile.webp"
+            alt=""
+            class="menu_buttons2__item_gfx"
+            loading="lazy"
+            aria-hidden="true"
+          />
+        </picture>
+      </div>
+
+      <div class="menu_buttons2__item_content">
+        <span class="menu_buttons2__item_title">SOLLUX SMART</span>
+        <p class="menu_buttons2__item_description">Przymierz lampę w aplikacji</p>
+        <a href="https://sollux.pl/pl/blog/nie-wiesz-czy-konkretna-lampa-bedzie-pasowac-do-twojego-wnetrza-sprawdz-to-za-darmo-z-aplikacja-sollux-smart" class="menu_buttons2__item_link btn --secondary">Pobierz aplikacje na telefon</a>
+      </div>
+    </li>    <li class="menu_buttons2__item menu_buttons2__item--configurator">
+      <div class="menu_buttons2__item_gfx_wrapper">
+        <picture class="menu_buttons2__item_picture">
+          <source
+            media="(min-width: 979px)"
+            srcset="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/configurator-desktop.webp"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 757px)"
+            srcset="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/configurator-tablet.webp"
+            type="image/webp"
+          />
+          <img
+            src="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/configurator-mobile.webp"
+            alt=""
+            class="menu_buttons2__item_gfx"
+            loading="lazy"
+            aria-hidden="true"
+          />
+        </picture>
+      </div>
+
+      <div class="menu_buttons2__item_content">
+        <span class="menu_buttons2__item_title">Konfigurator 3D</span>
+        <p class="menu_buttons2__item_description">Wybierz projekt i dostosuj go do swojego wnętrza</p>
+        <a href="https://sollux.pl/konfigurator" class="menu_buttons2__item_link btn --secondary">Stwórz własny projekt</a>
+      </div>
+    </li>    <li class="menu_buttons2__item menu_buttons2__item--thoro">
+      <div class="menu_buttons2__item_gfx_wrapper">
+        <picture class="menu_buttons2__item_picture">
+          <source
+            media="(min-width: 979px)"
+            srcset="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/thoro-desktop.webp"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 757px)"
+            srcset="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/thoro-tablet.webp"
+            type="image/webp"
+          />
+          <img
+            src="https://sollux.pl/data/include/cms/Idomods_szablon/buttons2/thoro-mobile.webp"
+            alt=""
+            class="menu_buttons2__item_gfx"
+            loading="lazy"
+            aria-hidden="true"
+          />
+        </picture>
+      </div>
+
+      <div class="menu_buttons2__item_content">
+        <span class="menu_buttons2__item_title">Marka THORO</span>
+        <p class="menu_buttons2__item_description">Poznaj lampy premium</p>
+        <a href="https://thoro.pl/" class="menu_buttons2__item_link btn --secondary">Odwiedź sklep THORO</a>
+      </div>
+    </li>
+</ul></div><div id="widget-container-main"></div><section id="main_blog" class="section article article--with_dark_bg"><h2 class="headline__wrapper"><a href="/pl/blog" class="headline" title="Kliknij, by zobaczyć wszystkie wpisy bloga">
+					Zainspiruj się na naszym blogu
+				</a><a href="/pl/blog" class="headline__after" title="Kliknij, by zobaczyć wszystkie wpisy bloga"><span class="link__text">Zobacz wszystko</span><i class="icon icon-ds-arrow-right pl-1"></i></a></h2><div class="article__swiper swiper --cover-end"><div class="article__block swiper-wrapper"><article class="article__item swiper-slide"><a href="https://sollux.pl/pl/blog/black-friday-w-sollux-caly-dom-taniej-do-60-1793791181" class="article__image_wrapper" tabindex="-1"><img class="article__image" src="/data/include/img/news/1793791181.png" width="3000" height="3000" loading="lazy" alt="Black Friday w SOLLUX: cały dom taniej do 60%"></a><div class="article__content" data-enabled-data=""><h3 class="article__name_wrapper"><a class="article__name" href="https://sollux.pl/pl/blog/black-friday-w-sollux-caly-dom-taniej-do-60-1793791181" tabindex="0" title="Black Friday w SOLLUX: cały dom taniej do 60%">Black Friday w SOLLUX: cały dom taniej do 60%</a></h3><div class="article__text">Plafony, kinkiety, żyrandole i lampy wiszące 60% taniej. Sprawdź, co kupić do salonu, sypialni i kuchni oraz jak dobrać barwę światła. </div><a class="article__more_link" href="/pl/blog/black-friday-w-sollux-caly-dom-taniej-do-60-1793791181" tabindex="-1" title="Black Friday w SOLLUX: cały dom taniej do 60%"><span class="link__text">Czytaj więcej</span><i class="idm_icon icon-angle-right"></i></a></div></article><article class="article__item swiper-slide"><a href="https://sollux.pl/pl/blog/czerwien-we-wnetrzu-jak-jej-uzyc-zeby-nie-przytloczyla-1793275304" class="article__image_wrapper" tabindex="-1"><img class="article__image" src="/data/include/img/news/1793275304.webp" width="1500" height="1500" loading="lazy" alt="Czerwień we wnętrzu - jak jej użyć, żeby nie przytłoczyła "></a><div class="article__content" data-enabled-data=""><h3 class="article__name_wrapper"><a class="article__name" href="https://sollux.pl/pl/blog/czerwien-we-wnetrzu-jak-jej-uzyc-zeby-nie-przytloczyla-1793275304" tabindex="0" title="Czerwień we wnętrzu - jak jej użyć, żeby nie przytłoczyła ">Czerwień we wnętrzu - jak jej użyć, żeby nie przytłoczyła </a></h3><div class="article__text">Czerwień we wnętrzu — jak jej użyć bez przesady</div><a class="article__more_link" href="/pl/blog/czerwien-we-wnetrzu-jak-jej-uzyc-zeby-nie-przytloczyla-1793275304" tabindex="-1" title="Czerwień we wnętrzu - jak jej użyć, żeby nie przytłoczyła "><span class="link__text">Czytaj więcej</span><i class="idm_icon icon-angle-right"></i></a></div></article><article class="article__item swiper-slide"><a href="https://sollux.pl/pl/blog/ultramaryna-we-wnetrzu-z-jakimi-kolorami-tworzy-najlepsze-pary-1792179216" class="article__image_wrapper" tabindex="-1"><img class="article__image" src="/data/include/img/news/1792179216.webp" width="1500" height="1500" loading="lazy" alt="Ultramaryna we wnętrzu - z jakimi kolorami tworzy najlepsze pary"></a><div class="article__content" data-enabled-data=""><h3 class="article__name_wrapper"><a class="article__name" href="https://sollux.pl/pl/blog/ultramaryna-we-wnetrzu-z-jakimi-kolorami-tworzy-najlepsze-pary-1792179216" tabindex="0" title="Ultramaryna we wnętrzu - z jakimi kolorami tworzy najlepsze pary">Ultramaryna we wnętrzu - z jakimi kolorami tworzy najlepsze pary</a></h3><div class="article__text">Ultramaryna lubi konkretne towarzystwo. Sprawdź 6 par kolorów, które działają we wnętrzu.</div><a class="article__more_link" href="/pl/blog/ultramaryna-we-wnetrzu-z-jakimi-kolorami-tworzy-najlepsze-pary-1792179216" tabindex="-1" title="Ultramaryna we wnętrzu - z jakimi kolorami tworzy najlepsze pary"><span class="link__text">Czytaj więcej</span><i class="idm_icon icon-angle-right"></i></a></div></article><article class="article__item swiper-slide"><a href="https://sollux.pl/pl/blog/zielona-oliwka-kolor-ktory-nie-nudzi-sie-po-roku-1790674848" class="article__image_wrapper" tabindex="-1"><img class="article__image" src="/data/include/img/news/1790674848.webp" width="460" height="460" loading="lazy" alt="Zielona oliwka - kolor, który nie nudzi się po roku"></a><div class="article__content" data-enabled-data=""><h3 class="article__name_wrapper"><a class="article__name" href="https://sollux.pl/pl/blog/zielona-oliwka-kolor-ktory-nie-nudzi-sie-po-roku-1790674848" tabindex="0" title="Zielona oliwka - kolor, który nie nudzi się po roku">Zielona oliwka - kolor, który nie nudzi się po roku</a></h3><div class="article__text"></div><a class="article__more_link" href="/pl/blog/zielona-oliwka-kolor-ktory-nie-nudzi-sie-po-roku-1790674848" tabindex="-1" title="Zielona oliwka - kolor, który nie nudzi się po roku"><span class="link__text">Czytaj więcej</span><i class="idm_icon icon-angle-right"></i></a></div></article></div><div class="swiper-button-prev --rounded"><i class="icon-angle-left"></i></div><div class="swiper-button-next --rounded"><i class="icon-angle-right"></i></div></div></section><section id="main_hotspot_zone2" class="hotspot__wrapper" data-pageType="main" data-zone="2"><div class="hotspot skeleton"><span class="headline"></span><div class="products__wrapper"><div class="products"><div class="product"><span class="product__icon d-flex justify-content-center align-items-center"></span><span class="product__name"></span><div class="product__prices"></div></div><div class="product"><span class="product__icon d-flex justify-content-center align-items-center"></span><span class="product__name"></span><div class="product__prices"></div></div><div class="product"><span class="product__icon d-flex justify-content-center align-items-center"></span><span class="product__name"></span><div class="product__prices"></div></div><div class="product"><span class="product__icon d-flex justify-content-center align-items-center"></span><span class="product__name"></span><div class="product__prices"></div></div></div></div></div><template class="hotspot_wrapper"><div class="hotspot"><h3 class="hotspot__name headline__wrapper"></h3><div class="products__wrapper swiper"><div class="products hotspot__products swiper-wrapper"></div></div><div class="swiper-button-prev --rounded --edge"><i class="icon-angle-left"></i></div><div class="swiper-button-next --rounded --edge"><i class="icon-angle-right"></i></div><div class="swiper-pagination"></div></div></template><template class="hotspot_headline"><span class="headline"><span class="headline__name"></span></span></template><template class="hotspot_link_headline"><a class="headline" tabindex="0"><span class="headline__name"></span></a><a class="headline__after"><span class="link__text">Zobacz wszystko</span><i class="icon icon-ds-arrow-right pl-1"></i></a></template><template class="hotspot_product"><div class="product hotspot__product swiper-slide d-flex flex-column"><div class="product__yousave --hidden"><span class="product__yousave --label"></span><span class="product__yousave --value"></span></div><a class="product__icon d-flex justify-content-center align-items-center" tabindex="-1"><strong class="label_icons --hidden"></strong></a><div class="product__content_wrapper"><a class="product__name" tabindex="0"></a><div class="product__prices mb-auto"><strong class="price --normal --main"><span class="price__sub --hidden"></span><span class="price__range --min --hidden"></span><span class="price__sep --hidden"></span><span class="price__range --max --hidden"></span><span class="price_vat"></span><span class="price_sellby"><span class="price_sellby__sep --hidden"></span><span class="price_sellby__sellby --hidden"></span><span class="price_sellby__unit --hidden"></span></span><span class="price --second --hidden"><span class="price_sellby --second"><span class="price_sellby__sep --hidden"></span><span class="price_sellby__sellby --hidden"></span><span class="price_sellby__unit --hidden"></span></span></span><span class="price --convert --hidden"></span></strong><span class="price --points --hidden"></span><a class="price --phone --hidden" href="/contact.php" tabindex="-1" title="Kliknij, by przejść do formularza kontaktu">
+            Cena na telefon
+          </a><span class="price --before-rebate --hidden"></span><span class="price --new-price new_price --hidden"></span><span class="price --omnibus omnibus_price --hidden"></span><span class="price --max --hidden"></span><span class="price --deposit deposit_price --hidden"><span class="deposit_price__label">+ kaucja</span><strong class="deposit_price__value"></strong></span></div></div></div></template><template class="hotspot_opinion"><div class="product__opinion"><div class="opinions_element_confirmed --false"><strong class="opinions_element_confirmed_text">Niepotwierdzona zakupem</strong></div><div class="product__opinion_client --hidden"></div><div class="note"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span><small>
+					Ocena: <small class="note_value"></small>/5
+				</small></div><div class="product__opinion_content"></div></div></template></section><div class="section" id="main_cms"><div class="_ae_desc"><style>
+            :root {
+            --long-description-width: 50%;
+            --long-description-padding-section: 10px;
+            }
+
+            @media (max-width: 756px) {
+                :root {
+                --long-description-width: 100%;
+                --long-description-padding-section: 0;
+                }
+            }
+            ._ae_desc p{
+                margin:16px 0;
+            }
+            ._ae_desc table{
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+            ._ae_desc td,._ae_desc table{
+                padding: 4px;
+            }
+        </style><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p> </p>
+<h1>Polski producent nowoczesnych lamp, klinkietów i żyrandoli</h1>
+<p style="text-align: justify;"><span>Sollux to polski producent lamp, oferujący rozwiązania praktyczne i efektowne pod względem wizualnym. W skład naszej oferty wchodzą lampy wiszące i podłogowe, żyrandole i inne, które wykonywane są z wysokiej jakości materiałów, a także w oparciu o sprawdzone technologie. Przygotowaliśmy katalog bogaty w różnorodność, w którym znajdziecie Państwo produkty dostosowane do własnych gustów i różnych aranżacji wnętrz. Funkcjonalna kwadratowa lub okrągła lampa sufitowa Loopez? A może elegancki kinkiet Orbis? U nas znajdziecie to, czego poszukujecie!</span></p></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p style="text-align: justify;"><strong><a href="https://sollux.pl/pl/menu/kinkiety-152">Kinkiety</a></strong></p>
+<p style="text-align: justify;"><span>Praktyczne kinkiety od lat należą do ulubionych elementów oświetleniowych naszych klientów. Służą m.in. do eleganckiego podkreślenia barwy ścian wewnątrz mieszkania, jak również stylowego uzupełnienia przestrzeni, w której znajdują się rozmaite meble i ciekawe dekoracje. Nasze kinkiety to funkcjonalne i nowoczesne lampy, wyróżniające się bardzo solidną konstrukcją.</span></p>
+<style></style></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p style="text-align: justify;"><strong><a href="/pl/categories/lampy-podlogowe-1214553884.html">Lampy podłogowe</a></strong></p>
+<p style="text-align: justify;"><span>Polecamy Państwu lampy podłogowe nowoczesne i klasyczne. Są to elementy będące funkcjonalną dekoracją, które mają za zadanie podkreślić unikalny charakter konkretnego wnętrza. Prezentujemy Państwu modele, które charakteryzują się fantazyjną i praktyczna konstrukcją. To produkty, które z pewnością wprowadzą nową jakość i świeżość do każdego mieszkania.</span></p></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p style="text-align: justify;"><strong><a href="https://sollux.pl/pl/menu/lampy-wiszace-158">Lampy wiszące</a></strong></p>
+<p style="text-align: justify;"><span>W tej kategorii znajdują się przepiękne lampy wiszące nowoczesne oraz klasyczne. Każdą z nich można dopasować do wnętrza swojego domu i zadbać, aby doskonale uzupełniały się z obecnymi w danej przestrzeni meblami czy dekoracjami.</span></p>
+<style></style></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p style="text-align: justify;"><strong><a href="https://sollux.pl/plafony">Plafony</a></strong></p>
+<p style="text-align: justify;"><span>W ofercie firmy Sollux znajdą Państwo profesjonalne plafony, które zostały podzielone na dwie kategorie. W pierwszej z nich znajdują się lampy klasyczne, z efektownymi wzorami i dekoracjami, stylizowane na czasy, które już minęły. Druga kategoria to natomiast plafony nowoczesne, wyróżniające się surowym minimalizmem i efektownym designem, rodem z ekskluzywnych żurnali.</span></p></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p style="text-align: justify;"><strong><a href="/pl/menu/lampy-do-pokoju-dzieciecego-166">Lampy dziecięce</a></strong></p>
+<p style="text-align: justify;"><span>Unikalne, kolorowe i zabawne lampy dziecięce to propozycja zarówno dla najmłodszych, jak i ich rodziców, którzy chcą swoim pociechom zapewnić najwspanialszą dekorację pokoju, wprowadzając do niego bajkowy klimat, pełen radości i pozytywnej energii. Oferowane przez nas lampy dziecięce to najwyższa jakość wykonania, estetyczne zestawienie barw i wykorzystanie bezpiecznych materiałów.</span></p>
+<style></style></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p><strong><a href="https://sollux.pl/pl/menu/zyrandole-155">Żyrandole</a></strong></p>
+<p style="text-align: justify;"><span>Eleganckie i stylowe żyrandole to najwyższa jakość wykonania. Jesteśmy przekonani, że ich unikalny styl i charakter pozwolą na interesujące zaaranżowanie różnego rodzaju pomieszczeń, takich jak salony czy sypialnie. Dbamy o to, aby nasza oferta była jak najbardziej rozbudowana i atrakcyjna dla wszystkich klientów, którzy poszukują najciekawszych rozwiązań do wyposażenia swojego mieszkania.</span></p>
+<p style="text-align: justify;"> </p>
+<style></style></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p><strong>Lampy do funkcjonalnego i stylowego salonu</strong></p>
+<p>Wybierz do swojego wnętrza <a href="https://sollux.pl/pl/menu/lampy-do-salonu-161" title="Lampy do salonu">lampy do salonu</a>, które pozwolą z niego korzystać niezależnie od pory dnia i ilości naturalnego światła docierającego z zewnątrz. Znajdziesz u nas modele wiszące, kinkiety, żyrandole, plafony. Proponujemy szeroki wybór wariant klasycznych, minimalistycznych, ale też zdobionych. Na pewno znajdziesz wśród nich idealną opcję do swojej aranżacji.</p>
+<style></style></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p><strong>Lampy do Twojej jadalni, dzięki którym stworzysz pomieszczenie idealne na rodzinne spotkania i obiady</strong></p>
+<p>Stół w jadalni, podobnie jak całe jej wnętrze, powinny być dobrze doświetlone. Oferowane u nas <a href="https://sollux.pl/pl/menu/lampy-do-jadalni-162" title="Lampy do jadalni">lampy do jadalni</a> dostarczają precyzyjnego światła. To jednak nie wszystko, bo także doskonale się prezentują, tworząc estetyczną aranżację. Znajdziesz u nas m.in. kinkiety, lampy wiszące (w tym te kolorowe), plafony o różnych kształtach i wiele innych propozycji wartych zainteresowania, które wpiszą się w jadalnie glamour, klasyczne, nowoczesne, w stylu Hampton i wielu innych.</p>
+<style></style></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p><strong>Lampy do kuchni: estetyczne, nowoczesne, klasyczne — na miarę Twoich potrzeb</strong></p>
+<p>Kuchnia musi być dobrze oświetlona, aby można było w niej przygotowywać potrawy. Nasze <a href="https://sollux.pl/pl/menu/lampy-do-kuchni-163" title="Lampy do kuchni">lampy do kuchni</a> pozwolą stworzyć w tym pomieszczeniu idealne warunki do pracy — krojenia, gotowania, doprawiania, ale też spędzania czasu z rodziną przy śniadaniu czy z przyjaciółmi w czasie imprezy. Dobrze doświetlą każdy kąt, a przy tym będą łatwe w utrzymaniu w czystości, co ma ogromne znaczenie w pomieszczeniu, gdzie panują tak specyficzne warunki.</p>
+<style></style></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p><strong>Lampy do przytulnej sypialni, w której naprawdę odpoczniesz</strong></p>
+<p>Oświetlenie do sypialni powinno umożliwiać sterowanie ilością światła. Musi też wpisywać się w styl wnętrza. W naszej ofercie znajdziesz <a href="https://sollux.pl/pl/menu/lampy-do-sypialni-164" title="Lampy do sypialni">lampy do sypialni</a>, dzięki którym nadasz pomieszczeniu przytulnego charakteru oraz sprawisz, że będzie bardzo funkcjonalne. Możesz zdecydować się na oświetlenie boczne (kinkiety) oraz centralne (lampy wiszące, żyrandole, plafony). Oferujemy opcje w jasnych i ciemnych, a także żywych kolorach. Możesz je dopasować do własnej wizji aranżacyjnej.</p>
+<style></style></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p><strong>Lampy do korytarza zaaranżowanego w każdym stylu</strong></p>
+<p>Korytarz jest pomieszczeniem przejściowym w domu, któremu często nie poświęca się zbyt wiele uwagi. To błąd! Odpowiada ono za komunikację pomiędzy pomieszczeniami. Musi być więc dobrze oświetlone — zwłaszcza że często na korytarzu nie ma okien. Oferujemy <a href="https://sollux.pl/pl/menu/lampy-do-korytarza-184" title="Lampy do korytarza">lampy do korytarza</a>, które zrekompensują ich brak. Możesz zdecydować się na zestaw regularnie rozmieszczonych plafonów, lamp wiszących czy kinkietów, aby dopasować ich ilość do wielkości pomieszczenia i indywidualnych wymagań.</p>
+<style></style></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p><strong>Lampy do przedpokoju — wizytówki Twojego domu</strong></p>
+<p>Przedpokój to wizytówka domu. To w nim witasz gości, kuriera, listonosza. To w nim przygotowujesz się też do wyjścia. Wybierz dobrej jakości <a href="https://sollux.pl/pl/menu/lampy-do-przedpokoju-165" title="Lampy do przedpokoju">lampy do przedpokoju</a>, aby korzystanie z tego często niewielkiego i ciemnego pomieszczenia było komfortowe. Znajdziesz u nas modele typu plafon (idealne do niskich wnętrz), kinkiety czy np. lampy wiszące (świetne do wysokich pomieszczeń).</p>
+<style></style></div><div style="margin-bottom: 20px;line-height:1.5;font-size:14px;"><p><strong>Lampy do pokoju dziecięcego — precyzyjne oświetlenie, które świetnie komponuje się ze stylem wnętrz najmłodszych</strong></p>
+<p>Pokój dziecięcy jest miejscem, w którym odkrywa się świat, bawi, uczy, rozwija nowe umiejętności. Aby to wszystko było możliwe, wnętrze musi być dobrze doświetlone. Sięgnij po <a href="https://sollux.pl/pl/menu/lampy-do-pokoju-dzieciecego-166" title="Lampy do pokoju dziecięcego">lampy do pokoju dziecięcego</a>, które oferujemy. Z nimi stworzysz nie tylko funkcjonalną aranżację, ale też taką, która będzie spójna z otoczeniem, w jakim dzieci dobrze się czują.</p>
+<style></style></div></div></div></main></div></div><footer class="max-width-1200"><div class="klaviyo-form-Rai2vV"></div><nav id="footer_links" data-stretch-columns="true" aria-label="Menu z linkami w stopce"><div class="footer_links__social"><div class="footer_links__social_logo" data-bg="/data/gfx/mask/pol/top_1_big.svg"><a href="/" target="_self" aria-label="Logo sklepu"><img src="/data/gfx/mask/pol/logo_1_big.svg" alt="Sollux" width="5316" height="725"></a></div><ul class="footer_links__social_list"><li class="footer_links__social_item"><a class="footer_links__social_item_link" href="https://www.facebook.com/solluxlighting1/"><img class="footer_links__social_item_gfx" src="/data/gfx/pol/navigation/1_4_i_3083.webp" alt="Facebook"></a></li><li class="footer_links__social_item"><a class="footer_links__social_item_link" href="https://www.instagram.com/sollux_lighting/"><img class="footer_links__social_item_gfx" src="/data/gfx/pol/navigation/1_4_i_3084.webp" alt="Instagram"></a></li><li class="footer_links__social_item"><a class="footer_links__social_item_link" href="https://www.instagram.com/sollux_lighting/"><img class="footer_links__social_item_gfx" src="/data/gfx/pol/navigation/1_4_i_3085.webp" alt="TikTok"></a></li><li class="footer_links__social_item"><a class="footer_links__social_item_link" href="https://www.youtube.com/@solluxlighting6441"><img class="footer_links__social_item_gfx" src="/data/gfx/pol/navigation/1_4_i_3086.webp" alt="Youtube"></a></li></ul></div><ul id="menu_orders" class="footer_links"><li><a id="menu_orders_header" class="footer_tab__header footer_links_label" aria-controls="menu_orders_content" aria-expanded="true" href="https://sollux.pl/pl/client-orders.html" aria-label="Nagłówek stopki: Zamówienia">
+					Zamówienia
+				</a><ul id="menu_orders_content" class="footer_links_sub" aria-hidden="false" aria-labelledby="menu_orders_header"><li id="order_status" class="menu_orders_item"><a href="https://sollux.pl/pl/order-open.html" aria-label="Element stopki: Status zamówienia">
+							Status zamówienia
+						</a></li><li id="order_status2" class="menu_orders_item"><a href="https://sollux.pl/pl/order-open.html" aria-label="Element stopki: Śledzenie przesyłki">
+							Śledzenie przesyłki
+						</a></li><li id="order_rma" class="menu_orders_item"><a href="https://sollux.pl/pl/rma-open.html" aria-label="Element stopki: Chcę zareklamować produkt">
+							Chcę zareklamować produkt
+						</a></li><li id="order_returns" class="menu_orders_item"><a href="https://sollux.pl/pl/returns-open.html" aria-label="Element stopki: Chcę odstąpić od umowy">
+							Chcę odstąpić od umowy
+						</a></li><li id="order_exchange" class="menu_orders_item"><a href="/pl/client-orders.html?display=returns&amp;exchange=true" aria-label="Element stopki: Chcę wymienić towar">
+							Chcę wymienić towar
+						</a></li><li id="order_contact" class="menu_orders_item"><a href="/pl/contact" aria-label="Element stopki: Kontakt">
+							Kontakt
+						</a></li></ul></li></ul><ul id="menu_account" class="footer_links"><li><a id="menu_account_header" class="footer_tab__header footer_links_label" aria-controls="menu_account_content" aria-expanded="false" href="https://sollux.pl/pl/login.html" aria-label="Nagłówek stopki: Konto">
+					Konto
+				</a><ul id="menu_account_content" class="footer_links_sub" aria-hidden="true" aria-labelledby="menu_account_header"><li id="account_register_retail" class="menu_account_item"><a href="https://sollux.pl/pl/client-new.html?register" aria-label="Element stopki: Zarejestruj się">
+										Zarejestruj się
+									</a></li><li id="account_basket" class="menu_account_item"><a href="https://sollux.pl/pl/basketedit.html" aria-label="Element stopki: Koszyk">
+							Koszyk
+						</a></li><li id="account_observed" class="menu_account_item"><a href="https://sollux.pl/pl/shoppinglist" aria-label="Element stopki: Listy zakupowe">
+							Listy zakupowe
+						</a></li><li id="account_boughts" class="menu_account_item"><a href="https://sollux.pl/pl/products-bought.html" aria-label="Element stopki: Lista zakupionych produktów">
+							Lista zakupionych produktów
+						</a></li><li id="account_history" class="menu_account_item"><a href="https://sollux.pl/pl/client-orders.html" aria-label="Element stopki: Historia transakcji">
+							Historia transakcji
+						</a></li><li id="account_rebates" class="menu_account_item"><a href="https://sollux.pl/pl/client-rebate.html" aria-label="Element stopki: Moje rabaty">
+							Moje rabaty
+						</a></li><li id="account_newsletter" class="menu_account_item"><a href="https://sollux.pl/pl/newsletter.html" aria-label="Element stopki: Newsletter">
+							Newsletter
+						</a></li></ul></li></ul><ul id="menu_regulations" class="footer_links"><li><a id="menu_regulations_header" class="footer_tab__header footer_links_label" aria-controls="menu_regulations_content" aria-expanded="false" href="#menu_regulations_content" aria-label="Nagłówek stopki: Regulaminy">
+						Regulaminy
+					</a><ul id="menu_regulations_content" class="footer_links_sub" aria-hidden="true" aria-labelledby="menu_regulations_header"><li class="menu_regulations_item"><a href="/pl/delivery" aria-label="Element stopki: Wysyłka">
+									Wysyłka
+								</a></li><li class="menu_regulations_item"><a href="/pl/payments" aria-label="Element stopki: Sposoby płatności">
+									Sposoby płatności
+								</a></li><li class="menu_regulations_item"><a href="/pl/terms" aria-label="Element stopki: Regulamin sklepu">
+									Regulamin sklepu
+								</a></li><li class="menu_regulations_item"><a href="/pl/privacy-and-cookie-notice" aria-label="Element stopki: Polityka prywatności">
+									Polityka prywatności
+								</a></li><li class="menu_regulations_item"><a href="/pl/returns-and_replacements" aria-label="Element stopki: Odstąpienie od umowy">
+									Odstąpienie od umowy
+								</a></li></ul></li></ul><ul id="links_footer_1" class="footer_links"><li><a id="links_footer_1_header" href="#links_footer_1_content" target="" title="Informacje" class="footer_tab__header footer_links_label" data-gfx-enabled="false" data-hide-arrow="false" aria-controls="links_footer_1_content" aria-expanded="false"><span>Informacje</span></a><ul id="links_footer_1_content" class="footer_links_sub" aria-hidden="true" aria-labelledby="links_footer_1_header"><li class="links_footer_1_item"><a href="https://sollux.pl/pl/info/faq-39" target="_self" title="FAQ" data-gfx-enabled="false"><span>FAQ</span></a></li><li class="links_footer_1_item"><a href="https://sollux.pl/pl/terms/gwarancja-38.html" target="_self" title="Gwarancja" data-gfx-enabled="false"><span>Gwarancja</span></a></li><li class="links_footer_1_item"><a href="/pl/contact" target="_self" title="Kontakt" data-gfx-enabled="false"><span>Kontakt</span></a></li><li class="links_footer_1_item"><a href="https://sollux.pl/konfigurator" target="_self" title="Konfigurator 3D" data-gfx-enabled="false"><span>Konfigurator 3D</span></a></li><li class="links_footer_1_item"><a href="https://sollux-lighting.com/wspolpraca/klub-architekta/" target="_self" title="Dla Architekta" data-gfx-enabled="false"><span>Dla Architekta</span></a></li><li class="links_footer_1_item"><a href="https://sollux.cloud.arlity.com/architect_zone/product?" target="_self" title="Modele 3D" data-gfx-enabled="false"><span>Modele 3D</span></a></li><li class="links_footer_1_item"><a href="https://sollux-lighting.com/pl/" target="_self" title="Dystrybucja" data-gfx-enabled="false"><span>Dystrybucja</span></a></li><li class="links_footer_1_item"><span title="Social media" data-gfx-enabled="false"><span>Social media</span></span></li></ul></li></ul></nav><section id="menu_banners2" class="container"><div class="menu_button_wrapper"><div class="partners">
+    <h2 class="partners__title">Nagrody</h2>
+
+    <div class="partners__list">
+        <div class="partners__item">
+            <a href="https://wizytowka.rzetelnafirma.pl/G73B85UV">
+                <img class="partners__item_logo"
+                     src="/data/include/cms/bannery/StopkaPartnerzy/Dg_icon.jpg"
+                     alt="rzetelnafirma"
+                     title="rzetelnafirma"
+                     loading="lazy">
+            </a>
+        </div>
+
+        <div class="partners__item">
+            <img class="partners__item_logo"
+                 src="/data/include/cms/bannery/StopkaPartnerzy/e-gazele-biznesu-2021.jpg"
+                 alt="e-gazele-biznesu"
+                 loading="lazy">
+        </div>
+
+        <div class="partners__item">
+            <a href="https://www.solidnafirma.pl/sollux-lighting-muzolf-sp-j-budzyn/">
+                <img class="partners__item_logo"
+                     src="/data/include/cms/bannery/StopkaPartnerzy/solidna-firma-2021.jpg"
+                     alt="solidna-firma"
+                     title="solidna-firma"
+                     loading="lazy">
+            </a>
+        </div>
+
+        <div class="partners__item">
+            <img class="partners__item_logo"
+                 src="/data/include/cms/bannery/StopkaPartnerzy/orly-oswietlenia.jpg"
+                 alt="orly-oswietlenia"
+                 loading="lazy">
+        </div>
+
+        <div class="partners__item">
+            <img class="partners__item_logo"
+                 src="/data/include/cms/bannery/StopkaPartnerzy/polska-gwarancja-jakosci.jpg"
+                 alt="polska-gwarancja-jakosci"
+                 loading="lazy">
+        </div>
+
+        <div class="partners__item">
+            <img class="partners__item_logo"
+                 src="/data/include/cms/bannery/StopkaPartnerzy/firma-godna-zaufania.jpg"
+                 alt="firma-godna-zaufania"
+                 loading="lazy">
+        </div>
+    </div>
+</div></div><div class="menu_button_wrapper"><div class="payments_delivery">
+    <h2 class="payments_delivery__title">Płatności i dostawa</h2>
+
+    <div class="payments_delivery__list">
+        <div class="payments_delivery__item">
+            <img class="payments_delivery__item_logo" src="/data/include/cms/bannery/platnoscidostawa/visa.png" alt="visa" loading="lazy" decoding="async">
+        </div>
+
+        <div class="payments_delivery__item">
+            <img class="payments_delivery__item_logo" src="/data/include/cms/bannery/platnoscidostawa/master.png" alt="master" loading="lazy" decoding="async">
+        </div>
+
+        <div class="payments_delivery__item">
+            <img class="payments_delivery__item_logo" src="/data/include/cms/bannery/platnoscidostawa/payu.png" alt="payu" loading="lazy" decoding="async">
+        </div>
+
+        <div class="payments_delivery__item">
+            <img class="payments_delivery__item_logo" src="/data/include/cms/bannery/platnoscidostawa/paypal.png" alt="paypal" loading="lazy" decoding="async">
+        </div>
+
+        <div class="payments_delivery__item">
+            <img class="payments_delivery__item_logo" src="/data/include/cms/bannery/platnoscidostawa/inpost.png" alt="inpost" loading="lazy" decoding="async">
+        </div>
+
+        <div class="payments_delivery__item">
+            <img class="payments_delivery__item_logo" src="/data/include/cms/bannery/platnoscidostawa/dpd.png" alt="dpd" loading="lazy" decoding="async">
+        </div>
+
+        <div class="payments_delivery__item">
+            <img class="payments_delivery__item_logo" src="/data/include/cms/bannery/platnoscidostawa/paczka.png" alt="paczka" loading="lazy" decoding="async">
+        </div>
+
+        <div class="payments_delivery__item">
+            <img class="payments_delivery__item_logo" src="/data/include/cms/bannery/platnoscidostawa/dhl.png" alt="dhl" loading="lazy" decoding="async">
+        </div>
+
+        <div class="payments_delivery__item">
+            <img class="payments_delivery__item_logo" src="/data/include/cms/bannery/platnoscidostawa/gls.png" alt="gls" loading="lazy" decoding="async">
+        </div>
+
+        <div class="payments_delivery__item">
+            <img class="payments_delivery__item_logo" src="/data/include/cms/bannery/platnoscidostawa/pocztaPolska.png" alt="pocztapolska" loading="lazy" decoding="async">
+        </div>
+    </div>
+</div></div><div class="menu_button_wrapper --custom"><div class="locales"><h2 class="locales__title">Nasze sklepy</h2><div class="locales__list"><a class="locales__item" href="https://sollux-lampen.de/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_1126_20937)"><path d="M11.0299 0H12.9476C13.186 0.0880348 13.6137 0.0956887 13.8825 0.139439C14.4124 0.22934 14.9364 0.351216 15.4516 0.504401C18.6348 1.46513 21.2789 3.69942 22.7574 6.67762C22.9593 7.08649 23.0796 7.40714 23.2521 7.81207C23.5376 8.45588 23.7155 9.21553 23.8455 9.90727C23.8985 10.1879 23.9234 10.8945 24 11.0733V12.9281C23.9203 13.1752 23.928 13.5369 23.8908 13.8004C23.7734 14.6335 23.5416 15.3932 23.2764 16.1896C23.1663 16.3981 23.0951 16.6363 22.999 16.8517C22.8408 17.2064 22.6566 17.5985 22.4619 17.9337C20.9462 20.576 18.4923 22.5517 15.5874 23.4687C14.8652 23.6913 14.1588 23.857 13.4059 23.9355C13.296 23.9468 13.1915 23.9573 13.0888 24H10.9295C10.7705 23.9295 10.1728 23.8753 9.94936 23.8355C8.69285 23.6114 7.45877 23.1968 6.33063 22.5943C4.34358 21.5194 2.69243 19.916 1.55966 17.9614C1.20138 17.3316 1.0092 16.8397 0.72858 16.1965C0.495935 15.6167 0.279049 14.734 0.160471 14.1101C0.102909 13.8073 0.0823315 13.2433 0 12.9805V11.0243C0.0655132 10.8514 0.0679713 10.4547 0.106106 10.2436C0.229134 9.56248 0.448106 8.43452 0.738462 7.8247C0.844554 7.52402 1.04415 7.08633 1.18409 6.79484C2.64007 3.75755 5.30873 1.47456 8.53481 0.506388C9.04437 0.354945 9.56266 0.234724 10.0869 0.146395C10.3321 0.106052 10.8185 0.0812393 11.0299 0Z" fill="#D80026"></path><path d="M0.728638 16.1966C0.953563 16.1252 4.24531 16.1728 4.69081 16.1729L17.4322 16.173L21.3385 16.1725C21.7582 16.1719 22.9065 16.1424 23.2765 16.1898C23.1663 16.3983 23.0952 16.6364 22.999 16.8519C22.8408 17.2065 22.6566 17.5986 22.4619 17.9338C20.9462 20.5761 18.4923 22.5518 15.5875 23.4688C14.8652 23.6914 14.1588 23.8571 13.406 23.9357C13.296 23.9469 13.1916 23.9575 13.0889 24.0001H10.9295C10.7706 23.9296 10.1729 23.8754 9.94942 23.8356C8.69291 23.6115 7.45883 23.1969 6.33069 22.5944C4.34363 21.5195 2.69249 19.9162 1.55972 17.9616C1.20144 17.3317 1.00926 16.8398 0.728638 16.1966Z" fill="#FEDA45"></path><path d="M11.0298 0H12.9475C13.186 0.0880348 13.6137 0.0956887 13.8824 0.139439C14.4124 0.22934 14.9364 0.351216 15.4515 0.504401C18.6347 1.46513 21.2789 3.69942 22.7573 6.67762C22.9593 7.08649 23.0795 7.40714 23.2521 7.81207C22.9583 7.83954 22.5623 7.82993 22.26 7.82988L20.673 7.82869L15.6329 7.82864L0.738403 7.8247C0.844496 7.52402 1.04409 7.08633 1.18403 6.79484C2.64001 3.75755 5.30868 1.47456 8.53475 0.506388C9.04431 0.354945 9.56261 0.234724 10.0868 0.146395C10.3321 0.106052 10.8185 0.0812393 11.0298 0Z" fill="black"></path></g><defs><clipPath id="clip0_1126_20937"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg></a><a class="locales__item" href="https://sollux-lamparas.es/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_1126_20963)"><path d="M11.0177 0H13.0008C13.1385 0.0809815 13.6133 0.0834035 13.8111 0.115694C14.4202 0.209545 15.0211 0.350053 15.6087 0.535976C18.4951 1.44671 20.9349 3.40688 22.4461 6.02923C22.8127 6.66879 23.0047 7.15777 23.2696 7.82269C23.5957 8.63763 23.7905 9.49181 23.9079 10.3564C23.9327 10.5402 23.9231 10.8914 24 11.0453V12.9969C23.9313 13.1459 23.9086 13.6244 23.8784 13.8275C23.8378 14.1007 23.7961 14.3505 23.7417 14.6231C23.6325 15.1701 23.4347 15.66 23.2748 16.1811C23.0098 16.8235 22.8017 17.3153 22.4569 17.9361C21.2455 20.1169 19.0659 22.0905 16.7521 23.0498C15.9631 23.3845 15.1418 23.6372 14.3012 23.8041C14.0637 23.8491 13.1887 23.9573 13.0726 24H10.9539C10.7941 23.9407 9.98798 23.8502 9.74398 23.8036C8.84027 23.6262 7.95902 23.3493 7.11637 22.9778C4.12202 21.6698 1.90786 19.2115 0.728754 16.1887C0.488288 15.6203 0.255588 14.5995 0.144747 13.9717C0.0998133 13.7172 0.0712491 13.1374 0 12.9322V11.0666C0.0713663 10.873 0.0779578 10.3881 0.119556 10.1488C0.239637 9.45811 0.453234 8.44631 0.727868 7.8131C1.07661 6.94748 1.43751 6.17447 1.95515 5.39215C3.45858 3.11995 5.7649 1.32517 8.37937 0.541448C8.96044 0.362477 9.55308 0.223549 10.1531 0.125641C10.3628 0.0930042 10.874 0.0842571 11.0177 0Z" fill="#FFDB45"></path><path d="M11.0178 0H13.0008C13.1386 0.0809815 13.6134 0.0834035 13.8111 0.115694C14.4202 0.209545 15.0212 0.350053 15.6087 0.535976C18.4951 1.44671 20.9349 3.40688 22.4462 6.02923C22.8128 6.66879 23.0047 7.15777 23.2696 7.82269C22.7537 7.83879 22.1538 7.82487 21.631 7.82487L18.4424 7.82475L8.85449 7.82407L3.30191 7.82372L1.66613 7.82599C1.40704 7.82653 0.968658 7.83966 0.727905 7.8131C1.07664 6.94748 1.43755 6.17447 1.95519 5.39215C3.45862 3.11995 5.76494 1.32517 8.37941 0.541448C8.96047 0.362477 9.55311 0.223549 10.1532 0.125641C10.3629 0.0930042 10.8741 0.0842571 11.0178 0Z" fill="#D80026"></path><path d="M0.72876 16.1886C0.950518 16.161 1.34531 16.1724 1.58171 16.1727L3.07615 16.1748L8.18007 16.1748L18.0366 16.1745C19.7537 16.1744 21.5651 16.1439 23.2748 16.181C23.0098 16.8234 22.8017 17.3151 22.4569 17.936C21.2455 20.1168 19.0659 22.0904 16.7521 23.0497C15.9631 23.3844 15.1418 23.6371 14.3012 23.8039C14.0637 23.8489 13.1887 23.9572 13.0726 23.9999H10.9539C10.7941 23.9406 9.98799 23.8501 9.74398 23.8035C8.84028 23.6261 7.95903 23.3492 7.11638 22.9777C4.12203 21.6697 1.90787 19.2114 0.72876 16.1886Z" fill="#D80026"></path></g><defs><clipPath id="clip0_1126_20963"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg></a><a class="locales__item" href="https://sollux-lampi.ro/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_1126_20968)"><path d="M11.0682 0H12.9258C13.153 0.0903091 13.5795 0.0712181 13.8388 0.11573C14.6487 0.254752 15.3977 0.440827 16.1701 0.727788C16.7512 0.953995 17.3352 1.20386 17.8807 1.50909C20.1741 2.80577 21.9848 4.81158 23.0409 7.22519C23.4466 8.15095 23.7848 9.2952 23.8957 10.3013C23.9135 10.4639 23.9323 10.9234 24 11.0479V12.9476C23.9175 13.1702 23.9264 13.5718 23.8887 13.8193C23.802 14.3632 23.6803 14.9011 23.5252 15.4296C22.7215 18.1188 21.0049 20.4435 18.6713 22.0031C18.0614 22.4098 16.8952 23.0597 16.189 23.2692C15.4518 23.5155 14.738 23.7408 13.9672 23.8582C13.8036 23.8833 13.2006 23.9442 13.0897 24H10.9313C10.7603 23.9304 10.2975 23.8922 10.0842 23.8559C9.46078 23.7497 8.36672 23.5151 7.81064 23.2431L7.75017 23.2287C7.4127 23.1086 7.13093 22.9865 6.80693 22.8322C3.75771 21.3753 1.46618 18.6977 0.497791 15.4601C0.315478 14.8469 0.164977 14.2335 0.0980941 13.5961C0.0796322 13.4201 0.0595048 13.0608 0 12.9093V11.0947C0.0448216 10.986 0.0496641 10.8517 0.0599885 10.7343C0.169396 9.48933 0.513434 8.25103 1.01915 7.10716C2.3183 4.19426 4.72284 1.91778 7.70245 0.779857L7.81861 0.738059C8.56179 0.419538 9.42727 0.245813 10.2217 0.113371C10.4757 0.0710266 10.8601 0.0878648 11.0682 0Z" fill="#FFDB45"></path><path d="M16.1702 0.727783C16.7512 0.95399 17.3352 1.20385 17.8807 1.50908C20.1741 2.80577 21.9848 4.81157 23.0409 7.22519C23.4467 8.15095 23.7849 9.29519 23.8957 10.3013C23.9135 10.4639 23.9323 10.9234 24 11.0479V12.9476C23.9175 13.1702 23.9264 13.5718 23.8887 13.8193C23.802 14.3632 23.6803 14.9011 23.5252 15.4296C22.7215 18.1188 21.0049 20.4435 18.6713 22.0031C18.0615 22.4098 16.8953 23.0597 16.1891 23.2692C16.1641 23.0853 16.1724 22.6909 16.1723 22.4936L16.1729 21.1683L16.173 16.6697L16.1702 0.727783Z" fill="#D80026"></path><path d="M7.70245 0.779836L7.81861 0.738037C7.84186 1.25009 7.82644 1.8783 7.82634 2.39965L7.82616 5.38812L7.82571 14.4788L7.82585 20.3465L7.82656 22.1819C7.82651 22.4711 7.8386 22.9654 7.81064 23.243L7.75017 23.2287C7.4127 23.1086 7.13093 22.9865 6.80693 22.8321C3.75771 21.3753 1.46618 18.6977 0.497791 15.4601C0.315478 14.8469 0.164977 14.2335 0.0980941 13.5961C0.0796322 13.4201 0.0595048 13.0608 0 12.9093V11.0946C0.0448216 10.986 0.0496641 10.8517 0.0599885 10.7342C0.169396 9.48931 0.513434 8.25101 1.01915 7.10714C2.3183 4.19424 4.72284 1.91776 7.70245 0.779836Z" fill="#0053B4"></path></g><defs><clipPath id="clip0_1126_20968"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg></a><a class="locales__item" href="https://sollux.fr/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_1126_20973)"><path d="M11.1147 0H12.8852C13.1176 0.082598 13.5232 0.0873511 13.7831 0.12258C14.5984 0.233111 15.4087 0.455337 16.1794 0.741068C19.0913 1.73892 21.4988 4.05781 22.8421 6.80297C23.3017 7.75308 23.6313 8.76075 23.8219 9.7988C23.8631 10.0285 23.958 10.876 24 11.0013V13.0057C23.9393 13.2562 23.9088 13.6341 23.8706 13.9002C23.8116 14.309 23.7265 14.7136 23.6159 15.1115C22.8187 18.0812 20.9126 20.6319 18.2906 22.2379C17.6253 22.6496 16.9202 22.9932 16.1861 23.2636C15.5502 23.4713 15.0521 23.633 14.3933 23.7757C14.1716 23.8237 13.1445 23.958 13.0495 24H10.9133C10.775 23.9463 9.90881 23.8223 9.69788 23.7823C9.05956 23.655 8.43188 23.4795 7.82027 23.2568C7.35949 23.1327 6.39143 22.6389 5.97518 22.3968C3.27553 20.8307 1.29097 18.2758 0.441323 15.2726C0.302955 14.7807 0.19383 14.2809 0.11452 13.7761C0.0771771 13.5328 0.0590909 13.1793 0 12.9562V11.0432C0.034028 10.9528 0.125147 10.1203 0.161739 9.92252C0.336968 8.93944 0.631259 7.98134 1.03811 7.06938C2.3606 4.13463 4.80455 1.85267 7.82297 0.734241C8.53577 0.448465 9.45701 0.25279 10.215 0.124063C10.4781 0.0793866 10.9066 0.0788325 11.1147 0Z" fill="#F0F0F0"></path><path d="M16.1794 0.740967C19.0914 1.73882 21.4989 4.0577 22.8422 6.80287C23.3018 7.75298 23.6314 8.76065 23.8219 9.7987C23.8632 10.0284 23.9581 10.8759 24 11.0012V13.0056C23.9393 13.2561 23.9089 13.634 23.8707 13.9001C23.8116 14.3089 23.7265 14.7135 23.6159 15.1114C22.8187 18.0811 20.9127 20.6318 18.2906 22.2378C17.6253 22.6495 16.9203 22.9931 16.1861 23.2635C16.1631 23.0192 16.1742 22.6233 16.1742 22.3661L16.1748 20.7936L16.1745 15.7275L16.174 6.09731L16.1794 0.740967Z" fill="#D80026"></path><path d="M7.82297 0.734131L7.82651 14.0515L7.82667 19.9854C7.82667 21.0611 7.84298 22.1857 7.82027 23.2567C7.35949 23.1326 6.39143 22.6388 5.97518 22.3967C3.27553 20.8306 1.29097 18.2757 0.441323 15.2725C0.302955 14.7806 0.19383 14.2808 0.11452 13.776C0.0771771 13.5327 0.0590909 13.1792 0 12.9561V11.0431C0.034028 10.9527 0.125147 10.1202 0.161739 9.92241C0.336968 8.93933 0.631259 7.98123 1.03811 7.06927C2.3606 4.13452 4.80455 1.85256 7.82297 0.734131Z" fill="#0053B4"></path></g><defs><clipPath id="clip0_1126_20973"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg></a><a class="locales__item" href="https://sollux-lamps.co.uk/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_1126_20943)"><path d="M10.9752 0H13.0417C13.2735 0.0781336 13.6305 0.0636853 13.7844 0.112319C14.1756 0.182973 14.6732 0.316795 15.0265 0.372867C16.4319 0.739357 17.7592 1.35752 18.9441 2.19739C19.0901 2.30094 19.4425 2.55244 19.5679 2.66723C19.8431 2.97825 20.4485 3.37387 20.7216 3.74215C20.9854 3.99654 21.5171 4.6068 21.7021 4.91442C21.9007 5.20584 22.4415 5.99341 22.5671 6.27487C22.9391 6.98754 23.4666 8.17369 23.6224 8.97103C23.7323 9.4227 23.7987 9.75391 23.8746 10.2142C23.9667 10.434 23.9196 10.81 24 11.0457V12.981C23.9276 13.2492 23.9454 13.573 23.8941 13.7878C23.8005 14.1838 23.7178 14.6238 23.6287 15.031C23.4914 15.587 22.9192 17.2381 22.5875 17.663C22.4051 18.0615 21.9481 18.7259 21.698 19.0875C21.547 19.3106 20.9201 20.1179 20.7199 20.2601C20.4503 20.5402 19.8989 21.0701 19.5929 21.2952C19.488 21.4207 19.2153 21.611 19.0742 21.7124C18.0582 22.4518 16.9326 23.0274 15.7384 23.4181C15.5768 23.472 15.1837 23.61 15.0371 23.6217C14.615 23.7234 14.1975 23.7961 13.7882 23.8934C13.5488 23.9208 13.3009 23.9395 13.0692 24H10.9086C10.7377 23.947 10.4073 23.9212 10.2012 23.8739C9.83747 23.8116 9.3267 23.7145 8.97049 23.6224C8.73696 23.5763 8.28977 23.4276 8.06131 23.3496C6.68552 22.8795 5.57456 22.2191 4.43098 21.3356C4.39345 21.2939 4.34693 21.2585 4.30479 21.2214C3.96038 20.9187 3.61854 20.6143 3.30473 20.2793C3.07784 20.0899 2.47795 19.3552 2.32185 19.1033C2.13912 18.8899 1.54897 17.9568 1.43801 17.7174C1.04917 17.0695 0.550289 15.7669 0.38238 15.0353C0.258797 14.5984 0.21317 14.222 0.117581 13.7907C0.0631777 13.5771 0.0744713 13.3035 0 13.0459V11.0207C0.0475922 10.8757 0.0707048 10.4243 0.10927 10.2145C0.18096 9.79823 0.265699 9.38428 0.363366 8.9733C0.674827 7.94147 0.937493 7.18547 1.46235 6.22952C1.57369 5.99805 2.15424 5.07741 2.30845 4.90088C2.4555 4.6413 3.08093 3.93738 3.30192 3.71986C3.56555 3.42113 4.17305 2.86739 4.48437 2.6359C4.58327 2.53425 5.01616 2.22376 5.14397 2.13369C6.37695 1.26472 7.54439 0.793113 8.97298 0.364451C9.34242 0.307104 9.77794 0.199575 10.1547 0.126189C10.401 0.0829608 10.7511 0.0681338 10.9752 0Z" fill="#C9112E"></path><path d="M13.7813 13.7811L19.8368 13.78C21.142 13.78 22.5997 13.7502 23.894 13.7878C23.8005 14.1838 23.7178 14.6238 23.6287 15.031C23.4914 15.587 22.9191 17.238 22.5874 17.663C22.4051 18.0615 21.9481 18.7258 21.6979 19.0874C21.5469 19.3106 20.92 20.1179 20.7199 20.26C20.4503 20.5401 19.8988 21.07 19.5929 21.2951C19.4879 21.4207 19.2153 21.6109 19.0741 21.7124C18.0582 22.4518 16.9326 23.0273 15.7383 23.4181C15.5767 23.4719 15.1836 23.61 15.037 23.6217C14.615 23.7234 14.1975 23.796 13.7881 23.8933C13.7622 22.7249 13.7813 21.487 13.7813 20.3116L13.7813 13.7811Z" fill="#FEFEFE"></path><path d="M15.0251 17.4844L18.0457 19.9963C18.4931 20.3682 19.1812 20.9057 19.593 21.2953C19.488 21.4208 19.2153 21.6111 19.0742 21.7125C18.0583 22.4519 16.9327 23.0274 15.7384 23.4182C15.5768 23.472 15.1837 23.6101 15.0371 23.6218C15.0178 22.1993 15.0423 20.768 15.032 19.3452C15.0276 18.7373 15.0464 18.0891 15.0251 17.4844Z" fill="#00226B"></path><path d="M15.0278 15.029C15.6256 15.0242 16.2233 15.0259 16.821 15.0341C18.4451 16.3379 20.0886 17.7532 21.6979 19.0875C21.5469 19.3106 20.92 20.1179 20.7199 20.2601C20.6531 20.2197 20.2621 19.8847 20.1817 19.8176L18.9687 18.8067C17.6685 17.7248 16.3041 16.6248 15.028 15.5238L15.0278 15.029Z" fill="#C9112E"></path><path d="M19.412 15.0222C20.793 15.0541 22.2394 15.02 23.6288 15.031C23.4914 15.587 22.9192 17.238 22.5875 17.663C22.3896 17.5294 21.7862 17.0004 21.5824 16.8307L19.412 15.0222Z" fill="#00226B"></path><path d="M10.1547 0.126221L10.2031 0.149498C10.2322 0.31945 10.2182 0.928687 10.2176 1.12968L10.217 3.01738L10.2177 10.218C6.86478 10.2133 3.4554 10.2534 0.109253 10.2146C0.180943 9.79827 0.265682 9.38431 0.363348 8.97334C0.674809 7.9415 0.937476 7.1855 1.46233 6.22956C1.57367 5.99809 2.15423 5.07744 2.30843 4.90091C2.45548 4.64134 3.08091 3.93741 3.3019 3.71989C3.56553 3.42116 4.17303 2.86742 4.48435 2.63593C4.58326 2.53428 5.01615 2.22379 5.14395 2.13373C6.37693 1.26476 7.54437 0.793145 8.97296 0.364483C9.3424 0.307136 9.77792 0.199607 10.1547 0.126221Z" fill="#FEFEFE"></path><path d="M4.48438 2.63595C4.58328 2.5343 5.01617 2.22381 5.14398 2.13374C6.37695 1.26478 7.5444 0.793164 8.97298 0.364502L8.97034 4.11675C8.97048 4.84064 8.95782 5.609 8.97535 6.33005C7.88485 5.48632 6.80598 4.50256 5.72373 3.63814C5.49688 3.45694 4.69803 2.74932 4.48438 2.63595Z" fill="#00226B"></path><path d="M3.30195 3.71997C3.56775 3.91689 3.89002 4.20243 4.15235 4.42143L5.65542 5.67285C6.70868 6.5485 7.95382 7.53906 8.97122 8.43658L8.97298 8.9699C8.45442 8.97262 7.73477 8.99395 7.22866 8.96617C6.06202 8.01834 4.89759 7.03305 3.74119 6.07047L2.82448 5.30695C2.70387 5.20663 2.43124 4.97067 2.30847 4.90099C2.45552 4.64142 3.08095 3.93749 3.30195 3.71997Z" fill="#C9112E"></path><path d="M1.46238 6.22949C1.60647 6.2961 2.28215 6.87918 2.44162 7.01212L4.79207 8.97147L0.363403 8.97327C0.674864 7.94144 0.937531 7.18544 1.46238 6.22949Z" fill="#00226B"></path><path d="M13.7844 0.112305C14.1756 0.182959 14.6732 0.316781 15.0265 0.372853C16.4319 0.739342 17.7592 1.35751 18.9441 2.19738C19.0901 2.30093 19.4425 2.55242 19.5678 2.66722C19.8431 2.97824 20.4485 3.37386 20.7216 3.74213C20.9854 3.99652 21.5171 4.60679 21.7021 4.91441C21.9007 5.20583 22.4415 5.9934 22.5671 6.27486C22.9391 6.98752 23.4666 8.17367 23.6224 8.97102C23.7323 9.42268 23.7987 9.7539 23.8746 10.2142C22.7765 10.2374 21.5958 10.2163 20.4922 10.2163L13.7834 10.2185L13.7844 0.112305Z" fill="#FEFEFE"></path><path d="M15.0265 0.372803C16.4319 0.739293 17.7592 1.35746 18.9441 2.19733C19.0901 2.30088 19.4425 2.55237 19.5678 2.66717C19.1475 3.04681 18.656 3.42554 18.2204 3.79388C17.168 4.68401 16.0696 5.55064 15.0248 6.44696C15.0489 5.7342 15.029 4.90855 15.0292 4.18876L15.0265 0.372803Z" fill="#00226B"></path><path d="M20.7216 3.74219C20.9855 3.99658 21.5172 4.60684 21.7021 4.91446C21.4586 5.10058 21.228 5.30591 20.9896 5.49829C19.5888 6.62868 18.2307 7.83993 16.8227 8.95879C16.3435 8.99357 15.5371 8.96819 15.0286 8.9699L15.0272 8.47352L18.8953 5.2548L20.0844 4.26259C20.2517 4.12279 20.555 3.85262 20.7216 3.74219Z" fill="#C9112E"></path><path d="M22.5672 6.2749C22.9391 6.98757 23.4666 8.17371 23.6225 8.97106C22.1947 8.99257 20.7493 8.95545 19.3175 8.97722C19.8859 8.45264 20.6612 7.87371 21.2572 7.3576C21.5746 7.0827 22.2563 6.49238 22.5672 6.2749Z" fill="#00226B"></path><path d="M0.117554 13.7908C0.546856 13.7664 1.09257 13.7799 1.53133 13.7798L3.9937 13.7799C6.05175 13.7803 8.16232 13.7549 10.2161 13.7822L10.217 21.5203C10.217 21.7587 10.2471 23.7308 10.2012 23.874C9.83744 23.8116 9.32667 23.7146 8.97046 23.6225C8.73693 23.5763 8.28975 23.4277 8.06128 23.3496C6.6855 22.8796 5.57454 22.2192 4.43095 21.3356C4.39343 21.294 4.3469 21.2585 4.30476 21.2215C3.96035 20.9187 3.61851 20.6143 3.30471 20.2794C3.07781 20.09 2.47793 19.3553 2.32183 19.1034C2.13909 18.89 1.54895 17.9569 1.43799 17.7175C1.04914 17.0695 0.550262 15.7669 0.382353 15.0353C0.25877 14.5985 0.213143 14.2221 0.117554 13.7908Z" fill="#FEFEFE"></path><path d="M4.43103 21.3356C5.91139 20.0553 7.49729 18.8338 8.97676 17.5608C8.93359 19.3059 8.99649 21.0722 8.97022 22.8194C8.96626 23.0817 8.96398 23.3604 8.97055 23.6224C8.73701 23.5763 8.28983 23.4276 8.06136 23.3496C6.68558 22.8795 5.57462 22.2191 4.43103 21.3356Z" fill="#00226B"></path><path d="M7.25081 15.0307L8.97276 15.0298L8.97201 15.5606C7.84516 16.55 6.56046 17.5746 5.40007 18.5396L4.00903 19.6979C3.83147 19.8458 3.48063 20.1555 3.30478 20.2794C3.07788 20.09 2.478 19.3553 2.3219 19.1034C3.46812 18.1842 4.6339 17.1922 5.7656 16.2486L6.70012 15.4683C6.83716 15.354 7.10423 15.1201 7.25081 15.0307Z" fill="#C9112E"></path><path d="M0.382324 15.0353C0.768687 15.0136 1.19598 15.0343 1.58667 15.0274C2.60783 15.0091 3.67351 15.0525 4.69091 15.0231C4.00506 15.6205 3.26856 16.2059 2.57055 16.7943C2.34428 16.985 1.65619 17.5773 1.43796 17.7174C1.04911 17.0695 0.550233 15.7669 0.382324 15.0353Z" fill="#00226B"></path></g><defs><clipPath id="clip0_1126_20943"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg></a><a class="locales__item" href="https://sollux-lampen.nl/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_1126_20978)"><path d="M0.774728 7.97272C0.850356 7.84993 1.01255 7.3685 1.08908 7.19302C1.31507 6.675 1.57806 6.17391 1.876 5.69363C3.50708 3.05185 6.11408 1.15978 9.13133 0.427917C14.5698 -0.877224 20.1379 1.62887 22.6689 6.65614C22.8712 7.058 23.0882 7.51053 23.1927 7.94719C23.2842 8.08925 23.4259 8.59557 23.4774 8.77536C24.0043 10.6188 24.0483 12.6155 23.6609 14.4896C23.5318 15.1152 23.3643 15.507 23.2015 16.0873C23.0649 16.4618 22.908 16.8286 22.7317 17.1861C21.3645 20.0262 18.9248 22.2065 15.9495 23.2472C12.9621 24.2948 9.68054 24.1109 6.82895 22.7357C4.0917 21.412 1.81134 18.979 0.809375 16.0953C0.00545261 13.8972 -0.134873 11.5114 0.405836 9.23431C0.485605 8.90026 0.646595 8.28919 0.774728 7.97272Z" fill="white"></path><path d="M0.774658 7.97272C0.850286 7.84993 1.01248 7.3685 1.08901 7.19302C1.31501 6.675 1.57799 6.17391 1.87593 5.69363C3.50701 3.05185 6.11401 1.15978 9.13126 0.427917C14.5697 -0.877224 20.1378 1.62887 22.6688 6.65614C22.8711 7.058 23.0882 7.51053 23.1927 7.94719L6.17886 7.94951L2.40177 7.94937C2.15363 7.94911 0.941257 7.928 0.774658 7.97272Z" fill="#EE1C23"></path><path d="M0.809326 16.0954C1.03839 16.072 1.42774 16.0836 1.66873 16.0843L3.1189 16.0856L7.95884 16.0856L23.2014 16.0874C23.0648 16.4619 22.908 16.8287 22.7316 17.1862C21.3644 20.0263 18.9247 22.2066 15.9495 23.2473C12.962 24.295 9.68049 24.111 6.8289 22.7358C4.09165 21.4121 1.81129 18.9791 0.809326 16.0954Z" fill="#21409A"></path></g><defs><clipPath id="clip0_1126_20978"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg></a><a class="locales__item" href="https://sollux-lampor.se/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_1126_20983)"><path d="M11.0216 0H12.9275C13.1723 0.0855973 13.6454 0.0901795 13.926 0.13943C14.4124 0.224801 14.8737 0.325601 15.3481 0.464634C18.5267 1.38795 21.1841 3.58076 22.694 6.52627C23.2594 7.62035 23.787 9.21396 23.9212 10.4467C23.9266 10.5892 23.9248 10.9379 24 11.041V13.0005C23.9449 13.1066 23.921 13.4198 23.9053 13.5564C23.9025 13.8664 23.7349 14.6123 23.6559 14.9222C23.1138 17.0846 21.9799 19.0532 20.3813 20.6071C18.861 22.0922 16.9719 23.1446 14.909 23.6557C14.3924 23.7844 13.8842 23.8695 13.3574 23.9445C13.271 23.9566 13.1918 23.9672 13.1104 24H10.904C10.768 23.9548 10.4566 23.9182 10.2943 23.8934C9.9923 23.8498 9.69216 23.794 9.39471 23.7258C8.0512 23.3797 7.51467 23.1965 6.2404 22.5385C5.81304 22.3368 5.10886 21.8497 4.73313 21.5649C2.17732 19.6239 0.50385 16.7415 0.0854309 13.5596C0.0734449 13.4041 0.0579532 13.0744 0 12.9484V11.0505C0.0564689 10.9181 0.0688835 10.6038 0.0815777 10.4463C0.188435 9.75424 0.303802 9.16673 0.508652 8.49284C1.4263 5.48414 3.48881 2.95615 6.25209 1.45327C7.15627 0.897363 8.35594 0.479306 9.39616 0.270476C9.70983 0.188666 10.105 0.143682 10.4269 0.0918516C10.6162 0.061365 10.842 0.0599212 11.0216 0Z" fill="#FFDB45"></path><path d="M11.0216 0H12.9276C13.1723 0.0855973 13.6454 0.0901795 13.926 0.13943C14.4124 0.224801 14.8737 0.325601 15.3481 0.464634C18.5267 1.38795 21.1841 3.58076 22.694 6.52627C23.2594 7.62035 23.787 9.21396 23.9213 10.4467C23.3406 10.424 22.7215 10.4347 22.1384 10.4347L19.2413 10.4346L9.39551 10.4327L9.39619 0.270476C9.70985 0.188666 10.105 0.143682 10.4269 0.0918516C10.6162 0.061365 10.842 0.0599212 11.0216 0Z" fill="#0053B4"></path><path d="M23.9053 13.5564C23.9025 13.8663 23.7349 14.6123 23.6559 14.9222C23.1138 17.0846 21.9799 19.0532 20.3813 20.6071C18.861 22.0922 16.9719 23.1446 14.909 23.6557C14.3924 23.7844 13.8842 23.8694 13.3574 23.9444C13.271 23.9566 13.1918 23.9672 13.1104 24H10.904C10.768 23.9547 10.4566 23.9182 10.2943 23.8933C9.99229 23.8497 9.69214 23.794 9.3947 23.7258L9.39111 13.5657C10.3124 13.588 11.3212 13.5675 12.2479 13.5676L17.8568 13.5676L21.7504 13.5677C22.4137 13.5679 23.2535 13.5917 23.9053 13.5564Z" fill="#0053B4"></path><path d="M6.25212 1.45337C6.29396 2.41391 6.2577 3.64892 6.25772 4.62844L6.25742 10.4354L2.28556 10.4348C1.59141 10.4348 0.769107 10.414 0.081604 10.4464C0.188461 9.75434 0.303828 9.16684 0.508679 8.49294C1.42632 5.48424 3.48884 2.95625 6.25212 1.45337Z" fill="#0053B4"></path><path d="M0.0854492 13.5596C1.85801 13.6111 3.66098 13.5388 5.43674 13.5675C5.7051 13.5719 5.98989 13.5725 6.25828 13.5656L6.25753 19.8271L6.25842 21.5996C6.25851 21.8026 6.26854 22.3521 6.24042 22.5385C5.81306 22.3368 5.10888 21.8497 4.73315 21.5649C2.17734 19.6239 0.503868 16.7415 0.0854492 13.5596Z" fill="#0053B4"></path></g><defs><clipPath id="clip0_1126_20983"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg></a></div></div></div></section><div class="footer_settings container"><div id="price_info" class="footer_settings__price_info price_info"><span class="price_info__text --type">
+									W sklepie prezentujemy ceny brutto (z VAT).
+								</span><span class="price_info__text --region">Stawki VAT dla konsumentów z kraju: <span class="price_info__region">Polska</span>. </span></div><div class="footer_settings__divider"></div><div class="footer_settings__idosell idosell" id="idosell_logo"><a class="idosell__logo --link" target="_blank" href="https://idomods.pl/"><svg xmlns="http://www.w3.org/2000/svg" width="98" height="36" viewBox="0 0 98 36" fill="none"><path d="M0 2.22222C0 0.994924 1.01625 0 2.26986 0H95.7301C96.9837 0 98 0.994923 98 2.22222V33.7778C98 35.0051 96.9837 36 95.7301 36H2.26986C1.01625 36 0 35.0051 0 33.7778V2.22222Z" fill="#060606"></path><path d="M67.6908 12.3654C67.1605 12.3654 66.7038 12.2521 66.3207 12.0254C65.9399 11.7965 65.6456 11.4753 65.4376 11.0618C65.2321 10.646 65.1293 10.1589 65.1293 9.60055C65.1293 9.04922 65.2321 8.5633 65.4376 8.1428C65.6456 7.7223 65.9352 7.39407 66.3067 7.15812C66.6805 6.92217 67.1173 6.8042 67.6173 6.8042C67.9209 6.8042 68.2153 6.85443 68.5003 6.95488C68.7853 7.05533 69.0411 7.21302 69.2677 7.42795C69.4943 7.64287 69.673 7.92204 69.8039 8.26545C69.9347 8.60652 70.0001 9.02119 70.0001 9.50944V9.88088H65.7215V9.09594H68.9734C68.9734 8.82028 68.9173 8.57615 68.8052 8.36357C68.693 8.14864 68.5353 7.97927 68.3321 7.85546C68.1312 7.73164 67.8953 7.66974 67.6243 7.66974C67.3299 7.66974 67.0729 7.74216 66.8533 7.887C66.6361 8.0295 66.4679 8.21639 66.3487 8.44767C66.2319 8.67661 66.1735 8.9254 66.1735 9.19406V9.80729C66.1735 10.1671 66.2366 10.4731 66.3627 10.7254C66.4912 10.9777 66.6699 11.1704 66.8989 11.3036C67.1278 11.4344 67.3953 11.4998 67.7014 11.4998C67.8999 11.4998 68.081 11.4718 68.2445 11.4157C68.408 11.3573 68.5494 11.2709 68.6685 11.1564C68.7876 11.0419 68.8788 10.9006 68.9418 10.7324L69.9335 10.9111C69.8541 11.2031 69.7116 11.4589 69.506 11.6785C69.3028 11.8958 69.047 12.0652 68.7386 12.1866C68.4326 12.3058 68.0833 12.3654 67.6908 12.3654Z" fill="#EEEEEE"></path><path d="M61.2088 12.3618C60.7743 12.3618 60.3865 12.2508 60.0454 12.0289C59.7067 11.8046 59.4403 11.4857 59.2464 11.0722C59.0549 10.6564 58.9591 10.1577 58.9591 9.57596C58.9591 8.99426 59.0561 8.49667 59.25 8.08317C59.4462 7.66968 59.7148 7.35313 60.0559 7.13354C60.397 6.91394 60.7836 6.80414 61.2158 6.80414C61.5499 6.80414 61.8185 6.86021 62.0218 6.97234C62.2274 7.08214 62.3862 7.21063 62.4983 7.3578C62.6128 7.50498 62.7016 7.63464 62.7647 7.74677H62.8277V5.08008H63.8755V12.2567H62.8523V11.4192H62.7647C62.7016 11.5336 62.6105 11.6645 62.4913 11.8116C62.3745 11.9588 62.2133 12.0873 62.0078 12.1971C61.8022 12.3069 61.5359 12.3618 61.2088 12.3618ZM61.4401 11.4682C61.7414 11.4682 61.9961 11.3888 62.204 11.2299C62.4142 11.0687 62.5731 10.8456 62.6806 10.5606C62.7904 10.2756 62.8453 9.9439 62.8453 9.56545C62.8453 9.19167 62.7915 8.86461 62.6841 8.58427C62.5766 8.30394 62.4189 8.08551 62.211 7.92899C62.0031 7.77247 61.7461 7.69421 61.4401 7.69421C61.1247 7.69421 60.8619 7.77597 60.6516 7.9395C60.4414 8.10303 60.2825 8.32613 60.1751 8.6088C60.0699 8.89147 60.0174 9.21035 60.0174 9.56545C60.0174 9.92521 60.0711 10.2488 60.1786 10.5361C60.286 10.8235 60.4449 11.0512 60.6551 11.2194C60.8677 11.3853 61.1294 11.4682 61.4401 11.4682Z" fill="#EEEEEE"></path><path d="M55.5154 12.3654C55.0107 12.3654 54.5704 12.2497 54.1943 12.0184C53.8182 11.7872 53.5261 11.4636 53.3182 11.0478C53.1103 10.6319 53.0063 10.146 53.0063 9.59003C53.0063 9.0317 53.1103 8.54345 53.3182 8.12528C53.5261 7.70711 53.8182 7.38239 54.1943 7.15111C54.5704 6.91984 55.0107 6.8042 55.5154 6.8042C56.02 6.8042 56.4603 6.91984 56.8364 7.15111C57.2125 7.38239 57.5046 7.70711 57.7125 8.12528C57.9204 8.54345 58.0244 9.0317 58.0244 9.59003C58.0244 10.146 57.9204 10.6319 57.7125 11.0478C57.5046 11.4636 57.2125 11.7872 56.8364 12.0184C56.4603 12.2497 56.02 12.3654 55.5154 12.3654ZM55.5189 11.4858C55.8459 11.4858 56.1169 11.3994 56.3318 11.2265C56.5467 11.0536 56.7056 10.8235 56.8084 10.5362C56.9135 10.2488 56.9661 9.93228 56.9661 9.58653C56.9661 9.24312 56.9135 8.92774 56.8084 8.6404C56.7056 8.35072 56.5467 8.11827 56.3318 7.94306C56.1169 7.76785 55.8459 7.68025 55.5189 7.68025C55.1895 7.68025 54.9161 7.76785 54.6989 7.94306C54.4839 8.11827 54.3239 8.35072 54.2188 8.6404C54.116 8.92774 54.0646 9.24312 54.0646 9.58653C54.0646 9.93228 54.116 10.2488 54.2188 10.5362C54.3239 10.8235 54.4839 11.0536 54.6989 11.2265C54.9161 11.3994 55.1895 11.4858 55.5189 11.4858Z" fill="#EEEEEE"></path><path d="M52.0366 7.41384H50.9433C50.9013 7.18023 50.823 6.97465 50.7085 6.79711C50.5941 6.61956 50.4539 6.46888 50.288 6.34506C50.1222 6.22125 49.9365 6.12781 49.7309 6.06473C49.5276 6.00165 49.3115 5.97012 49.0826 5.97012C48.6691 5.97012 48.2988 6.07407 47.9718 6.28199C47.6471 6.48991 47.3901 6.79477 47.2009 7.19658C47.014 7.5984 46.9205 8.08899 46.9205 8.66835C46.9205 9.25238 47.014 9.7453 47.2009 10.1471C47.3901 10.5489 47.6482 10.8526 47.9753 11.0582C48.3023 11.2638 48.6703 11.3666 49.0791 11.3666C49.3057 11.3666 49.5206 11.3362 49.7239 11.2755C49.9294 11.2124 50.1152 11.1201 50.281 10.9986C50.4469 10.8772 50.5871 10.7288 50.7015 10.5536C50.8183 10.3761 50.8989 10.1728 50.9433 9.94387L52.0366 9.94738C51.9782 10.3001 51.8649 10.6249 51.6967 10.9215C51.5309 11.2159 51.3171 11.4705 51.0555 11.6855C50.7962 11.898 50.4995 12.0627 50.1654 12.1795C49.8313 12.2964 49.4669 12.3548 49.0721 12.3548C48.4507 12.3548 47.897 12.2076 47.4111 11.9132C46.9252 11.6165 46.5421 11.1925 46.2617 10.6412C45.9837 10.0899 45.8447 9.43226 45.8447 8.66835C45.8447 7.9021 45.9849 7.24448 46.2652 6.69548C46.5456 6.14416 46.9287 5.72132 47.4146 5.42697C47.9005 5.13028 48.453 4.98193 49.0721 4.98193C49.4529 4.98193 49.808 5.03683 50.1374 5.14663C50.4691 5.25409 50.767 5.41295 51.0309 5.6232C51.2949 5.83112 51.5133 6.08576 51.6862 6.38712C51.8591 6.68614 51.9759 7.02838 52.0366 7.41384Z" fill="#EEEEEE"></path><path d="M41.6529 12.3587C41.1716 12.3587 40.757 12.2711 40.4089 12.0959C40.0631 11.9207 39.7968 11.6824 39.6099 11.3811C39.423 11.0774 39.3296 10.7339 39.3296 10.3508C39.3296 10.0588 39.3903 9.79949 39.5118 9.57289C39.6333 9.34395 39.8027 9.13253 40.0199 8.93863C40.2372 8.74473 40.4883 8.54966 40.7733 8.35343L41.9297 7.53695C42.1259 7.40846 42.279 7.27297 42.3888 7.13046C42.4985 6.98562 42.5534 6.80691 42.5534 6.59432C42.5534 6.42612 42.481 6.26493 42.3362 6.11074C42.1913 5.95656 41.9975 5.87947 41.7545 5.87947C41.5863 5.87947 41.4379 5.92035 41.3095 6.00211C41.1833 6.08388 41.084 6.189 41.0116 6.31749C40.9415 6.44364 40.9065 6.5768 40.9065 6.71697C40.9065 6.8805 40.9509 7.04519 41.0396 7.21106C41.1307 7.37693 41.2476 7.54863 41.3901 7.72618C41.5326 7.90139 41.6821 8.0836 41.8386 8.27283L45.1711 12.2571H43.9867L41.2289 9.01572C40.9976 8.74239 40.7827 8.48542 40.5841 8.2448C40.3855 8.00184 40.2243 7.75655 40.1005 7.50892C39.979 7.25895 39.9183 6.98913 39.9183 6.69945C39.9183 6.37005 39.9931 6.07804 40.1426 5.8234C40.2944 5.56643 40.5058 5.36552 40.7768 5.22068C41.0478 5.07584 41.3655 5.00342 41.73 5.00342C42.0991 5.00342 42.4156 5.07584 42.6796 5.22068C42.9459 5.36318 43.1503 5.55358 43.2928 5.79186C43.4377 6.02781 43.5101 6.28595 43.5101 6.56629C43.5101 6.90736 43.4248 7.20872 43.2543 7.47037C43.0861 7.72968 42.8536 7.96797 42.557 8.18523L41.1167 9.247C40.8364 9.45258 40.6413 9.65582 40.5315 9.85673C40.4241 10.0553 40.3703 10.2106 40.3703 10.3228C40.3703 10.5284 40.4229 10.7188 40.528 10.894C40.6355 11.0692 40.785 11.2093 40.9766 11.3145C41.1705 11.4196 41.3971 11.4722 41.6564 11.4722C41.9227 11.4722 42.182 11.4149 42.4343 11.3005C42.6889 11.1836 42.9191 11.0166 43.1246 10.7994C43.3325 10.5821 43.4972 10.3216 43.6187 10.0179C43.7402 9.71422 43.8009 9.37432 43.8009 8.9982H44.7471C44.7471 9.46075 44.6945 9.85205 44.5894 10.1721C44.4843 10.4898 44.3569 10.7491 44.2074 10.95C44.0603 11.1486 43.9213 11.304 43.7904 11.4161C43.7484 11.4535 43.7087 11.4908 43.6713 11.5282C43.6339 11.5656 43.5942 11.603 43.5521 11.6404C43.3092 11.8857 43.0148 12.0667 42.6691 12.1835C42.3257 12.3003 41.9869 12.3587 41.6529 12.3587Z" fill="#EEEEEE"></path><path d="M34.715 9.0609V12.2567H33.6672V6.87428H34.6729V7.75033H34.7395C34.8633 7.46532 35.0572 7.23638 35.3212 7.06351C35.5875 6.89064 35.9228 6.8042 36.3269 6.8042C36.6937 6.8042 37.0149 6.88129 37.2906 7.03548C37.5662 7.18732 37.78 7.41393 37.9318 7.71529C38.0837 8.01665 38.1596 8.38926 38.1596 8.83313V12.2567H37.1119V8.95928C37.1119 8.56915 37.0102 8.26428 36.807 8.04468C36.6038 7.82275 36.3246 7.71179 35.9695 7.71179C35.7265 7.71179 35.5104 7.76435 35.3212 7.86947C35.1343 7.9746 34.986 8.12878 34.8762 8.33203C34.7687 8.53293 34.715 8.77589 34.715 9.0609Z" fill="#EEEEEE"></path><path d="M29.8329 14.3873C29.4054 14.3873 29.0375 14.3312 28.7291 14.2191C28.4231 14.1069 28.1731 13.9586 27.9792 13.774C27.7853 13.5895 27.6405 13.3874 27.5447 13.1678L28.4453 12.7964C28.5083 12.8992 28.5924 13.0078 28.6976 13.1223C28.805 13.2391 28.9499 13.3384 29.1321 13.4201C29.3166 13.5019 29.5537 13.5428 29.8434 13.5428C30.2406 13.5428 30.5688 13.4458 30.8281 13.2519C31.0874 13.0604 31.2171 12.7543 31.2171 12.3338V11.2756H31.1505C31.0874 11.39 30.9963 11.5173 30.8772 11.6575C30.7604 11.7977 30.5992 11.9192 30.3936 12.0219C30.188 12.1247 29.9205 12.1761 29.5911 12.1761C29.1659 12.1761 28.7828 12.0768 28.4417 11.8783C28.103 11.6774 27.8344 11.3818 27.6358 10.9917C27.4395 10.5992 27.3414 10.1168 27.3414 9.54448C27.3414 8.97213 27.4384 8.48154 27.6323 8.07272C27.8285 7.66389 28.0972 7.35085 28.4382 7.13359C28.7793 6.914 29.1659 6.8042 29.5981 6.8042C29.9322 6.8042 30.202 6.86027 30.4076 6.9724C30.6132 7.0822 30.7732 7.21069 30.8877 7.35786C31.0045 7.50504 31.0944 7.63469 31.1575 7.74683H31.2346V6.87428H32.2613V12.3759C32.2613 12.8384 32.1539 13.218 31.9389 13.5147C31.724 13.8114 31.4332 14.031 31.0664 14.1735C30.702 14.316 30.2908 14.3873 29.8329 14.3873ZM29.8224 11.3071C30.1238 11.3071 30.3784 11.237 30.5863 11.0968C30.7966 10.9543 30.9554 10.7511 31.0629 10.4871C31.1727 10.2208 31.2276 9.90191 31.2276 9.53046C31.2276 9.16836 31.1739 8.84948 31.0664 8.57382C30.9589 8.29815 30.8012 8.08323 30.5933 7.92905C30.3854 7.77252 30.1284 7.69426 29.8224 7.69426C29.507 7.69426 29.2442 7.77603 29.034 7.93956C28.8237 8.10075 28.6648 8.32035 28.5574 8.59835C28.4523 8.87635 28.3997 9.18705 28.3997 9.53046C28.3997 9.88322 28.4534 10.1928 28.5609 10.4591C28.6684 10.7254 28.8272 10.9333 29.0375 11.0828C29.25 11.2323 29.5117 11.3071 29.8224 11.3071Z" fill="#EEEEEE"></path><path d="M25.119 12.2569V6.87446H26.1668V12.2569H25.119ZM25.6481 6.04397C25.4659 6.04397 25.3094 5.98323 25.1786 5.86175C25.0501 5.73793 24.9858 5.59076 24.9858 5.42022C24.9858 5.24735 25.0501 5.10017 25.1786 4.97869C25.3094 4.85488 25.4659 4.79297 25.6481 4.79297C25.8304 4.79297 25.9857 4.85488 26.1142 4.97869C26.245 5.10017 26.3104 5.24735 26.3104 5.42022C26.3104 5.59076 26.245 5.73793 26.1142 5.86175C25.9857 5.98323 25.8304 6.04397 25.6481 6.04397Z" fill="#EEEEEE"></path><path d="M23.8624 8.18836L22.9128 8.35656C22.8731 8.23508 22.81 8.11944 22.7236 8.00964C22.6395 7.89984 22.525 7.8099 22.3802 7.73982C22.2353 7.66973 22.0543 7.63469 21.837 7.63469C21.5403 7.63469 21.2927 7.70127 21.0941 7.83443C20.8955 7.96526 20.7963 8.13462 20.7963 8.34254C20.7963 8.52242 20.8628 8.66726 20.996 8.77706C21.1292 8.88686 21.3441 8.9768 21.6408 9.04688L22.4958 9.24312C22.9911 9.35759 23.3602 9.53397 23.6031 9.77225C23.8461 10.0105 23.9676 10.3201 23.9676 10.7009C23.9676 11.0232 23.8741 11.3106 23.6872 11.5629C23.5027 11.8129 23.2445 12.0091 22.9128 12.1516C22.5834 12.2941 22.2014 12.3654 21.7669 12.3654C21.1642 12.3654 20.6724 12.2369 20.2917 11.9799C19.9109 11.7206 19.6773 11.3526 19.5908 10.8761L20.6035 10.7219C20.6666 10.9859 20.7963 11.1856 20.9925 11.3211C21.1887 11.4543 21.4445 11.5208 21.7599 11.5208C22.1033 11.5208 22.3778 11.4496 22.5834 11.3071C22.789 11.1622 22.8918 10.9859 22.8918 10.778C22.8918 10.6098 22.8287 10.4684 22.7025 10.3539C22.5787 10.2395 22.3883 10.153 22.1314 10.0946L21.2203 9.8949C20.718 9.78043 20.3466 9.59821 20.1059 9.34824C19.8677 9.09828 19.7485 8.78173 19.7485 8.39861C19.7485 8.08089 19.8373 7.80289 20.0148 7.56461C20.1924 7.32632 20.4377 7.1406 20.7507 7.00744C21.0638 6.87195 21.4223 6.8042 21.8265 6.8042C22.4082 6.8042 22.8661 6.93035 23.2001 7.18265C23.5342 7.43262 23.755 7.76785 23.8624 8.18836Z" fill="#EEEEEE"></path><path d="M16.3569 12.3654C15.8266 12.3654 15.3698 12.2521 14.9867 12.0254C14.6059 11.7965 14.3116 11.4753 14.1037 11.0618C13.8981 10.646 13.7953 10.1589 13.7953 9.60055C13.7953 9.04922 13.8981 8.5633 14.1037 8.1428C14.3116 7.7223 14.6013 7.39407 14.9727 7.15812C15.3465 6.92217 15.7833 6.8042 16.2833 6.8042C16.587 6.8042 16.8813 6.85443 17.1663 6.95488C17.4513 7.05533 17.7071 7.21302 17.9337 7.42795C18.1603 7.64287 18.3391 7.92204 18.4699 8.26545C18.6007 8.60652 18.6661 9.02119 18.6661 9.50944V9.88088H14.3875V9.09594H17.6394C17.6394 8.82028 17.5833 8.57615 17.4712 8.36357C17.3591 8.14864 17.2014 7.97927 16.9981 7.85546C16.7972 7.73164 16.5613 7.66974 16.2903 7.66974C15.9959 7.66974 15.7389 7.74216 15.5194 7.887C15.3021 8.0295 15.1339 8.21639 15.0147 8.44767C14.8979 8.67661 14.8395 8.9254 14.8395 9.19406V9.80729C14.8395 10.1671 14.9026 10.4731 15.0288 10.7254C15.1573 10.9777 15.336 11.1704 15.5649 11.3036C15.7938 11.4344 16.0613 11.4998 16.3674 11.4998C16.5659 11.4998 16.747 11.4718 16.9105 11.4157C17.074 11.3573 17.2154 11.2709 17.3345 11.1564C17.4537 11.0419 17.5448 10.9006 17.6079 10.7324L18.5995 10.9111C18.5201 11.2031 18.3776 11.4589 18.172 11.6785C17.9688 11.8958 17.713 12.0652 17.4046 12.1866C17.0986 12.3058 16.7493 12.3654 16.3569 12.3654Z" fill="#EEEEEE"></path><path d="M9.32328 12.2567H7V5.08008H9.39687C10.1 5.08008 10.7039 5.22375 11.2085 5.51109C11.7131 5.7961 12.0998 6.20609 12.3684 6.74107C12.6394 7.2737 12.7749 7.91264 12.7749 8.65786C12.7749 9.40542 12.6382 10.0479 12.3649 10.5852C12.0939 11.1225 11.7015 11.536 11.1875 11.8257C10.6736 12.113 10.0522 12.2567 9.32328 12.2567ZM8.0828 11.3105H9.26371C9.81036 11.3105 10.2647 11.2077 10.6268 11.0022C10.9889 10.7943 11.2599 10.4941 11.4398 10.1016C11.6197 9.70678 11.7096 9.22554 11.7096 8.65786C11.7096 8.09485 11.6197 7.61711 11.4398 7.22464C11.2623 6.83218 10.9971 6.53432 10.6444 6.33108C10.2916 6.12783 9.85358 6.02621 9.33029 6.02621H8.0828V11.3105Z" fill="#EEEEEE"></path><path d="M78.3329 25.7748V28.0741L73.2877 26.279V23.7615L80.4165 20.8748V23.1741L75.6236 25.0035V25.037L78.3329 25.7748Z" fill="#C7FC70"></path><path d="M81.2597 30H78.7916L83.5845 18H86.0526L81.2597 30Z" fill="#EEEEEE"></path><path d="M91.144 25.4681L84.0152 28.0771V25.7778L88.8081 24.2261V24.1925L86.0526 23.1882V20.8889L91.144 22.9506V25.4681Z" fill="#C7FC70"></path><path d="M9.88275 30H6.85645V18H9.88276L9.88275 30Z" fill="#EEEEEE"></path><path d="M16.9171 21.8519V18H19.5948V30H16.9171V28.8762H16.8836C16.5489 29.3198 15.6217 30 14.3832 30C12.1072 30 10.6747 28.2683 10.6747 25.5083C10.6747 22.7483 12.1307 20.8889 14.4067 20.8889C15.6452 20.8889 16.5489 21.4083 16.8836 21.8519H16.9171ZM15.1431 28.0741C16.2309 28.0741 16.8669 27.1512 16.8669 25.5083C16.8669 23.8655 16.2309 22.963 15.1431 22.963C14.0553 22.963 13.4193 23.8655 13.4193 25.5083C13.4193 27.1512 14.0553 28.0741 15.1431 28.0741Z" fill="#C7FC70"></path><path d="M24.9102 30C22.0819 30 20.3242 28.1799 20.3242 25.5185C20.3242 22.8735 22.0819 20.8889 24.9604 20.8889C27.7887 20.8889 29.5549 22.8242 29.5549 25.4692C29.5549 28.1307 27.7887 30 24.9102 30ZM24.9437 28.0741C26.1319 28.0741 26.8013 27.1285 26.8013 25.5021C26.8013 23.8757 26.1319 22.963 24.9437 22.963C23.7387 22.963 23.0693 23.8757 23.0693 25.5021C23.0693 27.1285 23.7387 28.0741 24.9437 28.0741Z" fill="#C7FC70"></path><path d="M33.1307 30H30.2856V18H33.9674L36.4276 25.4591H36.461L38.9212 18H42.603V30H39.758V22.4033H39.7245L37.4987 30H35.39L33.1641 22.4033H33.1307V30Z" fill="#EEEEEE"></path><path d="M47.9319 30C45.1036 30 43.3866 28.1862 43.3866 25.5248C43.3866 22.8798 45.1104 20.8889 47.9889 20.8889C50.8172 20.8889 52.541 22.8305 52.541 25.4755C52.541 28.1369 50.8105 30 47.9319 30ZM47.9722 28.0741C49.1604 28.0741 49.8298 27.1348 49.8298 25.5083C49.8298 23.8819 49.1604 22.963 47.9722 22.963C46.7672 22.963 46.0978 23.8819 46.0978 25.5083C46.0978 27.1348 46.7672 28.0741 47.9722 28.0741Z" fill="#EEEEEE"></path><path d="M59.5771 21.8519V18H62.2548V30H59.5771V28.8762H59.5436C59.2089 29.3198 58.3052 30 57.0668 30C54.7907 30 53.3347 28.2683 53.3347 25.5083C53.3347 22.7483 54.7907 20.8889 57.0668 20.8889C58.3052 20.8889 59.2089 21.4083 59.5436 21.8519H59.5771ZM57.8031 28.0741C58.8909 28.0741 59.5269 27.1512 59.5269 25.5083C59.5269 23.8655 58.8909 22.963 57.8031 22.963C56.7153 22.963 56.0793 23.8655 56.0793 25.5083C56.0793 27.1512 56.7153 28.0741 57.8031 28.0741Z" fill="#EEEEEE"></path><path d="M67.1853 30C64.1896 30 63.0181 28.5641 62.9512 26.9212H65.4615C65.5452 27.7591 66.2133 28.0741 67.1351 28.0741C67.7644 28.0741 68.2731 27.9233 68.2731 27.4469C68.2731 26.6912 67.4196 26.6091 66.1811 26.3298C64.6749 25.9848 63.1185 25.3933 63.1185 23.6848C63.1185 22.1076 64.7085 20.8889 67.1185 20.8889C69.8631 20.8889 70.9342 22.4033 71.0179 23.8819H68.5075C68.4238 23.2083 67.8642 22.963 67.1687 22.963C66.578 22.963 65.8632 23.1098 65.8632 23.5205C65.8632 24.0791 66.3652 24.1119 67.6539 24.4076C69.3442 24.8019 71.0178 25.2948 71.0178 27.2498C71.0178 29.0076 69.6622 30 67.1853 30Z" fill="#EEEEEE"></path></svg></a><a class="idosell__logo --link" target="_blank" href="https://www.idosell.com/pl/?utm_source=clientShopSite&amp;utm_medium=Label&amp;utm_campaign=PoweredByBadgeLink" title="Sklepy internetowe IdoSell"><img class="idosell__img" src="/ajax/poweredby_IdoSell_Shop_black.svg?v=1" loading="lazy" alt="Sklepy internetowe IdoSell"></a></div></div><div id="menu_contact" class="container"><ul class="menu_contact__items"><li class="contact_type_header"><a href="https://sollux.pl/pl/contact">
+
+					Kontakt
+				</a></li><li class="contact_type_phone"><a href="tel:+48668806323">+48 668 80 63 23     </a></li><li class="contact_type_text"><span>NIP: 6070082443</span></li><li class="contact_type_mail"><a href="mailto:sklep@sollux.pl">sklep@sollux.pl</a></li><li class="contact_type_adress"><span class="shopshortname">Sollux Lighting Sp. z o.o.<span>, </span></span><span class="adress_street">Władysława Łokietka 35<span>, </span></span><span class="adress_zipcode">64-840<span class="n55931_city"> Budzyń</span></span></li></ul><div class="garan_notice_wrapper"><a id="garan_notice_link" class="garan_notice_link" href="#garanNotice" aria-label="Zharmonizowana etykieta Unii Europejskiej">Twoje prawa z tytułu gwarancji ustawowej</a><div id="garan_notice_modal" class="garan_notice d-none"><p id="garan_notice_title" class="garan_notice__title sr-only">Twoje prawa z tytułu gwarancji ustawowej</p><a class="garan_notice__link" href="https://europa.eu/youreurope/gwarancje" target="_blank" rel="noopener noreferrer"><img class="garan_notice__img" src="/garanLabel/harmonisedNotice/harmonised_notice_PL.svg" width="740" height="1046" alt=""><span class="sr-only">Zharmonizowana etykieta Unii Europejskiej - dowiedz się więcej o gwarancjach w Unii Europejskiej (otwiera się w nowym oknie)</span></a></div></div></div><script>app_shop.vars.requestUri="%2F";app_shop.vars.additionalAjax='/index.php';</script><script>
+		const instalmentData = {
+			
+			currency: 'zł',
+			
+			
+					basketCost: 0,
+				
+					basketCostNet: 0,
+				
+			
+			basketCount: parseInt(0, 10),
+			
+			
+					price: 0,
+					priceNet: 0,
+				
+		}
+	</script><script type="application/ld+json">
+		{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"url": "https://sollux.pl/",
+		"logo": "https://sollux.pl/data/gfx/mask/pol/logo_1_big.svg"
+		}
+		</script><script type="application/ld+json">
+		{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		
+		"url": "https://sollux.pl/",
+		"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://sollux.pl/search.php?text={search_term_string}",
+		"query-input": "required name=search_term_string"
+		}
+		}
+	</script><div id="addCodesToBasket" class="addCodesToBasket"><h3 class="big_label">Dodaj produkty podając kody</h3><div class="addCodesToBasket__form"><div class="addCodesToBasket__input --file"><label>Wgraj pliki z kodami</label><div class="f-group --file"><span><i class="icon-paperclip"></i><span>Dodaj plik CSV</span></span><label class="f-label" for="addCodesToBasket__file">Wybierz pliki</label><input type="file" id="addCodesToBasket__file" class="f-control addCodesToBasket__file"></div></div><div class="addCodesToBasket__input --textarea"><label>Uzupełnij listę kodów</label><div class="f-group"><textarea type="text" id="addCodesToBasket__textarea" placeholder="Przykładowe kody produktów" class="f-control addCodesToBasket__textarea"></textarea></div><span>
+					Wpisz kody produktów, które chcesz zbiorczo dodać do koszyka (po przecinku, ze spacją lub od nowej linijki). 
+					Powtórzenie wielokrotnie kodu, doda ten towar tyle razy ile razy występuje.
+				</span></div><div class="addCodesToBasket__buttons"><a class="btn --solid --large" id="addCodesToBasketSubmit">Dodaj do koszyka</a></div></div></div></footer><script src="/gfx/pol/main_shop.js.gzip?r=1793615063"></script><script src="/gfx/pol/main_banner_modules.js.gzip?r=1793615063" type="module"></script><script src="/gfx/pol/envelope.js.gzip?r=1793615063"></script><script src="/gfx/pol/menu_newsletter.js.gzip?r=1793615063"></script><script src="/gfx/pol/menu_suggested_shop_for_language.js.gzip?r=1793615063"></script><script src="/gfx/pol/menu_contact.js.gzip?r=1793615063"></script><script src="/gfx/pol/hotspots_javascript.js.gzip?r=1793615063"></script><script src="/gfx/pol/hotspots_slider.js.gzip?r=1793615063"></script><script src="/gfx/pol/hotspots_add_to_basket.js.gzip?r=1793615063"></script><script src="/gfx/pol/add_codes_to_basket.js.gzip?r=1793615063"></script><script src="/gfx/pol/main.js.gzip?r=1793615063"></script><script src="/gfx/pol/main_instagram.js.gzip?r=1793615063"></script><script src="/gfx/pol/main_news2.js.gzip?r=1793615063"></script>            <!-- Google Tag Manager (noscript) -->
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRS7X2S"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) --><script async
+data-desktop-y-offset="200"
+data-mobile-y-offset="15"
+data-mobile-x-offset="25"
+data-desktop-disable-reviews="false"
+data-desktop-enable-custom="false"
+data-desktop-position="left"
+data-desktop-custom-opening-direction="topright"
+data-desktop-custom-width="150"
+data-desktop-enable-fadeout="false"
+data-disable-mobile="false"
+data-disable-trustbadge="false"
+data-mobile-custom-width="150"
+data-mobile-custom-opening-direction="topright"
+data-mobile-disable-reviews="true"
+data-mobile-enable-custom="true"
+data-mobile-position="left"
+data-mobile-enable-topbar="false"
+charset="UTF-8"
+src="//widgets.trustedshops.com/js/X72B6AEF879070111F1C58C4A41833493.js">
+</script><script>
+            window.Core = {};
+            window.Core.basketChanged = function(newContent) {};</script><script>var inpostPayProperties={"isBinded":null}</script>
+<!-- Begin additional html or js -->
+
+
+<!--72|1|19| modified: 2024-07-30 09:01:02-->
+<script>const footerLinksContainer = document.querySelector("#menu_regulations .footer_links_sub");
+const newFooterLink = document.createElement("li");
+newFooterLink.innerHTML = `<a href="#" onclick="cookiefirst_show_settings();"><b>Zmień ustawienia ciasteczek</b></a>`;
+footerLinksContainer.appendChild(newFooterLink);</script>
+<!--77|1|24| modified: 2026-09-07 09:32:37-->
+<script type="text/javascript" async="" 
+src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VZCBRv"></script>
+<!--95|1|43| modified: 2025-09-23 13:02:52-->
+<script id="tm-app-script" data-product="" async src="https://iai.trustmate.io/app/widget/script/9716.js"></script>
+<!--135|1|58| modified: 2026-10-08 15:45:00-->
+<script>const idmColors = {
+    "biały": "#FFFFFF",
+    "czarny": "#000000",
+    "szary": "#808080",
+    "biały/czarny": "#FFFFFF",
+    "czarny/biały": "#000000",
+    "wenge": "#645452",
+    "naturalne drewno": "#DEB887",
+    "wenge/biały": "#645452",
+    "chrom/biały": "#E0E0E0",
+    "transparentny": "#FFFFFF00",
+    "szampański": "#F7E7CE",
+    "grafitowy": "#474A51",
+    "grafit": "#474A51",
+    "żółty": "#FFFF00",
+    "czerwony": "#FF0000",
+    "zielony": "#008000",
+    "biały/chrom": "#FFFFFF",
+    "biały/naturalne drewno": "#FFFFFF",
+    "czarny/naturalne drewno": "#000000",
+    "antracyt": "#2F4F4F",
+    "pomarańczowy": "#FFA500",
+    "naturalne drewno/biały": "#DEB887",
+    "naturalne drewno/czarny": "#DEB887",
+    "biały/szary": "#FFFFFF",
+    "czarny/szary": "#000000",
+    "srebrny": "#C0C0C0",
+    "biały/złoty": "#FFFFFF",
+    "chrom": "#E0E0E0",
+    "czarny/chrom": "#000000",
+    "czarny/miedź": "#000000",
+    "czarny/złoty": "#000000",
+    "czarny/złoto": "#000000",
+    "szary/naturalne drewno": "#808080",
+    "dąb": "#C19A6B",
+    "szary/czarny": "#808080",
+    "złoty": "#FFD700",
+    "złoty połysk": "#FFD700",
+    "czarny/drewno": "#000000",
+    "drewno": "#C8AD7F",
+    "biały/drewno": "#FFFFFF",
+    "czarny/sznur": "#000000",
+    "złoty/biały": "#FFD700",
+    "złoty/czarny": "#FFD700",
+    "biały/ciemny brąz": "#FFFFFF",
+    "biały/jasny brąz": "#FFFFFF",
+    "natruralne drewno/biały": "#DEB887",
+    "wielokolorowy": "#ABCDEF",
+    "biały/czarny/zielony": "#FFFFFF",
+    "beżowy": "#F5F5DC",
+    "zielony oliwkowy": "#708238",
+    "ochra czerwona": "#913831",
+    "naturalne drewno/biały/czarny": "#DEB887",
+    "mocca": "#837060",
+    "ultramaryna": "#3F00FF",
+    "kaszmirowy": "#beada3",
+    "taupe": "#beada3",
+    "burgund": "#800020",
+    "brzoskwiniowy": "#FFE5B4",
+    "biały, szary": "#FFFFFF",
+    "czarny, szary": "#000000",
+    "beton": "#BEBEBE",
+    "miedź": "#B87333",
+    "granatowy": "#293875",
+    "różowy": "#D8A0A6",
+    "szałwia": "#6C7C59",
+    "żółty": "#f9a800",
+    "czerwień": "#bb1e10",
+    "brązowy": "#46322d",
+    "błękitny": "#3481b8",
+};</script>
+<!--140|1|58| modified: 2026-10-02 10:20:06-->
+<style>
+body:not(.idm-template){
+#menu_banners2{
+display: none;
+}
+}
+</style>
+
+<!-- End additional html or js -->
+<style>.grecaptcha-badge{position:static!important;transform:translateX(186px);transition:transform 0.3s!important;}.grecaptcha-badge:hover{transform:translateX(0);}</style><script>async function prepareRecaptcha(){var captchableElems=[];captchableElems.push(...document.getElementsByName("mailing_email"));captchableElems.push(...document.getElementsByName("client_login"));captchableElems.push(...document.getElementsByName("from"));if(!captchableElems.length)return;window.iaiRecaptchaToken=window.iaiRecaptchaToken||await getRecaptchaToken("contact");captchableElems.forEach((el)=>{if(el.dataset.recaptchaApplied)return;el.dataset.recaptchaApplied=true;const recaptchaTokenElement=document.createElement("input");recaptchaTokenElement.name="iai-recaptcha-token";recaptchaTokenElement.value=window.iaiRecaptchaToken;recaptchaTokenElement.type="hidden";if(el.name==="opinionId"){el.after(recaptchaTokenElement);return;}
+el.closest("form")?.append(recaptchaTokenElement);});}
+document.addEventListener("focus",(e)=>{const{target}=e;if(!target.closest)return;if(["order1","order2"].some(p=>window.location.href.includes(p)))return;if(!target.closest("input[name=mailing_email],input[name=client_login], input[name=client_password], input[name=client_firstname], input[name=client_lastname], input[name=client_email], input[name=terms_agree],input[name=from]"))return;prepareRecaptcha();},true);let recaptchaApplied=false;document.querySelectorAll(".rate_opinion").forEach((el)=>{el.addEventListener("mouseover",()=>{if(!recaptchaApplied){prepareRecaptcha();recaptchaApplied=true;}});});function getRecaptchaToken(event){if(window.iaiRecaptchaToken)return window.iaiRecaptchaToken;if(window.iaiRecaptchaTokenPromise)return window.iaiRecaptchaTokenPromise;const captchaScript=document.createElement('script');captchaScript.src="https://www.google.com/recaptcha/api.js?render=explicit";document.head.appendChild(captchaScript);window.iaiRecaptchaTokenPromise=new Promise((resolve,reject)=>{captchaScript.onload=function(){grecaptcha.ready(async()=>{if(!document.getElementById("googleRecaptchaBadge")){const googleRecaptchaBadge=document.createElement("div");googleRecaptchaBadge.id="googleRecaptchaBadge";googleRecaptchaBadge.setAttribute("style","position: relative; overflow: hidden; float: right; padding: 5px 0px 5px 5px; z-index: 2; margin-top: -75px; clear: both;");document.body.appendChild(googleRecaptchaBadge);}
+let clientId=grecaptcha.render('googleRecaptchaBadge',{'sitekey':'6LfY2KIUAAAAAHkCraLngqQvNxpJ31dsVuFsapft','badge':'bottomright','size':'invisible'});const response=await grecaptcha.execute(clientId,{action:event});window.iaiRecaptchaToken=response;setInterval(function(){resetCaptcha(clientId,event)},2*61*1000);resolve(response);})}});return window.iaiRecaptchaTokenPromise;}
+function resetCaptcha(clientId,event){grecaptcha.ready(function(){grecaptcha.execute(clientId,{action:event}).then(function(token){window.iaiRecaptchaToken=token;let tokenDivs=document.getElementsByName("iai-recaptcha-token");tokenDivs.forEach((el)=>{el.value=token;});});});}</script><script>app_shop.runApp();</script><img src="https://client9716.idosell.com/checkup.php?c=0ea29657d1688cd1948cca2c32e35f2e" style="display:none" alt="pixel"></body></html>

@@ -1,0 +1,634 @@
+[
+  {
+    "Text": "Przejdź do zawartości strony",
+    "Href": "#layout"
+  },
+  {
+    "Text": "Przejdź do kategorii",
+    "Href": "#menu_categories"
+  },
+  {
+    "Text": "Lampy",
+    "Href": "/pl/menu/lampy-1727"
+  },
+  {
+    "Text": "Zobacz wszystko",
+    "Href": "/pl/menu/lampy-1727"
+  },
+  {
+    "Text": "Lampy wiszące",
+    "Href": "/pl/menu/lampy-wiszace-158"
+  },
+  {
+    "Text": "Kinkiety",
+    "Href": "/pl/menu/kinkiety-152"
+  },
+  {
+    "Text": "Plafony",
+    "Href": "/plafony"
+  },
+  {
+    "Text": "Żyrandole",
+    "Href": "/pl/menu/zyrandole-155"
+  },
+  {
+    "Text": "Lampy podłogowe",
+    "Href": "/lampy-podlogowe"
+  },
+  {
+    "Text": "Biurkowe",
+    "Href": "/lampy-biurkowe"
+  },
+  {
+    "Text": "Żarówki",
+    "Href": "/pl/menu/zarowki-159"
+  },
+  {
+    "Text": "Wszystkie lampy",
+    "Href": "https://sollux.pl/pl/menu/lampy-1727"
+  },
+  {
+    "Text": "Lampy na szynoprzewodach",
+    "Href": "/lampy-na-szynoprzewodach"
+  },
+  {
+    "Text": "Pomieszczenia",
+    "Href": "/pl/menu/pomieszczenia-160"
+  },
+  {
+    "Text": "Zobacz wszystko",
+    "Href": "/pl/menu/pomieszczenia-160"
+  },
+  {
+    "Text": "Lampy do salonu",
+    "Href": "/pl/menu/lampy-do-salonu-161"
+  },
+  {
+    "Text": "Lampy do jadalni",
+    "Href": "/pl/menu/lampy-do-jadalni-162"
+  },
+  {
+    "Text": "Lampy do kuchni",
+    "Href": "/pl/menu/lampy-do-kuchni-163"
+  },
+  {
+    "Text": "Lampy do sypialni",
+    "Href": "/pl/menu/lampy-do-sypialni-164"
+  },
+  {
+    "Text": "Lampy do korytarza",
+    "Href": "/pl/menu/lampy-do-korytarza-184"
+  },
+  {
+    "Text": "Lampy do łazienki",
+    "Href": "/pl/menu/lampy-do-lazienki-185"
+  },
+  {
+    "Text": "Lampy do przedpokoju",
+    "Href": "/pl/menu/lampy-do-przedpokoju-165"
+  },
+  {
+    "Text": "Lampy do pokoju dziecięcego",
+    "Href": "/pl/menu/lampy-do-pokoju-dzieciecego-166"
+  },
+  {
+    "Text": "Kolory",
+    "Href": "https://sollux.pl/pl/menu/lampy-1727?filter_traits[21]=11086,11076,24,14336,14325,25,14303,852,23,14316,14164,768,11333,1246"
+  },
+  {
+    "Text": "Zobacz wszystko",
+    "Href": "https://sollux.pl/pl/menu/lampy-1727?filter_traits%5B21%5D=11086,11076,24,14336,14325,25,14303,852,23,14316,14164,768,11333,1246"
+  },
+  {
+    "Text": "Beżowe lampy",
+    "Href": "/pl/menu/bezowe-lampy-2493"
+  },
+  {
+    "Text": "Zielona oliwka lampy",
+    "Href": "/pl/menu/zielona-oliwka-lampy-2494"
+  },
+  {
+    "Text": "Taupe lampy",
+    "Href": "/pl/menu/taupe-lampy-2500"
+  },
+  {
+    "Text": "Ultramaryna lampy",
+    "Href": "/pl/menu/ultramaryna-lampy-2495"
+  },
+  {
+    "Text": "Białe lampy",
+    "Href": "/pl/menu/biale-lampy-2496"
+  },
+  {
+    "Text": "Czarne lampy",
+    "Href": "/pl/menu/czarne-lampy-2497"
+  },
+  {
+    "Text": "Burgundowe lampy",
+    "Href": "/pl/menu/burgundowe-lampy-2498"
+  },
+  {
+    "Text": "Mocca lampy",
+    "Href": "/pl/menu/mocca-lampy-2499"
+  },
+  {
+    "Text": "Złote lampy",
+    "Href": "/pl/menu/zlote-lampy-2501"
+  },
+  {
+    "Text": "Srebrne lampy",
+    "Href": "/pl/menu/srebrne-lampy-2502"
+  },
+  {
+    "Text": "Brzoskwiniowe lampy",
+    "Href": "/pl/menu/brzoskwiniowe-lampy-2503"
+  },
+  {
+    "Text": "Szare lampy",
+    "Href": "/pl/menu/szare-lampy-2504"
+  },
+  {
+    "Text": "Ochra czerwona lampy",
+    "Href": "/pl/menu/ochra-czerwona-lampy-2505"
+  },
+  {
+    "Text": "Czerwone lampy",
+    "Href": "/pl/menu/czerwone-lampy-3026"
+  },
+  {
+    "Text": "Błękitne lampy",
+    "Href": "/pl/menu/blekitne-lampy-3027"
+  },
+  {
+    "Text": "Żółte lampy",
+    "Href": "/pl/menu/zolte-lampy-3028"
+  },
+  {
+    "Text": "Różowe lampy",
+    "Href": "/pl/menu/rozowe-lampy-3029"
+  },
+  {
+    "Text": "Szałwia lampy",
+    "Href": "/pl/menu/szalwia-lampy-3030"
+  },
+  {
+    "Text": "Brązowe lampy",
+    "Href": "/pl/menu/brazowe-lampy-3031"
+  },
+  {
+    "Text": "Bestsellery",
+    "Href": "/pl/menu/bestsellery-827"
+  },
+  {
+    "Text": "Nowości",
+    "Href": "/pl/menu/nowosci-188"
+  },
+  {
+    "Text": "BLACK SALE",
+    "Href": "/pl/menu/black-sale-1923"
+  },
+  {
+    "Text": "Stwórz swoją lampę",
+    "Href": "https://sollux.pl/konfigurator"
+  },
+  {
+    "Text": "Zaloguj się",
+    "Href": "https://sollux.pl/pl/login.html"
+  },
+  {
+    "Text": "Koszyk 0 0,00 zł",
+    "Href": "/basketedit.php"
+  },
+  {
+    "Text": "Przejdź do koszyka",
+    "Href": "/basketedit.php"
+  },
+  {
+    "Text": "Listy zakupowe",
+    "Href": "#showShoppingLists"
+  },
+  {
+    "Text": "0",
+    "Href": "true"
+  },
+  {
+    "Text": "Wróć Listy zakupowe",
+    "Href": "#hidehoppingLists"
+  },
+  {
+    "Text": "Lista zakupowa ilość produktów: 0",
+    "Href": "https://sollux.pl/pl/shoppinglist"
+  },
+  {
+    "Text": "Zarządzaj listami",
+    "Href": "#manage"
+  },
+  {
+    "Text": "Lista dotychczas zamówionych produktów",
+    "Href": "https://sollux.pl/pl/products-bought.html"
+  },
+  {
+    "Text": "Zaloguj się lub zarejestruj",
+    "Href": "https://sollux.pl/pl/signin.html"
+  },
+  {
+    "Text": "Bestsellery Kolor i forma w nowym świetle Sprawdź lampy",
+    "Href": "https://sollux.pl/pl/menu/bestsellery-827"
+  },
+  {
+    "Text": "AURA Odkryj kolekcję w 16 kolorach Sprawdź",
+    "Href": "https://sollux.pl/pl/series/aura-24"
+  },
+  {
+    "Text": "Stwórz swoją lampe",
+    "Href": "https://sollux.pl/konfigurator"
+  },
+  {
+    "Text": "Lampy wiszące",
+    "Href": "/pl/menu/lampy-wiszace-158"
+  },
+  {
+    "Text": "Kinkiety",
+    "Href": "/pl/menu/kinkiety-152"
+  },
+  {
+    "Text": "Plafony",
+    "Href": "/plafony"
+  },
+  {
+    "Text": "Żyrandole",
+    "Href": "/pl/menu/zyrandole-155"
+  },
+  {
+    "Text": "Lampy podłogowe",
+    "Href": "/lampy-podlogowe"
+  },
+  {
+    "Text": "Biurkowe",
+    "Href": "/lampy-biurkowe"
+  },
+  {
+    "Text": "Żarówki",
+    "Href": "/pl/menu/zarowki-159"
+  },
+  {
+    "Text": "Lampy do salonu",
+    "Href": "/pl/menu/lampy-do-salonu-161"
+  },
+  {
+    "Text": "Lampy do jadalni",
+    "Href": "/pl/menu/lampy-do-jadalni-162"
+  },
+  {
+    "Text": "Lampy do kuchni",
+    "Href": "/pl/menu/lampy-do-kuchni-163"
+  },
+  {
+    "Text": "Lampy do sypialni",
+    "Href": "/pl/menu/lampy-do-sypialni-164"
+  },
+  {
+    "Text": "Lampy do korytarza",
+    "Href": "/pl/menu/lampy-do-korytarza-184"
+  },
+  {
+    "Text": "Lampy do łazienki",
+    "Href": "/pl/menu/lampy-do-lazienki-185"
+  },
+  {
+    "Text": "Lampy do przedpokoju",
+    "Href": "/pl/menu/lampy-do-przedpokoju-165"
+  },
+  {
+    "Text": "Lampy do pokoju dziecięcego",
+    "Href": "/pl/menu/lampy-do-pokoju-dzieciecego-166"
+  },
+  {
+    "Text": "Beżowe lampy",
+    "Href": "/pl/menu/bezowe-lampy-2493"
+  },
+  {
+    "Text": "Zielona oliwka lampy",
+    "Href": "/pl/menu/zielona-oliwka-lampy-2494"
+  },
+  {
+    "Text": "Taupe lampy",
+    "Href": "/pl/menu/taupe-lampy-2500"
+  },
+  {
+    "Text": "Ultramaryna lampy",
+    "Href": "/pl/menu/ultramaryna-lampy-2495"
+  },
+  {
+    "Text": "Białe lampy",
+    "Href": "/pl/menu/biale-lampy-2496"
+  },
+  {
+    "Text": "Czarne lampy",
+    "Href": "/pl/menu/czarne-lampy-2497"
+  },
+  {
+    "Text": "Burgundowe lampy",
+    "Href": "/pl/menu/burgundowe-lampy-2498"
+  },
+  {
+    "Text": "Mocca lampy",
+    "Href": "/pl/menu/mocca-lampy-2499"
+  },
+  {
+    "Text": "Złote lampy",
+    "Href": "/pl/menu/zlote-lampy-2501"
+  },
+  {
+    "Text": "Srebrne lampy",
+    "Href": "/pl/menu/srebrne-lampy-2502"
+  },
+  {
+    "Text": "Brzoskwiniowe lampy",
+    "Href": "/pl/menu/brzoskwiniowe-lampy-2503"
+  },
+  {
+    "Text": "Szare lampy",
+    "Href": "/pl/menu/szare-lampy-2504"
+  },
+  {
+    "Text": "Ochra czerwona lampy",
+    "Href": "/pl/menu/ochra-czerwona-lampy-2505"
+  },
+  {
+    "Text": "Czerwone lampy",
+    "Href": "/pl/menu/czerwone-lampy-3026"
+  },
+  {
+    "Text": "Błękitne lampy",
+    "Href": "/pl/menu/blekitne-lampy-3027"
+  },
+  {
+    "Text": "Żółte lampy",
+    "Href": "/pl/menu/zolte-lampy-3028"
+  },
+  {
+    "Text": "Różowe lampy",
+    "Href": "/pl/menu/rozowe-lampy-3029"
+  },
+  {
+    "Text": "Szałwia lampy",
+    "Href": "/pl/menu/szalwia-lampy-3030"
+  },
+  {
+    "Text": "Brązowe lampy",
+    "Href": "/pl/menu/brazowe-lampy-3031"
+  },
+  {
+    "Text": "Sprawdź katalog",
+    "Href": "https://sollux-lighting.com/uploads/sollux_katalog.pdf"
+  },
+  {
+    "Text": "Pobierz aplikacje na telefon",
+    "Href": "https://sollux.pl/pl/blog/nie-wiesz-czy-konkretna-lampa-bedzie-pasowac-do-twojego-wnetrza-sprawdz-to-za-darmo-z-aplikacja-sollux-smart"
+  },
+  {
+    "Text": "Stwórz własny projekt",
+    "Href": "https://sollux.pl/konfigurator"
+  },
+  {
+    "Text": "Odwiedź sklep THORO",
+    "Href": "https://thoro.pl/"
+  },
+  {
+    "Text": "Zainspiruj się na naszym blogu",
+    "Href": "/pl/blog"
+  },
+  {
+    "Text": "Zobacz wszystko",
+    "Href": "/pl/blog"
+  },
+  {
+    "Text": "Black Friday w SOLLUX: cały dom taniej do 60%",
+    "Href": "https://sollux.pl/pl/blog/black-friday-w-sollux-caly-dom-taniej-do-60-1793791181"
+  },
+  {
+    "Text": "Czytaj więcej",
+    "Href": "/pl/blog/black-friday-w-sollux-caly-dom-taniej-do-60-1793791181"
+  },
+  {
+    "Text": "Czerwień we wnętrzu - jak jej użyć, żeby nie przytłoczyła",
+    "Href": "https://sollux.pl/pl/blog/czerwien-we-wnetrzu-jak-jej-uzyc-zeby-nie-przytloczyla-1793275304"
+  },
+  {
+    "Text": "Czytaj więcej",
+    "Href": "/pl/blog/czerwien-we-wnetrzu-jak-jej-uzyc-zeby-nie-przytloczyla-1793275304"
+  },
+  {
+    "Text": "Ultramaryna we wnętrzu - z jakimi kolorami tworzy najlepsze pary",
+    "Href": "https://sollux.pl/pl/blog/ultramaryna-we-wnetrzu-z-jakimi-kolorami-tworzy-najlepsze-pary-1792179216"
+  },
+  {
+    "Text": "Czytaj więcej",
+    "Href": "/pl/blog/ultramaryna-we-wnetrzu-z-jakimi-kolorami-tworzy-najlepsze-pary-1792179216"
+  },
+  {
+    "Text": "Zielona oliwka - kolor, który nie nudzi się po roku",
+    "Href": "https://sollux.pl/pl/blog/zielona-oliwka-kolor-ktory-nie-nudzi-sie-po-roku-1790674848"
+  },
+  {
+    "Text": "Czytaj więcej",
+    "Href": "/pl/blog/zielona-oliwka-kolor-ktory-nie-nudzi-sie-po-roku-1790674848"
+  },
+  {
+    "Text": "Cena na telefon",
+    "Href": "/contact.php"
+  },
+  {
+    "Text": "Kinkiety",
+    "Href": "https://sollux.pl/pl/menu/kinkiety-152"
+  },
+  {
+    "Text": "Lampy podłogowe",
+    "Href": "/pl/categories/lampy-podlogowe-1214553884.html"
+  },
+  {
+    "Text": "Lampy wiszące",
+    "Href": "https://sollux.pl/pl/menu/lampy-wiszace-158"
+  },
+  {
+    "Text": "Plafony",
+    "Href": "https://sollux.pl/plafony"
+  },
+  {
+    "Text": "Lampy dziecięce",
+    "Href": "/pl/menu/lampy-do-pokoju-dzieciecego-166"
+  },
+  {
+    "Text": "Żyrandole",
+    "Href": "https://sollux.pl/pl/menu/zyrandole-155"
+  },
+  {
+    "Text": "lampy do salonu",
+    "Href": "https://sollux.pl/pl/menu/lampy-do-salonu-161"
+  },
+  {
+    "Text": "lampy do jadalni",
+    "Href": "https://sollux.pl/pl/menu/lampy-do-jadalni-162"
+  },
+  {
+    "Text": "lampy do kuchni",
+    "Href": "https://sollux.pl/pl/menu/lampy-do-kuchni-163"
+  },
+  {
+    "Text": "lampy do sypialni",
+    "Href": "https://sollux.pl/pl/menu/lampy-do-sypialni-164"
+  },
+  {
+    "Text": "lampy do korytarza",
+    "Href": "https://sollux.pl/pl/menu/lampy-do-korytarza-184"
+  },
+  {
+    "Text": "lampy do przedpokoju",
+    "Href": "https://sollux.pl/pl/menu/lampy-do-przedpokoju-165"
+  },
+  {
+    "Text": "lampy do pokoju dziecięcego",
+    "Href": "https://sollux.pl/pl/menu/lampy-do-pokoju-dzieciecego-166"
+  },
+  {
+    "Text": "Zamówienia",
+    "Href": "https://sollux.pl/pl/client-orders.html"
+  },
+  {
+    "Text": "Status zamówienia",
+    "Href": "https://sollux.pl/pl/order-open.html"
+  },
+  {
+    "Text": "Śledzenie przesyłki",
+    "Href": "https://sollux.pl/pl/order-open.html"
+  },
+  {
+    "Text": "Chcę zareklamować produkt",
+    "Href": "https://sollux.pl/pl/rma-open.html"
+  },
+  {
+    "Text": "Chcę odstąpić od umowy",
+    "Href": "https://sollux.pl/pl/returns-open.html"
+  },
+  {
+    "Text": "Chcę wymienić towar",
+    "Href": "/pl/client-orders.html?display=returns&amp;exchange=true"
+  },
+  {
+    "Text": "Kontakt",
+    "Href": "/pl/contact"
+  },
+  {
+    "Text": "Konto",
+    "Href": "https://sollux.pl/pl/login.html"
+  },
+  {
+    "Text": "Zarejestruj się",
+    "Href": "https://sollux.pl/pl/client-new.html?register"
+  },
+  {
+    "Text": "Koszyk",
+    "Href": "https://sollux.pl/pl/basketedit.html"
+  },
+  {
+    "Text": "Listy zakupowe",
+    "Href": "https://sollux.pl/pl/shoppinglist"
+  },
+  {
+    "Text": "Lista zakupionych produktów",
+    "Href": "https://sollux.pl/pl/products-bought.html"
+  },
+  {
+    "Text": "Historia transakcji",
+    "Href": "https://sollux.pl/pl/client-orders.html"
+  },
+  {
+    "Text": "Moje rabaty",
+    "Href": "https://sollux.pl/pl/client-rebate.html"
+  },
+  {
+    "Text": "Newsletter",
+    "Href": "https://sollux.pl/pl/newsletter.html"
+  },
+  {
+    "Text": "Regulaminy",
+    "Href": "#menu_regulations_content"
+  },
+  {
+    "Text": "Wysyłka",
+    "Href": "/pl/delivery"
+  },
+  {
+    "Text": "Sposoby płatności",
+    "Href": "/pl/payments"
+  },
+  {
+    "Text": "Regulamin sklepu",
+    "Href": "/pl/terms"
+  },
+  {
+    "Text": "Polityka prywatności",
+    "Href": "/pl/privacy-and-cookie-notice"
+  },
+  {
+    "Text": "Odstąpienie od umowy",
+    "Href": "/pl/returns-and_replacements"
+  },
+  {
+    "Text": "Informacje",
+    "Href": "#links_footer_1_content"
+  },
+  {
+    "Text": "FAQ",
+    "Href": "https://sollux.pl/pl/info/faq-39"
+  },
+  {
+    "Text": "Gwarancja",
+    "Href": "https://sollux.pl/pl/terms/gwarancja-38.html"
+  },
+  {
+    "Text": "Kontakt",
+    "Href": "/pl/contact"
+  },
+  {
+    "Text": "Konfigurator 3D",
+    "Href": "https://sollux.pl/konfigurator"
+  },
+  {
+    "Text": "Dla Architekta",
+    "Href": "https://sollux-lighting.com/wspolpraca/klub-architekta/"
+  },
+  {
+    "Text": "Modele 3D",
+    "Href": "https://sollux.cloud.arlity.com/architect_zone/product?"
+  },
+  {
+    "Text": "Dystrybucja",
+    "Href": "https://sollux-lighting.com/pl/"
+  },
+  {
+    "Text": "Kontakt",
+    "Href": "https://sollux.pl/pl/contact"
+  },
+  {
+    "Text": "+48 668 80 63 23",
+    "Href": "tel:+48668806323"
+  },
+  {
+    "Text": "sklep@sollux.pl",
+    "Href": "mailto:sklep@sollux.pl"
+  },
+  {
+    "Text": "Twoje prawa z tytułu gwarancji ustawowej",
+    "Href": "#garanNotice"
+  },
+  {
+    "Text": "Zharmonizowana etykieta Unii Europejskiej - dowiedz się więcej o gwarancjach w Unii Europejskiej (otwiera się w nowym oknie)",
+    "Href": "https://europa.eu/youreurope/gwarancje"
+  },
+  {
+    "Text": "Zmień ustawienia ciasteczek",
+    "Href": "#"
+  }
+]

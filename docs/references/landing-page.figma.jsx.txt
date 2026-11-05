@@ -1,0 +1,1028 @@
+const imgHeroBaner = "../../assets/images/hero-bestsellers.png";
+const imgThoro = "../../assets/images/thoro.png";
+const imgMacBookAir15Inch = "../../assets/images/configurator-laptop.png";
+const imgIPadPro = "../../assets/images/catalogue-tablet.png";
+const imgIPhone16 = "../../assets/images/smart-phone-frame.png";
+const imgChangeThis1 = "../../assets/images/smart-screen-back.png";
+const imgChangeThis3 = "../../assets/images/smart-screen-front.png";
+const imgScreen = "../../docs/references/shader-source.png";
+const imgPlatnosciDostawcy = "../../assets/images/payments/payment-01.png";
+const imgPlatnosciDostawcy1 = "../../assets/images/payments/payment-02.png";
+const imgPlatnosciDostawcy2 = "../../assets/images/payments/payment-03.png";
+const imgPlatnosciDostawcy3 = "../../assets/images/payments/payment-04.png";
+const imgPlatnosciDostawcy4 = "../../assets/images/payments/payment-05.png";
+const imgPlatnosciDostawcy5 = "../../assets/images/payments/payment-06.png";
+const imgPlatnosciDostawcy6 = "../../assets/images/payments/payment-07.png";
+const imgPlatnosciDostawcy7 = "../../assets/images/payments/payment-08.png";
+const imgPlatnosciDostawcy8 = "../../assets/images/payments/payment-09.png";
+const imgPlatnosciDostawcy9 = "../../assets/images/payments/payment-10.png";
+const imgDgIcon2 = "../../assets/images/awards/dg-icon.png";
+const imgOrlyOswietlenia2 = "../../assets/images/awards/orly-oswietlenia.png";
+const imgEGazeleBiznesu20212 = "../../assets/images/awards/e-gazele-biznesu.png";
+const imgSolidnaFirma20212 = "../../assets/images/awards/solidna-firma.png";
+const imgPolskaGwarancjaJakosci2 = "../../assets/images/awards/polska-gwarancja-jakosci.png";
+const imgFirmaGodnaZaufania2 = "../../assets/images/awards/firma-godna-zaufania.png";
+const imgArrowRight = "../../assets/icons/arrow-right.svg";
+const imgArrowLeft = "../../assets/icons/arrow-left.svg";
+const imgGroup1 = "../../assets/icons/review-star.svg";
+const imgLogoSollux = "../../assets/icons/sollux-light.svg";
+const imgAngleDown = "../../assets/icons/angle-down.svg";
+const imgSearch = "../../assets/icons/search.svg";
+const imgCube = "../../assets/icons/configurator.svg";
+const imgUser = "../../assets/icons/account.svg";
+const imgGroup = "../../assets/icons/cart-mask.svg";
+const imgGroup2 = "../../assets/icons/cart-artwork.svg";
+const imgEnter = "../../assets/icons/benefit-returns.svg";
+const imgBookmarkFull = "../../assets/icons/benefit-warranty.svg";
+const imgTruck = "../../assets/icons/benefit-delivery.svg";
+const imgGroup3 = "../../assets/icons/benefit-polish-mask.svg";
+const imgGroup4 = "../../assets/icons/benefit-polish-artwork.svg";
+const imgTrophy = "../../assets/icons/benefit-official.svg";
+const imgEllipse20 = "../../assets/icons/configurator-palette.svg";
+const imgMask = "../../assets/icons/smart-back-device.svg";
+const imgChangeThis = "../../assets/icons/smart-back-screen-mask.svg";
+const imgMask1 = "../../assets/icons/smart-front-device.svg";
+const imgChangeThis2 = "../../assets/icons/smart-front-screen-mask.svg";
+const imgLogoSolluxStandard3 = "../../assets/icons/sollux-dark.svg";
+const imgFacebook = "../../assets/icons/social-facebook.svg";
+const imgInstagram = "../../assets/icons/social-instagram.svg";
+const imgGroup5 = "../../assets/icons/social-tiktok-mask.svg";
+const imgGroup6 = "../../assets/icons/social-tiktok-artwork.svg";
+const imgYoutube = "../../assets/icons/social-youtube.svg";
+const imgFlags = "../../assets/icons/flags/flag-01.svg";
+const imgFlags1 = "../../assets/icons/flags/flag-02.svg";
+const imgPhotoVectorized = "../../assets/icons/flags/flag-03.svg";
+const imgFlags2 = "../../assets/icons/flags/flag-04.svg";
+const imgFlags3 = "../../assets/icons/flags/flag-05.svg";
+const imgFlags4 = "../../assets/icons/flags/flag-06.svg";
+const imgFlags5 = "../../assets/icons/flags/flag-07.svg";
+const imgFlags6 = "../../assets/icons/flags/flag-08.svg";
+const imgDivider = "../../assets/icons/footer-divider.svg";
+const imgGroup13 = "../../assets/icons/partner-idomods.svg";
+const imgVector = "../../assets/icons/partner-idosell-part-01.svg";
+const imgVector1 = "../../assets/icons/partner-idosell-part-02.svg";
+const imgVector2 = "../../assets/icons/partner-idosell-part-03.svg";
+const imgVector3 = "../../assets/icons/partner-idosell-part-04.svg";
+const imgVector4 = "../../assets/icons/partner-idosell-part-05.svg";
+const imgVector5 = "../../assets/icons/partner-idosell-part-06.svg";
+const imgVector6 = "../../assets/icons/partner-idosell-part-07.svg";
+const imgVector7 = "../../assets/icons/partner-idosell-part-08.svg";
+const imgVector8 = "../../assets/icons/partner-idosell-part-09.svg";
+const imgVector9 = "../../assets/icons/partner-idosell-part-10.svg";
+const imgGroup7 = "../../assets/icons/partner-idosell-wordmark-mask.svg";
+const imgGroup8 = "../../assets/icons/partner-idosell-wordmark.svg";
+
+export default function LandingpPage() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative size-full" data-node-id="1:505" data-name="Landingp page">
+      <div className="content-stretch flex h-[1080px] items-center justify-center overflow-clip px-[16px] relative shrink-0 w-full" data-node-id="1:506" data-name="HERO Baner">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgHeroBaner} />
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center max-w-[1600px] min-w-px overflow-clip py-[64px] relative" data-node-id="1:507" data-name="Container">
+          <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-node-id="1:508" data-name="Content">
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start relative shrink-0 text-white w-full" data-node-id="1:509" data-name="Title">
+              <p className="font-['Red_Hat_Display:Medium'] font-medium leading-[1.2] relative shrink-0 text-[16px] w-full" data-node-id="1:510">
+                Bestsellery SOLLUX
+              </p>
+              <div className="font-['Red_Hat_Display:Bold'] font-bold leading-[0] relative shrink-0 text-[56px] w-full" data-node-id="1:511">
+                <p className="leading-none mb-0">Kolor i forma</p>
+                <p className="leading-none">w nowym świetle</p>
+              </div>
+            </div>
+            <div className="bg-[#f2bf25] content-stretch flex items-center justify-center px-[24px] py-[16px] relative rounded-[100px] shrink-0" data-node-id="1:512" data-name="Button">
+              <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] relative shrink-0 text-[#1e1e1e] text-[16px] text-center whitespace-nowrap" data-node-id="1:513">
+                Sprawdź bestsellery
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute bg-[rgba(16,16,17,0.2)] content-stretch flex items-center justify-center right-[72px] rounded-[100px] size-[48px] top-1/2" data-node-id="1:514" data-name="Circle button">
+          <div className="relative shrink-0 size-[24px]" data-node-id="1:515" data-name="arrow-right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+          </div>
+        </div>
+        <div className="absolute bg-[rgba(16,16,17,0.2)] content-stretch flex items-center justify-center left-[72px] rounded-[100px] size-[48px] top-[516px]" data-node-id="1:517" data-name="Circle button">
+          <div className="relative shrink-0 size-[24px]" data-node-id="1:518" data-name="arrow-left">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeft} />
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute bottom-[32px] content-stretch flex gap-[4px] items-center left-1/2" data-node-id="1:520" data-name="Progress bar">
+          <div className="bg-[#f2bf25] h-[2px] relative shrink-0 w-[64px]" data-node-id="1:521" data-name="Div" />
+          <div className="bg-[rgba(231,231,231,0.5)] h-[2px] relative shrink-0 w-[64px]" data-node-id="1:522" data-name="Div" />
+        </div>
+        <div className="absolute bg-[rgba(16,16,17,0.4)] bottom-[32px] content-stretch flex gap-[12px] items-center px-[24px] py-[12px] right-[72px] rounded-[100px]" data-node-id="1:524" data-name="Trustmate badge">
+          <div className="content-stretch flex gap-[2px] items-center relative shrink-0" data-node-id="1:525" data-name="Rate">
+            <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[21px] text-white whitespace-nowrap" data-node-id="1:526">
+              4.8
+            </p>
+            <div className="overflow-clip relative shrink-0 size-[20px]" data-node-id="1:527">
+              <div className="absolute inset-[7.9%_12.5%_8.76%_16.67%]" data-node-id="1:528">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[13px] text-white whitespace-nowrap" data-node-id="1:532">
+            Uwielbiany przez klientów
+          </p>
+        </div>
+        <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-center justify-center left-1/2 p-[16px] top-0 w-[1920px]" data-node-id="1:533" data-name="Navbar">
+          <div className="content-stretch flex gap-[64px] items-center max-w-[1600px] relative shrink-0 w-full" data-node-id="1:534" data-name="Content">
+            <div className="content-stretch flex gap-[64px] items-center relative shrink-0" data-node-id="1:535" data-name="Logo + Links">
+              <div className="h-[48px] relative shrink-0 w-[150px]" data-node-id="1:536" data-name="Logo SOLLUX">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLogoSollux} />
+              </div>
+              <div className="content-stretch flex gap-[32px] items-center max-w-[1600px] relative shrink-0" data-node-id="1:544" data-name="Links">
+                <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="1:545" data-name="Mini button">
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:546" data-name="Link text">
+                    <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="1:547">
+                      Lampy
+                    </p>
+                  </div>
+                  <div className="relative shrink-0 size-[16px]" data-node-id="1:548" data-name="angle-down">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAngleDown} />
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="1:550" data-name="Mini button">
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:551" data-name="Link text">
+                    <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="1:552">
+                      Kolory
+                    </p>
+                  </div>
+                  <div className="relative shrink-0 size-[16px]" data-node-id="1:553" data-name="angle-down">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAngleDown} />
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="1:555" data-name="Mini button">
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:556" data-name="Link text">
+                    <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="1:557">
+                      Pomieszczenia
+                    </p>
+                  </div>
+                  <div className="relative shrink-0 size-[16px]" data-node-id="1:558" data-name="angle-down">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAngleDown} />
+                  </div>
+                </div>
+                <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:560" data-name="Mini button">
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:561" data-name="Link text">
+                    <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="1:562">
+                      Nowości
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:563" data-name="Mini button">
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:564" data-name="Link text">
+                    <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="1:565">
+                      Bestsellery
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:566" data-name="Mini button">
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:567" data-name="Link text">
+                    <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="1:568">
+                      Promocje
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="border border-[#e7e7e7] border-solid content-stretch flex flex-[1_0_0] flex-col items-start min-w-px px-[24px] py-[16px] relative rounded-[100px]" data-node-id="1:569" data-name="Search">
+              <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-node-id="1:570" data-name="Content">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] min-w-px relative text-[14px] text-white" data-node-id="1:571">
+                  Czego szukasz?
+                </p>
+                <div className="relative shrink-0 size-[20px]" data-node-id="1:572" data-name="search">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSearch} />
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[8px] items-center justify-end relative shrink-0" data-node-id="1:574" data-name="Ikony">
+              <div className="content-stretch flex gap-[9px] items-center px-[16px] py-[11px] relative rounded-[100px] shrink-0" data-node-id="1:575" data-name="Konfigurator">
+                <div className="relative shrink-0 size-[20px]" data-node-id="1:576" data-name="cube">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCube} />
+                </div>
+                <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[13px] text-white whitespace-nowrap" data-node-id="1:578">
+                  Stwórz swoją lampę
+                </p>
+              </div>
+              <div className="content-stretch flex items-center justify-center relative rounded-[100px] shrink-0 size-[48px]" data-node-id="1:579" data-name="Circle button">
+                <div className="relative shrink-0 size-[24px]" data-node-id="1:580" data-name="user">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUser} />
+                </div>
+              </div>
+              <div className="content-stretch flex items-center justify-center relative rounded-[100px] shrink-0 size-[48px]" data-node-id="1:585" data-name="Basket navi icon">
+                <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="1:586" data-name="Custom Icons">
+                  <div className="absolute inset-[0_3.13%_-6.25%_3.13%] overflow-clip" data-node-id="1:587" data-name="ikona_koszyk 1">
+                    <div className="absolute contents inset-[0_0.41%_0.29%_0]" data-node-id="1:588" data-name="Clip path group">
+                      <div className="absolute inset-[12.46%_0.37%_13.17%_-0.01%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0.003px_-3.178px] mask-size-[22.408px_25.425px]" data-node-id="1:591" style={{ maskImage: `url("${imgGroup}")` }} data-name="Group">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col items-center justify-center px-[16px] py-[86px] relative shrink-0 w-full" data-node-id="1:593" data-name="VP's">
+        <div className="content-stretch flex flex-col gap-[64px] items-start max-w-[1600px] relative shrink-0 w-full" data-node-id="1:594" data-name="Content">
+          <div className="content-stretch flex gap-[32px] items-start relative shrink-0 w-full" data-node-id="1:595" data-name="TOP VP">
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start justify-center min-w-px p-[16px] relative" data-node-id="1:596" data-name="Value">
+              <div className="relative shrink-0 size-[32px]" data-node-id="1:597" data-name="enter">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEnter} />
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:599" data-name="Copy">
+                <p className="font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#101011] text-[21px] w-full" data-node-id="1:600">
+                  Zwroty nawet do 100 dni
+                </p>
+                <p className="font-['Red_Hat_Display:Medium'] font-medium leading-[1.2] relative shrink-0 text-[#1e1e1e] text-[14px] w-full" data-node-id="1:601">
+                  szybkie i proste
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start justify-center min-w-px p-[16px] relative" data-node-id="1:602" data-name="Value">
+              <div className="relative shrink-0 size-[32px]" data-node-id="1:603" data-name="bookmark-full">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBookmarkFull} />
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:605" data-name="Copy">
+                <p className="font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#101011] text-[21px] w-full" data-node-id="1:606">
+                  5 lat gwarancji
+                </p>
+                <p className="font-['Red_Hat_Display:Medium'] font-medium leading-[1.2] relative shrink-0 text-[#1e1e1e] text-[14px] w-full" data-node-id="1:607">
+                  na wszystkie produkty
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start justify-center min-w-px p-[16px] relative" data-node-id="1:608" data-name="Value">
+              <div className="relative shrink-0 size-[32px]" data-node-id="1:609" data-name="truck">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTruck} />
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:611" data-name="Copy">
+                <p className="font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#101011] text-[21px] w-full" data-node-id="1:612">
+                  Darmowa dostawa
+                </p>
+                <p className="font-['Red_Hat_Display:Medium'] font-medium leading-[1.2] relative shrink-0 text-[#1e1e1e] text-[14px] w-full" data-node-id="1:613">
+                  już za 299 zł
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start justify-center min-w-px p-[16px] relative" data-node-id="1:614" data-name="Value">
+              <div className="overflow-clip relative shrink-0 size-[32px]" data-node-id="1:615" data-name="Custom Icons">
+                <div className="absolute contents inset-[4.17%_9.9%_4.17%_9.89%]" data-node-id="1:616" data-name="Clip path group">
+                  <div className="absolute inset-[4.17%_9.9%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[25.667px_29.334px]" data-node-id="1:619" style={{ maskImage: `url("${imgGroup3}")` }} data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup4} />
+                  </div>
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:622" data-name="Copy">
+                <p className="font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#101011] text-[21px] w-full" data-node-id="1:623">
+                  Polskie produkty
+                </p>
+                <p className="font-['Red_Hat_Display:Medium'] font-medium leading-[1.2] relative shrink-0 text-[#1e1e1e] text-[14px] w-full" data-node-id="1:624">
+                  sprawdzona jakość
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start justify-center min-w-px p-[16px] relative" data-node-id="1:625" data-name="Value">
+              <div className="relative shrink-0 size-[32px]" data-node-id="1:626" data-name="trophy">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTrophy} />
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="1:628" data-name="Copy">
+                <p className="font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#101011] text-[21px] w-full" data-node-id="1:629">
+                  Oficjalny sklep producenta
+                </p>
+                <p className="font-['Red_Hat_Display:Medium'] font-medium leading-[1.2] relative shrink-0 text-[#1e1e1e] text-[14px] w-full" data-node-id="1:630">
+                  gwarancja satysfakcji
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[1600px]" data-node-id="1:631" data-name="Grid">
+            <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-node-id="1:632" data-name="1 row">
+              <div className="content-stretch flex flex-col h-[518px] items-start justify-end overflow-clip relative rounded-[24px] shrink-0 w-[648px]" data-node-id="1:633" data-name="THORO">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgThoro} />
+                <div className="content-stretch flex flex-col gap-[24px] items-start p-[48px] relative shrink-0 w-full" data-node-id="1:634" data-name="Text">
+                  <div className="[word-break:break-word] content-stretch flex flex-col font-['Red_Hat_Display:Bold'] font-bold gap-[12px] items-start leading-[1.1] relative shrink-0 text-white w-full" data-node-id="1:635" data-name="Title">
+                    <p className="relative shrink-0 text-[21px] w-full" data-node-id="1:636">
+                      Marka THORO
+                    </p>
+                    <p className="relative shrink-0 text-[32px] w-full" data-node-id="1:637">
+                      Poznaj lampy premium
+                    </p>
+                  </div>
+                  <div className="bg-[#101011] content-stretch flex items-center justify-center px-[24px] py-[16px] relative rounded-[100px] shrink-0" data-node-id="1:638" data-name="Button">
+                    <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" data-node-id="1:639">
+                      Odwiedź sklep THORO
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#72a3f3] content-stretch flex flex-col h-[518px] items-start justify-end overflow-clip relative rounded-[24px] shrink-0 w-[936px]" data-node-id="1:640" data-name="Konfigurator">
+                <div className="absolute h-[464px] left-[413px] top-[10px] w-[488px]" data-node-id="1:641" data-name="Phone">
+                  <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(50%+29.46px)] top-[calc(50%+0.35px)]" data-node-id="1:642" data-name="Mockup">
+                    <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(50%-109.06px)] top-[calc(50%-28.53px)]" data-node-id="1:643" data-name="Cricle">
+                      <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%-109.06px)] size-[202.638px] top-[calc(50%-28.53px)]" data-node-id="1:644">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse20} />
+                      </div>
+                      <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(50%-109.01px)] top-[calc(50%-27.81px)]" data-node-id="1:645" data-name="Colors">
+                        <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col items-center justify-center left-[calc(50%-109.01px)] overflow-clip p-[6.469px] rounded-[161.719px] size-[50.659px] top-[calc(50%-99.77px)]" data-node-id="1:646" data-name="Color">
+                          <div className="aspect-[24/24] bg-[#f5f5dc] relative rounded-[161.719px] shrink-0 w-full" data-node-id="1:647" data-name="Fill" />
+                        </div>
+                        <div className="-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center left-[calc(50%-53.32px)] size-[71.193px] top-[calc(50%-72.94px)]" data-node-id="1:648">
+                          <div className="flex-none rotate-[51.43deg]">
+                            <div className="content-stretch flex flex-col items-center justify-center overflow-clip p-[6.469px] relative rounded-[161.719px] size-[50.659px]" data-name="Color">
+                              <div className="aspect-[24/24] bg-[#56663e] relative rounded-[161.719px] shrink-0 w-full" data-node-id="1:649" data-name="Fill" />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center left-[calc(50%-39.56px)] size-[60.662px] top-[calc(50%-12.67px)]" data-node-id="1:650">
+                          <div className="flex-none rotate-[102.86deg]">
+                            <div className="content-stretch flex flex-col items-center justify-center overflow-clip p-[6.469px] relative rounded-[161.719px] size-[50.659px]" data-name="Color">
+                              <div className="aspect-[24/24] bg-[#3f4f8b] relative rounded-[161.719px] shrink-0 w-full" data-node-id="1:651" data-name="Fill" />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center left-[calc(50%-78.1px)] size-[67.623px] top-[calc(50%+35.66px)]" data-node-id="1:652">
+                          <div className="flex-none rotate-[154.29deg]">
+                            <div className="content-stretch flex flex-col items-center justify-center overflow-clip p-[6.469px] relative rounded-[161.719px] size-[50.659px]" data-name="Color">
+                              <div className="aspect-[24/24] bg-[#beada3] relative rounded-[161.719px] shrink-0 w-full" data-node-id="1:653" data-name="Fill" />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center left-[calc(50%-139.92px)] size-[67.623px] top-[calc(50%+35.66px)]" data-node-id="1:654">
+                          <div className="flex-none rotate-[-154.29deg]">
+                            <div className="content-stretch flex flex-col items-center justify-center overflow-clip p-[6.469px] relative rounded-[161.719px] size-[50.659px]" data-name="Color">
+                              <div className="aspect-[24/24] bg-[#708238] relative rounded-[161.719px] shrink-0 w-full" data-node-id="1:655" data-name="Fill" />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center left-[calc(50%-178.47px)] size-[60.662px] top-[calc(50%-12.67px)]" data-node-id="1:656">
+                          <div className="flex-none rotate-[-102.86deg]">
+                            <div className="content-stretch flex flex-col items-center justify-center overflow-clip p-[6.469px] relative rounded-[161.719px] size-[50.659px]" data-name="Color">
+                              <div className="aspect-[24/24] bg-[#837060] relative rounded-[161.719px] shrink-0 w-full" data-node-id="1:657" data-name="Fill" />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center left-[calc(50%-164.71px)] size-[71.193px] top-[calc(50%-72.94px)]" data-node-id="1:658">
+                          <div className="flex-none rotate-[-51.43deg]">
+                            <div className="content-stretch flex flex-col items-center justify-center overflow-clip p-[6.469px] relative rounded-[161.719px] size-[50.659px]" data-name="Color">
+                              <div className="aspect-[24/24] bg-[#0e2a94] relative rounded-[161.719px] shrink-0 w-full" data-node-id="1:659" data-name="Fill" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="-translate-x-1/2 -translate-y-1/2 absolute flex h-[258.348px] items-center justify-center left-[calc(50%-71.55px)] top-[calc(50%-20.25px)] w-[354.01px]" data-node-id="1:660">
+                      <div className="flex-none rotate-[-24.57deg]">
+                        <div className="bg-gradient-to-b from-[rgba(114,163,243,0.01)] h-[134.113px] relative to-[#72a3f3] w-[327.94px]" />
+                      </div>
+                    </div>
+                    <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[524.704px] left-[calc(50%+29.46px)] top-[calc(50%+0.35px)] w-[700.91px]" data-node-id="1:661" data-name="MacBook Air (15 inch)">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookAir15Inch} />
+                    </div>
+                  </div>
+                  <div className="absolute bg-gradient-to-b from-[rgba(114,163,243,0.01)] h-[159px] left-[24px] to-[#72a3f3] top-[305px] w-[464px]" data-node-id="1:662" />
+                </div>
+                <div className="content-stretch flex flex-col gap-[24px] items-start p-[48px] relative shrink-0 w-full" data-node-id="1:663" data-name="Text">
+                  <div className="[word-break:break-word] content-stretch flex flex-col font-['Red_Hat_Display:Bold'] font-bold gap-[12px] items-start relative shrink-0 text-white w-full" data-node-id="1:664" data-name="Title">
+                    <p className="leading-[1.1] relative shrink-0 text-[21px] w-full" data-node-id="1:665">
+                      Konfigurator 3D
+                    </p>
+                    <div className="leading-[0] relative shrink-0 text-[32px] w-full" data-node-id="1:666">
+                      <p className="leading-[1.1] mb-0">Wybierz projekt i dostosuj</p>
+                      <p className="leading-[1.1]">{`go do swojego wnętrza `}</p>
+                    </div>
+                  </div>
+                  <div className="bg-[#101011] content-stretch flex items-center justify-center px-[24px] py-[16px] relative rounded-[100px] shrink-0" data-node-id="1:667" data-name="Button">
+                    <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" data-node-id="1:668">
+                      Stwórz swój projekt
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-node-id="1:669" data-name="2 row">
+              <div className="bg-[#fdf8eb] content-stretch flex flex-col h-[518px] items-start justify-end overflow-clip relative rounded-[24px] shrink-0 w-[936px]" data-node-id="1:670" data-name="Katalog">
+                <div className="absolute h-[464px] left-[424px] overflow-clip top-[54px] w-[488px]" data-node-id="1:671" data-name="Phone">
+                  <div className="absolute h-[545.175px] left-[-108px] top-[-48px] w-[727.568px]" data-node-id="1:672" data-name="iPad Pro">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgIPadPro} />
+                  </div>
+                  <div className="absolute bg-gradient-to-b from-[rgba(253,248,235,0.01)] h-[340px] left-[24px] to-[#fdf8eb] top-[124px] w-[464px]" data-node-id="1:673" />
+                </div>
+                <div className="content-stretch flex flex-col gap-[24px] items-start p-[48px] relative shrink-0 w-full" data-node-id="1:674" data-name="Text">
+                  <div className="[word-break:break-word] content-stretch flex flex-col font-['Red_Hat_Display:Bold'] font-bold gap-[12px] items-start leading-[1.1] relative shrink-0 text-[#101011] w-full" data-node-id="1:675" data-name="Title">
+                    <p className="relative shrink-0 text-[21px] w-full" data-node-id="1:676">
+                      Katalog
+                    </p>
+                    <p className="relative shrink-0 text-[32px] w-full" data-node-id="1:677">
+                      Odkryj najnowszy katalog
+                    </p>
+                  </div>
+                  <div className="bg-[#101011] content-stretch flex items-center justify-center px-[24px] py-[16px] relative rounded-[100px] shrink-0" data-node-id="1:678" data-name="Button">
+                    <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" data-node-id="1:679">
+                      Sprawdź katalog
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#e8e4df] content-stretch flex flex-col h-[518px] items-start justify-end overflow-clip relative rounded-[24px] shrink-0 w-[648px]" data-node-id="1:680" data-name="SOLLUX SMART">
+                <div className="absolute h-[231px] left-[79px] overflow-clip top-[72px] w-[230px]" data-node-id="1:681" data-name="Phone">
+                  <div className="absolute contents inset-[2.6%_0_-25.14%_3.04%]" data-node-id="1:682" style={{ containerType: "size" }} data-name="Mockup">
+                    <div className="absolute flex inset-[2.6%_0_-25.14%_3.04%] items-center justify-center" data-node-id="1:683" style={{ containerType: "size" }}>
+                      <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+                        <div className="relative size-full" data-name="iPhone-16">
+                          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                            <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgIPhone16} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute contents inset-[4.59%_2.49%_-19.05%_7.98%]" data-node-id="1:684" style={{ containerType: "size" }} data-name="Mockup">
+                      <div className="absolute flex inset-[4.59%_2.49%_-19.05%_7.98%] items-center justify-center" data-node-id="1:685" style={{ containerType: "size" }}>
+                        <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+                          <div className="relative size-full" data-name="Mask">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMask} />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="absolute contents inset-[4.59%_2.49%_-19.05%_7.98%]" data-node-id="1:686" style={{ containerType: "size" }} data-name="Mask group">
+                        <div className="absolute flex inset-[4.11%_0.14%_-19.84%_5.76%] items-center justify-center" data-node-id="1:689" style={{ containerType: "size" }}>
+                          <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+                            <div className="mask-intersect mask-luminance mask-no-clip mask-no-repeat mask-position-[5.09px_1.109px] mask-size-[205.928px_264.39px] relative size-full" style={{ maskImage: `url("${imgChangeThis}")` }} data-name="Change-This">
+                              <img alt="" className="absolute block inset-0 max-w-none size-full" height="267.334" src={imgChangeThis1} width="216.427" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute bg-gradient-to-b from-[rgba(232,228,223,0.01)] h-[139px] left-0 to-[#e8e4df] top-[92px] w-[230px]" data-node-id="1:690" />
+                </div>
+                <div className="absolute h-[421px] left-[220px] overflow-clip top-[97px] w-[419px]" data-node-id="1:691" data-name="Phone">
+                  <div className="absolute contents inset-[9.03%_4.27%_-21.22%_6.92%]" data-node-id="1:692" data-name="Mockup">
+                    <div className="absolute inset-[9.03%_4.27%_-21.22%_6.92%]" data-node-id="1:693" data-name="iPhone-16">
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                        <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgIPhone16} />
+                      </div>
+                    </div>
+                    <div className="absolute contents inset-[10.85%_8.79%_-15.64%_9.2%]" data-node-id="1:694" data-name="Mockup">
+                      <div className="absolute inset-[10.85%_8.79%_-15.64%_9.2%]" data-node-id="1:695" data-name="Mask">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMask1} />
+                      </div>
+                      <div className="absolute contents inset-[10.85%_8.79%_-15.64%_9.2%]" data-node-id="1:696" data-name="Mask group">
+                        <div className="absolute inset-[10.41%_6.76%_-16.37%_7.05%] mask-intersect mask-luminance mask-no-clip mask-no-repeat mask-position-[9.026px_1.85px] mask-size-[343.613px_441.165px]" data-node-id="1:699" style={{ maskImage: `url("${imgChangeThis2}")` }} data-name="Change-This">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" height="446.077" src={imgChangeThis3} width="361.132" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute bg-gradient-to-b from-[rgba(232,228,223,0.01)] h-[325px] left-[15px] to-[#e8e4df] top-[96px] w-[386px]" data-node-id="1:700" />
+                </div>
+                <div className="content-stretch flex flex-col gap-[24px] items-start p-[48px] relative shrink-0 w-full" data-node-id="1:701" data-name="Text">
+                  <div className="[word-break:break-word] content-stretch flex flex-col font-['Red_Hat_Display:Bold'] font-bold gap-[12px] items-start leading-[1.1] relative shrink-0 text-[#101011] w-full" data-node-id="1:702" data-name="Title">
+                    <p className="relative shrink-0 text-[21px] w-full" data-node-id="1:703">
+                      SOLLUX SMART
+                    </p>
+                    <p className="relative shrink-0 text-[32px] w-full" data-node-id="1:704">
+                      Przymierz lampę w aplikacji
+                    </p>
+                  </div>
+                  <div className="bg-[#101011] content-stretch flex items-center justify-center px-[24px] py-[16px] relative rounded-[100px] shrink-0" data-node-id="1:705" data-name="Button">
+                    <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.2] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" data-node-id="1:706">
+                      Pobierz aplikacje na telefon
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="aspect-[1920/835] relative shrink-0 w-full" data-node-id="1:707" data-name="screen">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[156.29%] left-[-16.67%] max-w-none top-[-48.02%] w-[133.33%]" src={imgScreen} />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start relative shrink-0 w-[1920px]" data-node-id="1:708" data-name="Footer">
+        <div className="bg-white content-stretch flex flex-col items-center justify-center pb-[64px] pt-[96px] px-[16px] relative shrink-0 w-full" data-node-id="1:709" data-name="Top">
+          <div className="content-stretch flex items-start justify-between max-w-[1600px] relative shrink-0 w-full" data-node-id="1:710" data-name="Columns">
+            <div className="content-stretch flex flex-col gap-[8px] items-center relative shrink-0" data-node-id="1:711" data-name="Logo">
+              <div className="h-[44px] relative shrink-0 w-[160px]" data-node-id="1:712" data-name="LOGO_sollux_standard 3">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLogoSolluxStandard3} />
+              </div>
+              <div className="content-stretch flex gap-[2px] items-center relative shrink-0" data-node-id="1:720" data-name="Social media icons">
+                <div className="bg-white content-stretch flex items-center justify-center relative rounded-[100px] shrink-0 size-[48px]" data-node-id="1:721" data-name="Circle button">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="1:722" data-name="facebook">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFacebook} />
+                  </div>
+                </div>
+                <div className="bg-white content-stretch flex items-center justify-center relative rounded-[100px] shrink-0 size-[48px]" data-node-id="1:724" data-name="Circle button">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="1:725" data-name="instagram">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInstagram} />
+                  </div>
+                </div>
+                <div className="bg-white content-stretch flex items-center justify-center relative rounded-[100px] shrink-0 size-[48px]" data-node-id="1:727" data-name="Circle button">
+                  <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="1:728" data-name="Tiktok">
+                    <div className="absolute contents inset-[16.67%_20.83%]" data-node-id="1:729" data-name="Clip path group">
+                      <div className="absolute inset-[16.67%_20.83%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[14px_16px]" data-node-id="1:732" style={{ maskImage: `url("${imgGroup5}")` }} data-name="Group">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup6} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white content-stretch flex items-center justify-center relative rounded-[100px] shrink-0 size-[48px]" data-node-id="1:734" data-name="Circle button">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="1:735" data-name="youtube">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgYoutube} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[96px] items-start relative shrink-0" data-node-id="1:737" data-name="Links">
+              <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0" data-node-id="1:738" data-name="Column">
+                <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] w-full" data-node-id="1:739">
+                  Moje zamówienia
+                </p>
+                <div className="content-stretch flex flex-col gap-[14px] items-start relative shrink-0 w-full" data-node-id="1:740" data-name="Links">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:741" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:742" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:743">
+                        Status zamówienia
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:744" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:745" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:746">
+                        Śledzenie przesyłki
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:747" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:748" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:749">
+                        Chcę zareklamować produkt
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:750" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:751" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:752">
+                        Informacje o wymianie
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:753" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:754" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:755">
+                        Kontakt
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0" data-node-id="1:756" data-name="Column">
+                <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] w-full" data-node-id="1:757">
+                  Moje konto
+                </p>
+                <div className="content-stretch flex flex-col gap-[14px] items-start relative shrink-0 w-full" data-node-id="1:758" data-name="Links">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:759" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:760" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:761">
+                        Zarejestruj się
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:762" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:763" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:764">
+                        Koszyk
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:765" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:766" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:767">
+                        Listy zakupowe
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:768" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:769" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:770">
+                        Lista zakupionych produktów
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:771" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:772" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:773">
+                        Historia transakcji
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:774" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:775" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:776">
+                        Moje rabaty
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0" data-node-id="1:777" data-name="Column">
+                <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] w-full" data-node-id="1:778">
+                  Regulaminy
+                </p>
+                <div className="content-stretch flex flex-col gap-[14px] items-start relative shrink-0 w-full" data-node-id="1:779" data-name="Links">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:780" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:781" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:782">
+                        Sposoby wysyłki
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:783" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:784" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:785">
+                        Sposoby płatności
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:786" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:787" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:788">
+                        Regulamin sklepu
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:789" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:790" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:791">
+                        Polityka prywatności
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:792" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:793" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:794">
+                        Polityka bezpieczeństwa
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:795" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:796" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:797">
+                        Zmień ustawienia ciasteczek
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0" data-node-id="1:798" data-name="Column">
+                <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] w-full" data-node-id="1:799">
+                  Informacje
+                </p>
+                <div className="content-stretch flex flex-col gap-[14px] items-start relative shrink-0 w-full" data-node-id="1:800" data-name="Links">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:801" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:802" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:803">
+                        O nas
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:804" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:805" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:806">
+                        FAQ
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:807" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:808" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:809">
+                        Kurs światła
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:810" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:811" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:812">
+                        Inspiracje
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:813" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:814" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:815">
+                        Marka premium
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:816" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:817" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:818">
+                        Gwarancja
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:819" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:820" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:821">
+                        Konfigurator 3D
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0" data-node-id="1:822" data-name="Column">
+                <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] w-full" data-node-id="1:823">
+                  Wpsółpraca
+                </p>
+                <div className="content-stretch flex flex-col gap-[14px] items-start relative shrink-0 w-full" data-node-id="1:824" data-name="Links">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:825" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:826" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:827">
+                        Dla Architekta
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:828" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:829" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:830">
+                        Modele 3D
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:831" data-name="Mini button">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:832" data-name="Link text">
+                      <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[13px] whitespace-nowrap" data-node-id="1:833">
+                        Dystrybucja
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white content-stretch flex flex-col items-center justify-center pb-[16px] px-[16px] relative shrink-0 w-full" data-node-id="1:834" data-name="Bottom">
+          <div className="border-[#e7e7e7] border-solid border-t content-stretch flex gap-[32px] items-start max-w-[1600px] relative shrink-0 w-full" data-node-id="1:835" data-name="Content">
+            <div className="border-[#e7e7e7] border-r border-solid content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px pr-[32px] py-[32px] relative self-stretch" data-node-id="1:836" data-name="Płatności">
+              <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] min-w-full relative shrink-0 text-[#1e1e1e] text-[13px] w-[min-content]" data-node-id="1:837">
+                Płatności i dostawy
+              </p>
+              <div className="content-center flex flex-wrap gap-[8px] h-[80px] items-center relative shrink-0 w-[317px]" data-node-id="1:838" data-name="Grid">
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip px-[7px] py-[6px] relative rounded-[4px] shrink-0" data-node-id="1:839" data-name="Payment+Delivery">
+                  <div className="content-stretch flex h-[24px] items-start overflow-clip relative shrink-0 w-[43px]" data-node-id="1:840" data-name="Placeholder logo">
+                    <div className="h-[24px] relative shrink-0 w-[43px]" data-node-id="1:841" data-name="Płatności+Dostawcy">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPlatnosciDostawcy} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip px-[7px] py-[6px] relative rounded-[4px] shrink-0" data-node-id="1:842" data-name="Payment+Delivery">
+                  <div className="content-stretch flex h-[24px] items-start overflow-clip relative shrink-0 w-[43px]" data-node-id="1:843" data-name="Placeholder logo">
+                    <div className="h-[24px] relative shrink-0 w-[43px]" data-node-id="1:844" data-name="Płatności+Dostawcy">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPlatnosciDostawcy1} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip px-[7px] py-[6px] relative rounded-[4px] shrink-0" data-node-id="1:845" data-name="Payment+Delivery">
+                  <div className="content-stretch flex h-[24px] items-start overflow-clip relative shrink-0 w-[43px]" data-node-id="1:846" data-name="Placeholder logo">
+                    <div className="h-[24px] relative shrink-0 w-[43px]" data-node-id="1:847" data-name="Płatności+Dostawcy">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPlatnosciDostawcy2} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip px-[7px] py-[6px] relative rounded-[4px] shrink-0" data-node-id="1:848" data-name="Payment+Delivery">
+                  <div className="content-stretch flex h-[24px] items-start overflow-clip relative shrink-0 w-[43px]" data-node-id="1:849" data-name="Placeholder logo">
+                    <div className="h-[24px] relative shrink-0 w-[43px]" data-node-id="1:850" data-name="Płatności+Dostawcy">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPlatnosciDostawcy3} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip px-[7px] py-[6px] relative rounded-[4px] shrink-0" data-node-id="1:851" data-name="Payment+Delivery">
+                  <div className="content-stretch flex h-[24px] items-start overflow-clip relative shrink-0 w-[43px]" data-node-id="1:852" data-name="Placeholder logo">
+                    <div className="h-[24px] relative shrink-0 w-[43px]" data-node-id="1:853" data-name="Płatności+Dostawcy">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPlatnosciDostawcy4} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip px-[7px] py-[6px] relative rounded-[4px] shrink-0" data-node-id="1:854" data-name="Payment+Delivery">
+                  <div className="content-stretch flex h-[24px] items-start overflow-clip relative shrink-0 w-[43px]" data-node-id="1:855" data-name="Placeholder logo">
+                    <div className="h-[24px] relative shrink-0 w-[43px]" data-node-id="1:856" data-name="Płatności+Dostawcy">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPlatnosciDostawcy5} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip px-[7px] py-[6px] relative rounded-[4px] shrink-0" data-node-id="1:857" data-name="Payment+Delivery">
+                  <div className="content-stretch flex h-[24px] items-start overflow-clip relative shrink-0 w-[43px]" data-node-id="1:858" data-name="Placeholder logo">
+                    <div className="h-[24px] relative shrink-0 w-[43px]" data-node-id="1:859" data-name="Płatności+Dostawcy">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPlatnosciDostawcy6} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip px-[7px] py-[6px] relative rounded-[4px] shrink-0" data-node-id="1:860" data-name="Payment+Delivery">
+                  <div className="content-stretch flex h-[24px] items-start overflow-clip relative shrink-0 w-[43px]" data-node-id="1:861" data-name="Placeholder logo">
+                    <div className="h-[24px] relative shrink-0 w-[43px]" data-node-id="1:862" data-name="Płatności+Dostawcy">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPlatnosciDostawcy7} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip px-[7px] py-[6px] relative rounded-[4px] shrink-0" data-node-id="1:863" data-name="Payment+Delivery">
+                  <div className="content-stretch flex h-[24px] items-start overflow-clip relative shrink-0 w-[43px]" data-node-id="1:864" data-name="Placeholder logo">
+                    <div className="h-[24px] relative shrink-0 w-[43px]" data-node-id="1:865" data-name="Płatności+Dostawcy">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPlatnosciDostawcy8} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip px-[7px] py-[6px] relative rounded-[4px] shrink-0" data-node-id="1:866" data-name="Payment+Delivery">
+                  <div className="content-stretch flex h-[24px] items-start overflow-clip relative shrink-0 w-[43px]" data-node-id="1:867" data-name="Placeholder logo">
+                    <div className="h-[24px] relative shrink-0 w-[43px]" data-node-id="1:868" data-name="Płatności+Dostawcy">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPlatnosciDostawcy9} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="border-[#e7e7e7] border-r border-solid content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px p-[32px] relative self-stretch" data-node-id="1:869" data-name="Nagrody">
+              <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] min-w-full relative shrink-0 text-[#1e1e1e] text-[13px] w-[min-content]" data-node-id="1:870">
+                Nagrody
+              </p>
+              <div className="content-start flex flex-wrap gap-[3px] items-start relative shrink-0 w-[294px]" data-node-id="1:871">
+                <div className="h-[44px] relative shrink-0 w-[96px]" data-node-id="1:872" data-name="Dg_icon 2">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDgIcon2} />
+                </div>
+                <div className="h-[43px] relative shrink-0 w-[96px]" data-node-id="1:873" data-name="orly-oswietlenia 2">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgOrlyOswietlenia2} />
+                </div>
+                <div className="h-[43px] relative shrink-0 w-[94px]" data-node-id="1:874" data-name="e-gazele-biznesu-2021 2">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEGazeleBiznesu20212} />
+                </div>
+                <div className="h-[43px] relative shrink-0 w-[96px]" data-node-id="1:875" data-name="solidna-firma-2021 2">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSolidnaFirma20212} />
+                </div>
+                <div className="h-[43px] relative shrink-0 w-[96px]" data-node-id="1:876" data-name="polska-gwarancja-jakosci 2">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPolskaGwarancjaJakosci2} />
+                </div>
+                <div className="h-[42px] relative shrink-0 w-[51px]" data-node-id="1:877" data-name="firma-godna-zaufania 2">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFirmaGodnaZaufania2} />
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px p-[32px] relative self-stretch" data-node-id="1:878" data-name="Nasze sklepy">
+              <p className="[word-break:break-word] font-['Red_Hat_Display:Bold'] font-bold leading-[1.1] min-w-full relative shrink-0 text-[#1e1e1e] text-[13px] w-[min-content]" data-node-id="1:879">
+                Nasze sklepy
+              </p>
+              <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="1:880" data-name="Flags">
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[32px]" data-node-id="1:881" data-name="flag">
+                  <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[100px] shrink-0 size-[24px]" data-node-id="1:882" data-name="Flag">
+                    <div className="relative shrink-0 size-[24px]" data-node-id="1:883" data-name="Flags">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFlags} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[32px]" data-node-id="1:886" data-name="flag">
+                  <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[100px] shrink-0 size-[24px]" data-node-id="1:887" data-name="Flag">
+                    <div className="relative shrink-0 size-[24px]" data-node-id="1:888" data-name="Flags">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFlags1} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[32px]" data-node-id="1:892" data-name="flag">
+                  <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[100px] shrink-0 size-[24px]" data-node-id="1:893" data-name="Flag">
+                    <div className="bg-white content-stretch flex flex-col gap-[10px] items-start overflow-clip relative rounded-[100px] shrink-0 size-[24px]" data-node-id="1:894" data-name="Flags">
+                      <div className="relative shrink-0 size-[24px]" data-node-id="1:895" data-name="photo [Vectorized]">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhotoVectorized} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[32px]" data-node-id="1:900" data-name="flag">
+                  <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[100px] shrink-0 size-[24px]" data-node-id="1:901" data-name="Flag">
+                    <div className="relative shrink-0 size-[24px]" data-node-id="1:902" data-name="Flags">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFlags2} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[32px]" data-node-id="1:906" data-name="flag">
+                  <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[100px] shrink-0 size-[24px]" data-node-id="1:907" data-name="Flag">
+                    <div className="relative shrink-0 size-[24px]" data-node-id="1:908" data-name="Flags">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFlags3} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[32px]" data-node-id="1:912" data-name="flag">
+                  <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[100px] shrink-0 size-[24px]" data-node-id="1:913" data-name="Flag">
+                    <div className="relative shrink-0 size-[24px]" data-node-id="1:914" data-name="Flags">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFlags4} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[32px]" data-node-id="1:932" data-name="flag">
+                  <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[100px] shrink-0 size-[24px]" data-node-id="1:933" data-name="Flag">
+                    <div className="relative shrink-0 size-[24px]" data-node-id="1:934" data-name="Flags">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFlags5} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[32px]" data-node-id="1:938" data-name="flag">
+                  <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[100px] shrink-0 size-[24px]" data-node-id="1:939" data-name="Flag">
+                    <div className="relative shrink-0 size-[24px]" data-node-id="1:940" data-name="Flags">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFlags6} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white content-stretch flex flex-col items-center justify-center px-[24px] py-[32px] relative shrink-0 w-full" data-node-id="1:946" data-name="Caption">
+          <div className="content-stretch flex flex-col gap-[8px] items-start max-w-[1600px] relative shrink-0 w-full" data-node-id="1:947" data-name="Content">
+            <div className="content-stretch flex gap-[32px] items-center relative shrink-0 w-full" data-node-id="1:948" data-name="info VAT">
+              <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[12px] whitespace-nowrap" data-node-id="1:949">
+                W sklepie prezentujemy ceny brutto (z VAT). Stawki VAT dla konsumentów z kraju: Polska.
+              </p>
+              <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="1:950" data-name="Divider">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgDivider} />
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="1:951" data-name="Logotypy">
+                <div className="h-[36px] relative shrink-0 w-[98px]" data-node-id="1:952">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup13} />
+                </div>
+                <div className="h-[36px] overflow-clip relative rounded-[2px] shrink-0 w-[66px]" data-node-id="1:967" data-name="suparfair_IdoSellShop_black 1">
+                  <div className="absolute inset-[0_-0.28%_0_0.4%]" data-node-id="1:968" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+                  </div>
+                  <div className="absolute inset-[19.76%_81.37%_64.58%_12.55%]" data-node-id="1:969" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+                  </div>
+                  <div className="absolute inset-[22.8%_73.68%_64.38%_19.28%]" data-node-id="1:970" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector2} />
+                  </div>
+                  <div className="absolute inset-[23.01%_63.26%_64.58%_26.66%]" data-node-id="1:971" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+                  </div>
+                  <div className="absolute inset-[22.8%_56.12%_64.38%_37.08%]" data-node-id="1:972" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector4} />
+                  </div>
+                  <div className="absolute inset-[22.8%_51.48%_64.58%_45.03%]" data-node-id="1:973" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector5} />
+                  </div>
+                  <div className="absolute inset-[22.8%_44.09%_64.38%_49.11%]" data-node-id="1:974" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector6} />
+                  </div>
+                  <div className="absolute inset-[18.75%_36.33%_64.38%_56.58%]" data-node-id="1:975" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector7} />
+                  </div>
+                  <div className="absolute inset-[18.75%_24.63%_64.38%_68.29%]" data-node-id="1:976" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector8} />
+                  </div>
+                  <div className="absolute inset-[23.01%_17.26%_58.75%_75.71%]" data-node-id="1:977" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector9} />
+                  </div>
+                  <div className="absolute contents inset-[48.75%_11.58%_18.75%_12.55%]" data-node-id="1:978" data-name="Clip path group">
+                    <div className="absolute inset-[48.75%_11.58%_18.74%_12.55%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_-0.002px] mask-size-[50.073px_11.7px]" data-node-id="1:981" style={{ maskImage: `url("${imgGroup7}")` }} data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup8} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[24px] items-start relative shrink-0 w-full" data-node-id="1:990" data-name="Shop contact">
+              <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[12px] whitespace-nowrap" data-node-id="1:991">
+                NIP: 6070082443
+              </p>
+              <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="1:992" data-name="Tel">
+                <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:993" data-name="Mini button">
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:994" data-name="Link text">
+                    <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[12px] whitespace-nowrap" data-node-id="1:995">
+                      +48 668 806 323
+                    </p>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[12px] whitespace-nowrap" data-node-id="1:996">
+                  (Pn - Pt 7:00 - 15:00)
+                </p>
+              </div>
+              <div className="content-stretch flex items-center relative shrink-0" data-node-id="1:997" data-name="Mini button">
+                <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1:998" data-name="Link text">
+                  <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[12px] whitespace-nowrap" data-node-id="1:999">
+                    sklep@sollux.pl
+                  </p>
+                </div>
+              </div>
+              <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[12px] whitespace-nowrap" data-node-id="1:1000">
+                Sollux Lighting Sp. z o.o.
+              </p>
+              <p className="[word-break:break-word] font-['Red_Hat_Display:Medium'] font-medium leading-[1.1] relative shrink-0 text-[#1e1e1e] text-[12px] whitespace-nowrap" data-node-id="1:1001">
+                Władysława Łokietka 35, 64-840 Budzyń (POLSKA)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+

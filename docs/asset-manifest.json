@@ -1,0 +1,2110 @@
+{
+  "schemaVersion": 1,
+  "capturedOn": "2026-11-05",
+  "source": {
+    "fileKey": "BgVDA1zzvmKFbpznBGg4VG",
+    "pageNodeId": "0:1",
+    "layoutNodeId": "1:505"
+  },
+  "status": "acquired; original fragments preserved; media compositions assembled in review page",
+  "assets": [
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sourceType": "license",
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/redhatdisplay/OFL.txt",
+      "sourceNodeIds": [
+        "1:510",
+        "1:511"
+      ],
+      "usageSlot": "Red Hat Display 500 and 700, Latin and Latin Extended",
+      "license": "SIL Open Font License 1.1",
+      "bytes": 4394,
+      "sha256": "435fbfb7e66988b2a06686a4cb966faec733f35d8fe100a1601573c27f3e0bb8"
+    },
+    {
+      "path": "assets/fonts/red-hat-display-latin-ext.woff2",
+      "sourceType": "google-fonts",
+      "sourceUrl": "https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap",
+      "sourceNodeIds": [
+        "1:510",
+        "1:511"
+      ],
+      "usageSlot": "Red Hat Display 500 and 700, Latin and Latin Extended",
+      "license": "SIL Open Font License 1.1",
+      "bytes": 29868,
+      "sha256": "2d8c2822edbf47da226ec24e00a10d0a2fc84a0f4388ad46ecb857c5755cfffc"
+    },
+    {
+      "path": "assets/fonts/red-hat-display-latin.woff2",
+      "sourceType": "google-fonts",
+      "sourceUrl": "https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap",
+      "sourceNodeIds": [
+        "1:510",
+        "1:511"
+      ],
+      "usageSlot": "Red Hat Display 500 and 700, Latin and Latin Extended",
+      "license": "SIL Open Font License 1.1",
+      "bytes": 24664,
+      "sha256": "8b74ec7587b4ae9b7fed34b61a79dfe8d9991eefa292442ce42d4bf6dc2343ad"
+    },
+    {
+      "path": "assets/fonts/red-hat-display.css",
+      "sourceType": "google-fonts",
+      "sourceUrl": "https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap",
+      "sourceNodeIds": [
+        "1:510",
+        "1:511"
+      ],
+      "usageSlot": "Red Hat Display 500 and 700, Latin and Latin Extended",
+      "license": "SIL Open Font License 1.1",
+      "bytes": 1556,
+      "sha256": "a397b70630593ba55b31a9ed938a21d185036b7537fd3d7c6dac5b0315902c11"
+    },
+    {
+      "key": "imgUser",
+      "path": "assets/icons/account.svg",
+      "sourceNodeIds": [
+        "1:580"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-580",
+      "capturedOn": "2026-11-05",
+      "bytes": 1837,
+      "sha256": "e34ced0ea60aba5adf9f1ff3bbad9f20c9d617fb204ff33d11aebc16e086c85d",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgAngleDown",
+      "path": "assets/icons/angle-down.svg",
+      "sourceNodeIds": [
+        "1:548",
+        "1:553",
+        "1:558"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-548",
+      "capturedOn": "2026-11-05",
+      "bytes": 1050,
+      "sha256": "1ac31626fe583235730ccb952b4289160500c9fb6c01beed2216d138473f0c01",
+      "width": "16",
+      "height": "16",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "key": "imgArrowLeft",
+      "path": "assets/icons/arrow-left.svg",
+      "sourceNodeIds": [
+        "1:518"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-518",
+      "capturedOn": "2026-11-05",
+      "bytes": 1099,
+      "sha256": "b453e0794541f15219575dadd0277092b11092677a045f582638936c818e734d",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgArrowRight",
+      "path": "assets/icons/arrow-right.svg",
+      "sourceNodeIds": [
+        "1:515"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-515",
+      "capturedOn": "2026-11-05",
+      "bytes": 1199,
+      "sha256": "487bc2159e5030ac09742f853e2602705a60b62b7ff66e54079f99ab2ddc870b",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgTruck",
+      "path": "assets/icons/benefit-delivery.svg",
+      "sourceNodeIds": [
+        "1:609"
+      ],
+      "usageSlot": "benefits",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-609",
+      "capturedOn": "2026-11-05",
+      "bytes": 2813,
+      "sha256": "838b91d769f1358717f765dd19c2dfd5ed4de0be94e271a2d0abea4688a15da1",
+      "width": "32",
+      "height": "32",
+      "viewBox": "0 0 32 32"
+    },
+    {
+      "key": "imgTrophy",
+      "path": "assets/icons/benefit-official.svg",
+      "sourceNodeIds": [
+        "1:626"
+      ],
+      "usageSlot": "benefits",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-626",
+      "capturedOn": "2026-11-05",
+      "bytes": 2105,
+      "sha256": "fe5e12cb54301472b389e3582b9004cfa2f0d209ca0c2e5590d1d15880e1f313",
+      "width": "32",
+      "height": "32",
+      "viewBox": "0 0 32 32"
+    },
+    {
+      "key": "imgGroup4",
+      "path": "assets/icons/benefit-polish-artwork.svg",
+      "sourceNodeIds": [
+        "1:619"
+      ],
+      "usageSlot": "benefits",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-619",
+      "capturedOn": "2026-11-05",
+      "bytes": 611,
+      "sha256": "daadbd5e66dd977188b6c09174b0c4635c67d9d835c2a4e400738779be809af1",
+      "width": "25.6667",
+      "height": "29.3335",
+      "viewBox": "0 0 25.6667 29.3335"
+    },
+    {
+      "key": "imgGroup3",
+      "path": "assets/icons/benefit-polish-mask.svg",
+      "sourceNodeIds": [
+        "1:619"
+      ],
+      "usageSlot": "benefits",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-619",
+      "capturedOn": "2026-11-05",
+      "bytes": 291,
+      "sha256": "42186c173219a2c52a8bc69c90bb4b84c58e0d097a651f93c075e3197e568bd2",
+      "width": "25.6667",
+      "height": "29.3335",
+      "viewBox": "0 0 25.6667 29.3335"
+    },
+    {
+      "key": "imgEnter",
+      "path": "assets/icons/benefit-returns.svg",
+      "sourceNodeIds": [
+        "1:597"
+      ],
+      "usageSlot": "benefits",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-597",
+      "capturedOn": "2026-11-05",
+      "bytes": 1360,
+      "sha256": "3d0ec7355dfd93eb0128c612b8f15e309e3793055e95419db75c31cb299184eb",
+      "width": "32",
+      "height": "32",
+      "viewBox": "0 0 32 32"
+    },
+    {
+      "key": "imgBookmarkFull",
+      "path": "assets/icons/benefit-warranty.svg",
+      "sourceNodeIds": [
+        "1:603"
+      ],
+      "usageSlot": "benefits",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-603",
+      "capturedOn": "2026-11-05",
+      "bytes": 1059,
+      "sha256": "c7ee602060d0fc262d9e8f6fc7297f150861cd04e1d65f3f5bc59e2e2db91c7e",
+      "width": "32",
+      "height": "32",
+      "viewBox": "0 0 32 32"
+    },
+    {
+      "key": "imgGroup2",
+      "path": "assets/icons/cart-artwork.svg",
+      "sourceNodeIds": [
+        "1:591"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-591",
+      "capturedOn": "2026-11-05",
+      "bytes": 11395,
+      "sha256": "97b175dc3ea6d24e05b60be6289e1a5c56917ecea7394e51d2713ac56f414612",
+      "width": "22.4189",
+      "height": "18.965",
+      "viewBox": "0 0 22.4189 18.965"
+    },
+    {
+      "key": "imgGroup",
+      "path": "assets/icons/cart-mask.svg",
+      "sourceNodeIds": [
+        "1:591"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-591",
+      "capturedOn": "2026-11-05",
+      "bytes": 291,
+      "sha256": "7d2e6e1014b6b1ea137f5c37b359e1b2df2dcc02f05de0d0a8695023d51fc903",
+      "width": "22.4082",
+      "height": "25.4249",
+      "viewBox": "0 0 22.4082 25.4249"
+    },
+    {
+      "key": "imgEllipse20",
+      "path": "assets/icons/configurator-palette.svg",
+      "sourceNodeIds": [
+        "1:644"
+      ],
+      "usageSlot": "configurator card/header",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-644",
+      "capturedOn": "2026-11-05",
+      "bytes": 604,
+      "sha256": "a258eb18902e27d55dc21e2f749c92e6a13a7ce4968581236884e753c5f5a720",
+      "width": "202.638",
+      "height": "202.638",
+      "viewBox": "0 0 202.638 202.638"
+    },
+    {
+      "key": "imgCube",
+      "path": "assets/icons/configurator.svg",
+      "sourceNodeIds": [
+        "1:576"
+      ],
+      "usageSlot": "configurator card/header",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-576",
+      "capturedOn": "2026-11-05",
+      "bytes": 1458,
+      "sha256": "79b6987b28e7243bc3e3768fe3f411155702930af789a59dcc96c62bd85081e0",
+      "width": "20",
+      "height": "20",
+      "viewBox": "0 0 20 20"
+    },
+    {
+      "key": "imgFlags",
+      "path": "assets/icons/flags/flag-01.svg",
+      "sourceNodeIds": [
+        "1:883"
+      ],
+      "usageSlot": "footer country links",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-883",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "Polska",
+      "sourceOrder": 1,
+      "bytes": 1940,
+      "sha256": "a67f999fe0d01a0a0bb32514ede66e40a68364b075890cf5eabeb55df9345815",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgFlags1",
+      "path": "assets/icons/flags/flag-02.svg",
+      "sourceNodeIds": [
+        "1:888"
+      ],
+      "usageSlot": "footer country links",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-888",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "Deutschland",
+      "sourceOrder": 2,
+      "bytes": 2763,
+      "sha256": "7d3cb684976d52d140e6e2ee46e740fb057129c99835fcff4ca2f805e54955cf",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgPhotoVectorized",
+      "path": "assets/icons/flags/flag-03.svg",
+      "sourceNodeIds": [
+        "1:895"
+      ],
+      "usageSlot": "footer country links",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-895",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "España",
+      "sourceOrder": 3,
+      "bytes": 2728,
+      "sha256": "bbc354134a88876172a737e0f940b15a429e242bc104fe74d49b41a4015ff0d7",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgFlags2",
+      "path": "assets/icons/flags/flag-04.svg",
+      "sourceNodeIds": [
+        "1:902"
+      ],
+      "usageSlot": "footer country links",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-902",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "România",
+      "sourceOrder": 4,
+      "bytes": 2689,
+      "sha256": "47f1d87455c2fb22a7b086f210054c01be83ff448e69dc94038ea4a7cb9a3ffd",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgFlags3",
+      "path": "assets/icons/flags/flag-05.svg",
+      "sourceNodeIds": [
+        "1:908"
+      ],
+      "usageSlot": "footer country links",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-908",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "France",
+      "sourceOrder": 5,
+      "bytes": 2444,
+      "sha256": "0c98028c70313a62ec4d97b14ee89374a23278616293576fb3e8a91017d7c645",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgFlags4",
+      "path": "assets/icons/flags/flag-06.svg",
+      "sourceNodeIds": [
+        "1:914"
+      ],
+      "usageSlot": "footer country links",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-914",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "United Kingdom",
+      "sourceOrder": 6,
+      "bytes": 8455,
+      "sha256": "e0746cc8e1cf9622c05846189adfbdfbbb6493c10930f9abe779229d28b06734",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgFlags5",
+      "path": "assets/icons/flags/flag-07.svg",
+      "sourceNodeIds": [
+        "1:934"
+      ],
+      "usageSlot": "footer country links",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-934",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "Nederland",
+      "sourceOrder": 7,
+      "bytes": 1777,
+      "sha256": "d69ca75cc79627a2af120c0ff6199830e87b99094ac463e797d27acdabfb3988",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgFlags6",
+      "path": "assets/icons/flags/flag-08.svg",
+      "sourceNodeIds": [
+        "1:940"
+      ],
+      "usageSlot": "footer country links",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-940",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "Sverige",
+      "sourceOrder": 8,
+      "bytes": 3099,
+      "sha256": "19aa263be258f5f8dcae324fa711423a9eb098603f8d2c5ddf45a5a147e80091",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgDivider",
+      "path": "assets/icons/footer-divider.svg",
+      "sourceNodeIds": [
+        "1:950"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-950",
+      "capturedOn": "2026-11-05",
+      "bytes": 253,
+      "sha256": "d411e1c80fdc0c462e97161ee92ecb6b231640af5b071c6f1e87fcff1dc32955",
+      "width": "891",
+      "height": "1",
+      "viewBox": "0 0 891 1"
+    },
+    {
+      "key": "imgGroup13",
+      "path": "assets/icons/partner-idomods.svg",
+      "sourceNodeIds": [
+        "1:952"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-952",
+      "capturedOn": "2026-11-05",
+      "bytes": 17099,
+      "sha256": "312b4c397753bf7d82bd9cecb554011434930dfb250b9aaaa4be5a13a374d411",
+      "width": "98",
+      "height": "36",
+      "viewBox": "0 0 98 36"
+    },
+    {
+      "key": "imgVector",
+      "path": "assets/icons/partner-idosell-part-01.svg",
+      "sourceNodeIds": [
+        "1:968"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-968",
+      "capturedOn": "2026-11-05",
+      "bytes": 249,
+      "sha256": "7f1392e122dd2c21bb052766ccbc679c07d4e872a15247746655ee68211aecba",
+      "width": "65.9214",
+      "height": "36",
+      "viewBox": "0 0 65.9214 36"
+    },
+    {
+      "key": "imgVector1",
+      "path": "assets/icons/partner-idosell-part-02.svg",
+      "sourceNodeIds": [
+        "1:969"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-969",
+      "capturedOn": "2026-11-05",
+      "bytes": 743,
+      "sha256": "f37b8453b80cc6e949ad1b19d57dfc2b0fa6073cd6e68f04b6beaab7461c5ce2",
+      "width": "4.01496",
+      "height": "5.63516",
+      "viewBox": "0 0 4.01496 5.63516"
+    },
+    {
+      "key": "imgVector2",
+      "path": "assets/icons/partner-idosell-part-03.svg",
+      "sourceNodeIds": [
+        "1:970"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-970",
+      "capturedOn": "2026-11-05",
+      "bytes": 1342,
+      "sha256": "8a15d45b8ae47383f1d43e8da4c616cf775ab32ece372287ad0c9ecd8f9f5e11",
+      "width": "4.643",
+      "height": "4.61347",
+      "viewBox": "0 0 4.643 4.61347"
+    },
+    {
+      "key": "imgVector3",
+      "path": "assets/icons/partner-idosell-part-04.svg",
+      "sourceNodeIds": [
+        "1:971"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-971",
+      "capturedOn": "2026-11-05",
+      "bytes": 381,
+      "sha256": "172bb9b9ff8d7893f7cf96aae738d6676640e9c70a04e6a9094a647767da7564",
+      "width": "6.65004",
+      "height": "4.4676",
+      "viewBox": "0 0 6.65004 4.4676"
+    },
+    {
+      "key": "imgVector4",
+      "path": "assets/icons/partner-idosell-part-05.svg",
+      "sourceNodeIds": [
+        "1:972"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-972",
+      "capturedOn": "2026-11-05",
+      "bytes": 1179,
+      "sha256": "9bb180b0f61e3c0dbccc225dce79f667b98c9a195fc6209e4dd162547c6340be",
+      "width": "4.48533",
+      "height": "4.61347",
+      "viewBox": "0 0 4.48533 4.61347"
+    },
+    {
+      "key": "imgVector5",
+      "path": "assets/icons/partner-idosell-part-06.svg",
+      "sourceNodeIds": [
+        "1:973"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-973",
+      "capturedOn": "2026-11-05",
+      "bytes": 489,
+      "sha256": "ab0376947dbccc29b7e28d2baca0be1e595699365c99684e97df4a921c2b6a29",
+      "width": "2.30546",
+      "height": "4.54057",
+      "viewBox": "0 0 2.30546 4.54057"
+    },
+    {
+      "key": "imgVector6",
+      "path": "assets/icons/partner-idosell-part-07.svg",
+      "sourceNodeIds": [
+        "1:974"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-974",
+      "capturedOn": "2026-11-05",
+      "bytes": 1180,
+      "sha256": "4534a71b7077894fc55b72ba42b6a06941c87c55211967355e16ff0cd0f7fbd6",
+      "width": "4.48621",
+      "height": "4.61347",
+      "viewBox": "0 0 4.48621 4.61347"
+    },
+    {
+      "key": "imgVector7",
+      "path": "assets/icons/partner-idosell-part-08.svg",
+      "sourceNodeIds": [
+        "1:975"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-975",
+      "capturedOn": "2026-11-05",
+      "bytes": 1338,
+      "sha256": "3e558f97342cecb9fa0117b9bb50e6b526fd6929cffc9c6eebed4c1e49a1fc37",
+      "width": "4.67597",
+      "height": "6.07293",
+      "viewBox": "0 0 4.67597 6.07293"
+    },
+    {
+      "key": "imgVector8",
+      "path": "assets/icons/partner-idosell-part-09.svg",
+      "sourceNodeIds": [
+        "1:976"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-976",
+      "capturedOn": "2026-11-05",
+      "bytes": 1344,
+      "sha256": "8410c161156b3d3d0416c9e340b353a047f6a0fd60d87496ab37cb7fd7194769",
+      "width": "4.66795",
+      "height": "6.07293",
+      "viewBox": "0 0 4.66795 6.07293"
+    },
+    {
+      "key": "imgVector9",
+      "path": "assets/icons/partner-idosell-part-10.svg",
+      "sourceNodeIds": [
+        "1:977"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-977",
+      "capturedOn": "2026-11-05",
+      "bytes": 329,
+      "sha256": "e57caf06d7a1c45b1b8201dbb479244865ed91bd2cc368973f36343480a3584e",
+      "width": "4.63499",
+      "height": "6.56757",
+      "viewBox": "0 0 4.63499 6.56757"
+    },
+    {
+      "key": "imgGroup7",
+      "path": "assets/icons/partner-idosell-wordmark-mask.svg",
+      "sourceNodeIds": [
+        "1:981"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-981",
+      "capturedOn": "2026-11-05",
+      "bytes": 280,
+      "sha256": "97d2f5f84eca36fa80bbfe9f43f7af15b282c7627de33305cd6dfb557286388b",
+      "width": "50.0732",
+      "height": "11.7",
+      "viewBox": "0 0 50.0732 11.7"
+    },
+    {
+      "key": "imgGroup8",
+      "path": "assets/icons/partner-idosell-wordmark.svg",
+      "sourceNodeIds": [
+        "1:981"
+      ],
+      "usageSlot": "footer partner marks",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-981",
+      "capturedOn": "2026-11-05",
+      "bytes": 2748,
+      "sha256": "47d2b63731646f1d29fe40b4a45f8eecc8834a062c67a475be18a11b5b79aa64",
+      "width": "50.0727",
+      "height": "11.702",
+      "viewBox": "0 0 50.0727 11.702"
+    },
+    {
+      "key": "imgGroup1",
+      "path": "assets/icons/review-star.svg",
+      "sourceNodeIds": [
+        "1:528"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-528",
+      "capturedOn": "2026-11-05",
+      "bytes": 2859,
+      "sha256": "7a651f307df36fb359ca118e646f3ce93fd84d316289cead9c3a428c716581ea",
+      "width": "14.1667",
+      "height": "16.6667",
+      "viewBox": "0 0 14.1667 16.6667"
+    },
+    {
+      "key": "imgSearch",
+      "path": "assets/icons/search.svg",
+      "sourceNodeIds": [
+        "1:572"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-572",
+      "capturedOn": "2026-11-05",
+      "bytes": 1395,
+      "sha256": "c866ed29c11f293e20b57508f6e2209648cde10a77ca50a736f1a0177fd009cf",
+      "width": "20",
+      "height": "20",
+      "viewBox": "0 0 20 20"
+    },
+    {
+      "key": "imgMask",
+      "path": "assets/icons/smart-back-device.svg",
+      "sourceNodeIds": [
+        "1:685"
+      ],
+      "usageSlot": "SOLLUX SMART card",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-685",
+      "capturedOn": "2026-11-05",
+      "bytes": 1938,
+      "sha256": "e80ee084688c4fe9b4c865d97bbcf69c5547ac5149ebb97fb186a47821381280",
+      "width": "205.928",
+      "height": "264.39",
+      "viewBox": "0 0 205.928 264.39"
+    },
+    {
+      "key": "imgChangeThis",
+      "path": "assets/icons/smart-back-screen-mask.svg",
+      "sourceNodeIds": [
+        "1:689"
+      ],
+      "usageSlot": "SOLLUX SMART card",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-689",
+      "capturedOn": "2026-11-05",
+      "bytes": 1960,
+      "sha256": "ee9f50c6e117eb9448b145bd78df91529ae35ea9cc944e8241ef451c68e718a7",
+      "width": "205.928",
+      "height": "264.39",
+      "viewBox": "0 0 205.928 264.39"
+    },
+    {
+      "key": "imgMask1",
+      "path": "assets/icons/smart-front-device.svg",
+      "sourceNodeIds": [
+        "1:695"
+      ],
+      "usageSlot": "SOLLUX SMART card",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-695",
+      "capturedOn": "2026-11-05",
+      "bytes": 1933,
+      "sha256": "d40ab9ff27a1e79933a371285a445084f485d5f87c33593d95c19daa1cedf24f",
+      "width": "343.613",
+      "height": "441.165",
+      "viewBox": "0 0 343.613 441.165"
+    },
+    {
+      "key": "imgChangeThis2",
+      "path": "assets/icons/smart-front-screen-mask.svg",
+      "sourceNodeIds": [
+        "1:699"
+      ],
+      "usageSlot": "SOLLUX SMART card",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-699",
+      "capturedOn": "2026-11-05",
+      "bytes": 1955,
+      "sha256": "c554e22a891d50e7736ce1dc388b0cc04d50768bb50992901cb8374790a227fb",
+      "width": "343.613",
+      "height": "441.165",
+      "viewBox": "0 0 343.613 441.165"
+    },
+    {
+      "key": "imgFacebook",
+      "path": "assets/icons/social-facebook.svg",
+      "sourceNodeIds": [
+        "1:722"
+      ],
+      "usageSlot": "footer social",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-722",
+      "capturedOn": "2026-11-05",
+      "bytes": 1171,
+      "sha256": "00ffaf0711f73d3d4709e8182766f63307d2d64956054a4f93a07db5af97a147",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgInstagram",
+      "path": "assets/icons/social-instagram.svg",
+      "sourceNodeIds": [
+        "1:725"
+      ],
+      "usageSlot": "footer social",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-725",
+      "capturedOn": "2026-11-05",
+      "bytes": 3618,
+      "sha256": "6e55944a74d22ab0687fa9575b87db7725bd391f1abbc68b05d2cb251390d7bf",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgGroup6",
+      "path": "assets/icons/social-tiktok-artwork.svg",
+      "sourceNodeIds": [
+        "1:732"
+      ],
+      "usageSlot": "footer social",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-732",
+      "capturedOn": "2026-11-05",
+      "bytes": 1257,
+      "sha256": "0627e1aa35bef1064a01751a311b5eb6d25e392f3e91e52d3a2fc261a3548311",
+      "width": "14",
+      "height": "15.9984",
+      "viewBox": "0 0 14 15.9984"
+    },
+    {
+      "key": "imgGroup5",
+      "path": "assets/icons/social-tiktok-mask.svg",
+      "sourceNodeIds": [
+        "1:732"
+      ],
+      "usageSlot": "footer social",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-732",
+      "capturedOn": "2026-11-05",
+      "bytes": 255,
+      "sha256": "41b9d05345f2a384a9233730056bbdee43847080de4a6c2b4f7dabbc01ea7d7f",
+      "width": "14",
+      "height": "16",
+      "viewBox": "0 0 14 16"
+    },
+    {
+      "key": "imgYoutube",
+      "path": "assets/icons/social-youtube.svg",
+      "sourceNodeIds": [
+        "1:735"
+      ],
+      "usageSlot": "footer social",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-735",
+      "capturedOn": "2026-11-05",
+      "bytes": 942,
+      "sha256": "94729029fb466a4926f5558455aca127be9b8a5ea597e9aa43a777ed111623cf",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "key": "imgLogoSolluxStandard3",
+      "path": "assets/icons/sollux-dark.svg",
+      "sourceNodeIds": [
+        "1:712"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-712",
+      "capturedOn": "2026-11-05",
+      "bytes": 2660,
+      "sha256": "160a7940cb66f37fba820cdf3b050d465d63e743f51754ccaf3b92b8f0c5c5a2",
+      "width": "160",
+      "height": "44",
+      "viewBox": "0 0 160 44"
+    },
+    {
+      "key": "imgLogoSollux",
+      "path": "assets/icons/sollux-light.svg",
+      "sourceNodeIds": [
+        "1:536"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-536",
+      "capturedOn": "2026-11-05",
+      "bytes": 2665,
+      "sha256": "237d17935a77ba54ab986d2ec94cd4e356cc16a903371f7cedfe24174ba5ea45",
+      "width": "150",
+      "height": "48",
+      "viewBox": "0 0 150 48"
+    },
+    {
+      "key": "imgDgIcon2",
+      "path": "assets/images/awards/dg-icon.png",
+      "sourceNodeIds": [
+        "1:872"
+      ],
+      "usageSlot": "footer awards",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-872",
+      "capturedOn": "2026-11-05",
+      "bytes": 4638,
+      "sha256": "d1b619daad2b61ad390491e4d503c86ffe3ff3e325f3f77d5c0b61682f84f5f9",
+      "width": 148,
+      "height": 69,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgEGazeleBiznesu20212",
+      "path": "assets/images/awards/e-gazele-biznesu.png",
+      "sourceNodeIds": [
+        "1:874"
+      ],
+      "usageSlot": "footer awards",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-874",
+      "capturedOn": "2026-11-05",
+      "bytes": 7393,
+      "sha256": "2706723e701f4687e0ca2b25479a9b9b796ef429a834a7b71694ae055e789bd5",
+      "width": 145,
+      "height": 66,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgFirmaGodnaZaufania2",
+      "path": "assets/images/awards/firma-godna-zaufania.png",
+      "sourceNodeIds": [
+        "1:877"
+      ],
+      "usageSlot": "footer awards",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-877",
+      "capturedOn": "2026-11-05",
+      "bytes": 4862,
+      "sha256": "9a433269316655d7abc431259ed9c17ab26f8ed797124dff5eae55de1389ff6e",
+      "width": 79,
+      "height": 66,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgOrlyOswietlenia2",
+      "path": "assets/images/awards/orly-oswietlenia.png",
+      "sourceNodeIds": [
+        "1:873"
+      ],
+      "usageSlot": "footer awards",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-873",
+      "capturedOn": "2026-11-05",
+      "bytes": 5631,
+      "sha256": "5a7cce5635b052a7f240fab35911b8f268a783b8df55a7c6566776b9a00ece8f",
+      "width": 145,
+      "height": 66,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgPolskaGwarancjaJakosci2",
+      "path": "assets/images/awards/polska-gwarancja-jakosci.png",
+      "sourceNodeIds": [
+        "1:876"
+      ],
+      "usageSlot": "footer awards",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-876",
+      "capturedOn": "2026-11-05",
+      "bytes": 7095,
+      "sha256": "b43e4d3f17e2280faf18bae1df715b28bf7d909189eb489706b576fdab5c8b9e",
+      "width": 145,
+      "height": 66,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgSolidnaFirma20212",
+      "path": "assets/images/awards/solidna-firma.png",
+      "sourceNodeIds": [
+        "1:875"
+      ],
+      "usageSlot": "footer awards",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-875",
+      "capturedOn": "2026-11-05",
+      "bytes": 8152,
+      "sha256": "cfaa44e1eb2bc14aef2a01e8892087730324e5cc40a1d30140f2bd90e915d9ad",
+      "width": 145,
+      "height": 66,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgIPadPro",
+      "path": "assets/images/catalogue-tablet.png",
+      "sourceNodeIds": [
+        "1:672"
+      ],
+      "usageSlot": "catalogue card",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-672",
+      "capturedOn": "2026-11-05",
+      "bytes": 3005362,
+      "sha256": "2aca45094ff88e03d3541ae607d9a87fc9c522f83005256f2e8752a8bd3bed8a",
+      "width": 4000,
+      "height": 3000,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgMacBookAir15Inch",
+      "path": "assets/images/configurator-laptop.png",
+      "sourceNodeIds": [
+        "1:661"
+      ],
+      "usageSlot": "configurator card/header",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-661",
+      "capturedOn": "2026-11-05",
+      "bytes": 2589770,
+      "sha256": "55eb2042ea09baac5d55f61b823b72bf385c868f90e659a58990a4e2adae892d",
+      "width": 3000,
+      "height": 2250,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-1280.jpg",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-jpeg",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 76695,
+      "sha256": "41164392fe7336e534d9885bad272d40e5e7b2fefa9b7a0202946dec8caf4c23",
+      "width": 1280,
+      "height": 714,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-1280.webp",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-webp",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 35274,
+      "sha256": "17d3a5fe24716f73a2a8e5e546a3874dcc64948e2e577b874fba09d9ccaa9b50",
+      "width": 1280,
+      "height": 714
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-1600.jpg",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-jpeg",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 109605,
+      "sha256": "6b1a0079e4e1300a1b67d8a67c1bd5753a6cf420fab6829f3187b371b904dd84",
+      "width": 1600,
+      "height": 893,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-1600.webp",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-webp",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 57336,
+      "sha256": "4ead2dd6ca2af076f2a9f6d6026c5de786bcd4b4fa62e44338b9ac9c59dfce39",
+      "width": 1600,
+      "height": 893
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-1920.jpg",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-jpeg",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 147712,
+      "sha256": "76d79e03d82ce2e9410a3e39d7871a9d843dbeb5d85c8c06b2beab7fc4783d6d",
+      "width": 1920,
+      "height": 1072,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-1920.webp",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-webp",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 72564,
+      "sha256": "88f3cec87753e62466153b5cbbefcc4f540ec54f946c07524eb05a5e97350b37",
+      "width": 1920,
+      "height": 1072
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-480.jpg",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-jpeg",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 17720,
+      "sha256": "560e87dc67b9ad59513945db926bb42da1a9c72e0ba804921ba4541cc770b9a6",
+      "width": 480,
+      "height": 268,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-480.webp",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-webp",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 10058,
+      "sha256": "976452b52d406a087cc31decb478b4f13cb090a97208d0e5b1a8208ead86fb9a",
+      "width": 480,
+      "height": 268
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-640.jpg",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-jpeg",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 26800,
+      "sha256": "157dc2fe793d6e9d488d24134ffa0668816b01989b11bea5bdf3dd4cc5fc6331",
+      "width": 640,
+      "height": 357,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-640.webp",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-webp",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 13528,
+      "sha256": "a87784835c83fa0ec741431a04fbdbb87fba930874b596aa53e62569dc79016a",
+      "width": 640,
+      "height": 357
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-960.jpg",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-jpeg",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 48793,
+      "sha256": "74198eb962ba761bed03f0f784127159a1f568c7bce55562345c62b30cc4a6e3",
+      "width": 960,
+      "height": 536,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers-960.webp",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "responsive-webp",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/hero-bestsellers.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 25574,
+      "sha256": "ca985ad1df008257f51f790938cb0b353c019ca0e76cd38deac8ea0bdbe08b86",
+      "width": 960,
+      "height": 536
+    },
+    {
+      "key": "imgHeroBaner",
+      "path": "assets/images/hero-bestsellers.png",
+      "sourceNodeIds": [
+        "1:506"
+      ],
+      "usageSlot": "hero/header/footer",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-506",
+      "capturedOn": "2026-11-05",
+      "bytes": 1968912,
+      "sha256": "e02235a31b163891e1a82f8e46ca92f094c17a6fc64efe343a4e260d4b4ab6e3",
+      "width": 2752,
+      "height": 1536,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-1280.jpg",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-jpeg",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 122715,
+      "sha256": "55190cc1bb26baf887fba81033bf2b84b2d22ec54be289adb7cf971f723a128f",
+      "width": 1280,
+      "height": 720,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-1280.webp",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-webp",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 68260,
+      "sha256": "f6eae7f1feba5aca55c5195d54923fedf0b1404f4431060053d7ffd14c1c840f",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-1600.jpg",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-jpeg",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 178566,
+      "sha256": "bbced3fc7f219a909d844e5db4467a34412cddb19c977a01da26bd1bf02db423",
+      "width": 1600,
+      "height": 900,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-1600.webp",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-webp",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 91860,
+      "sha256": "c0be4cde68602b9d8777434b44c47792898d31dd855562917330b4bd7854a1af",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-1920.jpg",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-jpeg",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 245389,
+      "sha256": "dfeb9005ca78d44bc25ae8ac01274b0bfc5d8f52828686d34bba9fbe9d58baac",
+      "width": 1920,
+      "height": 1080,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-1920.webp",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-webp",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 131970,
+      "sha256": "5ae93477c971ba2d87e39157a3d6b0cdc53fdf660b4f461598156dae73a43480",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-480.jpg",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-jpeg",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 22902,
+      "sha256": "cf01a45a28f57b86cf040a1fca258ea1df6df391a07c2e7cdc9e1f6c32b7aa27",
+      "width": 480,
+      "height": 270,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-480.webp",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-webp",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 15022,
+      "sha256": "445545bad159e4c0f540e820acebd40de60b878ab200ed35a57c7e9fd1623209",
+      "width": 480,
+      "height": 270
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-640.jpg",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-jpeg",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 37527,
+      "sha256": "308f97c62bd10c6bacaa8b3cb0c873617340365af77cca97fd42c7d0b65bfd09",
+      "width": 640,
+      "height": 360,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-640.webp",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-webp",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 22498,
+      "sha256": "cfa4828806f57cadc67bb4ebc2dd67943fc3cf6e191a54f5b439bacaa6838898",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-960.jpg",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-jpeg",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 74477,
+      "sha256": "4409173b8b91e3e582fc6e9f45889ad241abcbcda614f931aefad0922abe88e0",
+      "width": 960,
+      "height": 540,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior-960.webp",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "responsive-webp",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "derivedFrom": "assets/images/hero-interior.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 45468,
+      "sha256": "37ec373750f9da29bec987a925f334af0eb5ef4b9ff8645c282b796cb275ca43",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "key": "heroInterior",
+      "path": "assets/images/hero-interior.png",
+      "sourceNodeIds": [
+        "1:1005"
+      ],
+      "usageSlot": "hero slide 2",
+      "sourceType": "figma-design-context",
+      "capturedOn": "2026-11-05",
+      "notes": "Downloaded from the earlier individual node context while the URL remained valid.",
+      "bytes": 1666891,
+      "sha256": "0bbab7303efb5485eea8b2d2299cb6310ffea26c455480458660fc17d84bbc26",
+      "width": 1920,
+      "height": 1080,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "lampBeige",
+      "path": "assets/images/lamp-beige.png",
+      "sourceNodeIds": [
+        "1:1004"
+      ],
+      "usageSlot": "hero lamp silhouette reference / optional overlay",
+      "sourceType": "exact-figma-fill-crop",
+      "crop": {
+        "x": 760,
+        "y": 85,
+        "width": 372,
+        "height": 419,
+        "sourceWidth": 1920,
+        "sourceHeight": 1080
+      },
+      "derivedFrom": "docs/references/lamp-source.png",
+      "bytes": 206910,
+      "sha256": "9fe8b1a77a23ca83c9fbd4e6275e2070c618ac99fb196b46a88294fd14fc8685",
+      "width": 372,
+      "height": 419,
+      "pixelFormat": "Format32bppArgb",
+      "alpha": {
+        "transparentPixels": 63214,
+        "antialiasedPixels": 7726,
+        "opaquePixels": 84928,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "key": "lampGreen",
+      "path": "assets/images/lamp-green.png",
+      "sourceNodeIds": [
+        "1:1003"
+      ],
+      "usageSlot": "hero lamp silhouette reference / optional overlay",
+      "sourceType": "figma-vector-masked-export",
+      "notes": "Exact node export from earlier context. A rectangular fill crop includes a neighboring lamp and is deliberately not used.",
+      "designWidth": 470,
+      "designHeight": 428,
+      "exportScale": 2,
+      "bytes": 279257,
+      "sha256": "cb64961d4d2b19e2942aed9d811937053fde41a32738d839e5f06368f7a099c5",
+      "width": 940,
+      "height": 856,
+      "pixelFormat": "Format32bppArgb",
+      "alpha": {
+        "transparentPixels": 371300,
+        "antialiasedPixels": 30428,
+        "opaquePixels": 402912,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "key": "lampTerracotta",
+      "path": "assets/images/lamp-terracotta.png",
+      "sourceNodeIds": [
+        "1:1002"
+      ],
+      "usageSlot": "hero lamp silhouette reference / optional overlay",
+      "sourceType": "exact-figma-fill-crop",
+      "crop": {
+        "x": 418,
+        "y": 434,
+        "width": 423,
+        "height": 393,
+        "sourceWidth": 1920,
+        "sourceHeight": 1080
+      },
+      "derivedFrom": "docs/references/lamp-source.png",
+      "bytes": 246577,
+      "sha256": "868b0a09f930d173b5af219dd3844634936529dd9434aeb754895c83709da8cb",
+      "width": 423,
+      "height": 393,
+      "pixelFormat": "Format32bppArgb",
+      "alpha": {
+        "transparentPixels": 63266,
+        "antialiasedPixels": 7536,
+        "opaquePixels": 95437,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "key": "imgPlatnosciDostawcy",
+      "path": "assets/images/payments/payment-01.png",
+      "sourceNodeIds": [
+        "1:841"
+      ],
+      "usageSlot": "footer payments/delivery",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-841",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "Visa",
+      "sourceOrder": 1,
+      "bytes": 5574,
+      "sha256": "77eb1c1e528cedb0bf3f15103a8096d5c3a485acf194bd9d58983bf9bb558b27",
+      "width": 114,
+      "height": 64,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgPlatnosciDostawcy1",
+      "path": "assets/images/payments/payment-02.png",
+      "sourceNodeIds": [
+        "1:844"
+      ],
+      "usageSlot": "footer payments/delivery",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-844",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "Mastercard",
+      "sourceOrder": 2,
+      "bytes": 2536,
+      "sha256": "26001504089259872338a4e7777580973436b43f575737c959fb03a9cc852379",
+      "width": 114,
+      "height": 64,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgPlatnosciDostawcy2",
+      "path": "assets/images/payments/payment-03.png",
+      "sourceNodeIds": [
+        "1:847"
+      ],
+      "usageSlot": "footer payments/delivery",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-847",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "PayU",
+      "sourceOrder": 3,
+      "bytes": 4754,
+      "sha256": "55fe8c6bf249ed47a83b6c53fdb72949971ddffdb33e29f17762cc2c27171646",
+      "width": 114,
+      "height": 64,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgPlatnosciDostawcy3",
+      "path": "assets/images/payments/payment-04.png",
+      "sourceNodeIds": [
+        "1:850"
+      ],
+      "usageSlot": "footer payments/delivery",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-850",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "PayPal",
+      "sourceOrder": 4,
+      "bytes": 2543,
+      "sha256": "7a847495cf95114a3d98728772063fb67553cd60459c713fd94471c6fe75ed3f",
+      "width": 114,
+      "height": 64,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgPlatnosciDostawcy4",
+      "path": "assets/images/payments/payment-05.png",
+      "sourceNodeIds": [
+        "1:853"
+      ],
+      "usageSlot": "footer payments/delivery",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-853",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "InPost",
+      "sourceOrder": 5,
+      "bytes": 7619,
+      "sha256": "eb2c2c2db66a8d6f8f8a2ec35d02cb30644ccba82a2c5869eaef28ade28fd258",
+      "width": 114,
+      "height": 64,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgPlatnosciDostawcy5",
+      "path": "assets/images/payments/payment-06.png",
+      "sourceNodeIds": [
+        "1:856"
+      ],
+      "usageSlot": "footer payments/delivery",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-856",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "DPD",
+      "sourceOrder": 6,
+      "bytes": 4582,
+      "sha256": "9e9885e8586fb306843fcb694b32a4aa3d43862ce0d0c0085d2bae1ed4e21ddb",
+      "width": 114,
+      "height": 64,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgPlatnosciDostawcy6",
+      "path": "assets/images/payments/payment-07.png",
+      "sourceNodeIds": [
+        "1:859"
+      ],
+      "usageSlot": "footer payments/delivery",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-859",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "Paczka w Ruchu",
+      "sourceOrder": 7,
+      "bytes": 5869,
+      "sha256": "29d31d585add727c23edb179f2b11b299d1f5ff59ab5a7561cacf32f644ae07c",
+      "width": 114,
+      "height": 64,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgPlatnosciDostawcy7",
+      "path": "assets/images/payments/payment-08.png",
+      "sourceNodeIds": [
+        "1:862"
+      ],
+      "usageSlot": "footer payments/delivery",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-862",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "DHL",
+      "sourceOrder": 8,
+      "bytes": 4416,
+      "sha256": "ea14304797eccb1779e730f6f6af0ecbfc1795389c9228d8da357fa967931dff",
+      "width": 114,
+      "height": 64,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgPlatnosciDostawcy8",
+      "path": "assets/images/payments/payment-09.png",
+      "sourceNodeIds": [
+        "1:865"
+      ],
+      "usageSlot": "footer payments/delivery",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-865",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "GLS",
+      "sourceOrder": 9,
+      "bytes": 3787,
+      "sha256": "98b60aab222c5f25407e9ed00f40a055e83c73d768242b7294d2ce699c2d2fe5",
+      "width": 114,
+      "height": 64,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgPlatnosciDostawcy9",
+      "path": "assets/images/payments/payment-10.png",
+      "sourceNodeIds": [
+        "1:868"
+      ],
+      "usageSlot": "footer payments/delivery",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-868",
+      "capturedOn": "2026-11-05",
+      "accessibleLabel": "Poczta Polska",
+      "sourceOrder": 10,
+      "bytes": 3647,
+      "sha256": "8d2dd35b4cf631a4604afd6707a8c58cac0951529ac5416bc2ea1ba4927bfabe",
+      "width": 114,
+      "height": 64,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgIPhone16",
+      "path": "assets/images/smart-phone-frame.png",
+      "sourceNodeIds": [
+        "1:683",
+        "1:693"
+      ],
+      "usageSlot": "SOLLUX SMART card",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-683",
+      "capturedOn": "2026-11-05",
+      "bytes": 86970,
+      "sha256": "20dd72b224ef575acce5846785008721bbc315370de946c37e0cc97e3baa43e3",
+      "width": 969,
+      "height": 1230,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgChangeThis1",
+      "path": "assets/images/smart-screen-back.png",
+      "sourceNodeIds": [
+        "1:689"
+      ],
+      "usageSlot": "SOLLUX SMART card",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-689",
+      "capturedOn": "2026-11-05",
+      "bytes": 203417,
+      "sha256": "da8bb29d2a69735e28122cee8d8533c7f47159a53f35348e161161b8b3fe045c",
+      "width": 433,
+      "height": 535,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgChangeThis3",
+      "path": "assets/images/smart-screen-front.png",
+      "sourceNodeIds": [
+        "1:699"
+      ],
+      "usageSlot": "SOLLUX SMART card",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-699",
+      "capturedOn": "2026-11-05",
+      "bytes": 406897,
+      "sha256": "ebf79583eea5973fcb9374ff9195955fd4bfa0d0b4311793e93044a85ffd8825",
+      "width": 723,
+      "height": 893,
+      "pixelFormat": "Format32bppArgb"
+    },
+    {
+      "key": "imgThoro",
+      "path": "assets/images/thoro-480.jpg",
+      "sourceNodeIds": [
+        "1:633"
+      ],
+      "usageSlot": "THORO card",
+      "sourceType": "responsive-jpeg",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-633",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/thoro.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 26808,
+      "sha256": "0b33139d8142f21f40f4d2c22268891d8b65321584eebaa1c6724daa0321edc3",
+      "width": 480,
+      "height": 480,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "imgThoro",
+      "path": "assets/images/thoro-480.webp",
+      "sourceNodeIds": [
+        "1:633"
+      ],
+      "usageSlot": "THORO card",
+      "sourceType": "responsive-webp",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-633",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/thoro.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 12928,
+      "sha256": "7c782be9103be3e2860f752718e3a5abce82e90a281384524acb62f0edf87e52",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "key": "imgThoro",
+      "path": "assets/images/thoro-640.jpg",
+      "sourceNodeIds": [
+        "1:633"
+      ],
+      "usageSlot": "THORO card",
+      "sourceType": "responsive-jpeg",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-633",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/thoro.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 44169,
+      "sha256": "840250250187532aae1762f32b7dc252bdd0a40fb8488b3062d2d97a2af15778",
+      "width": 640,
+      "height": 640,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "imgThoro",
+      "path": "assets/images/thoro-640.webp",
+      "sourceNodeIds": [
+        "1:633"
+      ],
+      "usageSlot": "THORO card",
+      "sourceType": "responsive-webp",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-633",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/thoro.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 24762,
+      "sha256": "c72b5114a4169142db4a41cbb26448dd5148f8700e8f162c6db2405816e78658",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "key": "imgThoro",
+      "path": "assets/images/thoro-960.jpg",
+      "sourceNodeIds": [
+        "1:633"
+      ],
+      "usageSlot": "THORO card",
+      "sourceType": "responsive-jpeg",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-633",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/thoro.png",
+      "encoding": "JPEG quality 86; proportional resize; no upscale",
+      "bytes": 99635,
+      "sha256": "d95cd920b4caeaead06e8711860240a672e9fec2524903aedd28e7e243edc490",
+      "width": 960,
+      "height": 960,
+      "pixelFormat": "Format24bppRgb"
+    },
+    {
+      "key": "imgThoro",
+      "path": "assets/images/thoro-960.webp",
+      "sourceNodeIds": [
+        "1:633"
+      ],
+      "usageSlot": "THORO card",
+      "sourceType": "responsive-webp",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-633",
+      "capturedOn": "2026-11-05",
+      "derivedFrom": "assets/images/thoro.png",
+      "encoding": "Browser WebP quality 0.86; proportional resize; no upscale",
+      "bytes": 43924,
+      "sha256": "9ef3c097dc9ffac471e6f349985a595feba0c210f5e7340f325ce9f83c530669",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "imgThoro",
+      "path": "assets/images/thoro.png",
+      "sourceNodeIds": [
+        "1:633"
+      ],
+      "usageSlot": "THORO card",
+      "sourceType": "figma-design-context",
+      "sourceFileKey": "BgVDA1zzvmKFbpznBGg4VG",
+      "sourceUrl": "https://www.figma.com/design/BgVDA1zzvmKFbpznBGg4VG/?node-id=1-633",
+      "capturedOn": "2026-11-05",
+      "bytes": 1937976,
+      "sha256": "60b21af7a9c1c58aa68714ab6a1b83c192df4ce4450ed277b2c33ce6b131fe06",
+      "width": 1080,
+      "height": 1080,
+      "pixelFormat": "Format24bppRgb"
+    }
+  ],
+  "referenceOnly": [
+    {
+      "path": "docs/references/landing-page.png",
+      "sourceNodeIds": [
+        "1:505"
+      ],
+      "use": "visual comparison only; never runtime"
+    },
+    {
+      "path": "docs/references/shader-source.png",
+      "sourceNodeIds": [
+        "1:707"
+      ],
+      "use": "baked-text shader reference only; never runtime"
+    },
+    {
+      "path": "docs/references/lamp-source.png",
+      "sourceNodeIds": [
+        "1:1002",
+        "1:1003",
+        "1:1004"
+      ],
+      "use": "original shared transparent image fill; source for exact rectangular crops"
+    }
+  ],
+  "compositions": [
+    {
+      "id": "configurator",
+      "sourceNodeIds": [
+        "1:640",
+        "1:641",
+        "1:642",
+        "1:643",
+        "1:661",
+        "1:662"
+      ],
+      "designWidth": 936,
+      "designHeight": 518,
+      "reviewSelector": "#composition-configurator",
+      "notes": "Original laptop, palette, color circles and source fade placement; copy/button remain HTML in Phase 2."
+    },
+    {
+      "id": "catalogue",
+      "sourceNodeIds": [
+        "1:670",
+        "1:671",
+        "1:672",
+        "1:673"
+      ],
+      "designWidth": 936,
+      "designHeight": 518,
+      "reviewSelector": "#composition-catalogue",
+      "notes": "Original tablet crop and cream fade."
+    },
+    {
+      "id": "smart",
+      "sourceNodeIds": [
+        "1:680",
+        "1:681",
+        "1:691"
+      ],
+      "designWidth": 648,
+      "designHeight": 518,
+      "reviewSelector": "#composition-smart",
+      "notes": "Both original devices, screen images, masks, mirroring, clipping and neutral fades."
+    },
+    {
+      "id": "idosell",
+      "sourceNodeIds": [
+        "1:967"
+      ],
+      "designWidth": 66,
+      "designHeight": 36,
+      "reviewSelector": "#composition-idosell",
+      "notes": "All original SVG fragments retained at source percentage insets; no redrawing."
+    }
+  ],
+  "hero": {
+    "designWidth": 1920,
+    "designHeight": 1080,
+    "fit": "cover",
+    "position": "50% 50%",
+    "firstImage": {
+      "intrinsicWidth": 2752,
+      "intrinsicHeight": 1536,
+      "renderedWidth": 1935,
+      "renderedHeight": 1080,
+      "cropLeft": 7.5,
+      "cropRight": 7.5
+    },
+    "mobileProposal": {
+      "fit": "contain in a separate 16:9 artwork area above copy, rather than a tall cover crop that hides lamps",
+      "status": "implementation choice; no mobile artboard supplied"
+    },
+    "lampRegionsIn1920x1080Reference": [
+      {
+        "name": "beige",
+        "sourceNodeId": "1:1004",
+        "x": 760,
+        "y": 85,
+        "width": 372,
+        "height": 419
+      },
+      {
+        "name": "green",
+        "sourceNodeId": "1:1003",
+        "x": 1076,
+        "y": 332,
+        "width": 470,
+        "height": 428,
+        "silhouette": "use vector-masked export; rectangular region is only a positioning reference"
+      },
+      {
+        "name": "terracotta",
+        "sourceNodeId": "1:1002",
+        "x": 418,
+        "y": 434,
+        "width": 423,
+        "height": 393
+      }
+    ],
+    "caveat": "Cutout positioning was derived from a separate 1920x1080 source. Calibrate hotspots against the final cover crop; no clean background exists for independent lamp movement."
+  },
+  "limitations": [
+    "Further Figma calls were blocked by the Starter-plan MCP quota after initial source capture. Existing node contexts supplied the second hero and exact green vector export.",
+    "No independent full-node export of each device group/partner mark was available; use the supplied fragment composition instead of treating any fragment as the complete artwork."
+  ]
+}

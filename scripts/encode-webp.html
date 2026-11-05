@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Local responsive WebP encoder</title>
+<pre id="results">Encoding…</pre>
+<img id="hero-bestsellers" src="../assets/images/hero-bestsellers.png" hidden alt="">
+<img id="hero-interior" src="../assets/images/hero-interior.png" hidden alt="">
+<img id="thoro" src="../assets/images/thoro.png" hidden alt="">
+<script>
+addEventListener('load', () => {
+try {
+  const results = [];
+  for (const name of ['hero-bestsellers','hero-interior','thoro']) {
+    const source = document.getElementById(name);
+    if (!source.naturalWidth) throw new Error('Source did not load: ' + name);
+    for (const width of [480,640,960,1280,1600,1920].filter(width => width <= source.naturalWidth)) {
+    const canvas = document.createElement('canvas');
+    canvas.width = width;
+    canvas.height = Math.round(source.naturalHeight * width / source.naturalWidth);
+    canvas.getContext('2d').drawImage(source, 0, 0, canvas.width, canvas.height);
+    const dataUrl = canvas.toDataURL('image/webp', 0.86);
+    if (!dataUrl.startsWith('data:image/webp;base64,')) throw new Error('This browser cannot encode WebP');
+    results.push({ path: 'assets/images/' + name + '-' + width + '.webp', width: canvas.width, height: canvas.height, data: dataUrl.split(',')[1] });
+    }
+  }
+  document.getElementById('results').textContent = JSON.stringify({ results });
+} catch (error) {
+  document.getElementById('results').textContent = JSON.stringify({ error: error.message });
+}
+});
+</script>
+</html>

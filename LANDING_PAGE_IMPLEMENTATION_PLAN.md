@@ -253,6 +253,8 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 
 ### Phase 1 — Source capture and assets
 
+**Status: completed on 5 November 2026.** See [the Phase 1 report](docs/phase-1-report.md), [asset review](docs/asset-review.html), and [manifest](docs/asset-manifest.json). The report records acquisition details, verification, the Figma MCP quota limitation, and the remaining destination/copy decisions.
+
 - Export the complete manifest above and map every file to source ID and usage slot.
 - Resolve fonts, link destinations, hero cropping, and alpha/crop integrity before polishing motion.
 - Keep design references separate from production assets.
