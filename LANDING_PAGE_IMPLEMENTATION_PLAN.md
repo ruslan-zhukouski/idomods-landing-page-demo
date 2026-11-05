@@ -159,7 +159,7 @@ Render five benefits as a semantic list, keeping their individual icons and copy
 4. “Polskie produkty” — “sprawdzona jakość”.
 5. “Oficjalny sklep producenta” — “gwarancja satysfakcji”.
 
-The desktop cards use two asymmetric rows, 16 px gaps, 518 px height, 24 px corner radii, and 48 px content padding. Row one is 648/936 px; row two reverses to 936/648 px. A five-track desktop grid with 2/3 and 3/2 spans reproduces these dimensions at 1600 px.
+The desktop cards use two asymmetric rows, 16 px gaps, 518 px height, 24 px corner radii, and 48 px content padding. Row one is 648/936 px; row two reverses to 936/648 px. Use proportional columns in each row (648:936, then 936:648) to reproduce these exact dimensions at 1600 px after subtracting the row gap.
 
 | Card/source | Copy and CTA | Media/layout |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ Breakpoints are initial implementation choices and must be adjusted to actual co
 | 320–599 px | Compact header with disclosure navigation; search on its own row/panel; adaptive hero height and crop; heading about 32–40 px; arrows at safe insets; badge below main copy. | One-column cards in source order; benefit list stacked or two columns only when labels fit. Card height/content padding adapt to media and text. | CTA section around 420–560 px as content permits; footer groups stacked; logos wrap. |
 | 600–899 px | Compact navigation; larger image area and more generous gutters. | Benefits in two columns with the fifth item naturally following; cards in two equal columns only if artwork/copy remain clear, otherwise continue stacking. | Multiple footer columns; contact/legal lines wrap. |
 | 900–1199 px | Retain collapsed navigation until measured header content fits; do not force full desktop navigation at 900 px. | Benefits may use three columns; cards in two columns with reduced padding, preserving source order. | Shader grows fluidly; footer spreads across available columns. |
-| 1200 px and above | Full navigation only where its measured contents fit; fluid container capped at 1600 px. | Five benefits; five-track asymmetric card grid when text/media fit. | Desktop bands and spacing approach reference; no fixed footer height if content wraps. |
+| 1200 px and above | Full navigation only where its measured contents fit; fluid container capped at 1600 px. | Five benefits; asymmetric two-column card rows when text/media fit. | Desktop bands and spacing approach reference; no fixed footer height if content wraps. |
 | 1920 px reference | Match hero 1080 px, 84 px header, source crop and control placement. | Match 1600 px content width, 86 px section padding, 64 px section gap, and 648/936 px card widths. | Match shader 835 px and footer 709 px total as closely as content allows. |
 
 Use `<meta name="viewport" content="width=device-width, initial-scale=1">`. Use `minmax(0, 1fr)` where grid tracks could overflow; permit long footer labels and contact text to wrap. Keep the DOM order identical to reading order. Use stable/small viewport units with sensible minimum heights where mobile browser chrome would otherwise create jumps.
@@ -261,6 +261,8 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 - **Gate:** both hero images, all card compositions, all logos/icons, and every footer mark can be displayed locally at the correct proportions; remaining destination/copy decisions are listed explicitly.
 
 ### Phase 2 — Static semantic page
+
+**Status: completed on 5 November 2026.** See [the page](index.html), [Phase 2 report](docs/phase-2-report.md), and [browser verification](docs/phase-2-browser-report.json). The static page works without JavaScript; navigation enhancements, motion, and WebGL remain in their later phases.
 
 - Build HTML structure, full Polish content, and real actions.
 - Add tokens, desktop composition, responsive grids, image fitting, and footer wrapping.

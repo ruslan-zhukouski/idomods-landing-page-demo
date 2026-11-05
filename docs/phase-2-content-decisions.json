@@ -1,0 +1,30 @@
+{
+  "phase": 2,
+  "decisions": {
+    "about": {
+      "href": "https://sollux-lighting.com/pl/o-firmie/",
+      "reason": "Verified official company page, linked from the official corporate homepage."
+    },
+    "inspiration": {
+      "href": "https://sollux.pl/pl/blog",
+      "reason": "Use the verified official blog as the inspiration destination."
+    },
+    "premium": {
+      "href": "https://thoro.pl/",
+      "reason": "Use the same verified premium-brand destination as the THORO card."
+    },
+    "buy-now": {
+      "href": "https://sollux.pl/pl/menu/lampy-1727",
+      "reason": "The static CTA opens the verified lamp catalogue rather than implying a checkout."
+    }
+  },
+  "unresolvedAsPlainText": [
+    "promotions",
+    "security",
+    "light-course",
+    "tiktok"
+  ],
+  "cookies": "Native details disclosure: no optional cookies are used; links to the official store privacy notice.",
+  "sourceCopyCorrection": "Wpsółpraca → Współpraca",
+  "staticHero": "Only slide one is shown; arrows/progress are decorative, not nonfunctional buttons. Interactive controls belong to Phase 4."
+}
