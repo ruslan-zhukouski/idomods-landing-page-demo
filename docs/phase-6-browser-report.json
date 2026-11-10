@@ -1,0 +1,1105 @@
+{
+  "checkedOn": "2026-11-10T18:17:24.228Z",
+  "tools": {
+    "playwright": "1.61.0",
+    "axe": "4.14.0"
+  },
+  "limits": [
+    "Headless desktop engines; mobile contexts emulate touch/viewport, not physical Android/iOS.",
+    "WebKit is not the Safari application.",
+    "Accessibility snapshots do not constitute a screen-reader listening test.",
+    "960×540 CSS px at DPR 2 models 200% reflow on a 1920×1080 display; browser UI zoom still needs manual confirmation."
+  ],
+  "browsers": [
+    {
+      "name": "chrome",
+      "checks": [
+        {
+          "name": "1920px container and asymmetric card geometry",
+          "passed": true,
+          "details": [
+            648,
+            936,
+            936,
+            648
+          ]
+        },
+        {
+          "name": "All acceptance widths, intermediate breakpoints and landscape fit",
+          "passed": true,
+          "details": {
+            "widths": [
+              320,
+              375,
+              390,
+              500,
+              699,
+              700,
+              768,
+              899,
+              900,
+              1024,
+              1113,
+              1114,
+              1199,
+              1200,
+              1280,
+              1440,
+              1599,
+              1600,
+              1920
+            ],
+            "failures": [],
+            "landscape": {
+              "width": 844,
+              "height": 390,
+              "overflow": false,
+              "clipped": [],
+              "broken": [],
+              "marks": [
+                10,
+                6,
+                8
+              ],
+              "hero": {
+                "x": 0,
+                "y": 0,
+                "width": 844,
+                "height": 390,
+                "top": 0,
+                "right": 844,
+                "bottom": 390,
+                "left": 0
+              },
+              "cards": [
+                390,
+                390,
+                390,
+                390
+              ],
+              "font": true
+            }
+          }
+        },
+        {
+          "name": "Skip link is first in native Tab order",
+          "passed": true
+        },
+        {
+          "name": "Skip link target receives keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "Space opens named disclosure and exposes links",
+          "passed": true
+        },
+        {
+          "name": "Escape closes disclosure and restores focus",
+          "passed": true
+        },
+        {
+          "name": "Keyboard search focus has a visible ring",
+          "passed": true
+        },
+        {
+          "name": "Breakpoint change keeps focus out of hidden navigation",
+          "passed": true
+        },
+        {
+          "name": "Navigation initialization and cleanup do not duplicate listeners",
+          "passed": true
+        },
+        {
+          "name": "Native tab traversal excludes hidden controls and retains focus indicators",
+          "passed": true,
+          "details": {
+            "stops": 60,
+            "failures": []
+          }
+        },
+        {
+          "name": "Native cookie disclosure works from keyboard",
+          "passed": true
+        },
+        {
+          "name": "Accessibility snapshot exposes one H1, landmarks and one slide",
+          "passed": true
+        },
+        {
+          "name": "1920px automated a11y has no new violations",
+          "passed": true,
+          "details": {
+            "unexpected": [],
+            "preservedDesignIssues": []
+          }
+        },
+        {
+          "name": "375px automated a11y has no new violations",
+          "passed": true,
+          "details": {
+            "unexpected": [],
+            "preservedDesignIssues": [
+              {
+                "id": "color-contrast",
+                "impact": "serious",
+                "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                "nodes": [
+                  {
+                    "target": [
+                      ".card-configurator > .card-copy > .eyebrow"
+                    ],
+                    "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                  },
+                  {
+                    "target": [
+                      ".card-configurator > .card-copy > h3"
+                    ],
+                    "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 18.8pt (25px), font weight: bold). Expected contrast ratio of 3:1"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Autoplay does not write live announcements",
+          "passed": true
+        },
+        {
+          "name": "Live reduced motion disables autoplay and scaling",
+          "passed": true
+        },
+        {
+          "name": "Manual navigation announces once and excludes inactive lamp controls",
+          "passed": true
+        },
+        {
+          "name": "Console and network stay free of errors",
+          "passed": true,
+          "details": []
+        },
+        {
+          "name": "No-JavaScript page remains complete at all eight acceptance widths",
+          "passed": true,
+          "details": []
+        },
+        {
+          "name": "Module fetch failure restores the usable static layout",
+          "passed": true
+        },
+        {
+          "name": "Delayed modules do not move the hero or following page sections",
+          "passed": true,
+          "details": {
+            "before": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 812,
+                "top": 0,
+                "right": 375,
+                "bottom": 812,
+                "left": 0
+              },
+              {
+                "x": 0,
+                "y": 812,
+                "width": 375,
+                "height": 2262.96875,
+                "top": 812,
+                "right": 375,
+                "bottom": 3074.96875,
+                "left": 0
+              }
+            ],
+            "after": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 812,
+                "top": 0,
+                "right": 375,
+                "bottom": 812,
+                "left": 0
+              },
+              {
+                "x": 0,
+                "y": 812,
+                "width": 375,
+                "height": 2262.96875,
+                "top": 812,
+                "right": 375,
+                "bottom": 3074.96875,
+                "left": 0
+              }
+            ]
+          }
+        },
+        {
+          "name": "200% equivalent reflow and disabled WebGL retain usable content",
+          "passed": true,
+          "details": {
+            "width": 960,
+            "height": 540,
+            "overflow": false,
+            "clipped": [],
+            "broken": [],
+            "marks": [
+              10,
+              6,
+              8
+            ],
+            "hero": {
+              "x": 0,
+              "y": -1799,
+              "width": 960,
+              "height": 540,
+              "top": -1799,
+              "right": 960,
+              "bottom": -1259,
+              "left": 0
+            },
+            "cards": [
+              448,
+              448,
+              448,
+              448
+            ],
+            "font": true
+          }
+        },
+        {
+          "name": "Emulated touch opens and closes navigation",
+          "passed": true
+        },
+        {
+          "name": "Emulated mobile orientation keeps viewport hero and controls visible",
+          "passed": true
+        }
+      ],
+      "accessibility": [
+        {
+          "width": 1920,
+          "version": "4.14.0",
+          "violations": [],
+          "incompleteRules": [
+            "color-contrast",
+            "link-in-text-block"
+          ],
+          "passes": 28
+        },
+        {
+          "width": 375,
+          "version": "4.14.0",
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+              "nodes": [
+                {
+                  "target": [
+                    ".card-configurator > .card-copy > .eyebrow"
+                  ],
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".card-configurator > .card-copy > h3"
+                  ],
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 18.8pt (25px), font weight: bold). Expected contrast ratio of 3:1"
+                }
+              ]
+            }
+          ],
+          "incompleteRules": [
+            "color-contrast",
+            "link-in-text-block"
+          ],
+          "passes": 28
+        }
+      ],
+      "version": "156.0.8078.82",
+      "cancelledRequestsDuringNavigation": []
+    },
+    {
+      "name": "edge",
+      "checks": [
+        {
+          "name": "1920px container and asymmetric card geometry",
+          "passed": true,
+          "details": [
+            648,
+            936,
+            936,
+            648
+          ]
+        },
+        {
+          "name": "All acceptance widths, intermediate breakpoints and landscape fit",
+          "passed": true,
+          "details": {
+            "widths": [
+              320,
+              375,
+              390,
+              500,
+              699,
+              700,
+              768,
+              899,
+              900,
+              1024,
+              1113,
+              1114,
+              1199,
+              1200,
+              1280,
+              1440,
+              1599,
+              1600,
+              1920
+            ],
+            "failures": [],
+            "landscape": {
+              "width": 844,
+              "height": 390,
+              "overflow": false,
+              "clipped": [],
+              "broken": [],
+              "marks": [
+                10,
+                6,
+                8
+              ],
+              "hero": {
+                "x": 0,
+                "y": 0,
+                "width": 844,
+                "height": 390,
+                "top": 0,
+                "right": 844,
+                "bottom": 390,
+                "left": 0
+              },
+              "cards": [
+                390,
+                390,
+                390,
+                390
+              ],
+              "font": true
+            }
+          }
+        },
+        {
+          "name": "Skip link is first in native Tab order",
+          "passed": true
+        },
+        {
+          "name": "Skip link target receives keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "Space opens named disclosure and exposes links",
+          "passed": true
+        },
+        {
+          "name": "Escape closes disclosure and restores focus",
+          "passed": true
+        },
+        {
+          "name": "Keyboard search focus has a visible ring",
+          "passed": true
+        },
+        {
+          "name": "Breakpoint change keeps focus out of hidden navigation",
+          "passed": true
+        },
+        {
+          "name": "Navigation initialization and cleanup do not duplicate listeners",
+          "passed": true
+        },
+        {
+          "name": "Native tab traversal excludes hidden controls and retains focus indicators",
+          "passed": true,
+          "details": {
+            "stops": 60,
+            "failures": []
+          }
+        },
+        {
+          "name": "Native cookie disclosure works from keyboard",
+          "passed": true
+        },
+        {
+          "name": "Accessibility snapshot exposes one H1, landmarks and one slide",
+          "passed": true
+        },
+        {
+          "name": "1920px automated a11y has no new violations",
+          "passed": true,
+          "details": {
+            "unexpected": [],
+            "preservedDesignIssues": []
+          }
+        },
+        {
+          "name": "375px automated a11y has no new violations",
+          "passed": true,
+          "details": {
+            "unexpected": [],
+            "preservedDesignIssues": [
+              {
+                "id": "color-contrast",
+                "impact": "serious",
+                "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                "nodes": [
+                  {
+                    "target": [
+                      ".card-configurator > .card-copy > .eyebrow"
+                    ],
+                    "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                  },
+                  {
+                    "target": [
+                      ".card-configurator > .card-copy > h3"
+                    ],
+                    "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 18.8pt (25px), font weight: bold). Expected contrast ratio of 3:1"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Autoplay does not write live announcements",
+          "passed": true
+        },
+        {
+          "name": "Live reduced motion disables autoplay and scaling",
+          "passed": true
+        },
+        {
+          "name": "Manual navigation announces once and excludes inactive lamp controls",
+          "passed": true
+        },
+        {
+          "name": "Console and network stay free of errors",
+          "passed": true,
+          "details": []
+        },
+        {
+          "name": "No-JavaScript page remains complete at all eight acceptance widths",
+          "passed": true,
+          "details": []
+        },
+        {
+          "name": "Module fetch failure restores the usable static layout",
+          "passed": true
+        },
+        {
+          "name": "200% equivalent reflow and disabled WebGL retain usable content",
+          "passed": true,
+          "details": {
+            "width": 960,
+            "height": 540,
+            "overflow": false,
+            "clipped": [],
+            "broken": [],
+            "marks": [
+              10,
+              6,
+              8
+            ],
+            "hero": {
+              "x": 0,
+              "y": -1799,
+              "width": 960,
+              "height": 540,
+              "top": -1799,
+              "right": 960,
+              "bottom": -1259,
+              "left": 0
+            },
+            "cards": [
+              448,
+              448,
+              448,
+              448
+            ],
+            "font": true
+          }
+        }
+      ],
+      "accessibility": [
+        {
+          "width": 1920,
+          "version": "4.14.0",
+          "violations": [],
+          "incompleteRules": [
+            "color-contrast",
+            "link-in-text-block"
+          ],
+          "passes": 28
+        },
+        {
+          "width": 375,
+          "version": "4.14.0",
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+              "nodes": [
+                {
+                  "target": [
+                    ".card-configurator > .card-copy > .eyebrow"
+                  ],
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".card-configurator > .card-copy > h3"
+                  ],
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 18.8pt (25px), font weight: bold). Expected contrast ratio of 3:1"
+                }
+              ]
+            }
+          ],
+          "incompleteRules": [
+            "color-contrast",
+            "link-in-text-block"
+          ],
+          "passes": 28
+        }
+      ],
+      "version": "157.0.4341.42",
+      "cancelledRequestsDuringNavigation": []
+    },
+    {
+      "name": "firefox",
+      "checks": [
+        {
+          "name": "1920px container and asymmetric card geometry",
+          "passed": true,
+          "details": [
+            648,
+            936,
+            936,
+            648
+          ]
+        },
+        {
+          "name": "All acceptance widths, intermediate breakpoints and landscape fit",
+          "passed": true,
+          "details": {
+            "widths": [
+              320,
+              375,
+              390,
+              500,
+              699,
+              700,
+              768,
+              899,
+              900,
+              1024,
+              1113,
+              1114,
+              1199,
+              1200,
+              1280,
+              1440,
+              1599,
+              1600,
+              1920
+            ],
+            "failures": [],
+            "landscape": {
+              "width": 844,
+              "height": 390,
+              "overflow": false,
+              "clipped": [],
+              "broken": [],
+              "marks": [
+                10,
+                6,
+                8
+              ],
+              "hero": {
+                "x": 0,
+                "y": 0,
+                "width": 844,
+                "height": 390,
+                "top": 0,
+                "right": 844,
+                "bottom": 390,
+                "left": 0
+              },
+              "cards": [
+                390,
+                390,
+                390,
+                390
+              ],
+              "font": true
+            }
+          }
+        },
+        {
+          "name": "Skip link is first in native Tab order",
+          "passed": true
+        },
+        {
+          "name": "Skip link target receives keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "Space opens named disclosure and exposes links",
+          "passed": true
+        },
+        {
+          "name": "Escape closes disclosure and restores focus",
+          "passed": true
+        },
+        {
+          "name": "Keyboard search focus has a visible ring",
+          "passed": true
+        },
+        {
+          "name": "Breakpoint change keeps focus out of hidden navigation",
+          "passed": true
+        },
+        {
+          "name": "Navigation initialization and cleanup do not duplicate listeners",
+          "passed": true
+        },
+        {
+          "name": "Native tab traversal excludes hidden controls and retains focus indicators",
+          "passed": true,
+          "details": {
+            "stops": 100,
+            "failures": []
+          }
+        },
+        {
+          "name": "Native cookie disclosure works from keyboard",
+          "passed": true
+        },
+        {
+          "name": "Accessibility snapshot exposes one H1, landmarks and one slide",
+          "passed": true
+        },
+        {
+          "name": "1920px automated a11y has no new violations",
+          "passed": true,
+          "details": {
+            "unexpected": [],
+            "preservedDesignIssues": []
+          }
+        },
+        {
+          "name": "375px automated a11y has no new violations",
+          "passed": true,
+          "details": {
+            "unexpected": [],
+            "preservedDesignIssues": [
+              {
+                "id": "color-contrast",
+                "impact": "serious",
+                "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                "nodes": [
+                  {
+                    "target": [
+                      ".card-configurator > .card-copy > .eyebrow"
+                    ],
+                    "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                  },
+                  {
+                    "target": [
+                      ".card-configurator > .card-copy > h3"
+                    ],
+                    "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 18.8pt (25px), font weight: bold). Expected contrast ratio of 3:1"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Autoplay does not write live announcements",
+          "passed": true
+        },
+        {
+          "name": "Live reduced motion disables autoplay and scaling",
+          "passed": true
+        },
+        {
+          "name": "Manual navigation announces once and excludes inactive lamp controls",
+          "passed": true
+        },
+        {
+          "name": "Console and network stay free of errors",
+          "passed": true,
+          "details": []
+        },
+        {
+          "name": "No-JavaScript page remains complete at all eight acceptance widths",
+          "passed": true,
+          "details": []
+        },
+        {
+          "name": "Module fetch failure restores the usable static layout",
+          "passed": true
+        },
+        {
+          "name": "200% equivalent reflow and disabled WebGL retain usable content",
+          "passed": true,
+          "details": {
+            "width": 960,
+            "height": 540,
+            "overflow": false,
+            "clipped": [],
+            "broken": [],
+            "marks": [
+              10,
+              6,
+              8
+            ],
+            "hero": {
+              "x": 0,
+              "y": -1799,
+              "width": 960,
+              "height": 540,
+              "top": -1799,
+              "right": 960,
+              "bottom": -1259,
+              "left": 0
+            },
+            "cards": [
+              448,
+              448,
+              448,
+              448
+            ],
+            "font": true
+          }
+        }
+      ],
+      "accessibility": [
+        {
+          "width": 1920,
+          "version": "4.14.0",
+          "violations": [],
+          "incompleteRules": [
+            "color-contrast",
+            "link-in-text-block"
+          ],
+          "passes": 28
+        },
+        {
+          "width": 375,
+          "version": "4.14.0",
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+              "nodes": [
+                {
+                  "target": [
+                    ".card-configurator > .card-copy > .eyebrow"
+                  ],
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".card-configurator > .card-copy > h3"
+                  ],
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 18.8pt (25px), font weight: bold). Expected contrast ratio of 3:1"
+                }
+              ]
+            }
+          ],
+          "incompleteRules": [
+            "color-contrast",
+            "link-in-text-block"
+          ],
+          "passes": 28
+        }
+      ],
+      "version": "151.0",
+      "cancelledRequestsDuringNavigation": [
+        "http://127.0.0.1:4175/assets/images/catalogue-tablet.webp: NS_BINDING_ABORTED",
+        "http://127.0.0.1:4175/assets/images/catalogue-tablet.webp: NS_BINDING_ABORTED",
+        "http://127.0.0.1:4175/assets/images/catalogue-tablet.webp: NS_BINDING_ABORTED",
+        "http://127.0.0.1:4175/assets/images/catalogue-tablet.webp: NS_BINDING_ABORTED",
+        "http://127.0.0.1:4175/assets/images/catalogue-tablet.webp: NS_BINDING_ABORTED"
+      ]
+    },
+    {
+      "name": "webkit",
+      "checks": [
+        {
+          "name": "1920px container and asymmetric card geometry",
+          "passed": true,
+          "details": [
+            648,
+            936,
+            936,
+            648
+          ]
+        },
+        {
+          "name": "All acceptance widths, intermediate breakpoints and landscape fit",
+          "passed": true,
+          "details": {
+            "widths": [
+              320,
+              375,
+              390,
+              500,
+              699,
+              700,
+              768,
+              899,
+              900,
+              1024,
+              1113,
+              1114,
+              1199,
+              1200,
+              1280,
+              1440,
+              1599,
+              1600,
+              1920
+            ],
+            "failures": [],
+            "landscape": {
+              "width": 844,
+              "height": 390,
+              "overflow": false,
+              "clipped": [],
+              "broken": [],
+              "marks": [
+                10,
+                6,
+                8
+              ],
+              "hero": {
+                "x": 0,
+                "y": 0,
+                "width": 844,
+                "height": 390,
+                "top": 0,
+                "right": 844,
+                "bottom": 390,
+                "left": 0
+              },
+              "cards": [
+                390,
+                390,
+                390,
+                390
+              ],
+              "font": true
+            }
+          }
+        },
+        {
+          "name": "Skip link target receives keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "Space opens named disclosure and exposes links",
+          "passed": true
+        },
+        {
+          "name": "Escape closes disclosure and restores focus",
+          "passed": true
+        },
+        {
+          "name": "Keyboard search focus has a visible ring",
+          "passed": true
+        },
+        {
+          "name": "Breakpoint change keeps focus out of hidden navigation",
+          "passed": true
+        },
+        {
+          "name": "Navigation initialization and cleanup do not duplicate listeners",
+          "passed": true
+        },
+        {
+          "name": "Native tab traversal excludes hidden controls and retains focus indicators",
+          "passed": true,
+          "details": {
+            "stops": 11,
+            "failures": [],
+            "limit": "This Windows WebKit engine skips anchors in native Tab traversal. Link activation is tested with explicit focus; verify Safari with full keyboard access on macOS."
+          }
+        },
+        {
+          "name": "Native cookie disclosure works from keyboard",
+          "passed": true
+        },
+        {
+          "name": "Accessibility snapshot exposes one H1, landmarks and one slide",
+          "passed": true
+        },
+        {
+          "name": "1920px automated a11y has no new violations",
+          "passed": true,
+          "details": {
+            "unexpected": [],
+            "preservedDesignIssues": []
+          }
+        },
+        {
+          "name": "375px automated a11y has no new violations",
+          "passed": true,
+          "details": {
+            "unexpected": [],
+            "preservedDesignIssues": [
+              {
+                "id": "color-contrast",
+                "impact": "serious",
+                "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                "nodes": [
+                  {
+                    "target": [
+                      ".card-configurator > .card-copy > .eyebrow"
+                    ],
+                    "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                  },
+                  {
+                    "target": [
+                      ".card-configurator > .card-copy > h3"
+                    ],
+                    "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 18.8pt (25px), font weight: bold). Expected contrast ratio of 3:1"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Autoplay does not write live announcements",
+          "passed": true
+        },
+        {
+          "name": "Live reduced motion disables autoplay and scaling",
+          "passed": true
+        },
+        {
+          "name": "Manual navigation announces once and excludes inactive lamp controls",
+          "passed": true
+        },
+        {
+          "name": "Console and network stay free of errors",
+          "passed": true,
+          "details": []
+        },
+        {
+          "name": "No-JavaScript page remains complete at all eight acceptance widths",
+          "passed": true,
+          "details": []
+        },
+        {
+          "name": "Module fetch failure restores the usable static layout",
+          "passed": true
+        },
+        {
+          "name": "200% equivalent reflow and disabled WebGL retain usable content",
+          "passed": true,
+          "details": {
+            "width": 960,
+            "height": 540,
+            "overflow": false,
+            "clipped": [],
+            "broken": [],
+            "marks": [
+              10,
+              6,
+              8
+            ],
+            "hero": {
+              "x": 0,
+              "y": -1799,
+              "width": 960,
+              "height": 540,
+              "top": -1799,
+              "right": 960,
+              "bottom": -1259,
+              "left": 0
+            },
+            "cards": [
+              448,
+              448,
+              448,
+              448
+            ],
+            "font": true
+          }
+        },
+        {
+          "name": "Emulated touch opens and closes navigation",
+          "passed": true
+        },
+        {
+          "name": "Emulated mobile orientation keeps viewport hero and controls visible",
+          "passed": true
+        }
+      ],
+      "accessibility": [
+        {
+          "width": 1920,
+          "version": "4.14.0",
+          "violations": [],
+          "incompleteRules": [
+            "color-contrast",
+            "link-in-text-block"
+          ],
+          "passes": 28
+        },
+        {
+          "width": 375,
+          "version": "4.14.0",
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+              "nodes": [
+                {
+                  "target": [
+                    ".card-configurator > .card-copy > .eyebrow"
+                  ],
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".card-configurator > .card-copy > h3"
+                  ],
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #72a3f3, font size: 18.8pt (25px), font weight: bold). Expected contrast ratio of 3:1"
+                }
+              ]
+            }
+          ],
+          "incompleteRules": [
+            "color-contrast",
+            "link-in-text-block"
+          ],
+          "passes": 28
+        }
+      ],
+      "version": "26.5",
+      "keyboardLimit": "This Windows WebKit engine skips anchors in native Tab traversal. Link activation is tested with explicit focus; verify Safari with full keyboard access on macOS.",
+      "cancelledRequestsDuringNavigation": []
+    }
+  ]
+}

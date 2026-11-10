@@ -1,0 +1,277 @@
+- link "Przejdź do treści":
+  - /url: "#main"
+- banner:
+  - link "SOLLUX — strona główna":
+    - /url: https://sollux.pl/
+  - navigation "Nawigacja główna":
+    - list:
+      - listitem:
+        - link "Lampy":
+          - /url: https://sollux.pl/pl/menu/lampy-1727
+      - listitem:
+        - link "Kolory":
+          - /url: https://sollux.pl/pl/menu/lampy-1727?filter_traits[21]=11086,11076,24,14336,14325,25,14303,852,23,14316,14164,768,11333,1246
+      - listitem:
+        - link "Pomieszczenia":
+          - /url: https://sollux.pl/pl/menu/pomieszczenia-160
+      - listitem:
+        - link "Nowości":
+          - /url: https://sollux.pl/pl/menu/nowosci-188
+      - listitem:
+        - link "Bestsellery":
+          - /url: https://sollux.pl/pl/menu/bestsellery-827
+      - listitem: Promocje
+  - search:
+    - text: Czego szukasz?
+    - searchbox "Czego szukasz?"
+    - button "Szukaj produktów"
+  - link "Stwórz swoją lampę":
+    - /url: https://sollux.pl/konfigurator
+  - link "Moje konto":
+    - /url: https://sollux.pl/pl/login.html
+  - link "Koszyk":
+    - /url: https://sollux.pl/pl/basketedit.html
+- main:
+  - region "Kolor i forma w nowym świetle":
+    - group "1 z 2":
+      - img "Beżowa, zielona i terakotowa lampa SOLLUX z ryflowanymi kloszami."
+    - button "Lampa beżowa — światło"
+    - button "Lampa zielona — światło"
+    - button "Lampa terakotowa — światło"
+    - paragraph: Bestsellery SOLLUX
+    - heading "Kolor i forma w nowym świetle" [level=1]
+    - link "Sprawdź bestsellery":
+      - /url: https://sollux.pl/pl/menu/bestsellery-827
+    - button "Poprzedni slajd"
+    - group "Wybierz slajd":
+      - button "Slajd 1 z 2"
+      - button "Slajd 2 z 2"
+    - button "Następny slajd"
+    - button "Animacja wyłączona" [disabled]
+    - status
+    - paragraph:
+      - strong: "4.8"
+      - text: Uwielbiany przez klientów
+  - region "Odkryj świat SOLLUX":
+    - heading "Odkryj świat SOLLUX" [level=2]
+    - list "Dlaczego SOLLUX":
+      - listitem:
+        - heading "Zwroty nawet do 100 dni" [level=3]
+        - paragraph: szybkie i proste
+      - listitem:
+        - heading "5 lat gwarancji" [level=3]
+        - paragraph: na wszystkie produkty
+      - listitem:
+        - heading "Darmowa dostawa" [level=3]
+        - paragraph: już za 299 zł
+      - listitem:
+        - heading "Polskie produkty" [level=3]
+        - paragraph: sprawdzona jakość
+      - listitem:
+        - heading "Oficjalny sklep producenta" [level=3]
+        - paragraph: gwarancja satysfakcji
+    - article:
+      - paragraph: Marka THORO
+      - heading "Poznaj lampy premium" [level=3]
+      - link "Odwiedź sklep THORO":
+        - /url: https://thoro.pl/
+    - article:
+      - paragraph: Konfigurator 3D
+      - heading "Wybierz projekt i dostosuj go do swojego wnętrza" [level=3]
+      - link "Stwórz swój projekt":
+        - /url: https://sollux.pl/konfigurator
+    - article:
+      - paragraph: Katalog
+      - heading "Odkryj najnowszy katalog" [level=3]
+      - link "Sprawdź katalog":
+        - /url: https://sollux-lighting.com/uploads/sollux_katalog.pdf
+    - article:
+      - paragraph: SOLLUX SMART
+      - heading "Przymierz lampę w aplikacji" [level=3]
+      - link "Pobierz aplikacje na telefon":
+        - /url: https://sollux.pl/pl/blog/nie-wiesz-czy-konkretna-lampa-bedzie-pasowac-do-twojego-wnetrza-sprawdz-to-za-darmo-z-aplikacja-sollux-smart
+  - region "Twoje wnętrze zasługuje na wyjątkowe światło":
+    - heading "Twoje wnętrze zasługuje na wyjątkowe światło" [level=2]
+    - link "Kup teraz":
+      - /url: https://sollux.pl/pl/menu/lampy-1727
+    - paragraph: Od 119 zł na oficjalnej stronie producenta SOLLUX
+- contentinfo:
+  - link "SOLLUX":
+    - /url: https://sollux.pl/
+    - img "SOLLUX"
+  - navigation "SOLLUX w mediach społecznościowych":
+    - link "SOLLUX — Facebook":
+      - /url: https://www.facebook.com/solluxlighting1/
+    - link "SOLLUX — Instagram":
+      - /url: https://www.instagram.com/sollux_lighting/
+    - link "SOLLUX — TikTok":
+      - /url: https://www.tiktok.com/
+    - link "SOLLUX — YouTube":
+      - /url: https://www.youtube.com/@solluxlighting6441
+  - navigation "Informacje i obsługa sklepu":
+    - heading "Moje zamówienia" [level=2]
+    - list "Moje zamówienia":
+      - listitem:
+        - link "Status zamówienia":
+          - /url: https://sollux.pl/pl/order-open.html
+      - listitem:
+        - link "Śledzenie przesyłki":
+          - /url: https://sollux.pl/pl/order-open.html
+      - listitem:
+        - link "Chcę zareklamować produkt":
+          - /url: https://sollux.pl/pl/rma-open.html
+      - listitem:
+        - link "Informacje o wymianie":
+          - /url: https://sollux.pl/pl/client-orders.html?display=returns&exchange=true
+      - listitem:
+        - link "Kontakt":
+          - /url: https://sollux.pl/pl/contact
+    - heading "Moje konto" [level=2]
+    - list "Moje konto":
+      - listitem:
+        - link "Zarejestruj się":
+          - /url: https://sollux.pl/pl/client-new.html?register
+      - listitem:
+        - link "Koszyk":
+          - /url: https://sollux.pl/pl/basketedit.html
+      - listitem:
+        - link "Listy zakupowe":
+          - /url: https://sollux.pl/pl/shoppinglist
+      - listitem:
+        - link "Lista zakupionych produktów":
+          - /url: https://sollux.pl/pl/products-bought.html
+      - listitem:
+        - link "Historia transakcji":
+          - /url: https://sollux.pl/pl/client-orders.html
+      - listitem:
+        - link "Moje rabaty":
+          - /url: https://sollux.pl/pl/client-rebate.html
+    - heading "Regulaminy" [level=2]
+    - list "Regulaminy":
+      - listitem:
+        - link "Sposoby wysyłki":
+          - /url: https://sollux.pl/pl/delivery
+      - listitem:
+        - link "Sposoby płatności":
+          - /url: https://sollux.pl/pl/payments
+      - listitem:
+        - link "Regulamin sklepu":
+          - /url: https://sollux.pl/pl/terms
+      - listitem:
+        - link "Polityka prywatności":
+          - /url: https://sollux.pl/pl/privacy-and-cookie-notice
+      - listitem: Polityka bezpieczeństwa
+      - listitem:
+        - group: Zmień ustawienia ciasteczek
+    - heading "Informacje" [level=2]
+    - list "Informacje":
+      - listitem:
+        - link "O nas":
+          - /url: https://sollux-lighting.com/pl/o-firmie/
+      - listitem:
+        - link "FAQ":
+          - /url: https://sollux.pl/pl/info/faq-39
+      - listitem: Kurs światła
+      - listitem:
+        - link "Inspiracje":
+          - /url: https://sollux.pl/pl/blog
+      - listitem:
+        - link "Marka premium":
+          - /url: https://thoro.pl/
+      - listitem:
+        - link "Gwarancja":
+          - /url: https://sollux.pl/pl/terms/gwarancja-38.html
+      - listitem:
+        - link "Konfigurator 3D":
+          - /url: https://sollux.pl/konfigurator
+    - heading "Współpraca" [level=2]
+    - list "Współpraca":
+      - listitem:
+        - link "Dla Architekta":
+          - /url: https://sollux-lighting.com/wspolpraca/klub-architekta/
+      - listitem:
+        - link "Modele 3D":
+          - /url: https://sollux.cloud.arlity.com/architect_zone/product?
+      - listitem:
+        - link "Dystrybucja":
+          - /url: https://sollux-lighting.com/pl/
+  - heading "Płatności i dostawy" [level=2]
+  - list "Płatności i dostawy":
+    - listitem:
+      - img "Visa"
+    - listitem:
+      - img "Mastercard"
+    - listitem:
+      - img "PayU"
+    - listitem:
+      - img "PayPal"
+    - listitem:
+      - img "InPost"
+    - listitem:
+      - img "DPD"
+    - listitem:
+      - img "Paczka w Ruchu"
+    - listitem:
+      - img "DHL"
+    - listitem:
+      - img "GLS"
+    - listitem:
+      - img "Poczta Polska"
+  - heading "Nagrody" [level=2]
+  - list "Nagrody i wyróżnienia":
+    - listitem:
+      - img "Rzetelna Firma"
+    - listitem:
+      - img "Orły Oświetlenia"
+    - listitem:
+      - img "Gazele Biznesu"
+    - listitem:
+      - img "Solidna Firma"
+    - listitem:
+      - img "Polska Gwarancja Jakości"
+    - listitem:
+      - img "Firma Godna Zaufania"
+  - heading "Nasze sklepy" [level=2]
+  - list "Sklepy SOLLUX w Europie":
+    - listitem:
+      - link "Polska":
+        - /url: https://sollux.pl/
+        - img "Polska"
+    - listitem:
+      - link "Deutschland":
+        - /url: https://sollux-lampen.de/
+        - img "Deutschland"
+    - listitem:
+      - link "España":
+        - /url: https://sollux-lamparas.es/
+        - img "España"
+    - listitem:
+      - link "România":
+        - /url: https://sollux-lampi.ro/
+        - img "România"
+    - listitem:
+      - link "France":
+        - /url: https://sollux.fr/
+        - img "France"
+    - listitem:
+      - link "United Kingdom":
+        - /url: https://sollux-lamps.co.uk/
+        - img "United Kingdom"
+    - listitem:
+      - link "Nederland":
+        - /url: https://sollux-lampen.nl/
+        - img "Nederland"
+    - listitem:
+      - link "Sverige":
+        - /url: https://sollux-lampor.se/
+        - img "Sverige"
+  - paragraph: "W sklepie prezentujemy ceny brutto (z VAT). Stawki VAT dla konsumentów z kraju: Polska."
+  - img "Design & Code — IdoMods"
+  - img "Powered by IdoSell"
+  - text: "NIP: 6070082443"
+  - link "+48 668 806 323":
+    - /url: tel:+48668806323
+  - text: (Pn - Pt 7:00 - 15:00)
+  - link "sklep@sollux.pl":
+    - /url: mailto:sklep@sollux.pl
+  - text: Sollux Lighting Sp. z o.o. Władysława Łokietka 35, 64-840 Budzyń (POLSKA)

@@ -11,7 +11,8 @@ export function createHtmlHelpers(manifest, routes) {
     const asset = assets.get(file);
     if (!asset) throw new Error(`Missing asset: ${file}`);
     const attributes = [
-      `src="${file}"`, `width="${asset.width}"`, `height="${asset.height}"`,
+      // HTML dimensions are integers; the SVG keeps its exact viewBox geometry.
+      `src="${file}"`, `width="${Math.max(1, Math.round(asset.width))}"`, `height="${Math.max(1, Math.round(asset.height))}"`,
       `alt="${escapeHtml(alt)}"`, `loading="${eager ? 'eager' : 'lazy'}"`, 'decoding="async"',
       `data-figma-node="${asset.sourceNodeIds.join(' ')}"`,
     ];

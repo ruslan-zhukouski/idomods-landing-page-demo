@@ -26,6 +26,8 @@ main:focus { outline: none; }
 
 /* 2. Header/navigation. Expanded without JS; compact disclosure is progressive. */
 .site-header { min-height: 84px; padding-block: 16px; background: transparent; }
+/* Reserve the overlay before deferred modules load, avoiding a page-sized shift. */
+.js .site-header { position: absolute; top: 0; left: 0; z-index: 2; width: 100%; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
 .brand { display: block; flex: none; width: 120px; }
 .brand img { width: 100%; height: auto; }
@@ -47,6 +49,7 @@ main:focus { outline: none; }
 .search-form input::placeholder { color: inherit; opacity: 1; }
 .search-form button { display: flex; flex: none; align-items: center; justify-content: center; width: 40px; height: 40px; border: 0; background: transparent; border-radius: 50%; }
 .search-form input:focus-visible { outline: none; }
+.search-form:has(input:focus-visible) { outline: 2px solid var(--color-ink); outline-offset: 2px; box-shadow: 0 0 0 4px white; }
 .unresolved-label { cursor: default; }
 
 /* 3. Hero: complete static content before carousel enhancement. */

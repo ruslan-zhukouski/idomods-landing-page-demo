@@ -1,0 +1,60 @@
+{
+  "checkedOn": "2026-11-10T18:15:45.103Z",
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "cpuSlowdown": 4,
+  "renderer": "Headless Chrome, software WebGL; warmed local assets",
+  "scenarios": [
+    {
+      "scenario": "hero",
+      "start": 1794334546278.5999,
+      "sampleMilliseconds": 3500,
+      "animationFrames": 211,
+      "medianFrameIntervalMs": 16.699999999999818,
+      "p95FrameIntervalMs": 16.700000000000273,
+      "intervalsOver50ms": 0,
+      "layoutCount": 3,
+      "layoutMilliseconds": 4.942,
+      "styleRecalculations": 212,
+      "scriptMilliseconds": 139.58499999999998,
+      "taskMilliseconds": 1665.567,
+      "shaderState": "deferred"
+    },
+    {
+      "scenario": "shader",
+      "start": 1794334550394.0999,
+      "sampleMilliseconds": 3500,
+      "animationFrames": 211,
+      "medianFrameIntervalMs": 16.699999999999818,
+      "p95FrameIntervalMs": 16.800000000000182,
+      "intervalsOver50ms": 0,
+      "layoutCount": 0,
+      "layoutMilliseconds": 0,
+      "styleRecalculations": 0,
+      "scriptMilliseconds": 79.705,
+      "taskMilliseconds": 1407.7689999999996,
+      "shaderState": "running"
+    }
+  ],
+  "browser": "Chrome/156.0.8078.82",
+  "trace": {
+    "file": "System temporary directory: idomods-phase-6-trace.json",
+    "events": 107466,
+    "rendererMainTasksOver50ms": [
+      {
+        "durationMs": 59.787,
+        "process": 25088,
+        "thread": 25608
+      },
+      {
+        "durationMs": 59.502,
+        "process": 25088,
+        "thread": 25608
+      }
+    ],
+    "otherThreadTaskCountOver50ms": 30,
+    "layoutEvents": 25
+  }
+}

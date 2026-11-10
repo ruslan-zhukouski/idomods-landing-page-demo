@@ -1,0 +1,246 @@
+{
+  "checkedOn": "2026-11-10T18:13:47.135Z",
+  "scope": "Effective generated anchors compared with the captured official route inventory and explicit content decisions; no authenticated actions or live downstream health checks.",
+  "sourceCapturedOn": "2026-11-05",
+  "links": [
+    {
+      "id": null,
+      "href": "#main"
+    },
+    {
+      "id": null,
+      "href": "https://sollux.pl/"
+    },
+    {
+      "id": "lamps",
+      "href": "https://sollux.pl/pl/menu/lampy-1727"
+    },
+    {
+      "id": "colors",
+      "href": "https://sollux.pl/pl/menu/lampy-1727?filter_traits[21]=11086,11076,24,14336,14325,25,14303,852,23,14316,14164,768,11333,1246"
+    },
+    {
+      "id": "rooms",
+      "href": "https://sollux.pl/pl/menu/pomieszczenia-160"
+    },
+    {
+      "id": "new",
+      "href": "https://sollux.pl/pl/menu/nowosci-188"
+    },
+    {
+      "id": "bestsellers",
+      "href": "https://sollux.pl/pl/menu/bestsellery-827"
+    },
+    {
+      "id": "configurator",
+      "href": "https://sollux.pl/konfigurator"
+    },
+    {
+      "id": "account",
+      "href": "https://sollux.pl/pl/login.html"
+    },
+    {
+      "id": "cart",
+      "href": "https://sollux.pl/pl/basketedit.html"
+    },
+    {
+      "id": "bestsellers",
+      "href": "https://sollux.pl/pl/menu/bestsellery-827"
+    },
+    {
+      "id": "thoro",
+      "href": "https://thoro.pl/"
+    },
+    {
+      "id": "configurator",
+      "href": "https://sollux.pl/konfigurator"
+    },
+    {
+      "id": "catalogue",
+      "href": "https://sollux-lighting.com/uploads/sollux_katalog.pdf"
+    },
+    {
+      "id": "smart",
+      "href": "https://sollux.pl/pl/blog/nie-wiesz-czy-konkretna-lampa-bedzie-pasowac-do-twojego-wnetrza-sprawdz-to-za-darmo-z-aplikacja-sollux-smart"
+    },
+    {
+      "id": "buy-now",
+      "href": "https://sollux.pl/pl/menu/lampy-1727"
+    },
+    {
+      "id": "home",
+      "href": "https://sollux.pl/"
+    },
+    {
+      "id": "facebook",
+      "href": "https://www.facebook.com/solluxlighting1/"
+    },
+    {
+      "id": "instagram",
+      "href": "https://www.instagram.com/sollux_lighting/"
+    },
+    {
+      "id": "tiktok",
+      "href": "https://www.tiktok.com/"
+    },
+    {
+      "id": "youtube",
+      "href": "https://www.youtube.com/@solluxlighting6441"
+    },
+    {
+      "id": "order-status",
+      "href": "https://sollux.pl/pl/order-open.html"
+    },
+    {
+      "id": "tracking",
+      "href": "https://sollux.pl/pl/order-open.html"
+    },
+    {
+      "id": "complaint",
+      "href": "https://sollux.pl/pl/rma-open.html"
+    },
+    {
+      "id": "exchange",
+      "href": "https://sollux.pl/pl/client-orders.html?display=returns&exchange=true"
+    },
+    {
+      "id": "contact",
+      "href": "https://sollux.pl/pl/contact"
+    },
+    {
+      "id": "register",
+      "href": "https://sollux.pl/pl/client-new.html?register"
+    },
+    {
+      "id": "cart",
+      "href": "https://sollux.pl/pl/basketedit.html"
+    },
+    {
+      "id": "shopping-list",
+      "href": "https://sollux.pl/pl/shoppinglist"
+    },
+    {
+      "id": "products-bought",
+      "href": "https://sollux.pl/pl/products-bought.html"
+    },
+    {
+      "id": "transactions",
+      "href": "https://sollux.pl/pl/client-orders.html"
+    },
+    {
+      "id": "discounts",
+      "href": "https://sollux.pl/pl/client-rebate.html"
+    },
+    {
+      "id": "shipping",
+      "href": "https://sollux.pl/pl/delivery"
+    },
+    {
+      "id": "payments",
+      "href": "https://sollux.pl/pl/payments"
+    },
+    {
+      "id": "terms",
+      "href": "https://sollux.pl/pl/terms"
+    },
+    {
+      "id": "privacy",
+      "href": "https://sollux.pl/pl/privacy-and-cookie-notice"
+    },
+    {
+      "id": "privacy",
+      "href": "https://sollux.pl/pl/privacy-and-cookie-notice"
+    },
+    {
+      "id": "about",
+      "href": "https://sollux-lighting.com/pl/o-firmie/"
+    },
+    {
+      "id": "faq",
+      "href": "https://sollux.pl/pl/info/faq-39"
+    },
+    {
+      "id": "inspiration",
+      "href": "https://sollux.pl/pl/blog"
+    },
+    {
+      "id": "premium",
+      "href": "https://thoro.pl/"
+    },
+    {
+      "id": "warranty",
+      "href": "https://sollux.pl/pl/terms/gwarancja-38.html"
+    },
+    {
+      "id": "configurator",
+      "href": "https://sollux.pl/konfigurator"
+    },
+    {
+      "id": "architect",
+      "href": "https://sollux-lighting.com/wspolpraca/klub-architekta/"
+    },
+    {
+      "id": "models",
+      "href": "https://sollux.cloud.arlity.com/architect_zone/product?"
+    },
+    {
+      "id": "distribution",
+      "href": "https://sollux-lighting.com/pl/"
+    },
+    {
+      "id": "shop-pl",
+      "href": "https://sollux.pl/"
+    },
+    {
+      "id": "shop-de",
+      "href": "https://sollux-lampen.de/"
+    },
+    {
+      "id": "shop-es",
+      "href": "https://sollux-lamparas.es/"
+    },
+    {
+      "id": "shop-ro",
+      "href": "https://sollux-lampi.ro/"
+    },
+    {
+      "id": "shop-fr",
+      "href": "https://sollux.fr/"
+    },
+    {
+      "id": "shop-gb",
+      "href": "https://sollux-lamps.co.uk/"
+    },
+    {
+      "id": "shop-nl",
+      "href": "https://sollux-lampen.nl/"
+    },
+    {
+      "id": "shop-se",
+      "href": "https://sollux-lampor.se/"
+    },
+    {
+      "id": "phone",
+      "href": "tel:+48668806323"
+    },
+    {
+      "id": "email",
+      "href": "mailto:sklep@sollux.pl"
+    }
+  ],
+  "plainLabels": [
+    "promotions",
+    "security",
+    "light-course"
+  ],
+  "tiktok": {
+    "href": "https://www.tiktok.com/",
+    "reason": "Use the TikTok homepage until the official SOLLUX profile URL is supplied or verified."
+  },
+  "search": {
+    "action": "https://sollux.pl/pl/search",
+    "method": "get",
+    "queryParameter": "text",
+    "status": "observed-in-official-search-form"
+  }
+}

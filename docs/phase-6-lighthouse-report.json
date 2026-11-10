@@ -1,0 +1,112 @@
+{
+  "checkedOn": "2026-11-10",
+  "method": "Sequential local Lighthouse mobile navigation audits, default simulated throttling, headless Chrome. Starting Phase 6 markup compared with geometry reserved before module initialization. Lab results; no field CWV claim.",
+  "before": {
+    "scores": {
+      "performance": 78.0,
+      "accessibility": 97.0,
+      "best-practices": 100.0,
+      "seo": 100.0
+    },
+    "fetchTime": "2026-11-10T17:59:59.043Z",
+    "metrics": {
+      "first-contentful-paint": {
+        "display": "0.8 s",
+        "unit": "millisecond",
+        "value": 758.1608000000001
+      },
+      "largest-contentful-paint": {
+        "display": "1.6 s",
+        "unit": "millisecond",
+        "value": 1583.1608
+      },
+      "total-blocking-time": {
+        "display": "0 ms",
+        "unit": "millisecond",
+        "value": 0
+      },
+      "cumulative-layout-shift": {
+        "display": "0.583",
+        "unit": "unitless",
+        "value": 0.5832641770959939
+      },
+      "speed-index": {
+        "display": "0.8 s",
+        "unit": "millisecond",
+        "value": 758.1608000000001
+      },
+      "total-byte-weight": {
+        "display": "Total size was 3,517 KiB",
+        "unit": "byte",
+        "value": 3601542
+      }
+    },
+    "failedAccessibilityAudits": [
+      "color-contrast"
+    ],
+    "lighthouseVersion": "13.6.0",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36"
+  },
+  "after": {
+    "scores": {
+      "performance": 100.0,
+      "accessibility": 97.0,
+      "best-practices": 100.0,
+      "seo": 100.0
+    },
+    "fetchTime": "2026-11-10T18:03:39.565Z",
+    "metrics": {
+      "first-contentful-paint": {
+        "display": "0.8 s",
+        "unit": "millisecond",
+        "value": 757.2111
+      },
+      "largest-contentful-paint": {
+        "display": "1.9 s",
+        "unit": "millisecond",
+        "value": 1885.81665
+      },
+      "total-blocking-time": {
+        "display": "0 ms",
+        "unit": "millisecond",
+        "value": 0
+      },
+      "cumulative-layout-shift": {
+        "display": "0.018",
+        "unit": "unitless",
+        "value": 0.01774921530368135
+      },
+      "speed-index": {
+        "display": "0.8 s",
+        "unit": "millisecond",
+        "value": 757.2111
+      },
+      "total-byte-weight": {
+        "display": "Total size was 3,517 KiB",
+        "unit": "byte",
+        "value": 3601656
+      }
+    },
+    "failedAccessibilityAudits": [
+      "color-contrast"
+    ],
+    "lighthouseVersion": "13.6.0",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36"
+  }
+}

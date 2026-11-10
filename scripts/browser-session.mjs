@@ -6,15 +6,17 @@ import path from 'node:path';
 
 export const sleep = milliseconds => new Promise(resolve => setTimeout(resolve, milliseconds));
 
-export async function createBrowserSession() {
+export async function createBrowserSession({ args = [] } = {}) {
   const profile = await mkdtemp(path.join(os.tmpdir(), 'idomods-refactor-qa-'));
   const chrome = process.env.CHROME_PATH || path.join(process.env.ProgramFiles, 'Google/Chrome/Application/chrome.exe');
   const browser = spawn(chrome, [
     '--headless', '--disable-gpu', '--no-first-run', '--no-default-browser-check',
     '--remote-debugging-port=0', `--user-data-dir=${profile}`,
+    ...args,
   ], { windowsHide: true, stdio: 'ignore' });
   let socket;
   const pending = new Map();
+  const listeners = new Set();
   let nextId = 0;
   const close = () => {
     socket?.close();
@@ -37,7 +39,10 @@ export async function createBrowserSession() {
     });
     socket.addEventListener('message', event => {
       const message = JSON.parse(event.data);
-      if (!message.id) return;
+      if (!message.id) {
+        for (const listener of listeners) listener(message);
+        return;
+      }
       const request = pending.get(message.id);
       if (!request) return;
       clearTimeout(request.timeout);
@@ -68,7 +73,8 @@ export async function createBrowserSession() {
     };
     await send('Page.enable');
     await send('Runtime.enable');
-    return { send, run, waitFor, close };
+    const onEvent = listener => { listeners.add(listener); return () => listeners.delete(listener); };
+    return { send, run, waitFor, close, onEvent };
   } catch (error) {
     close();
     throw error;

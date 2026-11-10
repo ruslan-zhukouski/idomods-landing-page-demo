@@ -30,10 +30,10 @@
       "name": "Two real 25s cycles run without phase jumps or HTML movement",
       "passed": true,
       "details": {
-        "frames": 1332,
-        "duration": 51925.70000000298,
-        "cycles": 2.0772199999999583,
-        "maxPhaseStep": 0.020960706184752098,
+        "frames": 1532,
+        "duration": 52028.5,
+        "cycles": 2.0818919999999856,
+        "maxPhaseStep": 0.01676353839955702,
         "stationary": true
       }
     },

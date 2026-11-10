@@ -1,0 +1,184 @@
+{
+  "checkedOn": "2026-11-10T18:15:24.135Z",
+  "browser": "Installed Firefox / native WebDriver BiDi",
+  "checks": [
+    {
+      "name": "Acceptance and intermediate widths retain viewport hero without overflow",
+      "passed": true,
+      "details": [
+        {
+          "width": 320,
+          "documentWidth": 320,
+          "heroHeight": 900,
+          "controlsBottom": 892,
+          "viewportHeight": 900
+        },
+        {
+          "width": 375,
+          "documentWidth": 375,
+          "heroHeight": 900,
+          "controlsBottom": 892,
+          "viewportHeight": 900
+        },
+        {
+          "width": 390,
+          "documentWidth": 390,
+          "heroHeight": 900,
+          "controlsBottom": 892,
+          "viewportHeight": 900
+        },
+        {
+          "width": 500,
+          "documentWidth": 500,
+          "heroHeight": 900,
+          "controlsBottom": 892,
+          "viewportHeight": 900
+        },
+        {
+          "width": 699,
+          "documentWidth": 699,
+          "heroHeight": 900,
+          "controlsBottom": 892,
+          "viewportHeight": 900
+        },
+        {
+          "width": 700,
+          "documentWidth": 700,
+          "heroHeight": 900,
+          "controlsBottom": 892,
+          "viewportHeight": 900
+        },
+        {
+          "width": 768,
+          "documentWidth": 768,
+          "heroHeight": 900,
+          "controlsBottom": 892,
+          "viewportHeight": 900
+        },
+        {
+          "width": 899,
+          "documentWidth": 899,
+          "heroHeight": 900,
+          "controlsBottom": 892,
+          "viewportHeight": 900
+        },
+        {
+          "width": 900,
+          "documentWidth": 900,
+          "heroHeight": 900,
+          "controlsBottom": 892,
+          "viewportHeight": 900
+        },
+        {
+          "width": 1024,
+          "documentWidth": 1024,
+          "heroHeight": 900,
+          "controlsBottom": 892,
+          "viewportHeight": 900
+        },
+        {
+          "width": 1113,
+          "documentWidth": 1113,
+          "heroHeight": 900,
+          "controlsBottom": 892,
+          "viewportHeight": 900
+        },
+        {
+          "width": 1114,
+          "documentWidth": 1114,
+          "heroHeight": 900,
+          "controlsBottom": 900,
+          "viewportHeight": 900
+        },
+        {
+          "width": 1199,
+          "documentWidth": 1199,
+          "heroHeight": 900,
+          "controlsBottom": 900,
+          "viewportHeight": 900
+        },
+        {
+          "width": 1200,
+          "documentWidth": 1200,
+          "heroHeight": 900,
+          "controlsBottom": 900,
+          "viewportHeight": 900
+        },
+        {
+          "width": 1280,
+          "documentWidth": 1280,
+          "heroHeight": 900,
+          "controlsBottom": 900,
+          "viewportHeight": 900
+        },
+        {
+          "width": 1440,
+          "documentWidth": 1440,
+          "heroHeight": 900,
+          "controlsBottom": 900,
+          "viewportHeight": 900
+        },
+        {
+          "width": 1599,
+          "documentWidth": 1599,
+          "heroHeight": 900,
+          "controlsBottom": 900,
+          "viewportHeight": 900
+        },
+        {
+          "width": 1600,
+          "documentWidth": 1600,
+          "heroHeight": 900,
+          "controlsBottom": 900,
+          "viewportHeight": 900
+        },
+        {
+          "width": 1920,
+          "documentWidth": 1920,
+          "heroHeight": 900,
+          "controlsBottom": 900,
+          "viewportHeight": 900
+        }
+      ]
+    },
+    {
+      "name": "Landscape keeps progress and pause visible",
+      "passed": true
+    },
+    {
+      "name": "Native Tab reaches the skip link first",
+      "passed": true
+    },
+    {
+      "name": "Native Enter follows the skip link and focuses main",
+      "passed": true
+    },
+    {
+      "name": "Native Space opens the disclosure",
+      "passed": true
+    },
+    {
+      "name": "Native Escape closes and restores focus",
+      "passed": true
+    },
+    {
+      "name": "Native keyboard toggles lamp light",
+      "passed": true
+    },
+    {
+      "name": "Native slide navigation excludes inactive lamps",
+      "passed": true
+    },
+    {
+      "name": "Native shader or intentional fallback retains CTA",
+      "passed": true
+    },
+    {
+      "name": "No console errors or uncaught exceptions",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "version": "159.0.1",
+  "shaderState": "running"
+}

@@ -43,7 +43,7 @@ const front = box(648,518,220,97,419,421,
   box(419,421,15,96,386,325,'','background:linear-gradient(to bottom,rgba(232,228,223,.01),#e8e4df)'), 'overflow:hidden');
 const smart = `<div class="artboard artboard-narrow" data-figma-node="1:681 1:691">${back}${front}</div>`;
 const idosellInsets = ['0 -0.28% 0 0.4%','19.76% 81.37% 64.58% 12.55%','22.8% 73.68% 64.38% 19.28%','23.01% 63.26% 64.58% 26.66%','22.8% 56.12% 64.38% 37.08%','22.8% 51.48% 64.58% 45.03%','22.8% 44.09% 64.38% 49.11%','18.75% 36.33% 64.38% 56.58%','18.75% 24.63% 64.38% 68.29%','23.01% 17.26% 58.75% 75.71%'];
-const idosell = `<span class="idosell-mark" role="img" aria-label="Powered by IdoSell" data-figma-node="1:967"><span aria-hidden="true">${idosellInsets.map((v,i) => inset(v,fill(`assets/icons/partner-idosell-part-${String(i+1).padStart(2,'0')}.svg`))).join('')}${inset('48.75% 11.58% 18.74% 12.55%',fill('assets/icons/partner-idosell-wordmark.svg'),'mask-image:url(assets/icons/partner-idosell-wordmark-mask.svg);mask-repeat:no-repeat;mask-position:0 -.002px;mask-size:50.073px 11.7px')}</span></span>`;
+const idosell = `<div class="idosell-mark" role="img" aria-label="Powered by IdoSell" data-figma-node="1:967"><div aria-hidden="true">${idosellInsets.map((v,i) => inset(v,fill(`assets/icons/partner-idosell-part-${String(i+1).padStart(2,'0')}.svg`))).join('')}${inset('48.75% 11.58% 18.74% 12.55%',fill('assets/icons/partner-idosell-wordmark.svg'),'mask-image:url(assets/icons/partner-idosell-wordmark-mask.svg);mask-repeat:no-repeat;mask-position:0 -.002px;mask-size:50.073px 11.7px')}</div></div>`;
 const benefits = [
   ['returns','Zwroty nawet do 100 dni','szybkie i proste','1:596'],
   ['warranty','5 lat gwarancji','na wszystkie produkty','1:602'],
@@ -86,6 +86,8 @@ const html = `<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Reserve enhanced geometry before paint; keep the static layout without JS. -->
+  <script>document.documentElement.classList.add('js');</script>
   <!-- SEO settings: site.config.mjs; regenerate this file after editing. -->
   <title>${esc(site.title)}</title>
   <meta name="description" content="${esc(site.description)}">
@@ -101,7 +103,7 @@ const html = `<!doctype html>
   <link rel="icon" href="assets/icons/sollux-dark.svg" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/red-hat-display-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles/site.min.css">
-  <script type="module" src="scripts/main.js"></script>
+  <script type="module" src="scripts/main.js" onerror="document.documentElement.classList.remove('js')"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Przejdź do treści</a>

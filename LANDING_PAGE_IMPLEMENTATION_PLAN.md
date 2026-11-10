@@ -295,6 +295,7 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 
 ### Phase 6 — Verification and handoff
 
+- Implemented 10 November 2026. See [the Phase 6 report](docs/phase-6-report.md), [QA checklist](docs/qa-checklist.md) and [handoff README](README.md). Available browser checks and automated gates have evidence; contrast correction, screen-reader listening, physical-device/Safari testing and actual browser UI zoom remain explicit review items, not claimed passes.
 - Complete the acceptance checks below, fix in-scope mismatches, and record verification in `docs/qa-checklist.md`.
 - Update `README.md` with the local HTTP serving workflow, architecture, asset provenance, and any unresolved destination/content limitations.
 - **Gate:** all required behaviors and assets have evidence, and the static site is ready for review. Publishing is a separate action, not part of this plan.
@@ -303,11 +304,12 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 
 ### Visual and responsive checks
 
-- [ ] Compare a full-page render at 1920 px with the Figma reference; inspect hero crop, 1600 px container, typography, asymmetric cards, shader placement, and all footer bands.
-- [ ] Check 320, 375, 390, 768, 1024, 1280, 1440, and 1920 px widths, plus landscape mobile and intermediate resize positions. Breakpoint values must not become the only tested widths.
+- [x] Compare a full-page render at 1920 px with the Figma reference; inspect hero crop, 1600 px container, typography, asymmetric cards, shader placement, and all footer bands. Current captures and visual findings are linked in the Phase 6 report.
+- [x] Check 320, 375, 390, 768, 1024, 1280, 1440, and 1920 px widths, plus landscape mobile and intermediate resize positions. Breakpoint values must not become the only tested widths.
 - [ ] At 200% zoom, navigation/content remain usable and reading order remains coherent.
-- [ ] Every static image/icon has a nonempty local file, correct source-layer mapping, correct DOM usage, and correct rendered size/crop. Verify all small footer marks, not only the large media.
-- [ ] No temporary Figma asset URLs remain in runtime files, and no screenshot has replaced the functional page or shader section.
+- [x] 200% equivalent reflow (960×540 CSS px at DPR 2 on a 1920×1080 display) passes; actual browser UI zoom remains a manual check.
+- [x] Every static image/icon has a nonempty local file, correct source-layer mapping, correct DOM usage, and correct rendered size/crop. Verify all small footer marks, not only the large media.
+- [x] No temporary Figma asset URLs remain in runtime files, and no screenshot has replaced the functional page or shader section.
 
 ### Interaction checks
 
@@ -322,14 +324,16 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 
 ### Accessibility, browser, and performance checks
 
-- [ ] Keyboard-only navigation, visible focus, correct expanded/pressed states, and closed/inactive content focus exclusion all pass.
+- [x] Keyboard-only navigation, visible focus, correct expanded/pressed states, and closed/inactive content focus exclusion all pass. Windows WebKit's native Tab exclusion of links is recorded separately.
 - [ ] Screen-reader smoke check confirms names, landmark order, single accessible slide content, and no autoplay announcement spam.
-- [ ] Reduced motion enabled before load and changed during the session disables autoplay/scaling and stops shader motion without breaking actions.
-- [ ] JavaScript-disabled and WebGL-disabled states preserve content/navigation and show an intentional static background.
+- [x] Accessible snapshots confirm names, landmark order, one H1 and one exposed slide; autoplay does not update the live region, while manual changes do. This does not replace the listening check above.
+- [x] Reduced motion enabled before load and changed during the session disables autoplay/scaling and stops shader motion without breaking actions.
+- [x] JavaScript-disabled and WebGL-disabled states preserve content/navigation and show an intentional static background.
 - [ ] Check current stable Chrome/Edge, Firefox, and Safari, including Android Chrome and iOS Safari where available; record any platform not actually tested.
-- [ ] Inspect console/network for errors and missing assets, validate HTML, audit contrast, and inspect performance at a representative mobile size.
-- [ ] Add focused behavioral automation for carousel timing/pause/rapid navigation and menu focus handling if the implementation introduces a test harness. Do not add tests merely to assert CSS constants.
-- [ ] Every outbound action has a reviewed destination or is documented as an unresolved handoff item; no fake checkout/configurator functionality is implied.
+- [x] Available desktop browsers and additional Firefox/WebKit engines checked; versions, emulation limits and untested physical platforms are recorded in the Phase 6 report.
+- [x] Inspect console/network for errors and missing assets, validate HTML, audit contrast, and inspect performance at a representative mobile size. The supplied blue/white card fails contrast and remains an explicit design issue under the visual-preservation constraint.
+- [x] Add focused behavioral automation for carousel timing/pause/rapid navigation and menu focus handling if the implementation introduces a test harness. Do not add tests merely to assert CSS constants.
+- [x] Every outbound action has a reviewed destination or is documented as an unresolved handoff item; no fake checkout/configurator functionality is implied.
 
 ## 11. Open decisions and defaults
 
