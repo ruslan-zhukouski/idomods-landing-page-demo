@@ -38,10 +38,9 @@
 :root { --hero-viewport-height: 100vh; }
 @supports (height: 100dvh) { :root { --hero-viewport-height: 100dvh; } }
 .hero-interactive { height: var(--hero-viewport-height); min-height: 0; max-height: none; }
-.hero-interactive > .hero-image, .hero-interactive .hero-slide-secondary, .hero-interactive .hero-slide-secondary .hero-image { position: absolute; inset: 0; width: 100%; height: 100%; aspect-ratio: auto; }
+.hero-interactive > .hero-image { position: absolute; inset: 0; width: 100%; height: 100%; aspect-ratio: auto; }
 .hero-slide { overflow: hidden; }
-.hero-slide-secondary { position: absolute; top: 0; left: 0; width: 100%; aspect-ratio: 16 / 9; pointer-events: none; }
-.hero-slide-secondary .hero-slide { opacity: 0; }
+.hero-slide-secondary { pointer-events: none; opacity: 0; }
 .carousel-ready::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, rgb(0 0 0 / 26%), transparent 65%); }
 .hero-content, .hero-arrow, .hero-controls, .review-badge { z-index: 1; }
 .hero-content { pointer-events: none; }
@@ -56,13 +55,12 @@
 .hero-progress button::before, .hero-progress button span { content: ''; grid-area: 1 / 1; width: 64px; height: 2px; background: rgb(255 255 255 / 65%); }
 .hero-progress button span { background: var(--color-yellow); transform: scaleX(0); transform-origin: left; }
 .hero-progress button[aria-current]::before { background: white; }
-.hero-pause { grid-column: 2; min-height: 44px; padding: 8px 16px; border: 1px solid rgb(255 255 255 / 65%); border-radius: 100px; color: white; background: rgb(16 16 17 / 60%); font-size: 12px; }
-.hero-pause:disabled { cursor: default; }
+.hero-pause { grid-column: 2; padding: 8px 16px; border-color: rgb(255 255 255 / 65%); background: rgb(16 16 17 / 60%); font-size: 12px; }
 .hero button:focus-visible, .promo-card a:focus-visible { outline: 3px solid var(--color-yellow); outline-offset: 4px; }
 .lamp-regions { z-index: 1; }
 .lamp-regions > button { position: absolute; min-width: 44px; min-height: 44px; padding: 0; pointer-events: auto; border: 0; border-radius: 0; background: transparent; transform: scale(1); transition: transform var(--motion-card) ease-out; }
-.lamp-regions > button > img { display: block; width: 100%; height: 100%; max-width: none; pointer-events: none; opacity: 0; }
-.lamp-regions > .lamp-ready > img { opacity: 1; }
+.lamp-regions > button img { display: block; width: 100%; height: 100%; max-width: none; pointer-events: none; opacity: 0; }
+.lamp-regions > .lamp-ready img { opacity: 1; }
 .lamp-regions > .lamp-ready:focus-visible { transform: scale(1.1); }
 @media (hover: hover) and (pointer: fine) {
   .lamp-regions > .lamp-ready:hover { transform: scale(1.1); }
@@ -76,7 +74,6 @@
 .lamp-regions > button[aria-pressed="true"]::before { opacity: 1; }
 .hero .lamp-regions > button:focus-visible { outline-offset: -4px; }
 @media (min-width: 900px) {
-  .hero-slide-secondary { inset: 0; height: 100%; aspect-ratio: auto; }
   .carousel-ready .hero-arrow { position: absolute; top: calc(50% - 24px); width: 48px; height: 48px; }
   .hero-arrow-left { left: 32px; }
   .hero-arrow-right { right: 32px; }
@@ -91,18 +88,21 @@
   .hero-pause { left: 72px; }
 }
 
-/* Compact copy and controls overlay the same full-viewport photos as desktop. */
-@media (max-width: 1113px) {
+/* Shared control band for compact portrait and short landscape screens. */
+@media (max-width: 1113px), (max-height: 520px) and (min-aspect-ratio: 1 / 1) {
   .hero-interactive { display: block; }
-  .hero-interactive::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgb(0 0 0 / 15%), rgb(0 0 0 / 38%) 55%, rgb(0 0 0 / 65%)); }
-  .hero-interactive .hero-content { position: absolute; inset: 100px var(--gutter) 200px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; width: auto; margin: 0; padding: 0; }
-  .hero-interactive .hero-eyebrow { margin-bottom: 8px; font-size: 14px; }
-  .hero-interactive h1 { margin-bottom: 16px; font-size: clamp(26px, 4dvh, 42px); }
   .hero-interactive .hero-content .button { min-height: 44px; padding: 12px 20px; }
   .hero-controls { position: absolute; inset: auto 0 8px; display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; gap: 8px; padding: 0 var(--gutter); pointer-events: auto; }
   .carousel-ready .hero-arrow { position: static; width: 44px; height: 44px; }
   .hero-controls .hero-progress { position: static; transform: none; }
   .hero-pause { position: static; grid-column: 2; }
+}
+/* Compact copy overlays the same full-viewport photos as desktop. */
+@media (max-width: 1113px) {
+  .hero-interactive::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgb(0 0 0 / 15%), rgb(0 0 0 / 38%) 55%, rgb(0 0 0 / 65%)); }
+  .hero-interactive .hero-content { position: absolute; inset: 100px var(--gutter) 200px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; width: auto; margin: 0; padding: 0; }
+  .hero-interactive .hero-eyebrow { margin-bottom: 8px; font-size: 14px; }
+  .hero-interactive h1 { margin-bottom: 16px; font-size: clamp(26px, 4dvh, 42px); }
   .hero-interactive .review-badge { position: absolute; inset: auto auto 120px var(--gutter); margin: 0; }
 }
 @media (max-width: 899px) {
@@ -117,16 +117,10 @@
   .header-motion:not(.navigation-open) .header-actions { grid-column: 3; }
   .header-motion:not(.navigation-open) .configurator-link { display: none; }
   .header-motion:not(.navigation-open) .menu-toggle { grid-column: 4; }
-  .hero-interactive { display: block; }
-  .hero-interactive > .hero-image, .hero-slide-secondary { position: absolute; inset: 0; height: 100%; aspect-ratio: auto; }
   .hero-interactive .hero-content { position: absolute; top: 84px; bottom: 104px; left: 0; right: 0; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 0 48px; }
   .hero-interactive .hero-eyebrow { margin-bottom: 4px; font-size: 12px; }
   .hero-interactive h1 { margin-bottom: 8px; font-size: 24px; }
-  .hero-interactive .hero-content .button { min-height: 44px; padding: 12px 20px; }
-  .hero-controls { position: absolute; inset: auto 0 8px; display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; gap: 4px; padding: 0 var(--gutter); pointer-events: auto; }
-  .carousel-ready .hero-arrow { position: static; width: 44px; height: 44px; }
-  .hero-controls .hero-progress { position: static; transform: none; }
-  .hero-pause { position: static; grid-column: 2; }
+  .hero-controls { gap: 4px; }
   .hero-interactive .review-badge { position: absolute; inset: auto var(--gutter) 112px auto; margin: 0; padding: 8px 12px; font-size: 12px; }
 }
 

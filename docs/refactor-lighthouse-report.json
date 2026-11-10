@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-10",
+  "baselineCommit": "09f2f42",
+  "method": "Sequential local Lighthouse mobile navigation audits with default simulated throttling; Chrome headless --disable-gpu. Original served separately from committed source; refactor served with native Brotli/gzip. Lab evidence, not field Core Web Vitals.",
+  "settings": {
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    }
+  },
+  "before": {
+    "lighthouseVersion": "13.6.0",
+    "scores": {
+      "performance": 77,
+      "accessibility": 93,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1366.2119,
+        "unit": "millisecond",
+        "display": "1.4 s"
+      },
+      "largest-contentful-paint": {
+        "value": 6056.741650000002,
+        "unit": "millisecond",
+        "display": "6.1 s"
+      },
+      "total-blocking-time": {
+        "value": 76.00000000000045,
+        "unit": "millisecond",
+        "display": "80 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "unit": "unitless",
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 1483.8235148471144,
+        "unit": "millisecond",
+        "display": "1.5 s"
+      },
+      "total-byte-weight": {
+        "value": 7353838,
+        "unit": "byte",
+        "display": "Total size was 7,181 KiB"
+      }
+    },
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "selectors": [
+          "div.promo-row > article.promo-card > div.card-copy > p.eyebrow",
+          "div.promo-row > article.promo-card > div.card-copy > h3"
+        ]
+      },
+      {
+        "id": "link-name",
+        "title": "Links do not have a discernible name",
+        "selectors": [
+          "div.footer-top > div.footer-brand > div.socials > a.social-link",
+          "div.footer-top > div.footer-brand > div.socials > a.social-link",
+          "div.footer-top > div.footer-brand > div.socials > a.social-link"
+        ]
+      }
+    ]
+  },
+  "after": {
+    "lighthouseVersion": "13.6.0",
+    "scores": {
+      "performance": 94,
+      "accessibility": 97,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 762.0127,
+        "unit": "millisecond",
+        "display": "0.8 s"
+      },
+      "largest-contentful-paint": {
+        "value": 1587.0127000000002,
+        "unit": "millisecond",
+        "display": "1.6 s"
+      },
+      "total-blocking-time": {
+        "value": 278.99365000000046,
+        "unit": "millisecond",
+        "display": "280 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "unit": "unitless",
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 1251.2631932417703,
+        "unit": "millisecond",
+        "display": "1.3 s"
+      },
+      "total-byte-weight": {
+        "value": 3601422,
+        "unit": "byte",
+        "display": "Total size was 3,517 KiB"
+      }
+    },
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "selectors": [
+          "div.promo-row > article.promo-card > div.card-copy > p.eyebrow",
+          "div.promo-row > article.promo-card > div.card-copy > h3"
+        ]
+      }
+    ]
+  }
+}

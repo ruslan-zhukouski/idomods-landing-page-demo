@@ -223,7 +223,7 @@ try {
   check('Escape closes disclosure and restores toggle focus',await run(`document.querySelector('.primary-nav').hidden && document.activeElement.matches('.menu-toggle')`));
   await send('Network.setBlockedURLs',{urls:['*hero-interior*']}); await load(false); await sleep(200);
   check('Slide-two failure retains first image and hides unavailable navigation',await run(`document.querySelector('.hero').dataset.carouselError==='image' && document.querySelector('.hero-controls').hidden && document.querySelector('.hero-arrow').hidden && document.querySelector('.hero-slide img').naturalWidth>0 && !document.querySelector('.lamp-regions').hidden`));
-  await send('Network.setBlockedURLs',{urls:['*lamp-beige.png']}); await load(); await sleep(200);
+  await send('Network.setBlockedURLs',{urls:['*lamp-beige.png','*lamp-beige.webp']}); await load(); await sleep(200);
   await run(`document.querySelector('[data-lamp="beige"]').click();document.querySelector('[data-lamp="beige"]').focus()`); await sleep(700);
   check('Failed cutout retains the photographed lamp and working glow without zoom',await run(`(()=>{const b=document.querySelector('[data-lamp="beige"]');return !b.classList.contains('lamp-ready') && b.getAttribute('aria-pressed')==='true' && new DOMMatrix(getComputedStyle(b).transform).a===1 && getComputedStyle(b,'::before').opacity==='1' && document.querySelector('.hero-slide img').naturalWidth>0})()`));
   await send('Network.setBlockedURLs',{urls:[]});

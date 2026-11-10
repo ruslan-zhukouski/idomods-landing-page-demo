@@ -1,12 +1,12 @@
 import { createCarouselClock } from './carousel-clock.js';
 import { initHeroLights } from './hero-lights.js';
 
-export function initHeroSlider() {
-  const hero = document.querySelector('.hero');
+export function initHeroSlider(hero = document.querySelector('.hero')) {
   if (!hero) return () => {};
   const slides = [...hero.querySelectorAll('.hero-slide')];
   const images = slides.map(slide => slide.querySelector('img'));
   const selectors = [...hero.querySelectorAll('[data-slide]')];
+  const progressBars = selectors.map(button => button.querySelector('span'));
   const controls = [...hero.querySelectorAll('.hero-arrow, .hero-controls')];
   const pause = hero.querySelector('.hero-pause');
   const status = hero.querySelector('.hero-status');
@@ -21,9 +21,7 @@ export function initHeroSlider() {
   const lights = initHeroLights(hero);
   let current = 0, generation = 0, animations = [], ready = false, destroyed = false;
   let userPaused = false, offscreen = true;
-  const progress = value => selectors.forEach((button, i) => {
-    button.querySelector('span').style.transform = `scaleX(${i === current ? value : 0})`;
-  });
+  const progress = value => { progressBars[current].style.transform = `scaleX(${value})`; };
   const clock = createCarouselClock({onCycle: () => select(1 - current), onProgress: progress, duration: timing.cycle});
   function finish() {
     animations.forEach(animation => animation.cancel());
@@ -41,6 +39,7 @@ export function initHeroSlider() {
     animations = [];
     const changed = index !== current;
     current = index;
+    progressBars.forEach(bar => { bar.style.transform = 'scaleX(0)'; });
     hero.dataset.slide = String(current);
     slides.forEach((slide, i) => {
       slide.setAttribute('aria-hidden', String(i !== current));
@@ -102,9 +101,13 @@ export function initHeroSlider() {
     clock.pause('user', userPaused);
     pause.textContent = userPaused ? 'Wznów animację' : 'Wstrzymaj animację';
   }, {signal});
-  hero.querySelector('.hero-arrow-left').addEventListener('click', () => select((current + slides.length - 1) % slides.length, true), {signal});
-  hero.querySelector('.hero-arrow-right').addEventListener('click', () => select((current + 1) % slides.length, true), {signal});
-  selectors.forEach((button, i) => button.addEventListener('click', () => select(i, true), {signal}));
+  hero.querySelector('.hero-controls').addEventListener('click', event => {
+    const button = event.target.closest('button');
+    if (!button) return;
+    if (button.hasAttribute('data-slide')) select(Number(button.dataset.slide), true);
+    else if (button.classList.contains('hero-arrow-left')) select((current + slides.length - 1) % slides.length, true);
+    else if (button.classList.contains('hero-arrow-right')) select((current + 1) % slides.length, true);
+  }, {signal});
   document.addEventListener('visibilitychange', syncEnvironment, {signal});
   reduced.addEventListener('change', syncReduced, {signal});
   const observer = new IntersectionObserver(entries => {
@@ -118,9 +121,12 @@ export function initHeroSlider() {
   clock.pause('focus', hero.contains(document.activeElement));
   // Lamps work even when the second photo fails. Neither navigation nor autoplay
   // is exposed until both responsive image selections have decoded successfully.
-  images[0].decode().then(() => { if (!destroyed) lights.show(true); }).catch(() => {});
-  images[1].loading = 'eager';
-  Promise.all(images.map(image => image.decode())).then(() => {
+  images[0].decode().then(() => {
+    if (destroyed) return;
+    lights.show(true);
+    images[1].loading = 'eager';
+    return images[1].decode();
+  }).then(() => {
     if (destroyed) return;
     ready = true;
     hero.querySelector('.hero-slide-secondary').hidden = false;

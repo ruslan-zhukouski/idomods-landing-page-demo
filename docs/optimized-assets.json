@@ -1,0 +1,78 @@
+{
+  "encoding": "lossless WebP; original alpha and all visible RGB samples preserved",
+  "encoder": "sharp 0.35.4",
+  "records": [
+    {
+      "source": "assets/images/configurator-laptop.png",
+      "output": "assets/images/configurator-laptop.webp",
+      "sourceBytes": 2589770,
+      "outputBytes": 1010776,
+      "sourceSha256": "55eb2042ea09baac5d55f61b823b72bf385c868f90e659a58990a4e2adae892d",
+      "outputSha256": "c3682e7319ab74ed4b26002982f680a5416042e36366b26775a5ffae6d951153",
+      "visiblePixelsExact": true
+    },
+    {
+      "source": "assets/images/catalogue-tablet.png",
+      "output": "assets/images/catalogue-tablet.webp",
+      "sourceBytes": 3005362,
+      "outputBytes": 1460080,
+      "sourceSha256": "2aca45094ff88e03d3541ae607d9a87fc9c522f83005256f2e8752a8bd3bed8a",
+      "outputSha256": "20d7f3a758f85b11b0c6001150c2ce0d2bbab03ba078823652f7698a186ba5e2",
+      "visiblePixelsExact": true
+    },
+    {
+      "source": "assets/images/smart-phone-frame.png",
+      "output": "assets/images/smart-phone-frame.webp",
+      "sourceBytes": 86970,
+      "outputBytes": 75010,
+      "sourceSha256": "20dd72b224ef575acce5846785008721bbc315370de946c37e0cc97e3baa43e3",
+      "outputSha256": "33ea242d8a883dd017476ae0a1370e6c8d9f11857c2bbaccd4a6af434dd96933",
+      "visiblePixelsExact": true
+    },
+    {
+      "source": "assets/images/smart-screen-front.png",
+      "output": "assets/images/smart-screen-front.webp",
+      "sourceBytes": 406897,
+      "outputBytes": 263258,
+      "sourceSha256": "ebf79583eea5973fcb9374ff9195955fd4bfa0d0b4311793e93044a85ffd8825",
+      "outputSha256": "f57ade9ed74b8639137c9da6363e44ecda9e791ec1159a6854fb1c2ca41d56f9",
+      "visiblePixelsExact": true
+    },
+    {
+      "source": "assets/images/smart-screen-back.png",
+      "output": "assets/images/smart-screen-back.webp",
+      "sourceBytes": 203417,
+      "outputBytes": 127978,
+      "sourceSha256": "da8bb29d2a69735e28122cee8d8533c7f47159a53f35348e161161b8b3fe045c",
+      "outputSha256": "9b33c1ef9c4646f3bd3bba3f08c03d223fbfc84a482376498f24a71e604c3d22",
+      "visiblePixelsExact": true
+    },
+    {
+      "source": "assets/images/lamp-beige.png",
+      "output": "assets/images/lamp-beige.webp",
+      "sourceBytes": 206910,
+      "outputBytes": 110344,
+      "sourceSha256": "9fe8b1a77a23ca83c9fbd4e6275e2070c618ac99fb196b46a88294fd14fc8685",
+      "outputSha256": "861f4304b79e7546b92a686ce8588f9508678a30aa422a12ab690f5c45bc51f7",
+      "visiblePixelsExact": true
+    },
+    {
+      "source": "assets/images/lamp-green.png",
+      "output": "assets/images/lamp-green.webp",
+      "sourceBytes": 279257,
+      "outputBytes": 186790,
+      "sourceSha256": "cb64961d4d2b19e2942aed9d811937053fde41a32738d839e5f06368f7a099c5",
+      "outputSha256": "2d8a746498c9023173a8befc974dab9094543176bed2dc0f018b22f899a9b8b6",
+      "visiblePixelsExact": true
+    },
+    {
+      "source": "assets/images/lamp-terracotta.png",
+      "output": "assets/images/lamp-terracotta.webp",
+      "sourceBytes": 246577,
+      "outputBytes": 133654,
+      "sourceSha256": "868b0a09f930d173b5af219dd3844634936529dd9434aeb754895c83709da8cb",
+      "outputSha256": "c651071681c822bd32de119c05fc0d975c7548b5171e09d5ae71ffb841ad46a5",
+      "visiblePixelsExact": true
+    }
+  ]
+}

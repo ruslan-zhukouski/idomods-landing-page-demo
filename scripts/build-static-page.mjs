@@ -2,11 +2,13 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { site } from '../site.config.mjs';
+import { buildStyles } from './build-styles.mjs';
+import { createHtmlHelpers, escapeHtml as esc } from './html-helpers.mjs';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const json = async file => JSON.parse((await readFile(path.join(root, file), 'utf8')).replace(/^\uFEFF/, ''));
 const manifest = await json('docs/asset-manifest.json');
 const destinations = await json('docs/destinations.json');
-const assets = new Map(manifest.assets.map(asset => [asset.path, asset]));
 const routes = new Map(destinations.entries.map(entry => [entry.id, entry.href]));
 const decisions = {
   tiktok: { href: 'https://www.tiktok.com/', reason: 'Use the TikTok homepage until the official SOLLUX profile URL is supplied or verified.' },
@@ -16,24 +18,9 @@ const decisions = {
   'buy-now': { href: routes.get('lamps'), reason: 'The static CTA opens the verified lamp catalogue rather than implying a checkout.' },
 };
 for (const [id, entry] of Object.entries(decisions)) routes.set(id, entry.href);
-const esc = text => String(text).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
-const img = (file, { alt = '', classes = '', style = '', eager = false } = {}) => {
-  const asset = assets.get(file);
-  if (!asset) throw new Error(`Missing asset: ${file}`);
-  return `<img src="${file}" width="${asset.width}" height="${asset.height}" alt="${esc(alt)}"${classes ? ` class="${classes}"` : ''}${style ? ` style="${style}"` : ''} loading="${eager ? 'eager' : 'lazy'}" decoding="async" data-figma-node="${asset.sourceNodeIds.join(' ')}">`;
-};
-const icon = (name, classes = '') => `<span class="icon ${classes}" aria-hidden="true">${img(`assets/icons/${name}.svg`, { eager: true })}</span>`;
+const { img, icon, link, picture } = createHtmlHelpers(manifest, routes);
 // One semantic label; the second face is only a precolored opacity layer.
 const headerFace = content => `<span class="header-face"><span class="header-face-light">${content}</span><span class="header-face-dark" aria-hidden="true">${content}</span></span>`;
-const link = (id, label, classes = '') => routes.has(id)
-  ? `<a href="${esc(routes.get(id))}"${classes ? ` class="${classes}"` : ''} data-destination="${id}">${label}</a>`
-  : `<span class="unresolved-label ${classes}" data-unresolved-destination="${id}">${label}</span>`;
-const picture = (name, sizes, { alt = '', eager = false, classes = '' } = {}) => {
-  const variants = manifest.assets.filter(asset => asset.path.startsWith(`assets/images/${name}-`) && asset.path.endsWith('.jpg')).sort((a,b) => a.width - b.width);
-  const srcset = extension => variants.map(asset => `${asset.path.replace('.jpg', extension)} ${asset.width}w`).join(', ');
-  const fallback = variants.at(-1);
-  return `<picture${classes ? ` class="${classes}"` : ''}><source type="image/webp" srcset="${srcset('.webp')}" sizes="${sizes}"><img src="${fallback.path}" srcset="${srcset('.jpg')}" sizes="${sizes}" width="${fallback.width}" height="${fallback.height}" alt="${esc(alt)}" loading="${eager ? 'eager' : 'lazy'}"${eager ? ' fetchpriority="high"' : ''} decoding="async" data-figma-node="${fallback.sourceNodeIds.join(' ')}"></picture>`;
-};
 // Convert the exact source pixel coordinates into proportional placement, preserving artwork geometry.
 const box = (parentW, parentH, x, y, w, h, content, extra = '') => `<div class="art-box" style="left:${x/parentW*100}%;top:${y/parentH*100}%;width:${w/parentW*100}%;height:${h/parentH*100}%;${extra}">${content}</div>`;
 const inset = (values, content, extra = '') => `<div class="art-box" style="inset:${values};${extra}">${content}</div>`;
@@ -87,21 +74,33 @@ const awardLabels = ['Rzetelna Firma','Orły Oświetlenia','Gazele Biznesu','Sol
 const awards = footerMarks('awards').map((asset,i)=>`<li>${img(asset.path,{alt:awardLabels[i]})}</li>`).join('');
 const shopIds=['pl','de','es','ro','fr','gb','nl','se'];
 const flags = footerMarks('flags').map((asset,i)=>`<li>${link(`shop-${shopIds[i]}`,img(asset.path,{alt:asset.accessibleLabel}),'country-link')}</li>`).join('');
-const socials = ['facebook','instagram','tiktok','youtube'].map(id=>link(id,id==='tiktok' ? `<span class="tiktok-icon" aria-hidden="true">${img('assets/icons/social-tiktok-artwork.svg')}</span><span class="visually-hidden">TikTok</span>` : icon(`social-${id}`),'social-link')).join('');
+const socialNames = { facebook: 'Facebook', instagram: 'Instagram', tiktok: 'TikTok', youtube: 'YouTube' };
+const socials = Object.entries(socialNames).map(([id, name]) => link(id,
+  id === 'tiktok' ? `<span class="tiktok-icon" aria-hidden="true">${img('assets/icons/social-tiktok-artwork.svg')}</span>` : icon(`social-${id}`),
+  'social-link', { accessibleLabel: `SOLLUX — ${name}` })).join('');
+const pageUrl = site.url ? new URL(site.url) : null;
+if (pageUrl && !['https:', 'http:'].includes(pageUrl.protocol)) throw new Error('site.url must be a public HTTP(S) URL');
+const sharingImage = pageUrl ? new URL(site.image, pageUrl).href : site.image;
 const html = `<!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Odkryj lampy SOLLUX: kolor, forma i światło do Twojego wnętrza. Poznaj bestsellery, konfigurator 3D, najnowszy katalog i aplikację SOLLUX SMART.">
+  <!-- SEO settings: site.config.mjs; regenerate this file after editing. -->
+  <title>${esc(site.title)}</title>
+  <meta name="description" content="${esc(site.description)}">
+  <meta name="robots" content="${esc(site.robots)}">
+  <meta property="og:title" content="${esc(site.title)}">
+  <meta property="og:description" content="${esc(site.description)}">
+  <meta property="og:image" content="${esc(sharingImage)}">
+  <meta property="og:image:alt" content="${esc(site.imageAlt)}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pl_PL">
+  ${pageUrl ? `<link rel="canonical" href="${esc(pageUrl.href)}">\n  <meta property="og:url" content="${esc(pageUrl.href)}">` : '<!-- Set site.url to generate a canonical, og:url and an absolute og:image. -->'}
   <meta name="theme-color" content="#F2BF25">
   <link rel="icon" href="assets/icons/sollux-dark.svg" type="image/svg+xml">
-  <title>SOLLUX — Kolor i forma w nowym świetle</title>
   <link rel="preload" href="assets/fonts/red-hat-display-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/fonts/red-hat-display.css">
-  <link rel="stylesheet" href="styles/tokens.css">
-  <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/motion.css">
+  <link rel="stylesheet" href="styles/site.min.css">
   <script type="module" src="scripts/main.js"></script>
 </head>
 <body>
@@ -121,11 +120,11 @@ const html = `<!doctype html>
   </header>
   <main id="main" tabindex="-1">
     <section class="hero" aria-labelledby="hero-title" data-figma-node="1:506">
-      ${picture('hero-bestsellers','100vw',{eager:true,classes:'hero-image hero-slide is-active'})}
-      <div class="hero-slide-secondary" hidden>${picture('hero-interior','100vw',{classes:'hero-image hero-slide'})}</div>
-      <div class="lamp-regions" hidden><button type="button" data-lamp="beige" data-figma-node="1:1004" aria-label="Lampa beżowa — światło" aria-pressed="false">${img('assets/images/lamp-beige.png',{eager:true})}</button><button type="button" data-lamp="green" data-figma-node="1:1003" aria-label="Lampa zielona — światło" aria-pressed="false">${img('assets/images/lamp-green.png',{eager:true})}</button><button type="button" data-lamp="terracotta" data-figma-node="1:1002" aria-label="Lampa terakotowa — światło" aria-pressed="false">${img('assets/images/lamp-terracotta.png',{eager:true})}</button></div>
+      ${picture('hero-bestsellers','100vw',{eager:true,classes:'hero-image hero-slide is-active',alt:site.imageAlt})}
+      ${picture('hero-interior','100vw',{classes:'hero-image hero-slide hero-slide-secondary',hidden:true,alt:'Aranżacja wnętrza z oświetleniem SOLLUX.'})}
+      <div class="lamp-regions" hidden><button type="button" data-lamp="beige" data-figma-node="1:1004" aria-label="Lampa beżowa — światło" aria-pressed="false">${img('assets/images/lamp-beige.png',{priority:'low'})}</button><button type="button" data-lamp="green" data-figma-node="1:1003" aria-label="Lampa zielona — światło" aria-pressed="false">${img('assets/images/lamp-green.png',{priority:'low'})}</button><button type="button" data-lamp="terracotta" data-figma-node="1:1002" aria-label="Lampa terakotowa — światło" aria-pressed="false">${img('assets/images/lamp-terracotta.png',{priority:'low'})}</button></div>
       <div class="container hero-content"><p class="hero-eyebrow">Bestsellery SOLLUX</p><h1 id="hero-title">Kolor i forma<br> w nowym świetle</h1>${link('bestsellers','Sprawdź bestsellery','button button-yellow')}</div>
-      <div class="hero-controls" hidden><button class="hero-arrow hero-arrow-left" type="button" aria-label="Poprzedni slajd" hidden>${icon('arrow-left')}</button><div class="hero-progress" role="group" aria-label="Wybierz slajd"><button type="button" data-slide="0" aria-label="Slajd 1 z 2" aria-current="true"><span></span></button><button type="button" data-slide="1" aria-label="Slajd 2 z 2"><span></span></button></div><button class="hero-arrow hero-arrow-right" type="button" aria-label="Następny slajd" hidden>${icon('arrow-right')}</button><button class="hero-pause" type="button">Wstrzymaj animację</button></div>
+      <div class="hero-controls" hidden><button class="hero-arrow hero-arrow-left" type="button" aria-label="Poprzedni slajd" hidden>${icon('arrow-left')}</button><div class="hero-progress" role="group" aria-label="Wybierz slajd"><button type="button" data-slide="0" aria-label="Slajd 1 z 2" aria-current="true"><span></span></button><button type="button" data-slide="1" aria-label="Slajd 2 z 2"><span></span></button></div><button class="hero-arrow hero-arrow-right" type="button" aria-label="Następny slajd" hidden>${icon('arrow-right')}</button><button class="hero-pause animation-toggle" type="button">Wstrzymaj animację</button></div>
       <p class="visually-hidden hero-status" role="status" aria-live="polite"></p>
       <p class="review-badge" data-figma-node="1:524"><strong>4.8</strong>${icon('review-star')}<span>Uwielbiany przez klientów</span></p>
     </section>
@@ -135,11 +134,11 @@ const html = `<!doctype html>
     <section class="light-section" aria-labelledby="light-title" data-figma-node="1:707">
       <div class="light-background" aria-hidden="true"><canvas class="light-canvas" aria-hidden="true" tabindex="-1"></canvas></div>
       <div class="light-content"><h2 id="light-title">Twoje wnętrze zasługuje na<br class="desktop-break"> wyjątkowe światło</h2>${link('buy-now','Kup teraz','button button-yellow')}<p>Od 119 zł na oficjalnej stronie<br> producenta SOLLUX</p></div>
-      <button class="light-pause" type="button" aria-describedby="light-title" hidden>Wstrzymaj animację tła</button>
+      <button class="light-pause animation-toggle" type="button" aria-describedby="light-title" hidden>Wstrzymaj animację tła</button>
     </section>
   </main>
   <footer class="site-footer" data-figma-node="1:708">
-    <div class="footer-top container"><div class="footer-brand">${link('home',img('assets/icons/sollux-dark.svg',{alt:'SOLLUX'}))}<div class="socials" aria-label="SOLLUX w mediach społecznościowych">${socials}</div></div><div class="footer-links">${footerNav}</div></div>
+    <div class="footer-top container"><div class="footer-brand">${link('home',img('assets/icons/sollux-dark.svg',{alt:'SOLLUX'}))}<nav class="socials" aria-label="SOLLUX w mediach społecznościowych">${socials}</nav></div><nav class="footer-links" aria-label="Informacje i obsługa sklepu">${footerNav}</nav></div>
     <div class="footer-bottom container"><section class="footer-panel"><h2>Płatności i dostawy</h2><ul class="payment-logos" aria-label="Płatności i dostawy">${payments}</ul></section><section class="footer-panel"><h2>Nagrody</h2><ul class="award-logos" aria-label="Nagrody i wyróżnienia">${awards}</ul></section><section class="footer-panel"><h2>Nasze sklepy</h2><ul class="country-flags" aria-label="Sklepy SOLLUX w Europie">${flags}</ul></section></div>
     <div class="footer-caption container"><div class="vat-row"><p>W sklepie prezentujemy ceny brutto (z VAT). Stawki VAT dla konsumentów z kraju: Polska.</p><span class="caption-rule" aria-hidden="true">${img('assets/icons/footer-divider.svg')}</span><div class="partner-marks">${img('assets/icons/partner-idomods.svg',{alt:'Design & Code — IdoMods'})}${idosell}</div></div><address class="shop-contact"><span>NIP: 6070082443</span><span>${link('phone','+48 668 806 323')} <span class="opening-hours">(Pn - Pt 7:00 - 15:00)</span></span>${link('email','sklep@sollux.pl')}<span>Sollux Lighting Sp. z o.o.</span><span>Władysława Łokietka 35, 64-840 Budzyń (POLSKA)</span></address></div>
   </footer>
@@ -147,5 +146,6 @@ const html = `<!doctype html>
 </html>
 `;
 await writeFile(path.join(root,'index.html'),html);
+await buildStyles();
 await writeFile(path.join(root,'docs/phase-2-content-decisions.json'),JSON.stringify({phase:2,decisions,unresolvedAsPlainText:['promotions','security','light-course'],cookies:'Native details disclosure: no optional cookies are used; links to the official store privacy notice.',sourceCopyCorrection:'Wpsółpraca → Współpraca',staticHero:'Slide one remains the no-JavaScript and image-failure fallback. Phase 4 progressively enables two slides with shared original copy/CTA.'},null,2)+'\n');
 console.log('Built index.html with local assets and progressive navigation enhancement.');

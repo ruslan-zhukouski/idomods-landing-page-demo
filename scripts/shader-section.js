@@ -10,6 +10,7 @@ export function initShaderSection(section = document.querySelector('.light-secti
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   let renderer = null, frame = null, previous = null, lastDraw = null, elapsed = 0;
   let visible = false, userPaused = false, destroyed = false;
+  let attempted = false;
   const listeners = new AbortController();
 
   function stop() {
@@ -17,13 +18,19 @@ export function initShaderSection(section = document.querySelector('.light-secti
     frame = null; previous = null; lastDraw = null;
   }
   function running() { return renderer && visible && !document.hidden && !motion.matches && !userPaused && !destroyed; }
+  function state() {
+    if (!renderer) return attempted ? 'fallback' : 'deferred';
+    if (motion.matches) return 'reduced';
+    if (userPaused) return 'paused';
+    return running() ? 'running' : 'suspended';
+  }
   function update() {
-    section.dataset.shaderState = !renderer ? 'fallback' : motion.matches ? 'reduced' : userPaused ? 'paused' : running() ? 'running' : 'suspended';
+    section.dataset.shaderState = state();
     control.hidden = !renderer;
     control.disabled = motion.matches;
     control.textContent = motion.matches ? 'Animacja tła wyłączona' : userPaused ? 'Wznów animację tła' : 'Wstrzymaj animację tła';
-    if (running()) { if (frame === null) frame = requestAnimationFrame(tick); }
-    else stop();
+    if (!running()) stop();
+    else if (frame === null) frame = requestAnimationFrame(tick);
   }
   function tick(timestamp) {
     frame = null;
@@ -43,6 +50,7 @@ export function initShaderSection(section = document.querySelector('.light-secti
     renderer.draw(elapsed);
   }
   function build() {
+    attempted = true;
     try {
       renderer = createLightRenderer(canvas);
       resize();
@@ -67,17 +75,26 @@ export function initShaderSection(section = document.querySelector('.light-secti
     visible = entry.isIntersecting && entry.intersectionRatio > 0; update();
   }, { threshold: [0, 0.001] });
   intersection.observe(section);
+  // Compile/upload only near the section, away from the hero's initial paint.
+  // Prewarming before entry preserves the existing canvas appearance on scroll.
+  const prewarm = new IntersectionObserver(entries => {
+    if (entries.some(entry => entry.isIntersecting) && !destroyed) {
+      prewarm.disconnect();
+      build();
+    }
+  }, { rootMargin: '600px' });
+  prewarm.observe(section);
   const sizeObserver = new ResizeObserver(resize);
   sizeObserver.observe(section);
   function cleanup() {
     destroyed = true; stop(); listeners.abort();
-    intersection.disconnect(); sizeObserver.disconnect();
+    intersection.disconnect(); prewarm.disconnect(); sizeObserver.disconnect();
     renderer?.destroy(); renderer = null;
     section.classList.remove('shader-ready'); control.hidden = true;
     delete section.dataset.shaderState; instances.delete(section);
   }
   window.addEventListener('pagehide', event => { if (!event.persisted) cleanup(); }, { signal: listeners.signal });
   instances.set(section, cleanup);
-  build();
+  section.dataset.shaderState = 'deferred';
   return cleanup;
 }

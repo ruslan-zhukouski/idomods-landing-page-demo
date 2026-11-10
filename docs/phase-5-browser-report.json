@@ -2,7 +2,7 @@
   "renderer": "Chrome headless / SwiftShader (software WebGL)",
   "checks": [
     {
-      "name": "Offscreen shader draws a stable initial frame and suspends",
+      "name": "Distant shader defers GPU allocation and drawing",
       "passed": true
     },
     {
@@ -30,10 +30,10 @@
       "name": "Two real 25s cycles run without phase jumps or HTML movement",
       "passed": true,
       "details": {
-        "frames": 1334,
-        "duration": 52360.699999999255,
-        "cycles": 2.09589199999995,
-        "maxPhaseStep": 0.03350194405788187,
+        "frames": 1332,
+        "duration": 51925.70000000298,
+        "cycles": 2.0772199999999583,
+        "maxPhaseStep": 0.020960706184752098,
         "stationary": true
       }
     },

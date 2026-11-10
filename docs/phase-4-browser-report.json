@@ -8,8 +8,8 @@
       "name": "Autoplay transition starts are 3000ms apart",
       "passed": true,
       "details": [
-        3801.300000000745,
-        6798.89999999851
+        3969.800000000745,
+        6964.60000000149
       ]
     },
     {
@@ -130,13 +130,13 @@
           ]
         },
         "entering": {
-          "width": 383.47454833984375,
-          "height": 431.9241943359375,
-          "x": 938.5000305175781,
+          "width": 385.21392822265625,
+          "height": 433.8834228515625,
+          "x": 938.4999694824219,
           "y": 294.49998474121094,
           "decoded": true,
-          "imageWidth": 383.47454833984375,
-          "imageHeight": 431.9241943359375,
+          "imageWidth": 385.21392822265625,
+          "imageHeight": 433.8834228515625,
           "glow": [
             "217.984px",
             "274.016px",
@@ -174,13 +174,13 @@
       "passed": true,
       "details": {
         "leaving": {
-          "width": 395.98858642578125,
-          "height": 446.0194091796875,
-          "x": 938.4999694824219,
-          "y": 294.49998474121094,
+          "width": 394.297119140625,
+          "height": 444.1142272949219,
+          "x": 938.5,
+          "y": 294.50001525878906,
           "decoded": true,
-          "imageWidth": 395.98858642578125,
-          "imageHeight": 446.0194091796875,
+          "imageWidth": 394.297119140625,
+          "imageHeight": 444.1142272949219,
           "glow": [
             "217.984px",
             "274.016px",
@@ -237,13 +237,13 @@
           ]
         },
         "entering": {
-          "width": 484.4896240234375,
-          "height": 441.19482421875,
-          "x": 1303.5000610351562,
+          "width": 486.6871337890625,
+          "height": 443.196044921875,
+          "x": 1303.4999389648438,
           "y": 546,
           "decoded": true,
-          "imageWidth": 484.4896240234375,
-          "imageHeight": 441.19482421875,
+          "imageWidth": 486.6871337890625,
+          "imageHeight": 443.196044921875,
           "glow": [
             "94px",
             "345.812px",
@@ -281,13 +281,13 @@
       "passed": true,
       "details": {
         "leaving": {
-          "width": 500.29833984375,
-          "height": 455.5908203125,
-          "x": 1303.5,
-          "y": 546,
+          "width": 500.3138427734375,
+          "height": 455.6049499511719,
+          "x": 1303.5000610351562,
+          "y": 546.0000152587891,
           "decoded": true,
-          "imageWidth": 500.29833984375,
-          "imageHeight": 455.5908203125,
+          "imageWidth": 500.3138427734375,
+          "imageHeight": 455.6049499511719,
           "glow": [
             "94px",
             "345.812px",
@@ -344,13 +344,13 @@
           ]
         },
         "entering": {
-          "width": 438.02984619140625,
-          "height": 406.9638977050781,
-          "x": 621.9999694824219,
-          "y": 630.4999847412109,
+          "width": 438.01971435546875,
+          "height": 406.9544677734375,
+          "x": 622.0000305175781,
+          "y": 630.5,
           "decoded": true,
-          "imageWidth": 438.02984619140625,
-          "imageHeight": 406.9638977050781,
+          "imageWidth": 438.01971435546875,
+          "imageHeight": 406.9544677734375,
           "glow": [
             "255.906px",
             "246.797px",
@@ -388,13 +388,13 @@
       "passed": true,
       "details": {
         "leaving": {
-          "width": 450.2712707519531,
-          "height": 418.337158203125,
-          "x": 621.9999847412109,
-          "y": 630.5,
+          "width": 450.2773132324219,
+          "height": 418.3427429199219,
+          "x": 622.0000152587891,
+          "y": 630.5000152587891,
           "decoded": true,
-          "imageWidth": 450.2712707519531,
-          "imageHeight": 418.337158203125,
+          "imageWidth": 450.2773132324219,
+          "imageHeight": 418.3427429199219,
           "glow": [
             "255.906px",
             "246.797px",
@@ -1312,7 +1312,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 1376,
               "bottom": 1420,
               "left": 72,
@@ -1386,7 +1386,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 836,
               "bottom": 880,
               "left": 72,
@@ -1460,7 +1460,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 656,
               "bottom": 700,
               "left": 72,
@@ -1534,7 +1534,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 836,
               "bottom": 880,
               "left": 32,
@@ -1608,7 +1608,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 704,
               "bottom": 748,
               "left": 32,
@@ -1682,7 +1682,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 656,
               "bottom": 700,
               "left": 32,
@@ -1756,7 +1756,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 704,
               "bottom": 748,
               "left": 32,
@@ -1830,7 +1830,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 704,
               "bottom": 748,
               "left": 32,
@@ -1904,7 +1904,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 716,
               "bottom": 760,
               "left": 479.046875,
@@ -1978,7 +1978,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 716,
               "bottom": 760,
               "left": 434.546875,
@@ -2052,7 +2052,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 548,
               "bottom": 592,
               "left": 372.546875,
@@ -2126,7 +2126,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 972,
               "bottom": 1016,
               "left": 306.546875,
@@ -2200,7 +2200,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 748,
               "bottom": 792,
               "left": 222.546875,
@@ -2274,7 +2274,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 792,
               "bottom": 836,
               "left": 117.546875,
@@ -2348,7 +2348,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 615,
               "bottom": 659,
               "left": 110.046875,
@@ -2422,7 +2422,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 516,
               "bottom": 560,
               "left": 82.546875,
@@ -2496,7 +2496,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 428,
               "bottom": 472,
               "left": 82.546875,
@@ -2570,7 +2570,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 338,
               "bottom": 382,
               "left": 344.546875,
@@ -2644,7 +2644,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 323,
               "bottom": 367,
               "left": 256.046875,
@@ -2718,7 +2718,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "top": 268,
               "bottom": 312,
               "left": 206.546875,
@@ -2768,7 +2768,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "visible": true,
               "reachable": true
             }
@@ -2805,7 +2805,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "visible": true,
               "reachable": true
             }
@@ -2842,7 +2842,7 @@
               "reachable": true
             },
             {
-              "element": "hero-pause",
+              "element": "hero-pause animation-toggle",
               "visible": true,
               "reachable": true
             }

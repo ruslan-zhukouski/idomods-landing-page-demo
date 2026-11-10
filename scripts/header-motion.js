@@ -1,7 +1,6 @@
 // Mirror only the visible input text: the real input retains selection, editing,
 // form semantics, and its single accessible label throughout the crossfade.
-export function initHeaderMotion() {
-  const header = document.querySelector('.site-header');
+export function initHeaderMotion(header = document.querySelector('.site-header')) {
   if (!header) return () => {};
   const input = header.querySelector('input');
   const mirror = header.querySelector('.search-dark-text');

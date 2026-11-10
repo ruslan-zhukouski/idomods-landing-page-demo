@@ -1,0 +1,578 @@
+{
+  "originalCommit": "09f2f42",
+  "cache": "disabled",
+  "motion": "reduced",
+  "rasterTolerance": {
+    "maximumMeanChannelError": 0.01,
+    "maximumChannelError": 32
+  },
+  "checks": [
+    {
+      "name": "js-320: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "js-320: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 10448,
+        "maximumDifference": 1,
+        "meanDifference": 0.0014671808165546527,
+        "bands": {
+          "0": 665,
+          "100": 1494,
+          "200": 1746,
+          "300": 1572,
+          "400": 1333,
+          "500": 1425,
+          "1700": 24,
+          "1800": 1781,
+          "2200": 233,
+          "2300": 4,
+          "2600": 90,
+          "2700": 81
+        }
+      }
+    },
+    {
+      "name": "JS: semantics, SEO, image priorities and link labels",
+      "passed": true,
+      "details": {
+        "headings": true,
+        "landmarks": true,
+        "metadata": true,
+        "namedSocials": true,
+        "safeWindows": true,
+        "reservedImages": true,
+        "lazyBelowFold": true,
+        "criticalImage": true,
+        "oneStylesheet": true,
+        "crawlableHeading": true
+      }
+    },
+    {
+      "name": "js-375: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "js-375: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 12399,
+        "maximumDifference": 1,
+        "meanDifference": 0.001517788941770962,
+        "bands": {
+          "0": 735,
+          "100": 1511,
+          "200": 1757,
+          "300": 2090,
+          "400": 1258,
+          "500": 1934,
+          "1700": 77,
+          "1800": 2464,
+          "2100": 38,
+          "2200": 289,
+          "2300": 1,
+          "2600": 137,
+          "2700": 108
+        }
+      }
+    },
+    {
+      "name": "js-600: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "js-600: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 29747,
+        "maximumDifference": 26,
+        "meanDifference": 0.0033012675662297975,
+        "bands": {
+          "0": 201,
+          "100": 2243,
+          "200": 1843,
+          "300": 4436,
+          "400": 1141,
+          "500": 2864,
+          "600": 2634,
+          "1600": 21,
+          "1700": 1531,
+          "1800": 4685,
+          "2100": 243,
+          "2200": 509,
+          "2300": 153,
+          "2600": 3375,
+          "2700": 3480,
+          "2800": 388
+        }
+      }
+    },
+    {
+      "name": "js-768: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "js-768: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 21477,
+        "maximumDifference": 1,
+        "meanDifference": 0.0017519602180956762,
+        "bands": {
+          "0": 208,
+          "100": 2237,
+          "200": 2188,
+          "300": 4489,
+          "400": 2267,
+          "500": 3325,
+          "600": 3495,
+          "1200": 64,
+          "1300": 2631,
+          "1700": 451,
+          "1800": 122
+        }
+      }
+    },
+    {
+      "name": "js-844: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "js-844: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 10294,
+        "maximumDifference": 1,
+        "meanDifference": 0.0008720063430964611,
+        "bands": {
+          "0": 957,
+          "100": 2780,
+          "200": 2098,
+          "300": 414,
+          "700": 202,
+          "800": 3095,
+          "1200": 577,
+          "1300": 171
+        }
+      }
+    },
+    {
+      "name": "js-900: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "js-900: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 24274,
+        "maximumDifference": 1,
+        "meanDifference": 0.0017220146024341174,
+        "bands": {
+          "0": 201,
+          "100": 2252,
+          "200": 2480,
+          "300": 4650,
+          "400": 2735,
+          "500": 3810,
+          "600": 3549,
+          "1200": 1867,
+          "1300": 1909,
+          "1600": 167,
+          "1700": 589,
+          "1800": 65
+        }
+      }
+    },
+    {
+      "name": "js-1114: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "js-1114: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 35098,
+        "maximumDifference": 32,
+        "meanDifference": 0.00259651462009378,
+        "bands": {
+          "0": 201,
+          "100": 2253,
+          "200": 2802,
+          "300": 5986,
+          "400": 4018,
+          "500": 3579,
+          "600": 3549,
+          "1100": 57,
+          "1200": 3295,
+          "1300": 2072,
+          "1600": 1989,
+          "1700": 4316,
+          "1800": 981
+        }
+      }
+    },
+    {
+      "name": "js-1440: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "js-1440: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 54245,
+        "maximumDifference": 29,
+        "meanDifference": 0.002760840329551241,
+        "bands": {
+          "100": 2921,
+          "200": 1955,
+          "300": 5166,
+          "400": 7529,
+          "500": 4855,
+          "600": 4096,
+          "700": 5119,
+          "800": 1225,
+          "1400": 207,
+          "1500": 5547,
+          "1600": 6179,
+          "1700": 389,
+          "1900": 1104,
+          "2000": 4976,
+          "2100": 2292,
+          "2200": 524,
+          "2300": 161
+        }
+      }
+    },
+    {
+      "name": "js-1600: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "js-1600: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 61040,
+        "maximumDifference": 29,
+        "meanDifference": 0.0029182414831706634,
+        "bands": {
+          "100": 2921,
+          "200": 1955,
+          "300": 5166,
+          "400": 7557,
+          "500": 5201,
+          "600": 4417,
+          "700": 5119,
+          "800": 1225,
+          "1400": 233,
+          "1500": 4763,
+          "1600": 9634,
+          "1700": 1011,
+          "1800": 56,
+          "1900": 668,
+          "2000": 6105,
+          "2100": 3816,
+          "2200": 656,
+          "2300": 530,
+          "2400": 7
+        }
+      }
+    },
+    {
+      "name": "js-1920: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "js-1920: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 64277,
+        "maximumDifference": 31,
+        "meanDifference": 0.0025076204852631763,
+        "bands": {
+          "100": 2921,
+          "200": 1955,
+          "300": 5166,
+          "400": 7634,
+          "500": 5155,
+          "600": 4417,
+          "700": 5119,
+          "800": 1225,
+          "1300": 22,
+          "1400": 252,
+          "1500": 6197,
+          "1600": 10094,
+          "1700": 1163,
+          "1800": 69,
+          "1900": 1836,
+          "2000": 6161,
+          "2100": 3632,
+          "2200": 625,
+          "2300": 607,
+          "2400": 27
+        }
+      }
+    },
+    {
+      "name": "static-320: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "static-320: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 2196,
+        "maximumDifference": 1,
+        "meanDifference": 0.0003092783505154639,
+        "bands": {
+          "1700": 1779,
+          "1800": 31,
+          "2100": 156,
+          "2200": 80,
+          "2600": 146,
+          "2700": 4
+        }
+      }
+    },
+    {
+      "name": "static: semantics, SEO, image priorities and link labels",
+      "passed": true,
+      "details": {
+        "headings": true,
+        "landmarks": true,
+        "metadata": true,
+        "namedSocials": true,
+        "safeWindows": true,
+        "reservedImages": true,
+        "lazyBelowFold": true,
+        "criticalImage": true,
+        "oneStylesheet": true,
+        "crawlableHeading": true
+      }
+    },
+    {
+      "name": "static-375: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "static-375: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 3110,
+        "maximumDifference": 1,
+        "meanDifference": 0.000382997379361983,
+        "bands": {
+          "1700": 1265,
+          "1800": 1268,
+          "2100": 130,
+          "2200": 201,
+          "2600": 184,
+          "2700": 62
+        }
+      }
+    },
+    {
+      "name": "static-600: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "static-600: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 7707,
+        "maximumDifference": 1,
+        "meanDifference": 0.000643404911816711,
+        "bands": {
+          "1600": 78,
+          "1700": 3649,
+          "1800": 2521,
+          "2100": 444,
+          "2200": 408,
+          "2300": 22,
+          "2500": 44,
+          "2600": 338,
+          "2700": 183,
+          "2800": 20
+        }
+      }
+    },
+    {
+      "name": "static-768: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "static-768: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 3225,
+        "maximumDifference": 1,
+        "meanDifference": 0.0002598197358587973,
+        "bands": {
+          "1300": 2018,
+          "1400": 624,
+          "1700": 126,
+          "1800": 422,
+          "1900": 35
+        }
+      }
+    },
+    {
+      "name": "static-844: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "static-844: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 4048,
+        "maximumDifference": 1,
+        "meanDifference": 0.0002929560568809501,
+        "bands": {
+          "1300": 57,
+          "1400": 3241,
+          "1800": 512,
+          "1900": 238
+        }
+      }
+    },
+    {
+      "name": "static-900: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "static-900: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 4621,
+        "maximumDifference": 1,
+        "meanDifference": 0.000311990256127729,
+        "bands": {
+          "1400": 1794,
+          "1500": 1989,
+          "1800": 150,
+          "1900": 605,
+          "2000": 83
+        }
+      }
+    },
+    {
+      "name": "static-1114: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "static-1114: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 6629,
+        "maximumDifference": 1,
+        "meanDifference": 0.0003732578671879927,
+        "bands": {
+          "1300": 55,
+          "1400": 3171,
+          "1500": 2195,
+          "1800": 392,
+          "1900": 703,
+          "2000": 113
+        }
+      }
+    },
+    {
+      "name": "static-1440: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "static-1440: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 15114,
+        "maximumDifference": 1,
+        "meanDifference": 0.0006264065550126201,
+        "bands": {
+          "1600": 206,
+          "1700": 5340,
+          "1800": 6369,
+          "1900": 411,
+          "2100": 321,
+          "2200": 1096,
+          "2300": 680,
+          "2400": 522,
+          "2500": 169
+        }
+      }
+    },
+    {
+      "name": "static-1600: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "static-1600: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 19327,
+        "maximumDifference": 1,
+        "meanDifference": 0.0007743009176870089,
+        "bands": {
+          "1400": 233,
+          "1500": 4763,
+          "1600": 9634,
+          "1700": 1011,
+          "1800": 56,
+          "1900": 276,
+          "2000": 1267,
+          "2100": 920,
+          "2200": 630,
+          "2300": 530,
+          "2400": 7
+        }
+      }
+    },
+    {
+      "name": "static-1920: unchanged layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "static-1920: equivalent rasterization",
+      "passed": true,
+      "details": {
+        "sameSize": true,
+        "differentChannels": 21834,
+        "maximumDifference": 1,
+        "meanDifference": 0.0007069712140904666,
+        "bands": {
+          "1300": 22,
+          "1400": 252,
+          "1500": 6197,
+          "1600": 10094,
+          "1700": 1163,
+          "1800": 69,
+          "1900": 526,
+          "2000": 1335,
+          "2100": 918,
+          "2200": 624,
+          "2300": 607,
+          "2400": 27
+        }
+      }
+    }
+  ]
+}

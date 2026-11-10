@@ -1,9 +1,10 @@
 // Ordinary site links in a nonmodal disclosure, without a focus trap.
-export function initNavigation() {
-  const header = document.querySelector('.site-header');
+export function initNavigation(header = document.querySelector('.site-header')) {
+  if (!header) return () => {};
   const toggle = header.querySelector('.menu-toggle');
   const panel = document.getElementById(toggle.getAttribute('aria-controls'));
   const desktop = matchMedia('(min-width: 1600px)');
+  const firstLink = panel.querySelector('a');
   const setOpen = (open, restoreFocus = false) => {
     panel.hidden = !open;
     toggle.setAttribute('aria-expanded', String(open));
@@ -16,7 +17,7 @@ export function initNavigation() {
     toggle.hidden = desktop.matches;
     setOpen(desktop.matches);
     if (!desktop.matches && panel.contains(focused)) toggle.focus();
-    if (desktop.matches && focused === toggle) panel.querySelector('a').focus();
+    if (desktop.matches && focused === toggle) firstLink?.focus();
   };
   toggle.addEventListener('click', () => setOpen(panel.hidden));
   header.addEventListener('keydown', event => {

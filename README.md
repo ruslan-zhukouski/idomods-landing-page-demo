@@ -5,6 +5,14 @@ Phases 1–5 are complete. Open [index.html](index.html) for the landing page. I
 
 For an HTTP preview, run `node scripts/serve.mjs` and open `http://127.0.0.1:4173`. No package installation or build is required.
 
+Edit [site.config.mjs](site.config.mjs) for the title, description, robots policy and social sharing image. Set `url` to the final public page URL before deployment; regenerating then emits a canonical, `og:url`, and an absolute `og:image`. The empty URL is an intentional deployment placeholder.
+
+Run `node scripts/build-static-page.mjs` after source edits. It regenerates `index.html` and the single delivery stylesheet `styles/site.min.css`. Author CSS in `styles/tokens.css`, `styles/main.css`, and `styles/motion.css`; the generated stylesheet also includes the local font declarations. Keep the readable source files and generated files together in Git.
+
+The [refactor report](docs/refactor-report.md) records performance measurements, accessibility/SEO changes, visual comparisons and remaining limits. Lossless WebP delivery copies preserve the original PNG artwork and alpha; PNG fallbacks remain in the markup. Their sizes, hashes and pixel checks are in [optimized-assets.json](docs/optimized-assets.json).
+
+The preview server supports Brotli/gzip and ETag revalidation while retaining `no-cache` so source edits stay visible. Configure compression and asset caching on the actual production host as well.
+
 - Read [the Phase 2 report](docs/phase-2-report.md) for scope, verification, and content decisions.
 - See the [desktop capture](docs/references/phase-2-1920.png), [mobile capture](docs/references/phase-2-375.png), and [QA checklist](docs/qa-checklist.md).
 - Run `node scripts/check-static-page.mjs` while the server is running to verify six viewport widths with JavaScript disabled (Windows with Chrome installed).
@@ -18,6 +26,8 @@ Both carousel images cover the entire visible viewport at every width. Text and 
 - Read [the Phase 5 report](docs/phase-5-report.md) for the shader, pause controls, resource lifecycle, fallback behavior, and verification limits.
 - With the preview server running, run `node scripts/check-phase-5.mjs` for real WebGL pixel comparisons, two complete 25-second cycles, keyboard controls, resize, context recovery, reduced motion, and fallback checks. The Windows/Chrome runner uses software WebGL for reproducible headless checks; runtime rendering uses native browser WebGL. It writes a report and desktop/mobile section captures.
 - Run `node --test scripts/carousel-clock.test.mjs` for deterministic timing/pause tests.
+- Run `node --test scripts/*.test.mjs` for timing, generated link/image attributes and CSS compaction tests. With the preview running, `node scripts/check-server.mjs` checks real HTTP compression, ETags and route boundaries.
+- `node scripts/check-refactor.mjs` checks semantic/SEO attributes and compares 20 page states with saved pre-refactor snapshots in the system temporary directory. Capture a reference with `QA_BASELINE=1` against an unchanged checkout first; use `PREVIEW_URL` to select either preview and `QA_SNAPSHOT_DIR` to retain snapshots elsewhere. Both runs disable the browser cache and reduce motion for consistent comparisons.
 - With the preview server running, run `node scripts/check-phase-4.mjs` for Chrome timing, keyboard/pointer/touch, responsive, reduced-motion, image-failure, and no-JavaScript checks. Set `PREVIEW_URL` or `CHROME_PATH` if needed. This writes the Phase 4 browser report and captures.
 - Phase 2/3 reports preserve the earlier implementation evidence; Phase 4/5 checks cover the current interactions.
 - The optional authoring helper `node scripts/build-static-page.mjs` regenerates the committed HTML; runtime modules require an HTTP preview.

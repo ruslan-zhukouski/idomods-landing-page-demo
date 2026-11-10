@@ -46,7 +46,11 @@ try {
     await waitFor(`document.readyState==='complete' && !!document.querySelector('.light-section')?.dataset.shaderState`);
     await run('document.fonts.ready');
   };
-  const show = async () => { await run(`document.querySelector('.light-section').scrollIntoView({block:'start'})`); await sleep(200); };
+  const show = async () => {
+    await run(`document.querySelector('.light-section').scrollIntoView({block:'start'})`);
+    await waitFor(`document.querySelector('.light-section').dataset.shaderState !== 'deferred'`);
+    await sleep(200);
+  };
   const draws = () => run('shaderQA.draws.length');
   const phase = () => run('shaderQA.draws.at(-1)?.phase');
   const distance = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1]);
@@ -65,7 +69,7 @@ try {
   ` });
   await size(1920); await load(); await sleep(300);
   const initial = await draws(); await sleep(300);
-  check('Offscreen shader draws a stable initial frame and suspends', initial === await draws() && await run(`document.querySelector('.light-section').dataset.shaderState==='suspended'`));
+  check('Distant shader defers GPU allocation and drawing', initial === 0 && initial === await draws() && await run(`document.querySelector('.light-section').dataset.shaderState==='deferred'`));
   await show();
   check('Real WebGL canvas initializes; HTML heading and CTA remain unique', await run(`(()=>{const s=document.querySelector('.light-section'),c=s.querySelector('canvas');return s.classList.contains('shader-ready') && s.dataset.shaderState==='running' && c.getAttribute('aria-hidden')==='true' && c.tabIndex===-1 && getComputedStyle(c).pointerEvents==='none' && s.querySelectorAll('h2').length===1 && s.querySelectorAll('a').length===1 && !s.querySelector('button').hidden})()`));
   // Test the actual compiled shader at exact boundary phases, including velocity.
@@ -120,7 +124,7 @@ try {
   for (const [width, height, dpr] of [[1920,900,1],[1280,800,2],[768,1024,2],[375,812,3],[320,568,3],[844,390,2],[2560,1440,2]]) {
     await size(width, height, dpr); await show();
     layouts.push(await run(`(()=>{const s=document.querySelector('.light-section'),r=s.getBoundingClientRect(),c=s.querySelector('canvas'),b=c.getBoundingClientRect(),content=s.querySelector('.light-content').getBoundingClientRect(),p=s.querySelector('button').getBoundingClientRect();return {width:innerWidth,dpr:devicePixelRatio,cssWidth:b.width,cssHeight:b.height,bufferWidth:c.width,bufferHeight:c.height,sectionWidth:r.width,sectionHeight:r.height,overflow:document.documentElement.scrollWidth>innerWidth,contentFits:content.left>=0 && content.right<=innerWidth && content.top>=r.top && content.bottom<p.top,buttonFits:p.left>=0&&p.right<=innerWidth&&p.height>=44}})()`));
-    if ([1920,375].includes(width)) {
+    if (process.env.QA_CAPTURE !== '0' && [1920,375].includes(width)) {
       await run(`document.querySelector('.light-pause').click();document.activeElement.blur()`);
       const clip = await run(`(()=>{const r=document.querySelector('.light-section').getBoundingClientRect();return {x:0,y:r.top+scrollY,width:r.width,height:r.height,scale:1}})()`);
       const capture = await send('Page.captureScreenshot', { format: 'png', clip, captureBeyondViewport: true });
@@ -133,7 +137,8 @@ try {
   const cleanup = await run(`(async()=>{const {initShaderSection}=await import('/scripts/shader-section.js');const a=initShaderSection(),b=initShaderSection();a();return {same:a===b,deleted:shaderQA.deleted,state:document.querySelector('.light-section').dataset.shaderState,hidden:document.querySelector('.light-pause').hidden}})()`);
   const cleaned = await draws(); await sleep(300); await size(1280); await sleep(150);
   check('Idempotent initialization and cleanup release resources/listeners/RAF', cleanup.same && cleanup.deleted.buffer >= 2 && cleanup.deleted.program >= 2 && cleanup.deleted.shader >= 4 && !cleanup.state && cleanup.hidden && cleaned === await draws(), cleanup);
-  await run(`import('/scripts/shader-section.js').then(m=>m.initShaderSection())`); await sleep(200);
+  await run(`import('/scripts/shader-section.js').then(m=>m.initShaderSection())`);
+  await waitFor(`document.querySelector('.light-section').classList.contains('shader-ready') && shaderQA.draws.length > ${cleaned}`);
   check('Shader can initialize again after cleanup', await draws() > cleaned);
   await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-reduced-motion', value: 'reduce' }] });
   await load(); await show(); const initialReduced = await draws(); await sleep(300);

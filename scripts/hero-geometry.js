@@ -6,13 +6,15 @@ export const lampBounds = {
   terracotta: [418, 434, 423, 393],
 };
 
-export function initHeroGeometry() {
-  const hero = document.querySelector('.hero');
+export function initHeroGeometry(hero = document.querySelector('.hero')) {
+  if (!hero) return () => {};
   const image = hero.querySelector('.hero-image img');
+  const picture = image.closest('picture');
   const layer = hero.querySelector('.lamp-regions');
+  const regions = [...layer.querySelectorAll('[data-lamp]')];
   const update = () => {
     if (!image.naturalWidth) return;
-    const frame = image.closest('picture').getBoundingClientRect();
+    const frame = picture.getBoundingClientRect();
     const parent = hero.getBoundingClientRect();
     const scale = Math.max(frame.width / image.naturalWidth, frame.height / image.naturalHeight);
     const width = image.naturalWidth * scale;
@@ -21,14 +23,19 @@ export function initHeroGeometry() {
     const offsetY = (frame.height - height) / 2;
     const referenceScale = height / 1080;
     const referenceCropX = (1080 * image.naturalWidth / image.naturalHeight - 1920) / 2;
-    Object.assign(layer.style, {left: `${frame.left-parent.left}px`, top: `${frame.top-parent.top}px`, width: `${frame.width}px`, height: `${frame.height}px`});
-    for (const region of layer.children) {
+    Object.assign(layer.style, {
+      left: `${frame.left - parent.left}px`, top: `${frame.top - parent.top}px`,
+      width: `${frame.width}px`, height: `${frame.height}px`,
+    });
+    for (const region of regions) {
       const [x,y,w,h] = lampBounds[region.dataset.lamp];
       const left = offsetX + (x + referenceCropX) * referenceScale;
       const top = offsetY + y * referenceScale;
       const regionWidth = w * referenceScale;
       const regionHeight = h * referenceScale;
-      Object.assign(region.style, {left:`${left}px`, top:`${top}px`, width:`${regionWidth}px`, height:`${regionHeight}px`});
+      Object.assign(region.style, {
+        left: `${left}px`, top: `${top}px`, width: `${regionWidth}px`, height: `${regionHeight}px`,
+      });
       // Cover cropping can leave only a sliver of a lamp on portrait screens.
       // Exclude controls whose visible fragment cannot provide a touch target.
       const visibleWidth = Math.min(left + regionWidth, frame.width) - Math.max(left, 0);
@@ -37,6 +44,11 @@ export function initHeroGeometry() {
     }
   };
   image.addEventListener('load', update);
-  new ResizeObserver(update).observe(hero);
+  const observer = new ResizeObserver(update);
+  observer.observe(hero);
   update();
+  return () => {
+    image.removeEventListener('load', update);
+    observer.disconnect();
+  };
 }

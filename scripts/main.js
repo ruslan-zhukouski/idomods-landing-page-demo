@@ -4,8 +4,11 @@ import { initHeaderMotion } from './header-motion.js';
 import { initHeroSlider } from './hero-slider.js';
 import { initShaderSection } from './shader-section.js';
 
-initNavigation();
-initHeroGeometry();
-initHeaderMotion();
-initHeroSlider();
+const header = document.querySelector('.site-header');
+const hero = document.querySelector('.hero');
+
+initNavigation(header);
+initHeroGeometry(hero);
+initHeaderMotion(header);
+initHeroSlider(hero);
 initShaderSection();
