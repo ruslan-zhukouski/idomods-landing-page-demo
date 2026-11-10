@@ -32,6 +32,7 @@ Evidence: [Phase 3 report](phase-3-report.md).
 - [x] Explicit resume works with pointer/focus retained on the button, advances slides, and preserves environment guards; renewed hover/focus pauses work.
 - [x] Rapid input settles to one image; second-image failure keeps usable first-slide content.
 - [x] Keyboard lamp activation, mobile pointer/touch operation, and reset/exclusion on inactive slides.
+- [x] Each supplied lamp cutout grows smoothly to 1.1 on fine-pointer hover, returns on leave, and carries its lit glow; reduced motion and failed-cutout fallback retain the original size.
 - [x] Header opacity faces and isolated card media/button effects.
 - [x] Live and initial reduced-motion preference; instant manual slide changes.
 - [x] Twenty responsive widths, overlaid mobile search/controls, crop-aware lamp targets, and no-JavaScript fallback.

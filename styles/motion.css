@@ -60,8 +60,19 @@
 .hero-pause:disabled { cursor: default; }
 .hero button:focus-visible, .promo-card a:focus-visible { outline: 3px solid var(--color-yellow); outline-offset: 4px; }
 .lamp-regions { z-index: 1; }
-.lamp-regions > button { position: absolute; min-width: 44px; min-height: 44px; pointer-events: auto; border: 0; border-radius: 50%; background: transparent; }
-.lamp-regions > button::before { content: ''; position: absolute; inset: 45% -10% -8%; pointer-events: none; border-radius: 50%; background: radial-gradient(ellipse, rgb(255 239 176 / 85%) 0%, rgb(255 203 87 / 40%) 30%, rgb(255 190 62 / 0%) 70%); opacity: 0; transition: opacity var(--motion-lamp) var(--ease-standard); }
+.lamp-regions > button { position: absolute; min-width: 44px; min-height: 44px; padding: 0; pointer-events: auto; border: 0; border-radius: 0; background: transparent; transform: scale(1); transition: transform var(--motion-card) ease-out; }
+.lamp-regions > button > img { display: block; width: 100%; height: 100%; max-width: none; pointer-events: none; opacity: 0; }
+.lamp-regions > .lamp-ready > img { opacity: 1; }
+.lamp-regions > .lamp-ready:focus-visible { transform: scale(1.1); }
+@media (hover: hover) and (pointer: fine) {
+  .lamp-regions > .lamp-ready:hover { transform: scale(1.1); }
+}
+/* Centers and angles follow each diffuser in the original photograph. Percentages
+   stay relative to its cover-scaled lamp region, including on cropped screens. */
+.lamp-regions > [data-lamp="beige"] { --light-x: 58.6%; --light-y: 65.4%; --light-width: 80%; --light-height: 38%; --light-angle: -32deg; }
+.lamp-regions > [data-lamp="green"] { --light-x: 20%; --light-y: 80.8%; --light-width: 42%; --light-height: 27%; --light-angle: 40deg; }
+.lamp-regions > [data-lamp="terracotta"] { --light-x: 60.5%; --light-y: 62.8%; --light-width: 76%; --light-height: 36%; --light-angle: -31deg; }
+.lamp-regions > button::before { content: ''; position: absolute; left: var(--light-x); top: var(--light-y); width: var(--light-width); height: var(--light-height); transform: translate(-50%, -50%) rotate(var(--light-angle)); pointer-events: none; border-radius: 50%; background: radial-gradient(ellipse, rgb(255 239 176 / 85%) 0%, rgb(255 203 87 / 40%) 30%, rgb(255 190 62 / 0%) 70%); opacity: 0; transition: opacity var(--motion-lamp) var(--ease-standard); }
 .lamp-regions > button[aria-pressed="true"]::before { opacity: 1; }
 .hero .lamp-regions > button:focus-visible { outline-offset: -4px; }
 @media (min-width: 900px) {
@@ -131,6 +142,7 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .header-motion::before, .header-motion .header-face > span, .header-motion .brand img, .header-motion .search-dark-text,
-  .lamp-regions > button::before, .card-media > picture, .card-media > .artboard, .promo-card .button-dark::before { transition: none; }
+  .lamp-regions > button, .lamp-regions > button::before, .card-media > picture, .card-media > .artboard, .promo-card .button-dark::before { transition: none; }
+  .lamp-regions > .lamp-ready:is(:hover, :focus-visible) { transform: none; }
   .promo-card:is(:hover, :focus-within) .card-media > picture, .promo-card:is(:hover, :focus-within) .card-media > .artboard { transform: none; }
 }

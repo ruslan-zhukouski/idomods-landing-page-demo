@@ -1,4 +1,5 @@
-// Bounds from the original 1920×1080 design; the baked lamps are never duplicated.
+// Cutout bounds in the original 1920×1080 composition. That composition crops
+// 7.5 px from either side of the wider photograph at its reference height.
 export const lampBounds = {
   beige: [760, 85, 372, 419],
   green: [1076, 332, 470, 428],
@@ -18,13 +19,15 @@ export function initHeroGeometry() {
     const height = image.naturalHeight * scale;
     const offsetX = (frame.width - width) / 2;
     const offsetY = (frame.height - height) / 2;
+    const referenceScale = height / 1080;
+    const referenceCropX = (1080 * image.naturalWidth / image.naturalHeight - 1920) / 2;
     Object.assign(layer.style, {left: `${frame.left-parent.left}px`, top: `${frame.top-parent.top}px`, width: `${frame.width}px`, height: `${frame.height}px`});
     for (const region of layer.children) {
       const [x,y,w,h] = lampBounds[region.dataset.lamp];
-      const left = offsetX + x / 1920 * width;
-      const top = offsetY + y / 1080 * height;
-      const regionWidth = w / 1920 * width;
-      const regionHeight = h / 1080 * height;
+      const left = offsetX + (x + referenceCropX) * referenceScale;
+      const top = offsetY + y * referenceScale;
+      const regionWidth = w * referenceScale;
+      const regionHeight = h * referenceScale;
       Object.assign(region.style, {left:`${left}px`, top:`${top}px`, width:`${regionWidth}px`, height:`${regionHeight}px`});
       // Cover cropping can leave only a sliver of a lamp on portrait screens.
       // Exclude controls whose visible fragment cannot provide a touch target.

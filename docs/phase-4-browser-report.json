@@ -8,8 +8,8 @@
       "name": "Autoplay transition starts are 3000ms apart",
       "passed": true,
       "details": [
-        4281.39999999851,
-        7278.29999999702
+        3801.300000000745,
+        6798.89999999851
       ]
     },
     {
@@ -107,6 +107,327 @@
       }
     },
     {
+      "name": "beige cutout smoothly grows 10% alone and carries its lit glow",
+      "passed": true,
+      "details": {
+        "original": {
+          "width": 372,
+          "height": 419,
+          "x": 938.5,
+          "y": 294.5,
+          "decoded": true,
+          "imageWidth": 372,
+          "imageHeight": 419,
+          "glow": [
+            "217.984px",
+            "274.016px",
+            "matrix(0.848048, -0.529919, 0.529919, 0.848048, -148.797, -79.6094)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        },
+        "entering": {
+          "width": 383.47454833984375,
+          "height": 431.9241943359375,
+          "x": 938.5000305175781,
+          "y": 294.49998474121094,
+          "decoded": true,
+          "imageWidth": 383.47454833984375,
+          "imageHeight": 431.9241943359375,
+          "glow": [
+            "217.984px",
+            "274.016px",
+            "matrix(0.848048, -0.529919, 0.529919, 0.848048, -148.797, -79.6094)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        },
+        "enlarged": {
+          "width": 409.2000732421875,
+          "height": 460.9000244140625,
+          "x": 938.5000610351562,
+          "y": 294.5,
+          "decoded": true,
+          "imageWidth": 409.2000732421875,
+          "imageHeight": 460.9000244140625,
+          "glow": [
+            "217.984px",
+            "274.016px",
+            "matrix(0.848048, -0.529919, 0.529919, 0.848048, -148.797, -79.6094)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "beige smoothly returns to its original size with light retained",
+      "passed": true,
+      "details": {
+        "leaving": {
+          "width": 395.98858642578125,
+          "height": 446.0194091796875,
+          "x": 938.4999694824219,
+          "y": 294.49998474121094,
+          "decoded": true,
+          "imageWidth": 395.98858642578125,
+          "imageHeight": 446.0194091796875,
+          "glow": [
+            "217.984px",
+            "274.016px",
+            "matrix(0.848048, -0.529919, 0.529919, 0.848048, -148.797, -79.6094)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        },
+        "restored": {
+          "width": 372,
+          "height": 419,
+          "x": 938.5,
+          "y": 294.5,
+          "decoded": true,
+          "imageWidth": 372,
+          "imageHeight": 419,
+          "glow": [
+            "217.984px",
+            "274.016px",
+            "matrix(0.848048, -0.529919, 0.529919, 0.848048, -148.797, -79.6094)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "green cutout smoothly grows 10% alone and carries its lit glow",
+      "passed": true,
+      "details": {
+        "original": {
+          "width": 470,
+          "height": 428,
+          "x": 1303.5,
+          "y": 546,
+          "decoded": true,
+          "imageWidth": 470,
+          "imageHeight": 428,
+          "glow": [
+            "94px",
+            "345.812px",
+            "matrix(0.766044, 0.642788, -0.642788, 0.766044, -98.6953, -57.7734)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        },
+        "entering": {
+          "width": 484.4896240234375,
+          "height": 441.19482421875,
+          "x": 1303.5000610351562,
+          "y": 546,
+          "decoded": true,
+          "imageWidth": 484.4896240234375,
+          "imageHeight": 441.19482421875,
+          "glow": [
+            "94px",
+            "345.812px",
+            "matrix(0.766044, 0.642788, -0.642788, 0.766044, -98.6953, -57.7734)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        },
+        "enlarged": {
+          "width": 517,
+          "height": 470.800048828125,
+          "x": 1303.5,
+          "y": 546,
+          "decoded": true,
+          "imageWidth": 517,
+          "imageHeight": 470.800048828125,
+          "glow": [
+            "94px",
+            "345.812px",
+            "matrix(0.766044, 0.642788, -0.642788, 0.766044, -98.6953, -57.7734)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "green smoothly returns to its original size with light retained",
+      "passed": true,
+      "details": {
+        "leaving": {
+          "width": 500.29833984375,
+          "height": 455.5908203125,
+          "x": 1303.5,
+          "y": 546,
+          "decoded": true,
+          "imageWidth": 500.29833984375,
+          "imageHeight": 455.5908203125,
+          "glow": [
+            "94px",
+            "345.812px",
+            "matrix(0.766044, 0.642788, -0.642788, 0.766044, -98.6953, -57.7734)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        },
+        "restored": {
+          "width": 470,
+          "height": 428,
+          "x": 1303.5,
+          "y": 546,
+          "decoded": true,
+          "imageWidth": 470,
+          "imageHeight": 428,
+          "glow": [
+            "94px",
+            "345.812px",
+            "matrix(0.766044, 0.642788, -0.642788, 0.766044, -98.6953, -57.7734)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "terracotta cutout smoothly grows 10% alone and carries its lit glow",
+      "passed": true,
+      "details": {
+        "original": {
+          "width": 423,
+          "height": 393,
+          "x": 622,
+          "y": 630.5,
+          "decoded": true,
+          "imageWidth": 423,
+          "imageHeight": 393,
+          "glow": [
+            "255.906px",
+            "246.797px",
+            "matrix(0.857167, -0.515038, 0.515038, 0.857167, -160.734, -70.7344)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        },
+        "entering": {
+          "width": 438.02984619140625,
+          "height": 406.9638977050781,
+          "x": 621.9999694824219,
+          "y": 630.4999847412109,
+          "decoded": true,
+          "imageWidth": 438.02984619140625,
+          "imageHeight": 406.9638977050781,
+          "glow": [
+            "255.906px",
+            "246.797px",
+            "matrix(0.857167, -0.515038, 0.515038, 0.857167, -160.734, -70.7344)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        },
+        "enlarged": {
+          "width": 465.300048828125,
+          "height": 432.300048828125,
+          "x": 622,
+          "y": 630.5,
+          "decoded": true,
+          "imageWidth": 465.300048828125,
+          "imageHeight": 432.300048828125,
+          "glow": [
+            "255.906px",
+            "246.797px",
+            "matrix(0.857167, -0.515038, 0.515038, 0.857167, -160.734, -70.7344)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "terracotta smoothly returns to its original size with light retained",
+      "passed": true,
+      "details": {
+        "leaving": {
+          "width": 450.2712707519531,
+          "height": 418.337158203125,
+          "x": 621.9999847412109,
+          "y": 630.5,
+          "decoded": true,
+          "imageWidth": 450.2712707519531,
+          "imageHeight": 418.337158203125,
+          "glow": [
+            "255.906px",
+            "246.797px",
+            "matrix(0.857167, -0.515038, 0.515038, 0.857167, -160.734, -70.7344)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        },
+        "restored": {
+          "width": 423,
+          "height": 393,
+          "x": 622,
+          "y": 630.5,
+          "decoded": true,
+          "imageWidth": 423,
+          "imageHeight": 393,
+          "glow": [
+            "255.906px",
+            "246.797px",
+            "matrix(0.857167, -0.515038, 0.515038, 0.857167, -160.734, -70.7344)"
+          ],
+          "opacity": "1",
+          "others": [
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
       "name": "Inactive lamps are hidden, inert and reset",
       "passed": true
     },
@@ -116,6 +437,10 @@
     },
     {
       "name": "Reduced-motion manual changes are instant and retain lamps",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion keeps the focused lamp and glow at their original size",
       "passed": true
     },
     {
@@ -299,19 +624,37 @@
           "duration": "0.25s"
         },
         {
-          "element": "",
+          "element": "lamp-ready",
+          "pseudo": null,
+          "property": "transform",
+          "duration": "0.5s"
+        },
+        {
+          "element": "lamp-ready",
           "pseudo": "::before",
           "property": "opacity",
           "duration": "0.65s"
         },
         {
-          "element": "",
+          "element": "lamp-ready",
+          "pseudo": null,
+          "property": "transform",
+          "duration": "0.5s"
+        },
+        {
+          "element": "lamp-ready",
           "pseudo": "::before",
           "property": "opacity",
           "duration": "0.65s"
         },
         {
-          "element": "",
+          "element": "lamp-ready",
+          "pseudo": null,
+          "property": "transform",
+          "duration": "0.5s"
+        },
+        {
+          "element": "lamp-ready",
           "pseudo": "::before",
           "property": "opacity",
           "duration": "0.65s"
@@ -376,19 +719,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 374.765625,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 473.5,
+              "width": 470,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 426.15625,
+              "width": 423,
               "height": 393,
               "reachable": true
             }
@@ -402,19 +745,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 374.90625,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 473.671875,
+              "width": 470,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 426.3125,
+              "width": 423,
               "height": 393,
               "reachable": true
             }
@@ -428,19 +771,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 375.09375,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 473.90625,
+              "width": 470,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 426.515625,
+              "width": 423,
               "height": 393,
               "reachable": true
             }
@@ -455,19 +798,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 374.765625,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 473.5,
+              "width": 470,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 426.15625,
+              "width": 423,
               "height": 393,
               "reachable": true
             }
@@ -482,19 +825,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 375.125,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 473.9375,
+              "width": 470,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 426.546875,
+              "width": 423,
               "height": 393,
               "reachable": true
             }
@@ -509,19 +852,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 374.765625,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 473.5,
+              "width": 470,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 426.15625,
+              "width": 423,
               "height": 393,
               "reachable": true
             }
@@ -536,19 +879,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 375.09375,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 448.046875,
+              "width": 449,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 426.515625,
+              "width": 423,
               "height": 393,
               "reachable": true
             }
@@ -563,19 +906,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 375.359375,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 447.453125,
+              "width": 448.5,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 426.828125,
+              "width": 423,
               "height": 393,
               "reachable": true
             }
@@ -590,19 +933,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 375.03125,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 447.0625,
+              "width": 448,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 426.4375,
+              "width": 423,
               "height": 393,
               "reachable": true
             }
@@ -617,19 +960,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 375.25,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 402.484375,
+              "width": 403.5,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 384.46875,
+              "width": 385.5,
               "height": 393,
               "reachable": true
             }
@@ -644,19 +987,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 374.71875,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 340.65625,
+              "width": 341.5,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 322.625,
+              "width": 323.5,
               "height": 393,
               "reachable": true
             }
@@ -671,19 +1014,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 375.0625,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 340.046875,
+              "width": 341,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 322.015625,
+              "width": 323,
               "height": 393,
               "reachable": true
             }
@@ -698,19 +1041,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 375.46875,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 274.421875,
+              "width": 275.5,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 256.390625,
+              "width": 257.5,
               "height": 393,
               "reachable": true
             }
@@ -725,19 +1068,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 375.03125,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 240.5625,
+              "width": 241.5,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 222.53125,
+              "width": 223.5,
               "height": 393,
               "reachable": true
             }
@@ -752,19 +1095,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 375.03125,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 240.0625,
+              "width": 241,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 222.03125,
+              "width": 223,
               "height": 393,
               "reachable": true
             }
@@ -779,19 +1122,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 374.765625,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 190.640625,
+              "width": 191.5,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 172.625,
+              "width": 173.5,
               "height": 393,
               "reachable": true
             }
@@ -806,19 +1149,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 375.265625,
+              "width": 372,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 189.984375,
+              "width": 191,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 171.953125,
+              "width": 173,
               "height": 393,
               "reachable": true
             }
@@ -833,19 +1176,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 360.9375,
+              "width": 359.5,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 85.53125,
+              "width": 86.5,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 67.515625,
+              "width": 68.5,
               "height": 393,
               "reachable": true
             }
@@ -860,19 +1203,19 @@
           "lamps": [
             {
               "hidden": false,
-              "width": 353.59375,
+              "width": 352,
               "height": 419,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 77.9375,
+              "width": 79,
               "height": 428,
               "reachable": true
             },
             {
               "hidden": false,
-              "width": 59.890625,
+              "width": 61,
               "height": 393,
               "reachable": true
             }
@@ -2529,6 +2872,10 @@
     },
     {
       "name": "Slide-two failure retains first image and hides unavailable navigation",
+      "passed": true
+    },
+    {
+      "name": "Failed cutout retains the photographed lamp and working glow without zoom",
       "passed": true
     },
     {

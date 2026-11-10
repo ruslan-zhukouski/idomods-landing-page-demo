@@ -73,9 +73,9 @@ The paths below are planned output paths, not files already present in the repos
 
 ### Important hero asset limitation
 
-The first hero already contains the three lamps, and the three separate lamp nodes are also available. No clean, lamp-free version of that background was found among the design page's top-level assets. Moving the cutouts on top of the existing banner would reveal duplicate stationary lamps.
+The first hero already contains the three lamps, and the three separate lamp nodes are also available. No clean, lamp-free version of that background was found among the design page's top-level assets. Register the supplied cutouts exactly over their photographed counterparts before animating them.
 
-The baseline therefore keeps the original composition and uses three accurately positioned light-toggle hit regions with static glow layers. The cutouts can supply silhouette/mask references if needed, but are not rendered as moving duplicates. Calculate positions against the same image coordinate system as `object-fit`/`object-position`, and hide inaccessible hit regions if a mobile crop removes a lamp. Use a crop/layout that retains all three lamps where practical. If a clean background is later supplied, cutout parallax becomes an optional enhancement rather than a dependency for completion.
+The later user instruction adds 10% lamp enlargement on mouse hover, returning on leave. Render the supplied cutouts in their original reference bounds, including the photograph's horizontal reference crop. Scale each cutout and its individually positioned/rotated glow together to 1.1 over 500 ms with ease-out; keyboard focus uses the same treatment. Reduced motion removes enlargement, and failed cutouts retain the photographed lamp and working light toggle at the original size. Calculate positions against the same image coordinate system as `object-fit`/`object-position`, and hide inaccessible hit regions if a mobile crop removes a lamp. Cutout parallax remains outside scope.
 
 ## 4. Structure and visual system
 
@@ -312,7 +312,7 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 ### Interaction checks
 
 - [x] Header enters/leaves white/dark state in 250 ms; text, logo, and icons remain synchronized and readable. Compact behavior follows the later user instruction recorded in the Phase 4 report.
-- [x] Each of three hero lamp regions can be toggled by pointer, touch, and keyboard without duplicate lamp artwork or misaligned hit targets after resizing.
+- [x] Each of three hero lamp regions can be toggled by pointer, touch, and keyboard, with registered cutouts and aligned light during 10% hover enlargement and resizing.
 - [x] Carousel transition starts occur 3000 ms apart while running; crossfade is 600 ms; incoming scale settles over 800 ms; progress resets and fills linearly with the same clock.
 - [x] Arrows and both selectors work; rapid clicks, pauses, focus, hidden-document handling, image failure, and offscreen resume never create overlapping timers or blank slides. Headless visibility-test limits are recorded in the Phase 4 report.
 - [x] Each hovered/focused card enlarges only its media to 1.1 over 500 ms and changes only its own button appearance to `#4A4A4A` over 200 ms.
@@ -337,7 +337,7 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 | --- | --- | --- |
 | Mobile artboards | No alternate storefront frames found on the inspected design page. | Use the responsive rules above and validate against content fit; label them as adaptations. |
 | Slide-two copy | Second photograph exists; distinct copy/destination was not found. | Reuse existing hero copy/CTA provisionally; centralize it for easy replacement. |
-| Lamp animation | Separate cutouts exist, but the first banner already includes lamps and no clean plate was found. | Ship creative light toggles; avoid independent cutout movement that produces ghost lamps. |
+| Lamp animation | Separate cutouts exist, and the first banner already includes lamps. | Register cutouts over the photograph, enlarge each to 1.1 with its glow on hover, and preserve the original photographed fallback if loading fails. No parallax. |
 | Header/card colors versus transform-only rule | Both requirements appear in the comments. | Use opacity layers as specified, preserving timing and visual outcome. |
 | Fonts | Family/weights verified; webfont files not present in the repository. | Obtain authorized files and record provenance; a fallback is temporary during development. |
 | Commerce and footer destinations | Labels are available; most route URLs are not supplied by the design context. | Verify the intended SOLLUX routes during implementation; record unresolved routes before handoff. |

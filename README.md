@@ -9,7 +9,7 @@ For an HTTP preview, run `node scripts/serve.mjs` and open `http://127.0.0.1:417
 - See the [desktop capture](docs/references/phase-2-1920.png), [mobile capture](docs/references/phase-2-375.png), and [QA checklist](docs/qa-checklist.md).
 - Run `node scripts/check-static-page.mjs` while the server is running to verify six viewport widths with JavaScript disabled (Windows with Chrome installed).
 
-Compact navigation supports keyboard/touch disclosure and responsive focus handling. The two-slide hero has timed progress, arrows, selectors, pause/resume, and interactive lamp lighting. The native WebGL section adds a seamless 25-second black/gold wave behind stationary HTML content. All motion respects reduced-motion preferences.
+Compact navigation supports keyboard/touch disclosure and responsive focus handling. The two-slide hero has timed progress, arrows, selectors, pause/resume, and interactive lamp lighting. Each lamp cutout enlarges by 10% on hover with its light attached to the shade. The native WebGL section adds a seamless 25-second black/gold wave behind stationary HTML content. All motion respects reduced-motion preferences.
 
 Both carousel images cover the entire visible viewport at every width. Text and controls overlay the photos, with progress/pause controls visible without scrolling on compact portrait and landscape screens.
 

@@ -113,8 +113,9 @@ try {
   const hidden=await progress(); await sleep(350);
   check('Explicit resume respects the hidden-document pause',hidden===await progress());
   await run(`delete document.hidden;document.dispatchEvent(new Event('visibilitychange'))`);
+  await run(`if(document.querySelector('.hero-pause').textContent==='Wstrzymaj animację')document.querySelector('.hero-pause').click()`);
   await run(`for(let i=0;i<21;i++)document.querySelector('.hero-arrow-right').click()`);
-  await sleep(900);
+  await run(`Promise.all(document.querySelector('.hero').getAnimations({subtree:true}).map(a=>a.finished.catch(()=>{})))`);
   check('Rapid navigation settles to exactly one visible image',await run(`(()=>{const slides=[...document.querySelectorAll('.hero-slide')];return slides.filter(s=>getComputedStyle(s).opacity==='1').length===1 && slides.filter(s=>getComputedStyle(s).opacity==='0').length===1 && document.querySelector('.hero').getAnimations({subtree:true}).length===0})()`));
   await run(`document.querySelector('[data-slide="0"]').click()`); await sleep(850);
   for(let i=0;i<30 && await run(`document.querySelector('.lamp-regions').hidden`);i++) await sleep(100);
@@ -125,6 +126,22 @@ try {
   await sleep(700);
   const lampState=await run(`(()=>{const b=document.querySelector('[data-lamp="beige"]');return {pressed:b.getAttribute('aria-pressed'),opacity:getComputedStyle(b,'::before').opacity,focused:document.activeElement===b,hidden:b.parentElement.hidden}})()`);
   check('Native keyboard lamp activation reveals warm glow',lampState.pressed==='true' && lampState.opacity==='1',lampState);
+  await run(`if(document.querySelector('.hero-pause').textContent==='Wstrzymaj animację')document.querySelector('.hero-pause').click()`);
+  await leave(); await sleep(550);
+  for (const lamp of ['beige','green','terracotta']) {
+    await run(`document.querySelector('[data-lamp="${lamp}"]').setAttribute('aria-pressed','true')`);
+    await sleep(700);
+    const measure=()=>run(`(()=>{const b=document.querySelector('[data-lamp="${lamp}"]'),r=b.getBoundingClientRect(),i=b.querySelector('img').getBoundingClientRect(),g=getComputedStyle(b,'::before');return {width:r.width,height:r.height,x:r.x+r.width/2,y:r.y+r.height/2,decoded:b.classList.contains('lamp-ready'),imageWidth:i.width,imageHeight:i.height,glow:[g.left,g.top,g.transform],opacity:g.opacity,others:[...document.querySelectorAll('[data-lamp]')].filter(e=>e!==b).map(e=>new DOMMatrix(getComputedStyle(e).transform).a)}})()`);
+    const original=await measure();
+    await send('Input.dispatchMouseEvent',{type:'mouseMoved',x:original.x,y:original.y});
+    await sleep(120); const entering=await measure();
+    await sleep(450); const enlarged=await measure();
+    check(`${lamp} cutout smoothly grows 10% alone and carries its lit glow`,original.decoded && entering.width>original.width && entering.width<original.width*1.1 && Math.abs(enlarged.width/original.width-1.1)<.001 && Math.abs(enlarged.height/original.height-1.1)<.001 && Math.abs(enlarged.imageWidth-enlarged.width)<.1 && Math.abs(enlarged.imageHeight-enlarged.height)<.1 && enlarged.opacity==='1' && JSON.stringify(enlarged.glow)===JSON.stringify(original.glow) && enlarged.others.every(s=>s===1),{original,entering,enlarged});
+    await send('Input.dispatchMouseEvent',{type:'mouseMoved',x:-1,y:-1});
+    await sleep(120); const leaving=await measure();
+    await sleep(450); const restored=await measure();
+    check(`${lamp} smoothly returns to its original size with light retained`,leaving.width>original.width && leaving.width<enlarged.width && Math.abs(restored.width-original.width)<.1 && restored.opacity==='1',{leaving,restored});
+  }
   await run(`document.querySelector('[data-slide="1"]').click()`); await sleep(850);
   check('Inactive lamps are hidden, inert and reset',await run(`document.querySelector('.lamp-regions').hidden && document.querySelector('.lamp-regions').inert && [...document.querySelectorAll('[data-lamp]')].every(b=>b.getAttribute('aria-pressed')==='false')`));
   await send('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
@@ -132,6 +149,8 @@ try {
   check('Live reduced-motion change stops autoplay and disables resume',reducedProgress===await progress() && await run(`document.querySelector('.hero-pause').disabled`));
   await run(`document.querySelector('[data-slide="0"]').click()`);
   check('Reduced-motion manual changes are instant and retain lamps',await run(`document.querySelector('.hero').dataset.slide==='0' && !document.querySelector('.lamp-regions').hidden && document.querySelector('.hero').getAnimations({subtree:true}).length===0`));
+  await run(`document.querySelector('[data-lamp="beige"]').focus()`);
+  check('Reduced motion keeps the focused lamp and glow at their original size',await run(`getComputedStyle(document.querySelector('[data-lamp="beige"]')).transform==='none'`));
   await load(); await leave();
   const loadedReduced=await progress(); await sleep(350);
   check('Reduced motion is respected before load',loadedReduced===await progress());
@@ -143,7 +162,7 @@ try {
   check('Desktop pointer leave restores transparent/white header',await run(`getComputedStyle(document.querySelector('header'),'::before').opacity==='0'`));
   await run(`document.querySelector('.brand').focus()`); await sleep(300);
   check('Desktop keyboard focus also crossfades header',await run(`getComputedStyle(document.querySelector('header'),'::before').opacity==='1'`));
-  await run(`document.activeElement.blur();document.querySelector('.promo-card a').focus()`); await sleep(550);
+  await run(`document.activeElement.blur();document.querySelector('.promo-card a').focus();Promise.all(document.querySelector('.promo-card').getAnimations({subtree:true}).map(a=>a.finished.catch(()=>{})))`);
   check('Only focused card media scales; gray button layer is visible',await run(`(()=>{const cards=[...document.querySelectorAll('.promo-card')];return getComputedStyle(cards[0].querySelector('.card-media > *')).transform==='matrix(1.1, 0, 0, 1.1, 0, 0)' && getComputedStyle(cards[1].querySelector('.card-media > *')).transform==='none' && getComputedStyle(cards[0].querySelector('.button'),'::before').opacity==='1'})()`));
   const audit=await run(`(()=>{const result=[];for(const e of document.querySelectorAll('*'))for(const pseudo of [null,'::before','::after']){const s=getComputedStyle(e,pseudo);if(s.transitionDuration.split(',').some(t=>parseFloat(t)>0))result.push({element:e.className,pseudo,property:s.transitionProperty,duration:s.transitionDuration})}return result})()`);
   check('DOM transition audit permits only opacity and transform',audit.every(rule=>rule.property.split(',').every(p=>['opacity','transform'].includes(p.trim()))),audit);
@@ -153,9 +172,9 @@ try {
     await run(`document.querySelector('[data-slide="0"]').click();document.querySelector('.hero-pause').focus()`); await sleep(850);
     const result=await run(`(()=>{const h=document.querySelector('header');return {width:innerWidth,overflow:document.documentElement.scrollWidth>innerWidth,lamps:[...document.querySelectorAll('[data-lamp]')].map(b=>{const r=b.getBoundingClientRect(),left=Math.max(0,r.left),right=Math.min(innerWidth,r.right),top=Math.max(0,r.top),bottom=Math.min(innerHeight,r.bottom);let reachable=false;for(const x of [.25,.5,.75])for(const y of [.15,.325,.5,.675,.85])if(b.contains(document.elementFromPoint(left+(right-left)*x,top+(bottom-top)*y)))reachable=true;return {hidden:b.hidden,width:right-left,height:bottom-top,reachable}}),closedHeader:getComputedStyle(h,'::before').opacity,duplicateIds:[...document.querySelectorAll('[id]')].map(e=>e.id).filter((id,i,ids)=>ids.indexOf(id)!==i)}})()`);
     if(width<1600) {
-      await run(`document.querySelector('.menu-toggle').click()`); await sleep(300);
+      await run(`document.querySelector('.menu-toggle').click();Promise.all(document.querySelector('header').getAnimations({subtree:true}).map(a=>a.finished.catch(()=>{})))`);
       result.openWhite=await run(`getComputedStyle(document.querySelector('header'),'::before').opacity==='1'`);
-      await run(`document.querySelector('.menu-toggle').click();document.activeElement.blur()`); await sleep(300);
+      await run(`document.querySelector('.menu-toggle').click();document.activeElement.blur();Promise.all(document.querySelector('header').getAnimations({subtree:true}).map(a=>a.finished.catch(()=>{})))`);
     }
     layout.push(result);
     if(process.env.QA_CAPTURE!=='0' && (width===1920||width===375)) {
@@ -204,6 +223,9 @@ try {
   check('Escape closes disclosure and restores toggle focus',await run(`document.querySelector('.primary-nav').hidden && document.activeElement.matches('.menu-toggle')`));
   await send('Network.setBlockedURLs',{urls:['*hero-interior*']}); await load(false); await sleep(200);
   check('Slide-two failure retains first image and hides unavailable navigation',await run(`document.querySelector('.hero').dataset.carouselError==='image' && document.querySelector('.hero-controls').hidden && document.querySelector('.hero-arrow').hidden && document.querySelector('.hero-slide img').naturalWidth>0 && !document.querySelector('.lamp-regions').hidden`));
+  await send('Network.setBlockedURLs',{urls:['*lamp-beige.png']}); await load(); await sleep(200);
+  await run(`document.querySelector('[data-lamp="beige"]').click();document.querySelector('[data-lamp="beige"]').focus()`); await sleep(700);
+  check('Failed cutout retains the photographed lamp and working glow without zoom',await run(`(()=>{const b=document.querySelector('[data-lamp="beige"]');return !b.classList.contains('lamp-ready') && b.getAttribute('aria-pressed')==='true' && new DOMMatrix(getComputedStyle(b).transform).a===1 && getComputedStyle(b,'::before').opacity==='1' && document.querySelector('.hero-slide img').naturalWidth>0})()`));
   await send('Network.setBlockedURLs',{urls:[]});
   await send('Emulation.setScriptExecutionDisabled',{value:true});
   await load(false);
