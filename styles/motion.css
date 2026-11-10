@@ -25,10 +25,7 @@
   .header-motion:not(.navigation-open) .header-inner > * { pointer-events: auto; }
 }
 @media (max-width: 899px) {
-  /* Keep the transparent logo row over the photo, with search in protected
-     space below it so the lamp controls remain available to touch. */
-  .header-motion:not(.navigation-open) .search-form { position: absolute; top: calc(56.25vw + 16px); left: var(--gutter); width: calc(100% - var(--gutter) * 2); }
-  .hero-interactive .hero-content { padding-top: 100px; }
+  .header-motion:not(.navigation-open) .search-form { position: absolute; top: 72px; left: var(--gutter); width: calc(100% - var(--gutter) * 2); }
 }
 @media (min-width: 1600px) {
   .site-header.header-motion:focus-within { --header-active: 1; }
@@ -38,6 +35,10 @@
 }
 
 /* The same two image layers are reused for every transition. */
+:root { --hero-viewport-height: 100vh; }
+@supports (height: 100dvh) { :root { --hero-viewport-height: 100dvh; } }
+.hero-interactive { height: var(--hero-viewport-height); min-height: 0; max-height: none; }
+.hero-interactive > .hero-image, .hero-interactive .hero-slide-secondary, .hero-interactive .hero-slide-secondary .hero-image { position: absolute; inset: 0; width: 100%; height: 100%; aspect-ratio: auto; }
 .hero-slide { overflow: hidden; }
 .hero-slide-secondary { position: absolute; top: 0; left: 0; width: 100%; aspect-ratio: 16 / 9; pointer-events: none; }
 .hero-slide-secondary .hero-slide { opacity: 0; }
@@ -73,15 +74,49 @@
   .hero-controls .hero-progress { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); }
   .hero-pause { position: absolute; bottom: 20px; left: 32px; }
 }
-@media (min-width: 900px) and (max-width: 1023px) {
-  /* The narrow overlay layout keeps its CTA below the terracotta lamp's
-     central hit area, while preserving space for both side arrows. */
-  .hero-interactive .hero-content { padding-top: 128px; padding-bottom: 0; }
-}
 @media (min-width: 1600px) {
   .hero-arrow-left { left: 72px; }
   .hero-arrow-right { right: 72px; }
   .hero-pause { left: 72px; }
+}
+
+/* Compact copy and controls overlay the same full-viewport photos as desktop. */
+@media (max-width: 1113px) {
+  .hero-interactive { display: block; }
+  .hero-interactive::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgb(0 0 0 / 15%), rgb(0 0 0 / 38%) 55%, rgb(0 0 0 / 65%)); }
+  .hero-interactive .hero-content { position: absolute; inset: 100px var(--gutter) 200px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; width: auto; margin: 0; padding: 0; }
+  .hero-interactive .hero-eyebrow { margin-bottom: 8px; font-size: 14px; }
+  .hero-interactive h1 { margin-bottom: 16px; font-size: clamp(26px, 4dvh, 42px); }
+  .hero-interactive .hero-content .button { min-height: 44px; padding: 12px 20px; }
+  .hero-controls { position: absolute; inset: auto 0 8px; display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; gap: 8px; padding: 0 var(--gutter); pointer-events: auto; }
+  .carousel-ready .hero-arrow { position: static; width: 44px; height: 44px; }
+  .hero-controls .hero-progress { position: static; transform: none; }
+  .hero-pause { position: static; grid-column: 2; }
+  .hero-interactive .review-badge { position: absolute; inset: auto auto 120px var(--gutter); margin: 0; }
+}
+@media (max-width: 899px) {
+  .hero-interactive .hero-content { top: 140px; }
+}
+/* Short landscape screens keep a single header row and a compact control band. */
+@media (max-height: 520px) and (min-aspect-ratio: 1 / 1) {
+  .header-motion:not(.navigation-open) .header-inner { grid-template-columns: auto minmax(0, 1fr) auto auto; gap: 8px; }
+  .header-motion:not(.navigation-open) .brand { width: 96px; }
+  .header-motion:not(.navigation-open) .search-form { position: static; grid-column: 2; grid-row: 1; width: 100%; margin: 0; padding-inline: 12px 4px; }
+  .header-motion:not(.navigation-open) .search-form input { height: 44px; }
+  .header-motion:not(.navigation-open) .header-actions { grid-column: 3; }
+  .header-motion:not(.navigation-open) .configurator-link { display: none; }
+  .header-motion:not(.navigation-open) .menu-toggle { grid-column: 4; }
+  .hero-interactive { display: block; }
+  .hero-interactive > .hero-image, .hero-slide-secondary { position: absolute; inset: 0; height: 100%; aspect-ratio: auto; }
+  .hero-interactive .hero-content { position: absolute; top: 84px; bottom: 104px; left: 0; right: 0; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 0 48px; }
+  .hero-interactive .hero-eyebrow { margin-bottom: 4px; font-size: 12px; }
+  .hero-interactive h1 { margin-bottom: 8px; font-size: 24px; }
+  .hero-interactive .hero-content .button { min-height: 44px; padding: 12px 20px; }
+  .hero-controls { position: absolute; inset: auto 0 8px; display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; gap: 4px; padding: 0 var(--gutter); pointer-events: auto; }
+  .carousel-ready .hero-arrow { position: static; width: 44px; height: 44px; }
+  .hero-controls .hero-progress { position: static; transform: none; }
+  .hero-pause { position: static; grid-column: 2; }
+  .hero-interactive .review-badge { position: absolute; inset: auto var(--gutter) 112px auto; margin: 0; padding: 8px 12px; font-size: 12px; }
 }
 
 .card-media > picture { display: block; }

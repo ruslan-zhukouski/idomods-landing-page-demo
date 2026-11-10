@@ -29,11 +29,13 @@ Evidence: [Phase 3 report](phase-3-report.md).
 
 - [x] Single-clock 3000 ms carousel, 600 ms fades, 800 ms incoming scale, and linear progress.
 - [x] Hover/focus, explicit pause, hidden-document handler, and offscreen pause; no background catch-up.
+- [x] Explicit resume works with pointer/focus retained on the button, advances slides, and preserves environment guards; renewed hover/focus pauses work.
 - [x] Rapid input settles to one image; second-image failure keeps usable first-slide content.
 - [x] Keyboard lamp activation, mobile pointer/touch operation, and reset/exclusion on inactive slides.
 - [x] Header opacity faces and isolated card media/button effects.
 - [x] Live and initial reduced-motion preference; instant manual slide changes.
-- [x] Seventeen responsive widths, protected mobile search/controls, and no-JavaScript fallback.
+- [x] Twenty responsive widths, overlaid mobile search/controls, crop-aware lamp targets, and no-JavaScript fallback.
+- [x] Both images fill the entire viewport-height carousel at 20 additional width/height combinations, including the 1114 px boundary, short landscape screens, and resizing without reload.
 
 Evidence and limits: [Phase 4 report](phase-4-report.md), [browser results](phase-4-browser-report.json).
 

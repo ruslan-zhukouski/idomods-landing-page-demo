@@ -34,7 +34,7 @@ try {
     return result.result.value;
   };
   const check=(name,passed,details)=>{checks.push({name,passed,...(details===undefined?{}:{details})});console.log(`${passed?'PASS':'FAIL'} ${name}`);if(!passed)process.exitCode=1;};
-  const size=width=>send('Emulation.setDeviceMetricsOverride',{width,height:1080,deviceScaleFactor:1,mobile:false});
+  const size=(width,height=1080)=>send('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:1,mobile:false});
   const load=async (ready=true)=>{
     await send('Page.navigate',{url:origin});
     for(let i=0;i<100;i++){
@@ -49,6 +49,17 @@ try {
     await sleep(80);
   };
   const progress=()=>run(`document.querySelector('[aria-current] span').style.transform`);
+  const clickPause=async()=>{
+    const point=await run(`(()=>{const r=document.querySelector('.hero-pause').getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2}})()`);
+    await send('Input.dispatchMouseEvent',{type:'mouseMoved',...point});
+    await send('Input.dispatchMouseEvent',{type:'mousePressed',...point,button:'left',clickCount:1});
+    await send('Input.dispatchMouseEvent',{type:'mouseReleased',...point,button:'left',clickCount:1});
+  };
+  const space=async()=>{
+    await send('Input.dispatchKeyEvent',{type:'rawKeyDown',key:' ',code:'Space',windowsVirtualKeyCode:32,nativeVirtualKeyCode:32});
+    await send('Input.dispatchKeyEvent',{type:'keyUp',key:' ',code:'Space',windowsVirtualKeyCode:32,nativeVirtualKeyCode:32});
+    await sleep(50);
+  };
   await send('Page.enable'); await send('Runtime.enable'); await send('Network.enable');
   await send('Emulation.setFocusEmulationEnabled',{enabled:true});
   await size(1920); await load(); await leave();
@@ -68,26 +79,47 @@ try {
   await run(`document.querySelector('.hero-content a').focus()`);
   await sleep(80); const focused=await progress(); await sleep(400);
   check('Keyboard focus pauses autoplay',focused===await progress());
-  await run(`document.querySelector('.hero-pause').click()`); await leave();
+  await clickPause(); await leave();
   const paused=await progress(); await sleep(400);
-  check('Explicit pause persists after hover and focus clear',paused===await progress());
-  await run(`document.querySelector('.hero-pause').click()`); await leave();
-  await sleep(150); check('Explicit resume restarts progress',paused!==await progress());
+  check('Explicit pause persists after hover and focus clear',paused===await progress() && await run(`document.querySelector('.hero-pause').textContent==='Wznów animację'`));
+  await clickPause();
+  await sleep(200);
+  check('Explicit resume works while pointer and focus remain on the button',paused!==await progress() && await run(`document.activeElement.matches('.hero-pause') && document.querySelector('.hero-pause').matches(':hover') && document.querySelector('.hero-pause').textContent==='Wstrzymaj animację'`));
+  const changesBefore=await run('changes.length'); await sleep(3100);
+  check('Resumed autoplay changes slides without moving pointer or focus',await run(`changes.length>${changesBefore} && document.activeElement.matches('.hero-pause') && document.querySelector('.hero-pause').matches(':hover')`));
+  await leave();
+  await send('Input.dispatchMouseEvent',{type:'mouseMoved',x:500,y:500});
+  await sleep(80); const reentered=await progress(); await sleep(250);
+  check('A fresh pointer entry pauses again after explicit resume',reentered===await progress());
+  await leave();
+  await run(`document.querySelector('.hero-pause').focus()`);
+  await space(); const keyboardPaused=await progress(); await sleep(250);
+  check('Space pauses and exposes the resume label',keyboardPaused===await progress() && await run(`document.querySelector('.hero-pause').textContent==='Wznów animację'`));
+  await space(); await sleep(200);
+  check('Space resumes while keyboard focus stays on the button',keyboardPaused!==await progress() && await run(`document.activeElement.matches('.hero-pause') && document.querySelector('.hero-pause').textContent==='Wstrzymaj animację'`));
+  await run(`document.querySelector('.hero-content a').focus()`);
+  await sleep(80); const refocused=await progress(); await sleep(250);
+  check('Moving focus to another hero control pauses again',refocused===await progress());
+  await leave();
   await run(`document.querySelector('.showcase').scrollIntoView()`); await sleep(150);
+  await run(`document.querySelector('.hero-pause').click();document.querySelector('.hero-pause').click()`);
   const offscreen=await progress(); await sleep(400);
-  check('Offscreen hero pauses without a catch-up transition',offscreen===await progress());
+  check('Explicit resume respects the offscreen pause',offscreen===await progress());
   await leave();
   // Synthetic visibility event exercises the actual handler; headless Chrome
   // does not reproduce an operating-system tab switch consistently.
   await run(`Object.defineProperty(document,'hidden',{configurable:true,value:true});document.dispatchEvent(new Event('visibilitychange'))`);
+  await run(`document.querySelector('.hero-pause').click();document.querySelector('.hero-pause').click()`);
   const hidden=await progress(); await sleep(350);
-  check('Hidden-document handler freezes progress',hidden===await progress());
+  check('Explicit resume respects the hidden-document pause',hidden===await progress());
   await run(`delete document.hidden;document.dispatchEvent(new Event('visibilitychange'))`);
   await run(`for(let i=0;i<21;i++)document.querySelector('.hero-arrow-right').click()`);
   await sleep(900);
   check('Rapid navigation settles to exactly one visible image',await run(`(()=>{const slides=[...document.querySelectorAll('.hero-slide')];return slides.filter(s=>getComputedStyle(s).opacity==='1').length===1 && slides.filter(s=>getComputedStyle(s).opacity==='0').length===1 && document.querySelector('.hero').getAnimations({subtree:true}).length===0})()`));
   await run(`document.querySelector('[data-slide="0"]').click()`); await sleep(850);
+  for(let i=0;i<30 && await run(`document.querySelector('.lamp-regions').hidden`);i++) await sleep(100);
   await run(`document.querySelector('[data-lamp="beige"]').focus()`);
+  await sleep(80);
   await send('Input.dispatchKeyEvent',{type:'rawKeyDown',key:' ',code:'Space',windowsVirtualKeyCode:32,nativeVirtualKeyCode:32});
   await send('Input.dispatchKeyEvent',{type:'keyUp',key:' ',code:'Space',windowsVirtualKeyCode:32,nativeVirtualKeyCode:32});
   await sleep(700);
@@ -97,7 +129,7 @@ try {
   check('Inactive lamps are hidden, inert and reset',await run(`document.querySelector('.lamp-regions').hidden && document.querySelector('.lamp-regions').inert && [...document.querySelectorAll('[data-lamp]')].every(b=>b.getAttribute('aria-pressed')==='false')`));
   await send('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
   await sleep(100); await leave(); const reducedProgress=await progress(); await sleep(350);
-  check('Live reduced-motion change stops autoplay',reducedProgress===await progress());
+  check('Live reduced-motion change stops autoplay and disables resume',reducedProgress===await progress() && await run(`document.querySelector('.hero-pause').disabled`));
   await run(`document.querySelector('[data-slide="0"]').click()`);
   check('Reduced-motion manual changes are instant and retain lamps',await run(`document.querySelector('.hero').dataset.slide==='0' && !document.querySelector('.lamp-regions').hidden && document.querySelector('.hero').getAnimations({subtree:true}).length===0`));
   await load(); await leave();
@@ -116,26 +148,43 @@ try {
   const audit=await run(`(()=>{const result=[];for(const e of document.querySelectorAll('*'))for(const pseudo of [null,'::before','::after']){const s=getComputedStyle(e,pseudo);if(s.transitionDuration.split(',').some(t=>parseFloat(t)>0))result.push({element:e.className,pseudo,property:s.transitionProperty,duration:s.transitionDuration})}return result})()`);
   check('DOM transition audit permits only opacity and transform',audit.every(rule=>rule.property.split(',').every(p=>['opacity','transform'].includes(p.trim()))),audit);
   const layout=[];
-  for (const width of [1920,1600,1599,1440,1280,1200,1024,900,899,768,700,699,600,599,390,375,320]) {
+  for (const width of [1920,1600,1599,1440,1280,1200,1115,1114,1113,1024,900,899,768,700,699,600,599,390,375,320]) {
     await size(width); await load();
     await run(`document.querySelector('[data-slide="0"]').click();document.querySelector('.hero-pause').focus()`); await sleep(850);
-    const result=await run(`(()=>{const h=document.querySelector('header');return {width:innerWidth,overflow:document.documentElement.scrollWidth>innerWidth,lamps:[...document.querySelectorAll('[data-lamp]')].map(b=>{const r=b.getBoundingClientRect();return {width:r.width,height:r.height,reachable:b.contains(document.elementFromPoint(r.x+r.width/2,r.y+r.height/2))}}),closedHeader:getComputedStyle(h,'::before').opacity,duplicateIds:[...document.querySelectorAll('[id]')].map(e=>e.id).filter((id,i,ids)=>ids.indexOf(id)!==i)}})()`);
+    const result=await run(`(()=>{const h=document.querySelector('header');return {width:innerWidth,overflow:document.documentElement.scrollWidth>innerWidth,lamps:[...document.querySelectorAll('[data-lamp]')].map(b=>{const r=b.getBoundingClientRect(),left=Math.max(0,r.left),right=Math.min(innerWidth,r.right),top=Math.max(0,r.top),bottom=Math.min(innerHeight,r.bottom);let reachable=false;for(const x of [.25,.5,.75])for(const y of [.15,.325,.5,.675,.85])if(b.contains(document.elementFromPoint(left+(right-left)*x,top+(bottom-top)*y)))reachable=true;return {hidden:b.hidden,width:right-left,height:bottom-top,reachable}}),closedHeader:getComputedStyle(h,'::before').opacity,duplicateIds:[...document.querySelectorAll('[id]')].map(e=>e.id).filter((id,i,ids)=>ids.indexOf(id)!==i)}})()`);
     if(width<1600) {
       await run(`document.querySelector('.menu-toggle').click()`); await sleep(300);
       result.openWhite=await run(`getComputedStyle(document.querySelector('header'),'::before').opacity==='1'`);
       await run(`document.querySelector('.menu-toggle').click();document.activeElement.blur()`); await sleep(300);
     }
     layout.push(result);
-    if(width===1920||width===375) {
+    if(process.env.QA_CAPTURE!=='0' && (width===1920||width===375)) {
       await run(`(async()=>{document.querySelector('.hero-pause').click();document.activeElement.blur();for(const image of document.images)image.loading='eager';await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})))})()`);
       const capture=await send('Page.captureScreenshot',{format:'png',captureBeyondViewport:true});
       await writeFile(new URL(`../docs/references/phase-4-${width}.png`,import.meta.url),Buffer.from(capture.data,'base64'));
     }
   }
-  check('17 responsive widths, reachable lamp targets and compact header states',layout.every(r=>!r.overflow && !r.duplicateIds.length && r.lamps.every(l=>l.width>=44 && l.height>=44 && l.reachable) && (r.width>=1600 || (r.closedHeader==='0' && r.openWhite))),layout);
+  check('20 responsive widths, crop-aware lamp targets and compact header states',layout.every(r=>!r.overflow && !r.duplicateIds.length && r.lamps.every(l=>l.hidden || (l.width>=44 && l.height>=44 && l.reachable)) && (r.width>=1600 || (r.closedHeader==='0' && r.openWhite))),layout);
+  const viewports=[];
+  for(const [width,height] of [[2560,1440],[1920,900],[1920,720],[1440,900],[1366,768],[1280,720],[1115,768],[1114,768],[1113,768],[1024,768],[900,600],[768,1024],[600,800],[390,844],[375,667],[320,568],[320,480],[844,390],[667,375],[568,320]]) {
+    await size(width,height); await load();
+    await run('window.scrollTo(0,0)');
+    const result=await run(`(()=>{const hero=document.querySelector('.hero'),r=hero.getBoundingClientRect();const controls=[...document.querySelectorAll('.hero-progress button,.hero-pause,.hero-arrow,.hero-content a,.review-badge')].map(e=>{const b=e.getBoundingClientRect();return {element:e.className||e.dataset.slide,top:b.top,bottom:b.bottom,left:b.left,right:b.right,visible:b.width>0&&b.height>0&&b.top>=0&&b.bottom<=innerHeight+.5&&b.left>=0&&b.right<=innerWidth+.5,reachable:e.matches('button,a')?e.contains(document.elementFromPoint(b.x+b.width/2,b.y+b.height/2)):true}});const imagesFillHero=[...hero.querySelectorAll('.hero-slide')].every(e=>{const b=e.getBoundingClientRect();return Math.abs(b.width-r.width)<1&&Math.abs(b.height-r.height)<1&&b.top===r.top&&b.left===r.left&&getComputedStyle(e.querySelector('img')).objectFit==='cover'});return {width:innerWidth,height:innerHeight,heroTop:r.top,heroHeight:r.height,imagesFillHero,heroOverflow:hero.scrollHeight>hero.clientHeight+1,scrollY,controls}})()`);
+    viewports.push(result);
+    if(process.env.QA_CAPTURE!=='0' && [[1920,900],[375,667],[844,390]].some(([w,h])=>w===width&&h===height)) {
+      const capture=await send('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});
+      await writeFile(new URL(`../docs/references/hero-viewport-${width}x${height}.png`,import.meta.url),Buffer.from(capture.data,'base64'));
+    }
+  }
+  for(const height of [667,844,568]) {
+    await size(375,height);
+    await run('window.scrollTo(0,0);new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))');
+    viewports.push(await run(`(()=>{const hero=document.querySelector('.hero'),r=hero.getBoundingClientRect();return {width:innerWidth,height:innerHeight,resizedWithoutReload:true,heroTop:r.top,heroHeight:r.height,imagesFillHero:[...hero.querySelectorAll('.hero-slide')].every(e=>{const b=e.getBoundingClientRect();return Math.abs(b.width-r.width)<1&&Math.abs(b.height-r.height)<1}),heroOverflow:hero.scrollHeight>hero.clientHeight+1,scrollY,controls:[...document.querySelectorAll('.hero-progress button,.hero-pause,.hero-arrow')].map(e=>{const b=e.getBoundingClientRect();return {element:e.className||e.dataset.slide,visible:b.width>0&&b.height>0&&b.top>=0&&b.bottom<=innerHeight+.5,reachable:e.contains(document.elementFromPoint(b.x+b.width/2,b.y+b.height/2))}})}})()`));
+  }
+  check('Both carousel images fill the viewport with reachable controls at every size',viewports.every(r=>r.heroTop===0&&Math.abs(r.heroHeight-r.height)<1&&r.imagesFillHero&&!r.heroOverflow&&r.scrollY===0&&r.controls.every(c=>c.visible&&c.reachable)),viewports);
   await size(375); await load();
   await run(`document.querySelector('.hero-pause').click();document.activeElement.blur()`);
-  const point=lamp=>run(`(()=>{const r=document.querySelector('[data-lamp="${lamp}"]').getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2}})()`);
+  const point=lamp=>run(`(()=>{const b=document.querySelector('[data-lamp="${lamp}"]'),r=b.getBoundingClientRect(),left=Math.max(0,r.left),right=Math.min(innerWidth,r.right),top=Math.max(0,r.top),bottom=Math.min(innerHeight,r.bottom);for(const x of [.25,.5,.75])for(const y of [.15,.325,.5,.675,.85]){const p={x:left+(right-left)*x,y:top+(bottom-top)*y};if(b.contains(document.elementFromPoint(p.x,p.y)))return p}throw Error('Lamp has no reachable point: ${lamp}')})()`);
   for (const lamp of ['beige','green']) {
     const p=await point(lamp);
     await send('Input.dispatchMouseEvent',{type:'mousePressed',...p,button:'left',clickCount:1});

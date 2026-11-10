@@ -26,7 +26,11 @@ export function initHeroGeometry() {
       const regionWidth = w / 1920 * width;
       const regionHeight = h / 1080 * height;
       Object.assign(region.style, {left:`${left}px`, top:`${top}px`, width:`${regionWidth}px`, height:`${regionHeight}px`});
-      region.hidden = left + regionWidth <= 0 || left >= frame.width || top + regionHeight <= 0 || top >= frame.height;
+      // Cover cropping can leave only a sliver of a lamp on portrait screens.
+      // Exclude controls whose visible fragment cannot provide a touch target.
+      const visibleWidth = Math.min(left + regionWidth, frame.width) - Math.max(left, 0);
+      const visibleHeight = Math.min(top + regionHeight, frame.height) - Math.max(top, 0);
+      region.hidden = visibleWidth < 44 || visibleHeight < 44;
     }
   };
   image.addEventListener('load', update);

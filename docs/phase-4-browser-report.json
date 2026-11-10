@@ -8,8 +8,8 @@
       "name": "Autoplay transition starts are 3000ms apart",
       "passed": true,
       "details": [
-        3699,
-        6697.800000000745
+        3702,
+        6699.20000000298
       ]
     },
     {
@@ -61,15 +61,35 @@
       "passed": true
     },
     {
-      "name": "Explicit resume restarts progress",
+      "name": "Explicit resume works while pointer and focus remain on the button",
       "passed": true
     },
     {
-      "name": "Offscreen hero pauses without a catch-up transition",
+      "name": "Resumed autoplay changes slides without moving pointer or focus",
       "passed": true
     },
     {
-      "name": "Hidden-document handler freezes progress",
+      "name": "A fresh pointer entry pauses again after explicit resume",
+      "passed": true
+    },
+    {
+      "name": "Space pauses and exposes the resume label",
+      "passed": true
+    },
+    {
+      "name": "Space resumes while keyboard focus stays on the button",
+      "passed": true
+    },
+    {
+      "name": "Moving focus to another hero control pauses again",
+      "passed": true
+    },
+    {
+      "name": "Explicit resume respects the offscreen pause",
+      "passed": true
+    },
+    {
+      "name": "Explicit resume respects the hidden-document pause",
       "passed": true
     },
     {
@@ -91,7 +111,7 @@
       "passed": true
     },
     {
-      "name": "Live reduced-motion change stops autoplay",
+      "name": "Live reduced-motion change stops autoplay and disables resume",
       "passed": true
     },
     {
@@ -347,7 +367,7 @@
       ]
     },
     {
-      "name": "17 responsive widths, reachable lamp targets and compact header states",
+      "name": "20 responsive widths, crop-aware lamp targets and compact header states",
       "passed": true,
       "details": [
         {
@@ -355,16 +375,19 @@
           "overflow": false,
           "lamps": [
             {
+              "hidden": false,
               "width": 374.765625,
               "height": 419,
               "reachable": true
             },
             {
+              "hidden": false,
               "width": 473.5,
               "height": 428,
               "reachable": true
             },
             {
+              "hidden": false,
               "width": 426.15625,
               "height": 393,
               "reachable": true
@@ -378,18 +401,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 312.421875,
-              "height": 349.15625,
+              "hidden": false,
+              "width": 374.90625,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 394.734375,
-              "height": 356.65625,
+              "hidden": false,
+              "width": 473.671875,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 355.25,
-              "height": 327.5,
+              "hidden": false,
+              "width": 426.3125,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -401,18 +427,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 312.375,
-              "height": 348.9375,
+              "hidden": false,
+              "width": 375.09375,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 394.671875,
-              "height": 356.4375,
+              "hidden": false,
+              "width": 473.90625,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 355.203125,
-              "height": 327.28125,
+              "hidden": false,
+              "width": 426.515625,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -425,18 +454,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 281.078125,
-              "height": 314.25,
+              "hidden": false,
+              "width": 374.765625,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 355.125,
-              "height": 321,
+              "hidden": false,
+              "width": 473.5,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 319.609375,
-              "height": 294.75,
+              "hidden": false,
+              "width": 426.15625,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -449,18 +481,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 250.078125,
-              "height": 279.328125,
+              "hidden": false,
+              "width": 375.125,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 315.953125,
-              "height": 285.328125,
+              "hidden": false,
+              "width": 473.9375,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 284.359375,
-              "height": 262,
+              "hidden": false,
+              "width": 426.546875,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -473,18 +508,102 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 234.234375,
-              "height": 261.875,
+              "hidden": false,
+              "width": 374.765625,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 295.9375,
-              "height": 267.5,
+              "hidden": false,
+              "width": 473.5,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 266.34375,
-              "height": 245.625,
+              "hidden": false,
+              "width": 426.15625,
+              "height": 393,
+              "reachable": true
+            }
+          ],
+          "closedHeader": "0",
+          "duplicateIds": [],
+          "openWhite": true
+        },
+        {
+          "width": 1115,
+          "overflow": false,
+          "lamps": [
+            {
+              "hidden": false,
+              "width": 375.09375,
+              "height": 419,
+              "reachable": true
+            },
+            {
+              "hidden": false,
+              "width": 448.046875,
+              "height": 428,
+              "reachable": true
+            },
+            {
+              "hidden": false,
+              "width": 426.515625,
+              "height": 393,
+              "reachable": true
+            }
+          ],
+          "closedHeader": "0",
+          "duplicateIds": [],
+          "openWhite": true
+        },
+        {
+          "width": 1114,
+          "overflow": false,
+          "lamps": [
+            {
+              "hidden": false,
+              "width": 375.359375,
+              "height": 419,
+              "reachable": true
+            },
+            {
+              "hidden": false,
+              "width": 447.453125,
+              "height": 428,
+              "reachable": true
+            },
+            {
+              "hidden": false,
+              "width": 426.828125,
+              "height": 393,
+              "reachable": true
+            }
+          ],
+          "closedHeader": "0",
+          "duplicateIds": [],
+          "openWhite": true
+        },
+        {
+          "width": 1113,
+          "overflow": false,
+          "lamps": [
+            {
+              "hidden": false,
+              "width": 375.03125,
+              "height": 419,
+              "reachable": true
+            },
+            {
+              "hidden": false,
+              "width": 447.0625,
+              "height": 428,
+              "reachable": true
+            },
+            {
+              "hidden": false,
+              "width": 426.4375,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -497,18 +616,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 222.359375,
-              "height": 248.28125,
+              "hidden": false,
+              "width": 375.25,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 280.953125,
-              "height": 253.625,
+              "hidden": false,
+              "width": 402.484375,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 252.859375,
-              "height": 232.875,
+              "hidden": false,
+              "width": 384.46875,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -521,18 +643,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 222.0625,
-              "height": 248.28125,
+              "hidden": false,
+              "width": 374.71875,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 280.5625,
-              "height": 253.625,
+              "hidden": false,
+              "width": 340.65625,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 252.5,
-              "height": 232.875,
+              "hidden": false,
+              "width": 322.625,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -545,18 +670,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 172.671875,
-              "height": 192.90625,
+              "hidden": false,
+              "width": 375.0625,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 218.171875,
-              "height": 197.046875,
+              "hidden": false,
+              "width": 340.046875,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 196.359375,
-              "height": 180.9375,
+              "hidden": false,
+              "width": 322.015625,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -569,18 +697,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 147.25,
-              "height": 164.3125,
+              "hidden": false,
+              "width": 375.46875,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 186.046875,
-              "height": 167.84375,
+              "hidden": false,
+              "width": 274.421875,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 167.4375,
-              "height": 154.125,
+              "hidden": false,
+              "width": 256.390625,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -593,18 +724,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 133.796875,
-              "height": 149.484375,
+              "hidden": false,
+              "width": 375.03125,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 169.046875,
-              "height": 152.6875,
+              "hidden": false,
+              "width": 240.5625,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 152.140625,
-              "height": 140.203125,
+              "hidden": false,
+              "width": 222.53125,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -617,18 +751,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 133.59375,
-              "height": 149.265625,
+              "hidden": false,
+              "width": 375.03125,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 168.796875,
-              "height": 152.46875,
+              "hidden": false,
+              "width": 240.0625,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 151.921875,
-              "height": 140,
+              "hidden": false,
+              "width": 222.03125,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -641,18 +778,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 114.1875,
-              "height": 127.65625,
+              "hidden": false,
+              "width": 374.765625,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 144.265625,
-              "height": 130.40625,
+              "hidden": false,
+              "width": 190.640625,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 129.84375,
-              "height": 119.734375,
+              "hidden": false,
+              "width": 172.625,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -665,18 +805,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 114.140625,
-              "height": 127.4375,
+              "hidden": false,
+              "width": 375.265625,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 144.203125,
-              "height": 130.171875,
+              "hidden": false,
+              "width": 189.984375,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 129.78125,
-              "height": 119.53125,
+              "hidden": false,
+              "width": 171.953125,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -689,18 +832,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 73.25,
-              "height": 81.828125,
+              "hidden": false,
+              "width": 360.9375,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 92.5625,
-              "height": 83.59375,
+              "hidden": false,
+              "width": 85.53125,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 83.296875,
-              "height": 76.75,
+              "hidden": false,
+              "width": 67.515625,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -713,18 +859,21 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 70.390625,
-              "height": 78.5625,
+              "hidden": false,
+              "width": 353.59375,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 88.9375,
-              "height": 80.25,
+              "hidden": false,
+              "width": 77.9375,
+              "height": 428,
               "reachable": true
             },
             {
-              "width": 80.046875,
-              "height": 73.6875,
+              "hidden": false,
+              "width": 59.890625,
+              "height": 393,
               "reachable": true
             }
           ],
@@ -737,24 +886,1624 @@
           "overflow": false,
           "lamps": [
             {
-              "width": 59.75,
-              "height": 66.546875,
+              "hidden": false,
+              "width": 320,
+              "height": 419,
               "reachable": true
             },
             {
-              "width": 75.5,
-              "height": 67.984375,
-              "reachable": true
+              "hidden": true,
+              "width": 0,
+              "height": 0,
+              "reachable": false
             },
             {
-              "width": 67.9375,
-              "height": 62.421875,
-              "reachable": true
+              "hidden": true,
+              "width": 0,
+              "height": 0,
+              "reachable": false
             }
           ],
           "closedHeader": "0",
           "duplicateIds": [],
           "openWhite": true
+        }
+      ]
+    },
+    {
+      "name": "Both carousel images fill the viewport with reachable controls at every size",
+      "passed": true,
+      "details": [
+        {
+          "width": 2560,
+          "height": 1440,
+          "heroTop": 0,
+          "heroHeight": 1440,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 784,
+              "bottom": 835.1875,
+              "left": 472.5,
+              "right": 669.859375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 696,
+              "bottom": 744,
+              "left": 72,
+              "right": 120,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 1376,
+              "bottom": 1420,
+              "left": 1206.5,
+              "right": 1270.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 1376,
+              "bottom": 1420,
+              "left": 1274.5,
+              "right": 1338.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 696,
+              "bottom": 744,
+              "left": 2425,
+              "right": 2473,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 1376,
+              "bottom": 1420,
+              "left": 72,
+              "right": 211.890625,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 1360.90625,
+              "bottom": 1408,
+              "left": 2211.84375,
+              "right": 2473,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 1920,
+          "height": 900,
+          "heroTop": 0,
+          "heroHeight": 900,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 514,
+              "bottom": 565.1875,
+              "left": 152.5,
+              "right": 349.859375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 426,
+              "bottom": 474,
+              "left": 72,
+              "right": 120,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 836,
+              "bottom": 880,
+              "left": 886.5,
+              "right": 950.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 836,
+              "bottom": 880,
+              "left": 954.5,
+              "right": 1018.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 426,
+              "bottom": 474,
+              "left": 1785,
+              "right": 1833,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 836,
+              "bottom": 880,
+              "left": 72,
+              "right": 211.890625,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 820.90625,
+              "bottom": 868,
+              "left": 1571.84375,
+              "right": 1833,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 1920,
+          "height": 720,
+          "heroTop": 0,
+          "heroHeight": 720,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 424,
+              "bottom": 475.1875,
+              "left": 152.5,
+              "right": 349.859375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 336,
+              "bottom": 384,
+              "left": 72,
+              "right": 120,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 656,
+              "bottom": 700,
+              "left": 886.5,
+              "right": 950.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 656,
+              "bottom": 700,
+              "left": 954.5,
+              "right": 1018.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 336,
+              "bottom": 384,
+              "left": 1785,
+              "right": 1833,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 656,
+              "bottom": 700,
+              "left": 72,
+              "right": 211.890625,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 640.90625,
+              "bottom": 688,
+              "left": 1571.84375,
+              "right": 1833,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "heroTop": 0,
+          "heroHeight": 900,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 514,
+              "bottom": 565.1875,
+              "left": 120,
+              "right": 317.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 426,
+              "bottom": 474,
+              "left": 32,
+              "right": 80,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 836,
+              "bottom": 880,
+              "left": 646.5,
+              "right": 710.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 836,
+              "bottom": 880,
+              "left": 714.5,
+              "right": 778.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 426,
+              "bottom": 474,
+              "left": 1345,
+              "right": 1393,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 836,
+              "bottom": 880,
+              "left": 32,
+              "right": 171.890625,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 820.90625,
+              "bottom": 868,
+              "left": 1131.84375,
+              "right": 1393,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 1366,
+          "height": 768,
+          "heroTop": 0,
+          "heroHeight": 768,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 446.640625,
+              "bottom": 497.828125,
+              "left": 120,
+              "right": 317.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 360,
+              "bottom": 408,
+              "left": 32,
+              "right": 80,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 704,
+              "bottom": 748,
+              "left": 609.5,
+              "right": 673.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 704,
+              "bottom": 748,
+              "left": 677.5,
+              "right": 741.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 360,
+              "bottom": 408,
+              "left": 1271,
+              "right": 1319,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 704,
+              "bottom": 748,
+              "left": 32,
+              "right": 171.890625,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 688.90625,
+              "bottom": 736,
+              "left": 1057.84375,
+              "right": 1319,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "heroTop": 0,
+          "heroHeight": 720,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 419.203125,
+              "bottom": 470.390625,
+              "left": 120,
+              "right": 317.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 336,
+              "bottom": 384,
+              "left": 32,
+              "right": 80,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 656,
+              "bottom": 700,
+              "left": 566.5,
+              "right": 630.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 656,
+              "bottom": 700,
+              "left": 634.5,
+              "right": 698.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 336,
+              "bottom": 384,
+              "left": 1185,
+              "right": 1233,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 656,
+              "bottom": 700,
+              "left": 32,
+              "right": 171.890625,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 640.90625,
+              "bottom": 688,
+              "left": 971.84375,
+              "right": 1233,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 1115,
+          "height": 768,
+          "heroTop": 0,
+          "heroHeight": 768,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 436.59375,
+              "bottom": 487.78125,
+              "left": 96,
+              "right": 293.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 360,
+              "bottom": 408,
+              "left": 32,
+              "right": 80,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 704,
+              "bottom": 748,
+              "left": 484,
+              "right": 548,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 704,
+              "bottom": 748,
+              "left": 552,
+              "right": 616,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 360,
+              "bottom": 408,
+              "left": 1020,
+              "right": 1068,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 704,
+              "bottom": 748,
+              "left": 32,
+              "right": 171.890625,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 688.90625,
+              "bottom": 736,
+              "left": 806.84375,
+              "right": 1068,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 1114,
+          "height": 768,
+          "heroTop": 0,
+          "heroHeight": 768,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 436.5625,
+              "bottom": 487.75,
+              "left": 96,
+              "right": 293.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 360,
+              "bottom": 408,
+              "left": 32,
+              "right": 80,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 704,
+              "bottom": 748,
+              "left": 483.5,
+              "right": 547.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 704,
+              "bottom": 748,
+              "left": 551.5,
+              "right": 615.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 360,
+              "bottom": 408,
+              "left": 1019,
+              "right": 1067,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 704,
+              "bottom": 748,
+              "left": 32,
+              "right": 171.890625,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 688.90625,
+              "bottom": 736,
+              "left": 805.84375,
+              "right": 1067,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 1113,
+          "height": 768,
+          "heroTop": 0,
+          "heroHeight": 768,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 363.109375,
+              "bottom": 407.109375,
+              "left": 24,
+              "right": 213.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 664,
+              "bottom": 708,
+              "left": 24,
+              "right": 68,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 664,
+              "bottom": 708,
+              "left": 483,
+              "right": 547,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 664,
+              "bottom": 708,
+              "left": 551,
+              "right": 615,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 664,
+              "bottom": 708,
+              "left": 1030,
+              "right": 1074,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 716,
+              "bottom": 760,
+              "left": 479.046875,
+              "right": 618.9375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 600.90625,
+              "bottom": 648,
+              "left": 24,
+              "right": 285.15625,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "height": 768,
+          "heroTop": 0,
+          "heroHeight": 768,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 363.109375,
+              "bottom": 407.109375,
+              "left": 24,
+              "right": 213.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 664,
+              "bottom": 708,
+              "left": 24,
+              "right": 68,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 664,
+              "bottom": 708,
+              "left": 438.5,
+              "right": 502.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 664,
+              "bottom": 708,
+              "left": 506.5,
+              "right": 570.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 664,
+              "bottom": 708,
+              "left": 941,
+              "right": 985,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 716,
+              "bottom": 760,
+              "left": 434.546875,
+              "right": 574.4375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 600.90625,
+              "bottom": 648,
+              "left": 24,
+              "right": 285.15625,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 900,
+          "height": 600,
+          "heroTop": 0,
+          "heroHeight": 600,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 274.390625,
+              "bottom": 318.390625,
+              "left": 24,
+              "right": 213.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 496,
+              "bottom": 540,
+              "left": 24,
+              "right": 68,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 496,
+              "bottom": 540,
+              "left": 376.5,
+              "right": 440.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 496,
+              "bottom": 540,
+              "left": 444.5,
+              "right": 508.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 496,
+              "bottom": 540,
+              "left": 817,
+              "right": 861,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 548,
+              "bottom": 592,
+              "left": 372.546875,
+              "right": 512.4375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 432.90625,
+              "bottom": 480,
+              "left": 24,
+              "right": 285.15625,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "height": 1024,
+          "heroTop": 0,
+          "heroHeight": 1024,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 521.34375,
+              "bottom": 565.34375,
+              "left": 24,
+              "right": 213.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 920,
+              "bottom": 964,
+              "left": 24,
+              "right": 68,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 920,
+              "bottom": 964,
+              "left": 310.5,
+              "right": 374.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 920,
+              "bottom": 964,
+              "left": 378.5,
+              "right": 442.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 920,
+              "bottom": 964,
+              "left": 685,
+              "right": 729,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 972,
+              "bottom": 1016,
+              "left": 306.546875,
+              "right": 446.4375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 856.90625,
+              "bottom": 904,
+              "left": 24,
+              "right": 285.15625,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 600,
+          "height": 800,
+          "heroTop": 0,
+          "heroHeight": 800,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 400.390625,
+              "bottom": 444.390625,
+              "left": 16,
+              "right": 205.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 696,
+              "bottom": 740,
+              "left": 16,
+              "right": 60,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 696,
+              "bottom": 740,
+              "left": 226.5,
+              "right": 290.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 696,
+              "bottom": 740,
+              "left": 294.5,
+              "right": 358.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 696,
+              "bottom": 740,
+              "left": 525,
+              "right": 569,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 748,
+              "bottom": 792,
+              "left": 222.546875,
+              "right": 362.4375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 632.90625,
+              "bottom": 680,
+              "left": 16,
+              "right": 277.15625,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "heroTop": 0,
+          "heroHeight": 844,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 424.15625,
+              "bottom": 468.15625,
+              "left": 16,
+              "right": 205.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 740,
+              "bottom": 784,
+              "left": 16,
+              "right": 60,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 740,
+              "bottom": 784,
+              "left": 121.5,
+              "right": 185.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 740,
+              "bottom": 784,
+              "left": 189.5,
+              "right": 253.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 740,
+              "bottom": 784,
+              "left": 315,
+              "right": 359,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 792,
+              "bottom": 836,
+              "left": 117.546875,
+              "right": 257.4375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 676.90625,
+              "bottom": 724,
+              "left": 16,
+              "right": 277.15625,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "height": 667,
+          "heroTop": 0,
+          "heroHeight": 667,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 328.578125,
+              "bottom": 372.578125,
+              "left": 16,
+              "right": 205.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 563,
+              "bottom": 607,
+              "left": 16,
+              "right": 60,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 563,
+              "bottom": 607,
+              "left": 114,
+              "right": 178,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 563,
+              "bottom": 607,
+              "left": 182,
+              "right": 246,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 563,
+              "bottom": 607,
+              "left": 300,
+              "right": 344,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 615,
+              "bottom": 659,
+              "left": 110.046875,
+              "right": 249.9375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 499.90625,
+              "bottom": 547,
+              "left": 16,
+              "right": 277.15625,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "height": 568,
+          "heroTop": 0,
+          "heroHeight": 568,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 278.390625,
+              "bottom": 322.390625,
+              "left": 16,
+              "right": 205.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 464,
+              "bottom": 508,
+              "left": 16,
+              "right": 60,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 464,
+              "bottom": 508,
+              "left": 86.5,
+              "right": 150.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 464,
+              "bottom": 508,
+              "left": 154.5,
+              "right": 218.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 464,
+              "bottom": 508,
+              "left": 245,
+              "right": 289,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 516,
+              "bottom": 560,
+              "left": 82.546875,
+              "right": 222.4375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 400.90625,
+              "bottom": 448,
+              "left": 16,
+              "right": 277.15625,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "height": 480,
+          "heroTop": 0,
+          "heroHeight": 480,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 234.390625,
+              "bottom": 278.390625,
+              "left": 16,
+              "right": 205.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 376,
+              "bottom": 420,
+              "left": 16,
+              "right": 60,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 376,
+              "bottom": 420,
+              "left": 86.5,
+              "right": 150.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 376,
+              "bottom": 420,
+              "left": 154.5,
+              "right": 218.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 376,
+              "bottom": 420,
+              "left": 245,
+              "right": 289,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 428,
+              "bottom": 472,
+              "left": 82.546875,
+              "right": 222.4375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 312.90625,
+              "bottom": 360,
+              "left": 16,
+              "right": 277.15625,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 844,
+          "height": 390,
+          "heroTop": 0,
+          "heroHeight": 390,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 200.1875,
+              "bottom": 244.1875,
+              "left": 48,
+              "right": 237.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 290,
+              "bottom": 334,
+              "left": 24,
+              "right": 68,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 290,
+              "bottom": 334,
+              "left": 348.5,
+              "right": 412.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 290,
+              "bottom": 334,
+              "left": 416.5,
+              "right": 480.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 290,
+              "bottom": 334,
+              "left": 761,
+              "right": 805,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 338,
+              "bottom": 382,
+              "left": 344.546875,
+              "right": 484.4375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 238.90625,
+              "bottom": 278,
+              "left": 579.234375,
+              "right": 805,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 667,
+          "height": 375,
+          "heroTop": 0,
+          "heroHeight": 375,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 192.6875,
+              "bottom": 236.6875,
+              "left": 48,
+              "right": 237.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 275,
+              "bottom": 319,
+              "left": 16,
+              "right": 60,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 275,
+              "bottom": 319,
+              "left": 260,
+              "right": 324,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 275,
+              "bottom": 319,
+              "left": 328,
+              "right": 392,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 275,
+              "bottom": 319,
+              "left": 592,
+              "right": 636,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 323,
+              "bottom": 367,
+              "left": 256.046875,
+              "right": 395.9375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 223.90625,
+              "bottom": 263,
+              "left": 410.234375,
+              "right": 636,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 568,
+          "height": 320,
+          "heroTop": 0,
+          "heroHeight": 320,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "button button-yellow",
+              "top": 165.1875,
+              "bottom": 209.1875,
+              "left": 48,
+              "right": 237.359375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "top": 220,
+              "bottom": 264,
+              "left": 16,
+              "right": 60,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "top": 220,
+              "bottom": 264,
+              "left": 210.5,
+              "right": 274.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "top": 220,
+              "bottom": 264,
+              "left": 278.5,
+              "right": 342.5,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "top": 220,
+              "bottom": 264,
+              "left": 493,
+              "right": 537,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "top": 268,
+              "bottom": 312,
+              "left": 206.546875,
+              "right": 346.4375,
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "review-badge",
+              "top": 168.90625,
+              "bottom": 208,
+              "left": 311.234375,
+              "right": 537,
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "height": 667,
+          "resizedWithoutReload": true,
+          "heroTop": 0,
+          "heroHeight": 667,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "height": 844,
+          "resizedWithoutReload": true,
+          "heroTop": 0,
+          "heroHeight": 844,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "visible": true,
+              "reachable": true
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "height": 568,
+          "resizedWithoutReload": true,
+          "heroTop": 0,
+          "heroHeight": 568,
+          "imagesFillHero": true,
+          "heroOverflow": false,
+          "scrollY": 0,
+          "controls": [
+            {
+              "element": "hero-arrow hero-arrow-left",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "0",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "1",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-arrow hero-arrow-right",
+              "visible": true,
+              "reachable": true
+            },
+            {
+              "element": "hero-pause",
+              "visible": true,
+              "reachable": true
+            }
+          ]
         }
       ]
     },

@@ -8,27 +8,38 @@ The header crossfades precolored background, logo, text, and icon layers over 25
 
 Each promotional card scales only its clipped media composition to 1.1 over 500 ms, with ease-out. The text and CTA remain stationary. Its black CTA reveals a prepainted `#4A4A4A` layer over 200 ms. Fine-pointer hover and keyboard focus produce the same effect on that card alone.
 
-Three native lamp buttons follow the original image's cover geometry and expose stable Polish names and `aria-pressed`. They reveal a warm radial glow over 650 ms. The original photograph contains all three lamps, so no cutouts are duplicated or moved. Lamp controls disappear, become inert, and reset when the first slide leaves; they return after its incoming image settles.
+Three native lamp buttons follow the original image's cover geometry and expose stable Polish names and `aria-pressed`. They reveal a warm radial glow over 650 ms. The original photograph contains all three lamps, so no cutouts are duplicated or moved. Controls are excluded when cover cropping leaves less than a 44 px visible target in either dimension. Lamp controls disappear, become inert, and reset when the first slide leaves; they return after its incoming image settles.
 
 The second slide uses the original interior photograph and shares the original heading and bestsellers CTA, as authorized by the plan's provisional copy decision. Two reused image layers crossfade over 600 ms; the incoming image settles from 1.05 to 1 over 800 ms. The first slide remains visible until both responsive images decode. If the second image fails, the working first slide and lamps remain and unavailable navigation stays hidden.
 
 One `requestAnimationFrame` clock drives linear `scaleX` progress and 3000 ms transition-start intervals, including crossfade time. Arrows wrap; selectors restart a complete cycle. Rapid navigation cancels the previous effects from their current blend and reuses the same layers. Only manual changes update the polite status; autoplay does not announce every cycle.
 
-Autoplay pauses independently for hover, focus, explicit user pause, hidden documents, an offscreen hero, and reduced motion. Clearing one reason cannot clear another. Resuming preserves elapsed progress and avoids background catch-up. Hidden/offscreen states also freeze in-flight image effects. Reduced motion disables autoplay, scaling, and CSS transitions while preserving instant manual navigation and lamp toggles. Changes to the preference are handled during the session. New modules expose cleanup for listeners, observers, animation frames, and animation effects.
+Autoplay pauses independently for hover, focus, explicit user pause, hidden documents, an offscreen hero, and reduced motion. Explicit resume clears the current hover/focus pauses so it works while the button remains hovered or focused; a fresh pointer entry or focus change pauses again. Loading, visibility, offscreen, and reduced-motion pauses remain independent. Resuming preserves elapsed progress and avoids background catch-up. Hidden/offscreen states also freeze in-flight image effects. Reduced motion disables autoplay, scaling, and CSS transitions while preserving instant manual navigation and lamp toggles. Changes to the preference are handled during the session. New modules expose cleanup for listeners, observers, animation frames, and animation effects.
 
-Below 900 px, the search field occupies protected space just below the photograph, and carousel controls occupy their own row below the copy. Between 900 and 1023 px, copy shifts lower to keep its CTA clear of the terracotta lamp's center. This keeps search, arrows, and all three lamp centers clear of one another. The compact logo/actions remain over the image; transparent gaps pass pointer input through to the lamps. No-JavaScript navigation remains expanded, with first-slide content and hidden unavailable controls.
+The interactive carousel occupies exactly one dynamic viewport height (`100dvh`, with a `100vh` fallback). Desktop sizing no longer depends on viewport width or the previous 640/1080 px minimum/maximum heights. Its progress and pause controls stay within the initial visible screen.
+
+Both photographs fill the entire hero using `object-fit: cover` at every width, including below 1114 px. Compact text, search, controls, and the review badge overlay the full-screen image; a dark gradient preserves text contrast. Short landscape layouts use a single compact header row and a lower control band. Controls remain visible without internal hero overflow or scrolling. Transparent header gaps pass pointer input through to visible lamp regions. No-JavaScript navigation remains expanded, with first-slide content and hidden unavailable controls.
 
 ## Verification
 
 - `node --test scripts/carousel-clock.test.mjs`: three deterministic tests cover exact cycles, one queued frame, independent pause reasons, preserved time, manual reset, and cleanup.
-- `node scripts/check-phase-4.mjs`: all 30 native Chrome protocol checks pass, covering real autoplay intervals, animation durations, pause/resume, rapid input, keyboard lamp activation, mobile pointer/touch operation, inactive control exclusion, desktop header hover/focus, isolated card focus effects, compact disclosure keyboard/Escape behavior, the DOM transition property audit, image failure, and the no-JavaScript fallback.
-- Seventeen viewport widths: 320, 375, 390, 599, 600, 699, 700, 768, 899, 900, 1024, 1200, 1280, 1440, 1599, 1600, and 1920 px. Checks include overflow, reachable lamp centers, minimum lamp target dimensions, duplicate IDs, and compact header states.
+- `node scripts/check-phase-4.mjs`: all 36 native Chrome protocol checks pass, covering real autoplay intervals, animation durations, pause/resume with retained pointer/focus, renewed hover/focus pauses, rapid input, keyboard lamp activation, mobile pointer/touch operation, inactive control exclusion, desktop header hover/focus, isolated card focus effects, compact disclosure keyboard/Escape behavior, the DOM transition property audit, viewport sizing/control visibility, image failure, and the no-JavaScript fallback. Set `QA_CAPTURE=0` to preserve existing captures during interaction-only checks.
+- Twenty viewport widths: 320, 375, 390, 599, 600, 699, 700, 768, 899, 900, 1024, 1113, 1114, 1115, 1200, 1280, 1440, 1599, 1600, and 1920 px. Checks include overflow, reachable cropped lamp regions, minimum visible target dimensions, duplicate IDs, and compact header states.
+- Twenty additional width/height combinations from 320 × 480 to 2560 × 1440, including short landscape screens and the 1114 px boundary. Both image layers match the entire hero, whose height matches the viewport; CTA, arrows, progress, pause, and review badge fit without scrolling. Three further height changes verify resizing without a reload.
 - Desktop and mobile full-page captures include decoded below-fold assets and have been visually inspected. Runtime exceptions and unexpected HTTP errors are checked.
 - JavaScript syntax and `git diff --check` pass. All DOM motion uses only opacity and transform; geometry updates on resize are not animated.
 
 Evidence: [browser results](phase-4-browser-report.json), [desktop capture](references/phase-4-1920.png), [mobile capture](references/phase-4-375.png).
 
+Viewport captures: [desktop 1920 × 900](references/hero-viewport-1920x900.png), [mobile 375 × 667](references/hero-viewport-375x667.png), and [landscape 844 × 390](references/hero-viewport-844x390.png).
+
 The hidden-document handler is exercised with a synthetic visibility event because headless Chrome does not reliably reproduce an operating-system tab switch. Touch is Chrome-emulated rather than physical-device testing. Screen-reader review, full contrast/performance audit, Firefox/Safari, and real mobile browser testing remain in Phase 6.
+
+## Pause/resume review
+
+The review reproduced a resume defect using an actual mouse click without moving the pointer or clearing focus. The handler removed only the explicit `user` pause while the activating interaction left `hover` and `focus` reasons active. The label switched to “Wstrzymaj animację” even though progress and autoplay remained stopped.
+
+The original test called `.click()` and immediately moved the pointer outside the hero and blurred focus. That removed the blocking reasons and concealed the defect. The regression failed before the fix. Explicit resume now clears the current interaction pauses, and new checks retain pointer/focus, observe a subsequent slide change, activate both actions with Space, and verify renewed hover/focus and environmental guards.
 
 ## Documentation
 

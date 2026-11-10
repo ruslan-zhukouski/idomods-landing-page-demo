@@ -189,6 +189,8 @@ Use one link per card/action and avoid nested links/buttons. Animate the complet
 
 ## 6. Responsive layout specification
 
+Later viewport-sizing requirement: the interactive carousel must fill exactly the visible viewport height. Both photographs must cover the entire hero at every width, including below 1114 px, with text and controls overlaid. Use dynamic viewport units, reserve space for progress/controls inside the hero, and adapt short landscape layouts; this supersedes the original width-based hero height proposal below. Verification is recorded in the Phase 4 report.
+
 Breakpoints are initial implementation choices and must be adjusted to actual content fit. Start with mobile styles, then add wider layouts through min-width media queries, following the current [MDN mobile-first guidance retrieved through Context7](https://github.com/mdn/content/blob/main/files/en-us/mdn/writing_guidelines/code_style_guide/css/index.md).
 
 | Viewport | Header/hero | Benefits/cards | Shader/footer |
@@ -212,7 +214,7 @@ Responsive images must describe their real rendered slot, including the 1600 px 
 3. Drive both progress and slide changes from one elapsed-time source. Progress uses a left-origin `scaleX(0…1)`. At the next cycle, reset it, crossfade opacity over 600 ms, and settle the incoming image from scale 1.05 to 1 over 800 ms.
 4. Keep only one timing loop alive. Use elapsed timestamps, not a frame count; refresh rates vary. This follows [MDN requestAnimationFrame guidance](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame).
 5. Arrows/selectors wrap through two slides. Manual changes restart a complete 3 s cycle. Serialize rapid clicks so no more than two image layers are crossfading and no timer accumulates.
-6. Pause on hover, keyboard focus within the carousel, explicit pause, hidden tab, and hero leaving the viewport. Resume only when all temporary pause reasons clear; an explicit user pause persists. Avoid catch-up transitions after a background tab returns.
+6. Pause on hover, keyboard focus within the carousel, explicit pause, hidden tab, and hero leaving the viewport. An explicit resume clears the current hover/focus pauses so the activating button does not block playback; fresh pointer entry or focus changes pause again. Visibility and other environmental pause reasons must clear independently; an explicit user pause persists. Avoid catch-up transitions after a background tab returns.
 7. Provide a pause/resume button with a clear accessible name. Keep inactive slide controls out of the focus order; do not duplicate the same CTA in the accessibility tree. Update pagination state and announce manual changes politely without announcing autoplay every three seconds.
 8. Reduced motion disables autoplay and image scaling by default; manual navigation still works with instant state changes. Listen for preference changes during the session.
 9. If slide-two loading fails, retain the usable first slide and suppress unusable navigation/autoplay rather than revealing an empty frame.

@@ -11,6 +11,8 @@ For an HTTP preview, run `node scripts/serve.mjs` and open `http://127.0.0.1:417
 
 Compact navigation supports keyboard/touch disclosure and responsive focus handling. The two-slide hero now has timed progress, arrows, selectors, pause/resume, and interactive lamp lighting. Header/card effects and all motion respect reduced-motion preferences. The live WebGL shader remains in Phase 5.
 
+Both carousel images cover the entire visible viewport at every width. Text and controls overlay the photos, with progress/pause controls visible without scrolling on compact portrait and landscape screens.
+
 - Read [the Phase 3 report](docs/phase-3-report.md) for responsive geometry, navigation behavior, and verification.
 - Read [the Phase 4 report](docs/phase-4-report.md) for motion, carousel behavior, responsive adaptations, and current verification.
 - Run `node --test scripts/carousel-clock.test.mjs` for deterministic timing/pause tests.

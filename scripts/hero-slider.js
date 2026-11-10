@@ -92,6 +92,13 @@ export function initHeroSlider() {
   }, {signal});
   pause.addEventListener('click', () => {
     userPaused = !userPaused;
+    if (!userPaused) {
+      // An explicit resume takes precedence over the interaction that activated
+      // this button. New pointer entries or focus changes pause again normally;
+      // loading, visibility, offscreen and reduced-motion guards remain intact.
+      clock.pause('hover', false);
+      clock.pause('focus', false);
+    }
     clock.pause('user', userPaused);
     pause.textContent = userPaused ? 'Wznów animację' : 'Wstrzymaj animację';
   }, {signal});
