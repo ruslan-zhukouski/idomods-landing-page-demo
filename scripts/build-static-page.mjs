@@ -98,13 +98,15 @@ const html = `<!doctype html>
   <link rel="stylesheet" href="assets/fonts/red-hat-display.css">
   <link rel="stylesheet" href="styles/tokens.css">
   <link rel="stylesheet" href="styles/main.css">
+  <script type="module" src="scripts/main.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Przejdź do treści</a>
   <header class="site-header" data-figma-node="1:533">
     <div class="container header-inner">
       <a class="brand" href="${routes.get('home')}" aria-label="SOLLUX — strona główna">${img('assets/icons/sollux-light.svg',{classes:'brand-light',eager:true})}${img('assets/icons/sollux-dark.svg',{classes:'brand-dark',eager:true})}</a>
-      <nav class="primary-nav" aria-label="Nawigacja główna"><ul>
+      <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" hidden>Menu</button>
+      <nav id="primary-navigation" class="primary-nav" aria-label="Nawigacja główna"><ul>
         <li>${link('lamps',`Lampy ${icon('angle-down')}`)}</li><li>${link('colors',`Kolory ${icon('angle-down')}`)}</li><li>${link('rooms',`Pomieszczenia ${icon('angle-down')}`)}</li><li>${link('new','Nowości')}</li><li>${link('bestsellers','Bestsellery')}</li><li>${link('promotions','Promocje')}</li>
       </ul></nav>
       <form class="search-form" role="search" action="${destinations.search.action}" method="get">
@@ -116,6 +118,7 @@ const html = `<!doctype html>
   <main id="main" tabindex="-1">
     <section class="hero" aria-labelledby="hero-title" data-figma-node="1:506">
       ${picture('hero-bestsellers','100vw',{eager:true,classes:'hero-image'})}
+      <div class="lamp-regions" aria-hidden="true"><span data-lamp="beige" data-figma-node="1:1004"></span><span data-lamp="green" data-figma-node="1:1003"></span><span data-lamp="terracotta" data-figma-node="1:1002"></span></div>
       <div class="container hero-content"><p class="hero-eyebrow">Bestsellery SOLLUX</p><h1 id="hero-title">Kolor i forma<br> w nowym świetle</h1>${link('bestsellers','Sprawdź bestsellery','button button-yellow')}</div>
       <div class="hero-arrow hero-arrow-left" aria-hidden="true">${icon('arrow-left')}</div><div class="hero-arrow hero-arrow-right" aria-hidden="true">${icon('arrow-right')}</div>
       <div class="hero-progress" aria-hidden="true"><span class="active"></span><span></span></div>
@@ -139,4 +142,4 @@ const html = `<!doctype html>
 `;
 await writeFile(path.join(root,'index.html'),html);
 await writeFile(path.join(root,'docs/phase-2-content-decisions.json'),JSON.stringify({phase:2,decisions,unresolvedAsPlainText:['promotions','security','light-course','tiktok'],cookies:'Native details disclosure: no optional cookies are used; links to the official store privacy notice.',sourceCopyCorrection:'Wpsółpraca → Współpraca',staticHero:'Only slide one is shown; arrows/progress are decorative, not nonfunctional buttons. Interactive controls belong to Phase 4.'},null,2)+'\n');
-console.log('Built index.html with local assets and no runtime JavaScript.');
+console.log('Built index.html with local assets and progressive navigation enhancement.');

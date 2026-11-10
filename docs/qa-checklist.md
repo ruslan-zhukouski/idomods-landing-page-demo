@@ -14,9 +14,19 @@
 
 Evidence: [Phase 2 report](phase-2-report.md) and [browser measurements](phase-2-browser-report.json).
 
+## Phase 3 — passed
+
+- [x] Compact menu, visible search and utility controls, and expanded no-JavaScript fallback.
+- [x] Keyboard activation, Escape/focus restoration, outside pointer, tab exit, and breakpoint focus recovery.
+- [x] Seventeen viewport widths from 320 to 1920 px with scripts enabled and disabled.
+- [x] Continuous resize in 16 px steps, including open navigation, without overflow or text/media overlap.
+- [x] Crop-aligned lamp geometry prepared without exposing inactive controls.
+- [x] Original card media preserved with protected copy space on smaller screens.
+
+Evidence: [Phase 3 report](phase-3-report.md).
+
 ## Later phases — not yet verified
 
-- [ ] Compact navigation disclosure and focus restoration.
 - [ ] Slider timings, pause reasons, rapid input, and failure handling.
 - [ ] Interactive lamp regions and header/card motion.
 - [ ] WebGL loop continuity, resize, context loss, and fallback behavior.

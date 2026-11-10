@@ -11,13 +11,15 @@
   <link rel="stylesheet" href="assets/fonts/red-hat-display.css">
   <link rel="stylesheet" href="styles/tokens.css">
   <link rel="stylesheet" href="styles/main.css">
+  <script type="module" src="scripts/main.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Przejdź do treści</a>
   <header class="site-header" data-figma-node="1:533">
     <div class="container header-inner">
       <a class="brand" href="https://sollux.pl/" aria-label="SOLLUX — strona główna"><img src="assets/icons/sollux-light.svg" width="150" height="48" alt="" class="brand-light" loading="eager" decoding="async" data-figma-node="1:536"><img src="assets/icons/sollux-dark.svg" width="160" height="44" alt="" class="brand-dark" loading="eager" decoding="async" data-figma-node="1:712"></a>
-      <nav class="primary-nav" aria-label="Nawigacja główna"><ul>
+      <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" hidden>Menu</button>
+      <nav id="primary-navigation" class="primary-nav" aria-label="Nawigacja główna"><ul>
         <li><a href="https://sollux.pl/pl/menu/lampy-1727" data-destination="lamps">Lampy <span class="icon " aria-hidden="true"><img src="assets/icons/angle-down.svg" width="16" height="16" alt="" loading="eager" decoding="async" data-figma-node="1:548 1:553 1:558"></span></a></li><li><a href="https://sollux.pl/pl/menu/lampy-1727?filter_traits[21]=11086,11076,24,14336,14325,25,14303,852,23,14316,14164,768,11333,1246" data-destination="colors">Kolory <span class="icon " aria-hidden="true"><img src="assets/icons/angle-down.svg" width="16" height="16" alt="" loading="eager" decoding="async" data-figma-node="1:548 1:553 1:558"></span></a></li><li><a href="https://sollux.pl/pl/menu/pomieszczenia-160" data-destination="rooms">Pomieszczenia <span class="icon " aria-hidden="true"><img src="assets/icons/angle-down.svg" width="16" height="16" alt="" loading="eager" decoding="async" data-figma-node="1:548 1:553 1:558"></span></a></li><li><a href="https://sollux.pl/pl/menu/nowosci-188" data-destination="new">Nowości</a></li><li><a href="https://sollux.pl/pl/menu/bestsellery-827" data-destination="bestsellers">Bestsellery</a></li><li><span class="unresolved-label " data-unresolved-destination="promotions">Promocje</span></li>
       </ul></nav>
       <form class="search-form" role="search" action="https://sollux.pl/pl/search" method="get">
@@ -29,6 +31,7 @@
   <main id="main" tabindex="-1">
     <section class="hero" aria-labelledby="hero-title" data-figma-node="1:506">
       <picture class="hero-image"><source type="image/webp" srcset="assets/images/hero-bestsellers-480.webp 480w, assets/images/hero-bestsellers-640.webp 640w, assets/images/hero-bestsellers-960.webp 960w, assets/images/hero-bestsellers-1280.webp 1280w, assets/images/hero-bestsellers-1600.webp 1600w, assets/images/hero-bestsellers-1920.webp 1920w" sizes="100vw"><img src="assets/images/hero-bestsellers-1920.jpg" srcset="assets/images/hero-bestsellers-480.jpg 480w, assets/images/hero-bestsellers-640.jpg 640w, assets/images/hero-bestsellers-960.jpg 960w, assets/images/hero-bestsellers-1280.jpg 1280w, assets/images/hero-bestsellers-1600.jpg 1600w, assets/images/hero-bestsellers-1920.jpg 1920w" sizes="100vw" width="1920" height="1072" alt="" loading="eager" fetchpriority="high" decoding="async" data-figma-node="1:506"></picture>
+      <div class="lamp-regions" aria-hidden="true"><span data-lamp="beige" data-figma-node="1:1004"></span><span data-lamp="green" data-figma-node="1:1003"></span><span data-lamp="terracotta" data-figma-node="1:1002"></span></div>
       <div class="container hero-content"><p class="hero-eyebrow">Bestsellery SOLLUX</p><h1 id="hero-title">Kolor i forma<br> w nowym świetle</h1><a href="https://sollux.pl/pl/menu/bestsellery-827" class="button button-yellow" data-destination="bestsellers">Sprawdź bestsellery</a></div>
       <div class="hero-arrow hero-arrow-left" aria-hidden="true"><span class="icon " aria-hidden="true"><img src="assets/icons/arrow-left.svg" width="24" height="24" alt="" loading="eager" decoding="async" data-figma-node="1:518"></span></div><div class="hero-arrow hero-arrow-right" aria-hidden="true"><span class="icon " aria-hidden="true"><img src="assets/icons/arrow-right.svg" width="24" height="24" alt="" loading="eager" decoding="async" data-figma-node="1:515"></span></div>
       <div class="hero-progress" aria-hidden="true"><span class="active"></span><span></span></div>

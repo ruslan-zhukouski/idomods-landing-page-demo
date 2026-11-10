@@ -271,6 +271,8 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 
 ### Phase 3 — Responsive behavior and navigation
 
+**Status: completed on 8 November 2026.** See [the Phase 3 report](docs/phase-3-report.md), [browser checks](docs/phase-3-browser-report.json), and [JavaScript-disabled checks](docs/phase-3-no-js-report.json).
+
 - Implement compact header/search, disclosure navigation, crop rules, lamp hit-region geometry, and card media layout at each breakpoint.
 - Check content at 320 px and continuously resize through each transition.
 - **Gate:** no horizontal page overflow, overlapping text/actions, clipped footer content, or unreachable navigation across the test matrix.

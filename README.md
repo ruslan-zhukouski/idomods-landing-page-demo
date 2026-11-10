@@ -1,7 +1,7 @@
 # idomods-landing-page-demo
 Zadanie praktyczne na stanowisko Programisty Frontend + AI w IdoMods
 
-Phases 1 and 2 are complete. Open [index.html](index.html) for the complete static landing page. It works without JavaScript and uses the original local assets and fonts.
+Phases 1, 2, and 3 are complete. Open [index.html](index.html) for the complete static landing page. It works without JavaScript and uses the original local assets and fonts.
 
 For an HTTP preview, run `node scripts/serve.mjs` and open `http://127.0.0.1:4173`. No package installation or build is required.
 
@@ -9,7 +9,11 @@ For an HTTP preview, run `node scripts/serve.mjs` and open `http://127.0.0.1:417
 - See the [desktop capture](docs/references/phase-2-1920.png), [mobile capture](docs/references/phase-2-375.png), and [QA checklist](docs/qa-checklist.md).
 - Run `node scripts/check-static-page.mjs` while the server is running to verify six viewport widths with JavaScript disabled (Windows with Chrome installed).
 
-Compact navigation, slider/lamp interactions, hover animation, and the live WebGL shader remain in the plan's later phases.
+Compact navigation now supports keyboard/touch disclosure and responsive focus handling. Slider/lamp interactions, hover animation, and the live WebGL shader remain in later phases.
+
+- Read [the Phase 3 report](docs/phase-3-report.md) for responsive geometry, navigation behavior, and verification.
+- Run Phase 3 QA in PowerShell: `$env:QA_PHASE='3'; node scripts/check-static-page.mjs`. Add `$env:QA_NO_JS='1'` to verify the expanded navigation fallback.
+- The optional authoring helper `node scripts/build-static-page.mjs` regenerates the committed HTML; runtime modules require an HTTP preview.
 
 - Open [the local asset review](docs/asset-review.html) to inspect both heroes, lamp cutouts, card media, logos, and footer assets.
 - Read [the Phase 1 report](docs/phase-1-report.md) for provenance, crop decisions, checks, reproduction commands, and the Figma access limitation.
