@@ -20,7 +20,7 @@ main:focus { outline: none; }
 .button-dark { color: white; background: var(--color-ink); }
 
 /* Navigation stays expanded without JavaScript; the module adds compact disclosure. */
-.site-header { min-height: 84px; padding-block: 16px; background: white; }
+.site-header { min-height: 84px; padding-block: 16px; background: transparent; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
 .brand { display: block; flex: none; width: 120px; }
 .brand img { width: 100%; height: auto; }
@@ -211,7 +211,10 @@ main:focus { outline: none; }
 
 /* Phase 3: progressive disclosure and protected media space. */
 [hidden] { display: none !important; }
-.menu-toggle { align-items: center; justify-content: center; min-height: 44px; padding: 10px 14px; border: 1px solid var(--color-border); border-radius: 100px; background: white; font-size: 14px; font-weight: 700; }
+.menu-toggle { align-items: center; justify-content: center; width: 44px; height: 44px; padding: 10px; border: 0; border-radius: 100px; background: white; }
+.menu-toggle img { width: 24px; height: 24px; max-width: none; }
+.menu-toggle .menu-icon-close, .menu-toggle[aria-expanded="true"] .menu-icon-open { display: none; }
+.menu-toggle[aria-expanded="true"] .menu-icon-close { display: block; }
 .menu-toggle:focus-visible, .navigation-enhanced .primary-nav a:focus-visible { outline: 3px solid #1762b2; outline-offset: 3px; }
 .navigation-enhanced .menu-toggle:not([hidden]) { display: inline-flex; }
 .lamp-regions { position: absolute; overflow: hidden; pointer-events: none; }
@@ -219,10 +222,21 @@ main:focus { outline: none; }
 .footer-group li { white-space: normal; overflow-wrap: anywhere; }
 .shop-contact { overflow-wrap: anywhere; }
 @media (max-width: 1599px) {
+  /* Transparency must reveal the hero, rather than the white body above it. */
+  .site-header.navigation-enhanced { position: absolute; top: 0; left: 0; z-index: 2; width: 100%; background: transparent; }
+  .site-header.navigation-enhanced.navigation-open { background: white; }
+  .site-header.navigation-enhanced:not(.navigation-open) { color: white; }
+  .navigation-enhanced:not(.navigation-open) .brand-light { display: block; }
+  .navigation-enhanced:not(.navigation-open) .brand-dark { display: none; }
+  .navigation-enhanced:not(.navigation-open) .header-actions .icon img,
+  .navigation-enhanced:not(.navigation-open) .cart-icon img,
+  .navigation-enhanced:not(.navigation-open) .search-form .icon img,
+  .navigation-enhanced:not(.navigation-open) .menu-toggle img { filter: brightness(0) invert(1); }
+  .navigation-enhanced .menu-toggle { background: transparent; }
   .navigation-enhanced .header-inner { display: grid; grid-template-columns: auto 1fr auto; gap: 12px 8px; }
   .navigation-enhanced .brand { grid-column: 1; grid-row: 1; }
-  .navigation-enhanced .menu-toggle { grid-column: 2; grid-row: 1; justify-self: end; }
-  .navigation-enhanced .header-actions { grid-column: 3; grid-row: 1; }
+  .navigation-enhanced .menu-toggle { grid-column: 3; grid-row: 1; justify-self: end; }
+  .navigation-enhanced .header-actions { grid-column: 2; grid-row: 1; justify-self: end; }
   .navigation-enhanced .primary-nav { grid-column: 1 / -1; grid-row: 2; padding-block: 12px; border-block: 1px solid var(--color-border); }
   .navigation-enhanced .search-form { grid-column: 1 / -1; grid-row: 3; }
   .navigation-enhanced .primary-nav ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 16px; }
@@ -233,12 +247,12 @@ main:focus { outline: none; }
   .navigation-enhanced .brand { width: 96px; }
   .navigation-enhanced .header-actions { gap: 0; }
   .navigation-enhanced .utility-link { width: 40px; height: 44px; }
-  .navigation-enhanced .menu-toggle { padding-inline: 10px; font-size: 12px; max-width: 76px; }
 }
 @media (min-width: 900px) and (max-width: 1599px) {
-  .navigation-enhanced .header-inner { grid-template-columns: auto auto minmax(160px, 1fr) auto; gap: 16px; }
-  .navigation-enhanced .search-form { grid-column: 3; grid-row: 1; }
-  .navigation-enhanced .header-actions { grid-column: 4; }
+  .navigation-enhanced .header-inner { grid-template-columns: auto minmax(160px, 1fr) auto auto; gap: 16px; }
+  .navigation-enhanced .search-form { grid-column: 2; grid-row: 1; }
+  .navigation-enhanced .header-actions { grid-column: 3; }
+  .navigation-enhanced .menu-toggle { grid-column: 4; }
   .navigation-enhanced .primary-nav ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 1199px) {

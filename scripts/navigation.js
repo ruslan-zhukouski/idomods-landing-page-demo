@@ -7,7 +7,7 @@ export function initNavigation() {
   const setOpen = (open, restoreFocus = false) => {
     panel.hidden = !open;
     toggle.setAttribute('aria-expanded', String(open));
-    toggle.textContent = open ? 'Zamknij menu' : 'Menu';
+    toggle.setAttribute('aria-label', open ? 'Zamknij menu' : 'Menu');
     header.classList.toggle('navigation-open', open && !desktop.matches);
     if (restoreFocus) toggle.focus();
   };

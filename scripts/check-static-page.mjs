@@ -84,11 +84,13 @@ try {
     for(let attempt=0;attempt<100;attempt++){if(await evaluate('document.readyState === "complete" && innerWidth===375 && document.querySelector(".navigation-enhanced")!==null'))break;await sleep(100)}
     await send('Page.bringToFront');
     assert('Compact menu initially closed and links excluded', await evaluate('document.querySelector(".primary-nav").hidden && document.querySelector(".menu-toggle").getAttribute("aria-expanded")==="false" && document.querySelector(".primary-nav a").getClientRects().length===0'));
+    assert('Closed header is transparent over the hero', await evaluate('(()=>{const header=document.querySelector("header"),hero=document.querySelector(".hero");return getComputedStyle(header).backgroundColor==="rgba(0, 0, 0, 0)" && header.getBoundingClientRect().top===hero.getBoundingClientRect().top && getComputedStyle(header).position==="absolute"})()'));
     await evaluate('document.querySelector(".menu-toggle").focus()');
     await send('Input.dispatchKeyEvent',{type:'rawKeyDown',key:' ',code:'Space',windowsVirtualKeyCode:32,nativeVirtualKeyCode:32});
     await send('Input.dispatchKeyEvent',{type:'keyUp',key:' ',code:'Space',windowsVirtualKeyCode:32,nativeVirtualKeyCode:32});
     await sleep(100);
     assert('Space opens disclosure',await evaluate('!document.querySelector(".primary-nav").hidden && document.querySelector(".menu-toggle").getAttribute("aria-expanded")==="true"'));
+    assert('Open menu has an opaque white header', await evaluate('getComputedStyle(document.querySelector("header")).backgroundColor==="rgb(255, 255, 255)"'));
     await send('Input.dispatchKeyEvent',{type:'keyDown',key:'Tab',code:'Tab',windowsVirtualKeyCode:9});
     await send('Input.dispatchKeyEvent',{type:'keyUp',key:'Tab',code:'Tab',windowsVirtualKeyCode:9});
     await sleep(100);
@@ -96,6 +98,7 @@ try {
     await send('Input.dispatchKeyEvent',{type:'keyDown',key:'Escape',code:'Escape',windowsVirtualKeyCode:27});
     await sleep(100);
     assert('Escape closes and restores trigger focus',await evaluate('document.querySelector(".primary-nav").hidden && document.activeElement.matches(".menu-toggle")'));
+    assert('Closing restores header transparency', await evaluate('getComputedStyle(document.querySelector("header")).backgroundColor==="rgba(0, 0, 0, 0)"'));
     await evaluate('document.querySelector(".menu-toggle").click(); document.querySelector(".primary-nav a").focus()');
     await send('Emulation.setDeviceMetricsOverride',{width:1920,height:1080,deviceScaleFactor:1,mobile:false});
     await sleep(100);
@@ -121,6 +124,7 @@ try {
       const issues=await evaluate(`(()=>{
         const issues=[];const box=e=>e.getBoundingClientRect();
         if(document.documentElement.scrollWidth>innerWidth)issues.push('page overflow');
+        if(innerWidth<1600 && getComputedStyle(document.querySelector('header')).backgroundColor!=='rgb(255, 255, 255)')issues.push('open header background');
         const top=[...document.querySelectorAll('.brand,.menu-toggle:not([hidden]),.header-actions,.search-form')].map(box);
         for(let i=0;i<top.length;i++)for(let j=i+1;j<top.length;j++)if(Math.min(top[i].right,top[j].right)-Math.max(top[i].left,top[j].left)>1 && Math.min(top[i].bottom,top[j].bottom)-Math.max(top[i].top,top[j].top)>1)issues.push('header control overlap');
         for(const e of document.querySelectorAll('.header-inner > :not([hidden]), .primary-nav:not([hidden]) a, .card-copy, .footer-group, .footer-panel, .shop-contact')) {

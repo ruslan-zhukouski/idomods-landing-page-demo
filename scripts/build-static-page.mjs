@@ -9,6 +9,7 @@ const destinations = await json('docs/destinations.json');
 const assets = new Map(manifest.assets.map(asset => [asset.path, asset]));
 const routes = new Map(destinations.entries.map(entry => [entry.id, entry.href]));
 const decisions = {
+  tiktok: { href: 'https://www.tiktok.com/', reason: 'Use the TikTok homepage until the official SOLLUX profile URL is supplied or verified.' },
   about: { href: 'https://sollux-lighting.com/pl/o-firmie/', reason: 'Verified official company page, linked from the official corporate homepage.' },
   inspiration: { href: 'https://sollux.pl/pl/blog', reason: 'Use the verified official blog as the inspiration destination.' },
   premium: { href: routes.get('thoro'), reason: 'Use the same verified premium-brand destination as the THORO card.' },
@@ -84,7 +85,7 @@ const awardLabels = ['Rzetelna Firma','Orły Oświetlenia','Gazele Biznesu','Sol
 const awards = footerMarks('awards').map((asset,i)=>`<li>${img(asset.path,{alt:awardLabels[i]})}</li>`).join('');
 const shopIds=['pl','de','es','ro','fr','gb','nl','se'];
 const flags = footerMarks('flags').map((asset,i)=>`<li>${link(`shop-${shopIds[i]}`,img(asset.path,{alt:asset.accessibleLabel}),'country-link')}</li>`).join('');
-const socials = ['facebook','instagram','tiktok','youtube'].map(id=>id==='tiktok' ? `<span class="social-link" role="img" aria-label="TikTok" data-unresolved-destination="tiktok"><span class="tiktok-icon" aria-hidden="true">${img('assets/icons/social-tiktok-artwork.svg')}</span></span>` : link(id,icon(`social-${id}`),'social-link')).join('');
+const socials = ['facebook','instagram','tiktok','youtube'].map(id=>link(id,id==='tiktok' ? `<span class="tiktok-icon" aria-hidden="true">${img('assets/icons/social-tiktok-artwork.svg')}</span><span class="visually-hidden">TikTok</span>` : icon(`social-${id}`),'social-link')).join('');
 const html = `<!doctype html>
 <html lang="pl">
 <head>
@@ -105,7 +106,7 @@ const html = `<!doctype html>
   <header class="site-header" data-figma-node="1:533">
     <div class="container header-inner">
       <a class="brand" href="${routes.get('home')}" aria-label="SOLLUX — strona główna">${img('assets/icons/sollux-light.svg',{classes:'brand-light',eager:true})}${img('assets/icons/sollux-dark.svg',{classes:'brand-dark',eager:true})}</a>
-      <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" hidden>Menu</button>
+      <button class="menu-toggle" type="button" aria-label="Menu" aria-controls="primary-navigation" aria-expanded="false" hidden><img class="menu-icon-open" src="assets/icons/menu-hamburger.svg" width="24" height="24" alt=""><img class="menu-icon-close" src="assets/icons/menu-close.svg" width="24" height="24" alt=""></button>
       <nav id="primary-navigation" class="primary-nav" aria-label="Nawigacja główna"><ul>
         <li>${link('lamps',`Lampy ${icon('angle-down')}`)}</li><li>${link('colors',`Kolory ${icon('angle-down')}`)}</li><li>${link('rooms',`Pomieszczenia ${icon('angle-down')}`)}</li><li>${link('new','Nowości')}</li><li>${link('bestsellers','Bestsellery')}</li><li>${link('promotions','Promocje')}</li>
       </ul></nav>
@@ -141,5 +142,5 @@ const html = `<!doctype html>
 </html>
 `;
 await writeFile(path.join(root,'index.html'),html);
-await writeFile(path.join(root,'docs/phase-2-content-decisions.json'),JSON.stringify({phase:2,decisions,unresolvedAsPlainText:['promotions','security','light-course','tiktok'],cookies:'Native details disclosure: no optional cookies are used; links to the official store privacy notice.',sourceCopyCorrection:'Wpsółpraca → Współpraca',staticHero:'Only slide one is shown; arrows/progress are decorative, not nonfunctional buttons. Interactive controls belong to Phase 4.'},null,2)+'\n');
+await writeFile(path.join(root,'docs/phase-2-content-decisions.json'),JSON.stringify({phase:2,decisions,unresolvedAsPlainText:['promotions','security','light-course'],cookies:'Native details disclosure: no optional cookies are used; links to the official store privacy notice.',sourceCopyCorrection:'Wpsółpraca → Współpraca',staticHero:'Only slide one is shown; arrows/progress are decorative, not nonfunctional buttons. Interactive controls belong to Phase 4.'},null,2)+'\n');
 console.log('Built index.html with local assets and progressive navigation enhancement.');
