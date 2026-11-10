@@ -1,0 +1,227 @@
+{
+  "renderer": "Chrome headless / SwiftShader (software WebGL)",
+  "checks": [
+    {
+      "name": "Offscreen shader draws a stable initial frame and suspends",
+      "passed": true
+    },
+    {
+      "name": "Real WebGL canvas initializes; HTML heading and CTA remain unique",
+      "passed": true
+    },
+    {
+      "name": "GPU pixels repeat exactly at 0/25/50s with continuous boundary motion",
+      "passed": true,
+      "details": {
+        "boundary1": 0,
+        "boundary2": 0,
+        "beforeRepeat": 0,
+        "afterRepeat": 0,
+        "boundaryVelocityError": 0.17240885416666665,
+        "quarterChanges": [
+          8.951575520833334,
+          9.965026041666667,
+          13.931302083333334
+        ],
+        "glError": 0
+      }
+    },
+    {
+      "name": "Two real 25s cycles run without phase jumps or HTML movement",
+      "passed": true,
+      "details": {
+        "frames": 1334,
+        "duration": 52360.699999999255,
+        "cycles": 2.09589199999995,
+        "maxPhaseStep": 0.03350194405788187,
+        "stationary": true
+      }
+    },
+    {
+      "name": "Space pauses rendering with a focused, correctly labeled resume button",
+      "passed": true
+    },
+    {
+      "name": "Space resumes from the preserved phase while focus remains",
+      "passed": true
+    },
+    {
+      "name": "Scrolling offscreen cancels drawing",
+      "passed": true
+    },
+    {
+      "name": "Returning onscreen resumes without catching up",
+      "passed": true
+    },
+    {
+      "name": "Hidden document cancels drawing",
+      "passed": true
+    },
+    {
+      "name": "Visibility return preserves active phase",
+      "passed": true
+    },
+    {
+      "name": "Live reduced motion freezes canvas and disables motion control",
+      "passed": true
+    },
+    {
+      "name": "Explicit user pause persists across preference changes",
+      "passed": true
+    },
+    {
+      "name": "Actual context loss reveals fallback and leaves CTA reachable",
+      "passed": true
+    },
+    {
+      "name": "Context restoration rebuilds resources and preserves user pause",
+      "passed": true
+    },
+    {
+      "name": "Restored shader resumes successfully",
+      "passed": true
+    },
+    {
+      "name": "Desktop/mobile resize keeps full canvas, readable content and bounded DPR/pixels",
+      "passed": true,
+      "details": [
+        {
+          "width": 1920,
+          "dpr": 1,
+          "cssWidth": 1905,
+          "cssHeight": 835,
+          "bufferWidth": 1905,
+          "bufferHeight": 835,
+          "sectionWidth": 1905,
+          "sectionHeight": 835,
+          "overflow": false,
+          "contentFits": true,
+          "buttonFits": true
+        },
+        {
+          "width": 1280,
+          "dpr": 2,
+          "cssWidth": 1265,
+          "cssHeight": 650,
+          "bufferWidth": 1765,
+          "bufferHeight": 907,
+          "sectionWidth": 1265,
+          "sectionHeight": 650,
+          "overflow": false,
+          "contentFits": true,
+          "buttonFits": true
+        },
+        {
+          "width": 768,
+          "dpr": 2,
+          "cssWidth": 753,
+          "cssHeight": 480,
+          "bufferWidth": 1130,
+          "bufferHeight": 720,
+          "sectionWidth": 753,
+          "sectionHeight": 480,
+          "overflow": false,
+          "contentFits": true,
+          "buttonFits": true
+        },
+        {
+          "width": 375,
+          "dpr": 3,
+          "cssWidth": 360,
+          "cssHeight": 480,
+          "bufferWidth": 540,
+          "bufferHeight": 720,
+          "sectionWidth": 360,
+          "sectionHeight": 480,
+          "overflow": false,
+          "contentFits": true,
+          "buttonFits": true
+        },
+        {
+          "width": 320,
+          "dpr": 3,
+          "cssWidth": 305,
+          "cssHeight": 480,
+          "bufferWidth": 458,
+          "bufferHeight": 720,
+          "sectionWidth": 305,
+          "sectionHeight": 480,
+          "overflow": false,
+          "contentFits": true,
+          "buttonFits": true
+        },
+        {
+          "width": 844,
+          "dpr": 2,
+          "cssWidth": 829,
+          "cssHeight": 480,
+          "bufferWidth": 1244,
+          "bufferHeight": 720,
+          "sectionWidth": 829,
+          "sectionHeight": 480,
+          "overflow": false,
+          "contentFits": true,
+          "buttonFits": true
+        },
+        {
+          "width": 2560,
+          "dpr": 2,
+          "cssWidth": 2545,
+          "cssHeight": 835,
+          "bufferWidth": 2208,
+          "bufferHeight": 725,
+          "sectionWidth": 2545,
+          "sectionHeight": 835,
+          "overflow": false,
+          "contentFits": true,
+          "buttonFits": true
+        }
+      ]
+    },
+    {
+      "name": "Idempotent initialization and cleanup release resources/listeners/RAF",
+      "passed": true,
+      "details": {
+        "same": true,
+        "deleted": {
+          "buffer": 2,
+          "program": 2,
+          "shader": 4
+        },
+        "hidden": true
+      }
+    },
+    {
+      "name": "Shader can initialize again after cleanup",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion before load produces one stable composition",
+      "passed": true
+    },
+    {
+      "name": "unavailable WebGL retains CSS background, content and CTA",
+      "passed": true
+    },
+    {
+      "name": "compile WebGL retains CSS background, content and CTA",
+      "passed": true
+    },
+    {
+      "name": "Compilation failure releases partially allocated GPU resources",
+      "passed": true
+    },
+    {
+      "name": "No-JavaScript fallback keeps semantic content and hides motion control",
+      "passed": true
+    },
+    {
+      "name": "No runtime exceptions or failed HTTP responses",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "http": []
+      }
+    }
+  ]
+}

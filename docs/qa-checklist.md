@@ -39,7 +39,22 @@ Evidence: [Phase 3 report](phase-3-report.md).
 
 Evidence and limits: [Phase 4 report](phase-4-report.md), [browser results](phase-4-browser-report.json).
 
-## Later phases — not yet verified
+## Phase 5 — WebGL shader
 
-- [ ] WebGL loop continuity, resize, context loss, and fallback behavior.
+- [x] Procedural black/gold WebGL waves behind singular, stationary HTML content.
+- [x] Exact GPU pixel repetition at 0/25/50 seconds and matching frames on both sides of consecutive boundaries; continuous boundary motion.
+- [x] Two uninterrupted real-time cycles with bounded phase steps, stationary content, and a maximum 30 fps draw cadence.
+- [x] Keyboard pause/resume retains focus and active phase; offscreen and hidden-document pauses avoid catch-up.
+- [x] Initial/live reduced motion keeps a stable composition; user pause persists across preference changes.
+- [x] Seven desktop/mobile/DPR combinations preserve canvas coverage, readable layout, and separate CTA/pause controls.
+- [x] Drawing buffer capped at DPR 1.5 and approximately 1.6 million pixels; no per-frame layout measurement.
+- [x] Actual context loss/restoration rebuilds GPU resources and retains explicit pause.
+- [x] Unavailable WebGL, compilation failure, and disabled JavaScript retain the procedural fallback and usable content.
+- [x] Cleanup removes listeners/observers/RAF, deletes GPU resources, and permits reinitialization.
+- [x] Desktop/mobile captures inspected; no runtime exceptions or failed HTTP responses.
+
+Evidence and limits: [Phase 5 report](phase-5-report.md), [browser results](phase-5-browser-report.json). Shader checks use Chrome's software WebGL; hardware/mobile GPU profiling remains in Phase 6.
+
+## Phase 6 — not yet verified
+
 - [ ] Full keyboard/screen-reader/contrast and cross-browser checks.

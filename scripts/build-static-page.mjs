@@ -133,8 +133,9 @@ const html = `<!doctype html>
       <div class="container"><h2 id="showcase-title" class="visually-hidden">Odkryj świat SOLLUX</h2><ul class="benefits" aria-label="Dlaczego SOLLUX">${benefitsHtml}</ul><div class="promo-grid"><div class="promo-row">${cards.slice(0,2).join('\n')}</div><div class="promo-row promo-row-reversed">${cards.slice(2).join('\n')}</div></div></div>
     </section>
     <section class="light-section" aria-labelledby="light-title" data-figma-node="1:707">
-      <div class="light-background" aria-hidden="true"></div>
+      <div class="light-background" aria-hidden="true"><canvas class="light-canvas" aria-hidden="true" tabindex="-1"></canvas></div>
       <div class="light-content"><h2 id="light-title">Twoje wnętrze zasługuje na<br class="desktop-break"> wyjątkowe światło</h2>${link('buy-now','Kup teraz','button button-yellow')}<p>Od 119 zł na oficjalnej stronie<br> producenta SOLLUX</p></div>
+      <button class="light-pause" type="button" aria-describedby="light-title" hidden>Wstrzymaj animację tła</button>
     </section>
   </main>
   <footer class="site-footer" data-figma-node="1:708">

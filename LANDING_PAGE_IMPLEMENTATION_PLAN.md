@@ -288,6 +288,7 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 
 ### Phase 5 — Shader
 
+- Completed 10 November 2026. See [implementation and verification](docs/phase-5-report.md) and [browser evidence](docs/phase-5-browser-report.json). Native WebGL preserves the static procedural fallback and semantic HTML content.
 - Implement black/gold shader appearance, 25 s closed phase path, pause/resume, resize handling, reduced-motion static state, and context failure fallback.
 - Tune at desktop and mobile aspect ratios; keep the heading readable throughout.
 - **Gate:** at least two full cycles run without a seam or content movement; failure and pause modes remain usable.
@@ -315,9 +316,9 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 - [x] Carousel transition starts occur 3000 ms apart while running; crossfade is 600 ms; incoming scale settles over 800 ms; progress resets and fills linearly with the same clock.
 - [x] Arrows and both selectors work; rapid clicks, pauses, focus, hidden-document handling, image failure, and offscreen resume never create overlapping timers or blank slides. Headless visibility-test limits are recorded in the Phase 4 report.
 - [x] Each hovered/focused card enlarges only its media to 1.1 over 500 ms and changes only its own button appearance to `#4A4A4A` over 200 ms.
-- [ ] Shader runs in real time with a seamless approximately 25 s loop; compare frames and motion immediately before/after the boundary over at least two cycles.
-- [ ] Canvas resize, context loss/restoration, explicit pause, and reduced-motion behavior all preserve the usable CTA.
-- [x] A motion audit finds no animated layout/color/filter properties in the Phase 4 DOM effects. Shader rendering remains in Phase 5.
+- [x] Shader runs in real time with a seamless 25 s loop; actual GPU pixels and boundary motion checked at 0/25/50 s, plus two uninterrupted real-time cycles. Headless software WebGL limits are recorded in the Phase 5 report.
+- [x] Canvas resize, context loss/restoration, explicit pause, and reduced-motion behavior all preserve the usable CTA.
+- [x] A motion audit finds no animated layout/color/filter properties in the DOM effects. Phase 5 updates decorative shader pixels without moving content.
 
 ### Accessibility, browser, and performance checks
 

@@ -86,13 +86,20 @@ main:focus { outline: none; }
 .mirrored { width: 100%; height: 100%; transform: scaleX(-1); }
 .screen-mask { width: 100%; height: 100%; mask-repeat: no-repeat; mask-mode: luminance; }
 
-/* Static procedural fallback. The real-time shader is reserved for Phase 5. */
+/* Procedural fallback remains behind the optional real-time WebGL canvas. */
 .light-section { position: relative; display: grid; place-items: center; min-height: 480px; padding: 72px 24px; isolation: isolate; overflow: hidden; background: var(--color-ink); color: white; text-align: center; }
 .light-background { position: absolute; z-index: -1; inset: 0; background: linear-gradient(#101011 0%, rgb(16 16 17 / 99%) 16%, transparent 72%), radial-gradient(ellipse at 31% 103%, #b49624 0, #75611b 23%, transparent 49%), conic-gradient(from 217deg at 69% 111%, #9c8020, #18170f 14deg, #8f7621 33deg, #282515 46deg, #a18421 68deg, #16160f 88deg, #856e1e 109deg, #101011 137deg); }
 .light-background::after { content: ''; position: absolute; inset: -6%; background: linear-gradient(42deg, transparent 12%, rgb(6 7 7 / 72%) 20%, transparent 26%, transparent 55%, rgb(6 7 7 / 75%) 61%, transparent 68%); filter: blur(18px); }
 .light-content { position: relative; max-width: 760px; }
 .light-content h2 { margin-bottom: 32px; font-size: clamp(30px, 3vw, 48px); line-height: 1.1; }
 .light-content p { margin-top: 32px; font-size: 16px; line-height: 1.2; }
+.light-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: none; pointer-events: none; }
+.shader-ready .light-canvas { display: block; }
+.shader-ready .light-background::after { inset: 0; filter: none; background: linear-gradient(transparent 20%, rgb(16 16 17 / 30%) 48%, transparent 85%); }
+.light-pause { position: absolute; right: var(--gutter); bottom: 16px; min-height: 44px; max-width: calc(100% - 2 * var(--gutter)); padding: 10px 16px; border: 1px solid rgb(255 255 255 / 55%); border-radius: 100px; background: #101011; color: white; font-size: 13px; }
+.light-pause[hidden] { display: none; }
+.light-pause:disabled { cursor: default; }
+.light-section :is(a, button):focus-visible { outline: 3px solid white; outline-offset: 4px; }
 
 .footer-top { display: grid; gap: 40px; padding-block: 48px; }
 .footer-brand { width: 198px; }
