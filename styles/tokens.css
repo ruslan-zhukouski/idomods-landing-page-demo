@@ -16,6 +16,7 @@
   --motion-card: 500ms;
   --motion-crossfade: 600ms;
   --motion-image: 800ms;
+  --motion-lamp: 650ms;
   --motion-cycle: 3000ms;
   --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -29,5 +29,5 @@
   ],
   "cookies": "Native details disclosure: no optional cookies are used; links to the official store privacy notice.",
   "sourceCopyCorrection": "Wpsółpraca → Współpraca",
-  "staticHero": "Only slide one is shown; arrows/progress are decorative, not nonfunctional buttons. Interactive controls belong to Phase 4."
+  "staticHero": "Slide one remains the no-JavaScript and image-failure fallback. Phase 4 progressively enables two slides with shared original copy/CTA."
 }

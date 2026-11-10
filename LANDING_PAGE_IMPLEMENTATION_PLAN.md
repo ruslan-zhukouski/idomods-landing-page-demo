@@ -279,6 +279,7 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 
 ### Phase 4 — Motion and slider
 
+- Completed 10 November 2026. See [implementation and verification](docs/phase-4-report.md) and [browser evidence](docs/phase-4-browser-report.json). Compact header behavior follows the later user instruction: transparent/white when closed, white/dark when open; hover/focus crossfading applies to the full desktop navigation.
 - Add shared motion tokens, header/card opacity layering, lamp toggles, carousel controls, exact cycle timing, and pause state management.
 - Add reduced-motion behavior and visibility/focus handling at the same time.
 - **Gate:** all comment requirements in groups 01–05 pass, with only transform/opacity animated in the DOM.
@@ -307,14 +308,14 @@ The carousel is not a numeric ARIA slider. Context7 also returned numeric slider
 
 ### Interaction checks
 
-- [ ] Header enters/leaves white/dark state in 250 ms; text, logo, and icons remain synchronized and readable.
-- [ ] Each of three hero lamp regions can be toggled by pointer, touch, and keyboard without duplicate lamp artwork or misaligned hit targets after resizing.
-- [ ] Carousel transition starts occur 3000 ms apart while running; crossfade is 600 ms; incoming scale settles over 800 ms; progress resets and fills linearly with the same clock.
-- [ ] Arrows and both selectors work; rapid clicks, pauses, focus, hidden tabs, image failure, and offscreen resume never create overlapping timers or blank slides.
-- [ ] Each hovered/focused card enlarges only its media to 1.1 over 500 ms and changes only its own button appearance to `#4A4A4A` over 200 ms.
+- [x] Header enters/leaves white/dark state in 250 ms; text, logo, and icons remain synchronized and readable. Compact behavior follows the later user instruction recorded in the Phase 4 report.
+- [x] Each of three hero lamp regions can be toggled by pointer, touch, and keyboard without duplicate lamp artwork or misaligned hit targets after resizing.
+- [x] Carousel transition starts occur 3000 ms apart while running; crossfade is 600 ms; incoming scale settles over 800 ms; progress resets and fills linearly with the same clock.
+- [x] Arrows and both selectors work; rapid clicks, pauses, focus, hidden-document handling, image failure, and offscreen resume never create overlapping timers or blank slides. Headless visibility-test limits are recorded in the Phase 4 report.
+- [x] Each hovered/focused card enlarges only its media to 1.1 over 500 ms and changes only its own button appearance to `#4A4A4A` over 200 ms.
 - [ ] Shader runs in real time with a seamless approximately 25 s loop; compare frames and motion immediately before/after the boundary over at least two cycles.
 - [ ] Canvas resize, context loss/restoration, explicit pause, and reduced-motion behavior all preserve the usable CTA.
-- [ ] A motion audit finds no animated layout/color/filter properties, aside from shader pixel rendering itself.
+- [x] A motion audit finds no animated layout/color/filter properties in the Phase 4 DOM effects. Shader rendering remains in Phase 5.
 
 ### Accessibility, browser, and performance checks
 

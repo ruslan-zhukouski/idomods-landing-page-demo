@@ -23,6 +23,8 @@ const img = (file, { alt = '', classes = '', style = '', eager = false } = {}) =
   return `<img src="${file}" width="${asset.width}" height="${asset.height}" alt="${esc(alt)}"${classes ? ` class="${classes}"` : ''}${style ? ` style="${style}"` : ''} loading="${eager ? 'eager' : 'lazy'}" decoding="async" data-figma-node="${asset.sourceNodeIds.join(' ')}">`;
 };
 const icon = (name, classes = '') => `<span class="icon ${classes}" aria-hidden="true">${img(`assets/icons/${name}.svg`, { eager: true })}</span>`;
+// One semantic label; the second face is only a precolored opacity layer.
+const headerFace = content => `<span class="header-face"><span class="header-face-light">${content}</span><span class="header-face-dark" aria-hidden="true">${content}</span></span>`;
 const link = (id, label, classes = '') => routes.has(id)
   ? `<a href="${esc(routes.get(id))}"${classes ? ` class="${classes}"` : ''} data-destination="${id}">${label}</a>`
   : `<span class="unresolved-label ${classes}" data-unresolved-destination="${id}">${label}</span>`;
@@ -99,6 +101,7 @@ const html = `<!doctype html>
   <link rel="stylesheet" href="assets/fonts/red-hat-display.css">
   <link rel="stylesheet" href="styles/tokens.css">
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/motion.css">
   <script type="module" src="scripts/main.js"></script>
 </head>
 <body>
@@ -106,23 +109,24 @@ const html = `<!doctype html>
   <header class="site-header" data-figma-node="1:533">
     <div class="container header-inner">
       <a class="brand" href="${routes.get('home')}" aria-label="SOLLUX — strona główna">${img('assets/icons/sollux-light.svg',{classes:'brand-light',eager:true})}${img('assets/icons/sollux-dark.svg',{classes:'brand-dark',eager:true})}</a>
-      <button class="menu-toggle" type="button" aria-label="Menu" aria-controls="primary-navigation" aria-expanded="false" hidden><img class="menu-icon-open" src="assets/icons/menu-hamburger.svg" width="24" height="24" alt=""><img class="menu-icon-close" src="assets/icons/menu-close.svg" width="24" height="24" alt=""></button>
+      <button class="menu-toggle" type="button" aria-label="Menu" aria-controls="primary-navigation" aria-expanded="false" hidden>${headerFace('<img class="menu-icon-open" src="assets/icons/menu-hamburger.svg" width="24" height="24" alt=""><img class="menu-icon-close" src="assets/icons/menu-close.svg" width="24" height="24" alt="">')}</button>
       <nav id="primary-navigation" class="primary-nav" aria-label="Nawigacja główna"><ul>
-        <li>${link('lamps',`Lampy ${icon('angle-down')}`)}</li><li>${link('colors',`Kolory ${icon('angle-down')}`)}</li><li>${link('rooms',`Pomieszczenia ${icon('angle-down')}`)}</li><li>${link('new','Nowości')}</li><li>${link('bestsellers','Bestsellery')}</li><li>${link('promotions','Promocje')}</li>
+        <li>${link('lamps',headerFace(`Lampy ${icon('angle-down')}`))}</li><li>${link('colors',headerFace(`Kolory ${icon('angle-down')}`))}</li><li>${link('rooms',headerFace(`Pomieszczenia ${icon('angle-down')}`))}</li><li>${link('new',headerFace('Nowości'))}</li><li>${link('bestsellers',headerFace('Bestsellery'))}</li><li>${link('promotions',headerFace('Promocje'))}</li>
       </ul></nav>
       <form class="search-form" role="search" action="${destinations.search.action}" method="get">
-        <label class="visually-hidden" for="product-search">Czego szukasz?</label><input id="product-search" type="search" name="text" placeholder="Czego szukasz?" required><button type="submit" aria-label="Szukaj produktów">${icon('search')}</button>
+        <label class="visually-hidden" for="product-search">Czego szukasz?</label><span class="search-field"><input id="product-search" type="search" name="text" placeholder="Czego szukasz?" required><span class="search-dark-text" aria-hidden="true">Czego szukasz?</span></span><button type="submit" aria-label="Szukaj produktów">${headerFace(icon('search'))}</button>
       </form>
-      <div class="header-actions">${link('configurator',`${icon('configurator')}<span>Stwórz swoją lampę</span>`,'configurator-link')}${link('account',`${icon('account')}<span class="visually-hidden">Moje konto</span>`,'utility-link')}${link('cart',`<span class="cart-icon" aria-hidden="true">${img('assets/icons/cart-artwork.svg',{eager:true})}</span><span class="visually-hidden">Koszyk</span>`,'utility-link')}</div>
+      <div class="header-actions">${link('configurator',headerFace(`${icon('configurator')}<span>Stwórz swoją lampę</span>`),'configurator-link')}${link('account',`${headerFace(icon('account'))}<span class="visually-hidden">Moje konto</span>`,'utility-link')}${link('cart',`${headerFace(`<span class="cart-icon" aria-hidden="true">${img('assets/icons/cart-artwork.svg',{eager:true})}</span>`)}<span class="visually-hidden">Koszyk</span>`,'utility-link')}</div>
     </div>
   </header>
   <main id="main" tabindex="-1">
     <section class="hero" aria-labelledby="hero-title" data-figma-node="1:506">
-      ${picture('hero-bestsellers','100vw',{eager:true,classes:'hero-image'})}
-      <div class="lamp-regions" aria-hidden="true"><span data-lamp="beige" data-figma-node="1:1004"></span><span data-lamp="green" data-figma-node="1:1003"></span><span data-lamp="terracotta" data-figma-node="1:1002"></span></div>
+      ${picture('hero-bestsellers','100vw',{eager:true,classes:'hero-image hero-slide is-active'})}
+      <div class="hero-slide-secondary" hidden>${picture('hero-interior','100vw',{classes:'hero-image hero-slide'})}</div>
+      <div class="lamp-regions" hidden><button type="button" data-lamp="beige" data-figma-node="1:1004" aria-label="Lampa beżowa — światło" aria-pressed="false"></button><button type="button" data-lamp="green" data-figma-node="1:1003" aria-label="Lampa zielona — światło" aria-pressed="false"></button><button type="button" data-lamp="terracotta" data-figma-node="1:1002" aria-label="Lampa terakotowa — światło" aria-pressed="false"></button></div>
       <div class="container hero-content"><p class="hero-eyebrow">Bestsellery SOLLUX</p><h1 id="hero-title">Kolor i forma<br> w nowym świetle</h1>${link('bestsellers','Sprawdź bestsellery','button button-yellow')}</div>
-      <div class="hero-arrow hero-arrow-left" aria-hidden="true">${icon('arrow-left')}</div><div class="hero-arrow hero-arrow-right" aria-hidden="true">${icon('arrow-right')}</div>
-      <div class="hero-progress" aria-hidden="true"><span class="active"></span><span></span></div>
+      <div class="hero-controls" hidden><button class="hero-arrow hero-arrow-left" type="button" aria-label="Poprzedni slajd" hidden>${icon('arrow-left')}</button><div class="hero-progress" role="group" aria-label="Wybierz slajd"><button type="button" data-slide="0" aria-label="Slajd 1 z 2" aria-current="true"><span></span></button><button type="button" data-slide="1" aria-label="Slajd 2 z 2"><span></span></button></div><button class="hero-arrow hero-arrow-right" type="button" aria-label="Następny slajd" hidden>${icon('arrow-right')}</button><button class="hero-pause" type="button">Wstrzymaj animację</button></div>
+      <p class="visually-hidden hero-status" role="status" aria-live="polite"></p>
       <p class="review-badge" data-figma-node="1:524"><strong>4.8</strong>${icon('review-star')}<span>Uwielbiany przez klientów</span></p>
     </section>
     <section class="showcase" aria-labelledby="showcase-title" data-figma-node="1:593">
@@ -142,5 +146,5 @@ const html = `<!doctype html>
 </html>
 `;
 await writeFile(path.join(root,'index.html'),html);
-await writeFile(path.join(root,'docs/phase-2-content-decisions.json'),JSON.stringify({phase:2,decisions,unresolvedAsPlainText:['promotions','security','light-course'],cookies:'Native details disclosure: no optional cookies are used; links to the official store privacy notice.',sourceCopyCorrection:'Wpsółpraca → Współpraca',staticHero:'Only slide one is shown; arrows/progress are decorative, not nonfunctional buttons. Interactive controls belong to Phase 4.'},null,2)+'\n');
+await writeFile(path.join(root,'docs/phase-2-content-decisions.json'),JSON.stringify({phase:2,decisions,unresolvedAsPlainText:['promotions','security','light-course'],cookies:'Native details disclosure: no optional cookies are used; links to the official store privacy notice.',sourceCopyCorrection:'Wpsółpraca → Współpraca',staticHero:'Slide one remains the no-JavaScript and image-failure fallback. Phase 4 progressively enables two slides with shared original copy/CTA.'},null,2)+'\n');
 console.log('Built index.html with local assets and progressive navigation enhancement.');

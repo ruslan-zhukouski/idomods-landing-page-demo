@@ -11,7 +11,7 @@ export function initHeroGeometry() {
   const layer = hero.querySelector('.lamp-regions');
   const update = () => {
     if (!image.naturalWidth) return;
-    const frame = image.getBoundingClientRect();
+    const frame = image.closest('picture').getBoundingClientRect();
     const parent = hero.getBoundingClientRect();
     const scale = Math.max(frame.width / image.naturalWidth, frame.height / image.naturalHeight);
     const width = image.naturalWidth * scale;

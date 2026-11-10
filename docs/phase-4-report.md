@@ -1,0 +1,35 @@
+# Phase 4 — Motion and carousel
+
+Implemented 10 November 2026 using vanilla HTML, CSS, JavaScript, and the existing local artwork. No runtime dependency was added. The shader remains the static procedural fallback until Phase 5.
+
+## Result
+
+The header crossfades precolored background, logo, text, and icon layers over 250 ms using the shared easing. Presentational duplicate faces are hidden from assistive technology; controls and labels remain singular. Search retains one real input and mirrors its visible text into the dark presentation. The user's later compact-header instruction takes precedence over the original hover proposal: below 1600 px, closed navigation stays transparent with white content; open navigation becomes white/dark. Full desktop navigation responds to both hover and keyboard focus.
+
+Each promotional card scales only its clipped media composition to 1.1 over 500 ms, with ease-out. The text and CTA remain stationary. Its black CTA reveals a prepainted `#4A4A4A` layer over 200 ms. Fine-pointer hover and keyboard focus produce the same effect on that card alone.
+
+Three native lamp buttons follow the original image's cover geometry and expose stable Polish names and `aria-pressed`. They reveal a warm radial glow over 650 ms. The original photograph contains all three lamps, so no cutouts are duplicated or moved. Lamp controls disappear, become inert, and reset when the first slide leaves; they return after its incoming image settles.
+
+The second slide uses the original interior photograph and shares the original heading and bestsellers CTA, as authorized by the plan's provisional copy decision. Two reused image layers crossfade over 600 ms; the incoming image settles from 1.05 to 1 over 800 ms. The first slide remains visible until both responsive images decode. If the second image fails, the working first slide and lamps remain and unavailable navigation stays hidden.
+
+One `requestAnimationFrame` clock drives linear `scaleX` progress and 3000 ms transition-start intervals, including crossfade time. Arrows wrap; selectors restart a complete cycle. Rapid navigation cancels the previous effects from their current blend and reuses the same layers. Only manual changes update the polite status; autoplay does not announce every cycle.
+
+Autoplay pauses independently for hover, focus, explicit user pause, hidden documents, an offscreen hero, and reduced motion. Clearing one reason cannot clear another. Resuming preserves elapsed progress and avoids background catch-up. Hidden/offscreen states also freeze in-flight image effects. Reduced motion disables autoplay, scaling, and CSS transitions while preserving instant manual navigation and lamp toggles. Changes to the preference are handled during the session. New modules expose cleanup for listeners, observers, animation frames, and animation effects.
+
+Below 900 px, the search field occupies protected space just below the photograph, and carousel controls occupy their own row below the copy. Between 900 and 1023 px, copy shifts lower to keep its CTA clear of the terracotta lamp's center. This keeps search, arrows, and all three lamp centers clear of one another. The compact logo/actions remain over the image; transparent gaps pass pointer input through to the lamps. No-JavaScript navigation remains expanded, with first-slide content and hidden unavailable controls.
+
+## Verification
+
+- `node --test scripts/carousel-clock.test.mjs`: three deterministic tests cover exact cycles, one queued frame, independent pause reasons, preserved time, manual reset, and cleanup.
+- `node scripts/check-phase-4.mjs`: all 30 native Chrome protocol checks pass, covering real autoplay intervals, animation durations, pause/resume, rapid input, keyboard lamp activation, mobile pointer/touch operation, inactive control exclusion, desktop header hover/focus, isolated card focus effects, compact disclosure keyboard/Escape behavior, the DOM transition property audit, image failure, and the no-JavaScript fallback.
+- Seventeen viewport widths: 320, 375, 390, 599, 600, 699, 700, 768, 899, 900, 1024, 1200, 1280, 1440, 1599, 1600, and 1920 px. Checks include overflow, reachable lamp centers, minimum lamp target dimensions, duplicate IDs, and compact header states.
+- Desktop and mobile full-page captures include decoded below-fold assets and have been visually inspected. Runtime exceptions and unexpected HTTP errors are checked.
+- JavaScript syntax and `git diff --check` pass. All DOM motion uses only opacity and transform; geometry updates on resize are not animated.
+
+Evidence: [browser results](phase-4-browser-report.json), [desktop capture](references/phase-4-1920.png), [mobile capture](references/phase-4-375.png).
+
+The hidden-document handler is exercised with a synthetic visibility event because headless Chrome does not reliably reproduce an operating-system tab switch. Touch is Chrome-emulated rather than physical-device testing. Screen-reader review, full contrast/performance audit, Firefox/Safari, and real mobile browser testing remain in Phase 6.
+
+## Documentation
+
+The project-mandated Context7 CLI was run outside the sandbox: one `library` resolution for MDN Web Docs (`/mdn/content`), then two `docs` queries about the shared animation/visibility clock and reduced-motion changes. Current guidance supports [timestamp-based animation frames](https://github.com/mdn/content/blob/main/files/en-us/web/api/window/requestanimationframe/index.md), [separate document visibility and intersection tracking](https://github.com/mdn/content/blob/main/files/en-us/web/api/intersection_observer_api/timing_element_visibility/index.md), [reduced motion](https://github.com/mdn/content/blob/main/files/en-us/web/css/guides/media_queries/using_for_accessibility/index.md), and [live media-query changes](https://github.com/mdn/content/blob/main/files/en-us/web/css/guides/media_queries/testing/index.md). Exact timings and visuals come from the saved Figma comments and implementation plan.

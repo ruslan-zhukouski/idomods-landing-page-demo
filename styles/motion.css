@@ -1,0 +1,101 @@
+/* Presentational faces share geometry; all animated color effects use opacity. */
+.header-face { display: inline-grid; align-items: center; }
+.header-face > span { grid-area: 1 / 1; display: inline-flex; align-items: center; gap: 4px; }
+.header-face .header-face-dark, .search-dark-text { display: none; }
+.search-field { position: relative; display: block; width: 100%; min-width: 0; }
+.site-header.header-motion { --header-active: 0; isolation: isolate; color: white; background: transparent; }
+.header-motion::before { content: ''; position: absolute; z-index: -1; inset: 0; background: white; opacity: var(--header-active); transition: opacity var(--motion-header) var(--ease-standard); }
+.header-motion .header-face-dark { display: inline-flex; color: var(--color-ink); opacity: var(--header-active); }
+.header-motion .header-face-light { color: white; opacity: calc(1 - var(--header-active)); }
+.header-motion .header-face > span, .header-motion .brand img, .header-motion .search-dark-text { transition: opacity var(--motion-header) var(--ease-standard); }
+.header-motion .brand { display: grid; }
+.site-header.header-motion .brand img { display: block; grid-area: 1 / 1; }
+.header-motion .brand-light { opacity: calc(1 - var(--header-active)); }
+.header-motion .brand-dark { opacity: var(--header-active); }
+.site-header.header-motion .header-face-light img { filter: brightness(0) invert(1); }
+.site-header.header-motion .header-face-dark img { filter: brightness(0); }
+.header-motion .configurator-link .header-face > span { gap: 9px; }
+.header-motion .search-dark-text { display: flex; align-items: center; position: absolute; inset: 0; overflow: hidden; white-space: pre; pointer-events: none; color: var(--color-ink); font-size: 14px; font-weight: 700; opacity: var(--header-active); }
+.header-motion input { color: white; caret-color: #777; }
+.header-motion input::-webkit-search-cancel-button { display: none; }
+/* Compact header preserves the requested transparent closed presentation. */
+@media (max-width: 1599px) {
+  .site-header.header-motion.navigation-open { --header-active: 1; }
+  .site-header.header-motion:not(.navigation-open) { pointer-events: none; }
+  .header-motion:not(.navigation-open) .header-inner > * { pointer-events: auto; }
+}
+@media (max-width: 899px) {
+  /* Keep the transparent logo row over the photo, with search in protected
+     space below it so the lamp controls remain available to touch. */
+  .header-motion:not(.navigation-open) .search-form { position: absolute; top: calc(56.25vw + 16px); left: var(--gutter); width: calc(100% - var(--gutter) * 2); }
+  .hero-interactive .hero-content { padding-top: 100px; }
+}
+@media (min-width: 1600px) {
+  .site-header.header-motion:focus-within { --header-active: 1; }
+}
+@media (min-width: 1600px) and (hover: hover) and (pointer: fine) {
+  .site-header.header-motion:hover { --header-active: 1; }
+}
+
+/* The same two image layers are reused for every transition. */
+.hero-slide { overflow: hidden; }
+.hero-slide-secondary { position: absolute; top: 0; left: 0; width: 100%; aspect-ratio: 16 / 9; pointer-events: none; }
+.hero-slide-secondary .hero-slide { opacity: 0; }
+.carousel-ready::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, rgb(0 0 0 / 26%), transparent 65%); }
+.hero-content, .hero-arrow, .hero-controls, .review-badge { z-index: 1; }
+.hero-content { pointer-events: none; }
+.hero-content a { pointer-events: auto; }
+.carousel-ready .hero-arrow { display: flex; align-items: center; justify-content: center; position: static; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 50%; color: white; background: rgb(16 16 17 / 60%); }
+.hero-arrow-left { left: 12px; }
+.hero-arrow-right { right: 12px; }
+.hero-arrow .icon img { filter: brightness(0) invert(1); }
+.hero-controls { position: relative; display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; align-items: center; justify-items: center; gap: 8px; padding: 0 var(--gutter) 16px; }
+.hero-controls .hero-progress { position: static; display: flex; align-items: center; gap: 4px; transform: none; }
+.hero-progress button { position: relative; display: grid; align-items: center; width: 64px; height: 44px; padding: 0; border: 0; background: transparent; }
+.hero-progress button::before, .hero-progress button span { content: ''; grid-area: 1 / 1; width: 64px; height: 2px; background: rgb(255 255 255 / 65%); }
+.hero-progress button span { background: var(--color-yellow); transform: scaleX(0); transform-origin: left; }
+.hero-progress button[aria-current]::before { background: white; }
+.hero-pause { grid-column: 2; min-height: 44px; padding: 8px 16px; border: 1px solid rgb(255 255 255 / 65%); border-radius: 100px; color: white; background: rgb(16 16 17 / 60%); font-size: 12px; }
+.hero-pause:disabled { cursor: default; }
+.hero button:focus-visible, .promo-card a:focus-visible { outline: 3px solid var(--color-yellow); outline-offset: 4px; }
+.lamp-regions { z-index: 1; }
+.lamp-regions > button { position: absolute; min-width: 44px; min-height: 44px; pointer-events: auto; border: 0; border-radius: 50%; background: transparent; }
+.lamp-regions > button::before { content: ''; position: absolute; inset: 45% -10% -8%; pointer-events: none; border-radius: 50%; background: radial-gradient(ellipse, rgb(255 239 176 / 85%) 0%, rgb(255 203 87 / 40%) 30%, rgb(255 190 62 / 0%) 70%); opacity: 0; transition: opacity var(--motion-lamp) var(--ease-standard); }
+.lamp-regions > button[aria-pressed="true"]::before { opacity: 1; }
+.hero .lamp-regions > button:focus-visible { outline-offset: -4px; }
+@media (min-width: 900px) {
+  .hero-slide-secondary { inset: 0; height: 100%; aspect-ratio: auto; }
+  .carousel-ready .hero-arrow { position: absolute; top: calc(50% - 24px); width: 48px; height: 48px; }
+  .hero-arrow-left { left: 32px; }
+  .hero-arrow-right { right: 32px; }
+  .hero-controls { position: absolute; inset: 0; display: block; padding: 0; pointer-events: none; }
+  .hero-controls > * { pointer-events: auto; }
+  .hero-controls .hero-progress { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); }
+  .hero-pause { position: absolute; bottom: 20px; left: 32px; }
+}
+@media (min-width: 900px) and (max-width: 1023px) {
+  /* The narrow overlay layout keeps its CTA below the terracotta lamp's
+     central hit area, while preserving space for both side arrows. */
+  .hero-interactive .hero-content { padding-top: 128px; padding-bottom: 0; }
+}
+@media (min-width: 1600px) {
+  .hero-arrow-left { left: 72px; }
+  .hero-arrow-right { right: 72px; }
+  .hero-pause { left: 72px; }
+}
+
+.card-media > picture { display: block; }
+.card-media > picture, .card-media > .artboard { transition: transform var(--motion-card) ease-out; }
+.promo-card .button-dark { position: relative; isolation: isolate; }
+.promo-card .button-dark::before { content: ''; position: absolute; z-index: -1; inset: 0; border-radius: inherit; background: var(--color-hover); opacity: 0; transition: opacity var(--motion-button) var(--ease-standard); }
+.promo-card:focus-within .card-media > picture, .promo-card:focus-within .card-media > .artboard { transform: scale(1.1); }
+.promo-card:focus-within .button-dark::before { opacity: 1; }
+@media (hover: hover) and (pointer: fine) {
+  .promo-card:hover .card-media > picture, .promo-card:hover .card-media > .artboard { transform: scale(1.1); }
+  .promo-card:hover .button-dark::before { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .header-motion::before, .header-motion .header-face > span, .header-motion .brand img, .header-motion .search-dark-text,
+  .lamp-regions > button::before, .card-media > picture, .card-media > .artboard, .promo-card .button-dark::before { transition: none; }
+  .promo-card:is(:hover, :focus-within) .card-media > picture, .promo-card:is(:hover, :focus-within) .card-media > .artboard { transform: none; }
+}

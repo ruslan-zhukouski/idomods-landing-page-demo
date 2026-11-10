@@ -25,9 +25,19 @@ Evidence: [Phase 2 report](phase-2-report.md) and [browser measurements](phase-2
 
 Evidence: [Phase 3 report](phase-3-report.md).
 
+## Phase 4 — motion and carousel
+
+- [x] Single-clock 3000 ms carousel, 600 ms fades, 800 ms incoming scale, and linear progress.
+- [x] Hover/focus, explicit pause, hidden-document handler, and offscreen pause; no background catch-up.
+- [x] Rapid input settles to one image; second-image failure keeps usable first-slide content.
+- [x] Keyboard lamp activation, mobile pointer/touch operation, and reset/exclusion on inactive slides.
+- [x] Header opacity faces and isolated card media/button effects.
+- [x] Live and initial reduced-motion preference; instant manual slide changes.
+- [x] Seventeen responsive widths, protected mobile search/controls, and no-JavaScript fallback.
+
+Evidence and limits: [Phase 4 report](phase-4-report.md), [browser results](phase-4-browser-report.json).
+
 ## Later phases — not yet verified
 
-- [ ] Slider timings, pause reasons, rapid input, and failure handling.
-- [ ] Interactive lamp regions and header/card motion.
 - [ ] WebGL loop continuity, resize, context loss, and fallback behavior.
 - [ ] Full keyboard/screen-reader/contrast and cross-browser checks.

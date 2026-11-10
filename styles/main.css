@@ -224,7 +224,6 @@ main:focus { outline: none; }
 @media (max-width: 1599px) {
   /* Transparency must reveal the hero, rather than the white body above it. */
   .site-header.navigation-enhanced { position: absolute; top: 0; left: 0; z-index: 2; width: 100%; background: transparent; }
-  .site-header.navigation-enhanced.navigation-open { background: white; }
   .site-header.navigation-enhanced:not(.navigation-open) { color: white; }
   .navigation-enhanced:not(.navigation-open) .brand-light { display: block; }
   .navigation-enhanced:not(.navigation-open) .brand-dark { display: none; }
